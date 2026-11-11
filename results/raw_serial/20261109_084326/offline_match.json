@@ -1,0 +1,58 @@
+{
+ "tx_frames": 145,
+ "publications": 123,
+ "matched": 119,
+ "false_accepts": [
+  {
+   "t": 1794214104.7025213,
+   "dec": "CLASSIC_PLL",
+   "rx": "0XA147A80C8D27",
+   "near_tx": "0XA147A80CF96C",
+   "near_fid": 474,
+   "hamming": 8,
+   "first_diff_bit_from_msb": 33,
+   "imu": 0,
+   "temp": 34.3,
+   "seq": 13
+  },
+  {
+   "t": 1794214614.5896332,
+   "dec": "CLASSIC_PLL",
+   "rx": "0XA13BC464EDB8",
+   "near_tx": "0XA13BC464ECBF",
+   "near_fid": 525,
+   "hamming": 4,
+   "first_diff_bit_from_msb": 39,
+   "imu": 0,
+   "temp": 36.5,
+   "seq": 13
+  },
+  {
+   "t": 1794214734.79685,
+   "dec": "CLASSIC_PLL",
+   "rx": "0XA14CC3271772",
+   "near_tx": "0XA14CC66CE88D",
+   "near_fid": 537,
+   "hamming": 22,
+   "first_diff_bit_from_msb": 21,
+   "imu": 3,
+   "temp": 41.3,
+   "seq": 7
+  },
+  {
+   "t": 1794215104.5045698,
+   "dec": "CLASSIC_PLL",
+   "rx": "0XA145C6478932",
+   "near_tx": "0XA145C670ED9B",
+   "near_fid": 574,
+   "hamming": 12,
+   "first_diff_bit_from_msb": 26,
+   "imu": 3,
+   "temp": 35.7,
+   "seq": 9
+  }
+ ],
+ "window_frames": 121,
+ "delivered": 119,
+ "max_gap_s": 20.00143027305603
+}

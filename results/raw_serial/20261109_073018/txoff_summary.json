@@ -1,0 +1,504 @@
+{
+ "start_epoch": 1794209871.2467062,
+ "duration_s": 3602.6146581172943,
+ "raw_lines": 2692,
+ "accepted_publications": 0,
+ "valid_packets_status": 0,
+ "connection_drops": [],
+ "last_status": {
+  "valid": 0,
+  "rejected_crc": 0,
+  "duplicate_seq": 0,
+  "invalid_packets": 0,
+  "connected_port": "/dev/ttyUSB0",
+  "counters_since_ms": 1794209841364,
+  "frames": 118700,
+  "acquisition_fps": 29.7,
+  "receiver_valid_packets": 0,
+  "receiver_rejected_crc": 3350,
+  "signal": 0.0,
+  "roi_activity": 0.4,
+  "roi_locked": false,
+  "last_valid_age_sec": -1,
+  "candidate_packets": 0,
+  "physiology_rejects": 2,
+  "roi_box": [
+   12,
+   28,
+   24,
+   24
+  ],
+  "roi_component_cells": 1,
+  "valid_packets": 0,
+  "duplicate_packets": 0,
+  "source": "serial",
+  "data_age_sec": null,
+  "stale": false,
+  "state": "waiting for serial",
+  "thresholds": {
+   "hr_low": 50,
+   "hr_high": 140,
+   "spo2_low": 94,
+   "temp_high_c": 39.0,
+   "imu_warning_states": [
+    2,
+    3
+   ]
+  },
+  "resampling_hz": 20,
+  "link_bit_s": 5,
+  "snapshot_period_s": 10.0,
+  "serial_connected": true,
+  "tx_connected": false,
+  "comparison_stats": {
+   "rx_bit_exact": 0,
+   "rx_unmatched": 0,
+   "rx_unchecked": 0,
+   "total_compared": 0,
+   "total_matched": 0,
+   "accuracy_pct": null,
+   "compared_fields": [
+    "patient",
+    "seq",
+    "hr",
+    "spo2",
+    "temp_c",
+    "imu",
+    "battery",
+    "alert"
+   ],
+   "tx_max_age_s": 25.0,
+   "tx_port": null,
+   "rx_port": "/dev/ttyUSB0",
+   "tx_connected": false,
+   "rx_connected": true,
+   "latest_tx": null,
+   "latest_rx": null,
+   "latest_match": null
+  }
+ },
+ "poisson_upper95_per_h": 2.995732273553991,
+ "snapshots": [
+  {
+   "t": 0.002174854278564453,
+   "connected": true,
+   "valid": 0,
+   "frames": 11700,
+   "fps": 29.71
+  },
+  {
+   "t": 60.06317687034607,
+   "connected": true,
+   "valid": 0,
+   "frames": 13500,
+   "fps": 29.71
+  },
+  {
+   "t": 120.0738205909729,
+   "connected": true,
+   "valid": 0,
+   "frames": 15300,
+   "fps": 29.71
+  },
+  {
+   "t": 180.1347770690918,
+   "connected": true,
+   "valid": 0,
+   "frames": 17100,
+   "fps": 29.71
+  },
+  {
+   "t": 240.17619013786316,
+   "connected": true,
+   "valid": 0,
+   "frames": 18800,
+   "fps": 29.7
+  },
+  {
+   "t": 300.22680711746216,
+   "connected": true,
+   "valid": 0,
+   "frames": 20600,
+   "fps": 29.7
+  },
+  {
+   "t": 360.28693890571594,
+   "connected": true,
+   "valid": 0,
+   "frames": 22400,
+   "fps": 29.7
+  },
+  {
+   "t": 420.3442280292511,
+   "connected": true,
+   "valid": 0,
+   "frames": 24200,
+   "fps": 29.7
+  },
+  {
+   "t": 480.40501832962036,
+   "connected": true,
+   "valid": 0,
+   "frames": 26000,
+   "fps": 29.7
+  },
+  {
+   "t": 540.4658675193787,
+   "connected": true,
+   "valid": 0,
+   "frames": 27800,
+   "fps": 29.7
+  },
+  {
+   "t": 600.5098886489868,
+   "connected": true,
+   "valid": 0,
+   "frames": 29500,
+   "fps": 29.7
+  },
+  {
+   "t": 660.5708208084106,
+   "connected": true,
+   "valid": 0,
+   "frames": 31300,
+   "fps": 29.7
+  },
+  {
+   "t": 720.591400384903,
+   "connected": true,
+   "valid": 0,
+   "frames": 33100,
+   "fps": 29.7
+  },
+  {
+   "t": 780.6299648284912,
+   "connected": true,
+   "valid": 0,
+   "frames": 34900,
+   "fps": 29.7
+  },
+  {
+   "t": 840.6518230438232,
+   "connected": true,
+   "valid": 0,
+   "frames": 36700,
+   "fps": 29.7
+  },
+  {
+   "t": 900.6836516857147,
+   "connected": true,
+   "valid": 0,
+   "frames": 38500,
+   "fps": 29.7
+  },
+  {
+   "t": 960.689222574234,
+   "connected": true,
+   "valid": 0,
+   "frames": 40200,
+   "fps": 29.7
+  },
+  {
+   "t": 1020.7441487312317,
+   "connected": true,
+   "valid": 0,
+   "frames": 42000,
+   "fps": 29.7
+  },
+  {
+   "t": 1080.7507574558258,
+   "connected": true,
+   "valid": 0,
+   "frames": 43800,
+   "fps": 29.7
+  },
+  {
+   "t": 1140.8105018138885,
+   "connected": true,
+   "valid": 0,
+   "frames": 45600,
+   "fps": 29.7
+  },
+  {
+   "t": 1200.8704149723053,
+   "connected": true,
+   "valid": 0,
+   "frames": 47400,
+   "fps": 29.7
+  },
+  {
+   "t": 1260.9084451198578,
+   "connected": true,
+   "valid": 0,
+   "frames": 49200,
+   "fps": 29.7
+  },
+  {
+   "t": 1320.940839290619,
+   "connected": true,
+   "valid": 0,
+   "frames": 50900,
+   "fps": 29.7
+  },
+  {
+   "t": 1380.9874937534332,
+   "connected": true,
+   "valid": 0,
+   "frames": 52700,
+   "fps": 29.7
+  },
+  {
+   "t": 1441.0402250289917,
+   "connected": true,
+   "valid": 0,
+   "frames": 54500,
+   "fps": 29.7
+  },
+  {
+   "t": 1501.0788443088531,
+   "connected": true,
+   "valid": 0,
+   "frames": 56300,
+   "fps": 29.7
+  },
+  {
+   "t": 1561.1154749393463,
+   "connected": true,
+   "valid": 0,
+   "frames": 58100,
+   "fps": 29.7
+  },
+  {
+   "t": 1621.1689805984497,
+   "connected": true,
+   "valid": 0,
+   "frames": 59900,
+   "fps": 29.7
+  },
+  {
+   "t": 1681.2298505306244,
+   "connected": true,
+   "valid": 0,
+   "frames": 61600,
+   "fps": 29.7
+  },
+  {
+   "t": 1741.290761232376,
+   "connected": true,
+   "valid": 0,
+   "frames": 63400,
+   "fps": 29.7
+  },
+  {
+   "t": 1801.3179728984833,
+   "connected": true,
+   "valid": 0,
+   "frames": 65200,
+   "fps": 29.7
+  },
+  {
+   "t": 1861.3249154090881,
+   "connected": true,
+   "valid": 0,
+   "frames": 67000,
+   "fps": 29.7
+  },
+  {
+   "t": 1921.3858737945557,
+   "connected": true,
+   "valid": 0,
+   "frames": 68800,
+   "fps": 29.7
+  },
+  {
+   "t": 1981.4009172916412,
+   "connected": true,
+   "valid": 0,
+   "frames": 70600,
+   "fps": 29.7
+  },
+  {
+   "t": 2041.446189403534,
+   "connected": true,
+   "valid": 0,
+   "frames": 72300,
+   "fps": 29.7
+  },
+  {
+   "t": 2101.4876725673676,
+   "connected": true,
+   "valid": 0,
+   "frames": 74100,
+   "fps": 29.7
+  },
+  {
+   "t": 2161.5484924316406,
+   "connected": true,
+   "valid": 0,
+   "frames": 75900,
+   "fps": 29.7
+  },
+  {
+   "t": 2221.5777320861816,
+   "connected": true,
+   "valid": 0,
+   "frames": 77700,
+   "fps": 29.7
+  },
+  {
+   "t": 2281.621782541275,
+   "connected": true,
+   "valid": 0,
+   "frames": 79500,
+   "fps": 29.7
+  },
+  {
+   "t": 2341.6779453754425,
+   "connected": true,
+   "valid": 0,
+   "frames": 81300,
+   "fps": 29.7
+  },
+  {
+   "t": 2401.73885345459,
+   "connected": true,
+   "valid": 0,
+   "frames": 83000,
+   "fps": 29.7
+  },
+  {
+   "t": 2461.7706484794617,
+   "connected": true,
+   "valid": 0,
+   "frames": 84800,
+   "fps": 29.7
+  },
+  {
+   "t": 2521.781862258911,
+   "connected": true,
+   "valid": 0,
+   "frames": 86600,
+   "fps": 29.7
+  },
+  {
+   "t": 2581.8179035186768,
+   "connected": true,
+   "valid": 0,
+   "frames": 88400,
+   "fps": 29.7
+  },
+  {
+   "t": 2641.84459400177,
+   "connected": true,
+   "valid": 0,
+   "frames": 90200,
+   "fps": 29.7
+  },
+  {
+   "t": 2701.892745733261,
+   "connected": true,
+   "valid": 0,
+   "frames": 92000,
+   "fps": 29.7
+  },
+  {
+   "t": 2761.9245414733887,
+   "connected": true,
+   "valid": 0,
+   "frames": 93700,
+   "fps": 29.7
+  },
+  {
+   "t": 2821.973641395569,
+   "connected": true,
+   "valid": 0,
+   "frames": 95500,
+   "fps": 29.7
+  },
+  {
+   "t": 2882.0167722702026,
+   "connected": true,
+   "valid": 0,
+   "frames": 97300,
+   "fps": 29.7
+  },
+  {
+   "t": 2942.077696084976,
+   "connected": true,
+   "valid": 0,
+   "frames": 99100,
+   "fps": 29.7
+  },
+  {
+   "t": 3002.1168286800385,
+   "connected": true,
+   "valid": 0,
+   "frames": 100900,
+   "fps": 29.7
+  },
+  {
+   "t": 3062.167931318283,
+   "connected": true,
+   "valid": 0,
+   "frames": 102700,
+   "fps": 29.7
+  },
+  {
+   "t": 3122.2288086414337,
+   "connected": true,
+   "valid": 0,
+   "frames": 104400,
+   "fps": 29.7
+  },
+  {
+   "t": 3182.255962371826,
+   "connected": true,
+   "valid": 0,
+   "frames": 106200,
+   "fps": 29.7
+  },
+  {
+   "t": 3242.3105144500732,
+   "connected": true,
+   "valid": 0,
+   "frames": 108000,
+   "fps": 29.7
+  },
+  {
+   "t": 3302.371446609497,
+   "connected": true,
+   "valid": 0,
+   "frames": 109800,
+   "fps": 29.7
+  },
+  {
+   "t": 3362.4061357975006,
+   "connected": true,
+   "valid": 0,
+   "frames": 111600,
+   "fps": 29.7
+  },
+  {
+   "t": 3422.4619104862213,
+   "connected": true,
+   "valid": 0,
+   "frames": 113400,
+   "fps": 29.7
+  },
+  {
+   "t": 3482.522798061371,
+   "connected": true,
+   "valid": 0,
+   "frames": 115100,
+   "fps": 29.7
+  },
+  {
+   "t": 3542.572478055954,
+   "connected": true,
+   "valid": 0,
+   "frames": 116900,
+   "fps": 29.7
+  }
+ ],
+ "accepted_lines": []
+}

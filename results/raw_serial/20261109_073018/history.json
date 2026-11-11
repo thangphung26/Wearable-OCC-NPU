@@ -1,0 +1,30 @@
+[
+ {
+  "patient": 1,
+  "patient_name": "Patient #1",
+  "desc": "Synthetic protocol profile baseline",
+  "sensor_type": "PPG (Pulse/SpO2) + Temp + 3-Axis IMU",
+  "hr": 76,
+  "spo2": 98,
+  "temp_c": 37.5,
+  "imu": 0,
+  "imu_desc": "IMU state 0 \u2014 still",
+  "battery": 7,
+  "alert": 0,
+  "seq": 1,
+  "decoder": "simulated",
+  "source": "simulation",
+  "timestamp": "16:30:18",
+  "timestamp_ms": 1794209418581,
+  "ppg_valid": true,
+  "hr_valid": true,
+  "spo2_valid": true,
+  "temp_valid": true,
+  "crc_status": "unverified",
+  "tx_alert_bit": 0,
+  "dashboard_warnings": [],
+  "alert_reasons": [],
+  "tx_match": null,
+  "match_basis": null
+ }
+]

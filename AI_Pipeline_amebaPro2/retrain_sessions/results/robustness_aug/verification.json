@@ -1,0 +1,9 @@
+{
+  "evaluated_windows": 47200,
+  "condition_points": 19,
+  "series": 4,
+  "original_series_exactly_reproduced": true,
+  "error_positions_and_aggregates": true,
+  "verified_input_hashes": 41,
+  "unchanged_baseline_files": 51
+}

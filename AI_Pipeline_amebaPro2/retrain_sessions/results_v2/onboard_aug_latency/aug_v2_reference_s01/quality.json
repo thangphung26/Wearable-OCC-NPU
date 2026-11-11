@@ -1,0 +1,29 @@
+[
+  {
+    "round": 1,
+    "bank_windows": 64,
+    "cpu_reference_unequal_values": 0,
+    "cpu_npu_mae_lsb": 0.859375,
+    "cpu_npu_max_lsb": 53,
+    "cpu_npu_bit_disagreements": 2,
+    "compared_bits": 3072
+  },
+  {
+    "round": 2,
+    "bank_windows": 64,
+    "cpu_reference_unequal_values": 0,
+    "cpu_npu_mae_lsb": 0.859375,
+    "cpu_npu_max_lsb": 53,
+    "cpu_npu_bit_disagreements": 2,
+    "compared_bits": 3072
+  },
+  {
+    "round": 3,
+    "bank_windows": 64,
+    "cpu_reference_unequal_values": 0,
+    "cpu_npu_mae_lsb": 0.859375,
+    "cpu_npu_max_lsb": 53,
+    "cpu_npu_bit_disagreements": 2,
+    "compared_bits": 3072
+  }
+]

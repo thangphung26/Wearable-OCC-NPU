@@ -1,0 +1,833 @@
+{"t": 1794279700646165429, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794279701646210637, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=732 < 8000, Red=541) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.8\u00b0C room)"}
+{"t": 1794279702646167241, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=539) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.7\u00b0C room)"}
+{"t": 1794279703646104967, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=731 < 8000, Red=541) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.8\u00b0C room)"}
+{"t": 1794279704646121917, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=732 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.9\u00b0C room)"}
+{"t": 1794279705646979448, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.0\u00b0C room)"}
+{"t": 1794279706545364154, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=734 < 8000, Red=541) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.7\u00b0C)"}
+{"t": 1794279707145956665, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.1\u00b0C room)"}
+{"t": 1794279707544222151, "line": "[TX_GT] frame_id=4 tx_ms=42986 seq=4 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE4A0 tx_us=42986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279707545170288, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":4,\"frame_hex\":\"0xA10001FCE4A0\",\"imu_valid\":1}"}
+{"t": 1794279707545403156, "line": "\\n[TX NEW PACKET] Seq=4 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279708145868249, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=539) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.9\u00b0C room)"}
+{"t": 1794279709145734753, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794279710145872998, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=732 < 8000, Red=541) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.9\u00b0C room)"}
+{"t": 1794279711145809153, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=538) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.8\u00b0C room)"}
+{"t": 1794279712145584586, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=549) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.7\u00b0C room)"}
+{"t": 1794279713145712402, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=543) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.9\u00b0C room)"}
+{"t": 1794279714145648391, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.8\u00b0C room)"}
+{"t": 1794279715145635225, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=539) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.0\u00b0C room)"}
+{"t": 1794279716145505432, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=735 < 8000, Red=540) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.0\u00b0C room)"}
+{"t": 1794279716544971852, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=540) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.8\u00b0C)"}
+{"t": 1794279717145560245, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=544) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.8\u00b0C room)"}
+{"t": 1794279717543890690, "line": "[TX_GT] frame_id=5 tx_ms=52986 seq=5 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE5A7 tx_us=52986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279717544984657, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":5,\"frame_hex\":\"0xA10001FCE5A7\",\"imu_valid\":1}"}
+{"t": 1794279717545202334, "line": "\\n[TX NEW PACKET] Seq=5 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279718145551669, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=538) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.9\u00b0C room)"}
+{"t": 1794279719145493939, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=734 < 8000, Red=541) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.2\u00b0C room)"}
+{"t": 1794279720145460747, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.0\u00b0C room)"}
+{"t": 1794279721145407368, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=540) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.8\u00b0C room)"}
+{"t": 1794279722145352385, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=734 < 8000, Red=542) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.0\u00b0C room)"}
+{"t": 1794279723145173283, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.7\u00b0C room)"}
+{"t": 1794279724145310941, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=540) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.0\u00b0C room)"}
+{"t": 1794279725145263711, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=731 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.8\u00b0C room)"}
+{"t": 1794279726145222585, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.0\u00b0C room)"}
+{"t": 1794279726544631722, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=733 < 8000, Red=538) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.3\u00b0C)"}
+{"t": 1794279727145203585, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=731 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794279727543565100, "line": "[TX_GT] frame_id=6 tx_ms=62986 seq=6 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE6AE tx_us=62986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279727544347686, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":6,\"frame_hex\":\"0xA10001FCE6AE\",\"imu_valid\":1}"}
+{"t": 1794279727544557166, "line": "\\n[TX NEW PACKET] Seq=6 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279728145183704, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=736 < 8000, Red=538) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279729145180881, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279730145136328, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=733 < 8000, Red=552) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.7\u00b0C room)"}
+{"t": 1794279731145043728, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=735 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279732145037474, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=720 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279733145047279, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=732 < 8000, Red=541) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279734144921313, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=529) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279735144914505, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=538) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279736144766948, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=732 < 8000, Red=544) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279736544110041, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=740 < 8000, Red=547) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C)"}
+{"t": 1794279737144911122, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279737543127034, "line": "[TX_GT] frame_id=7 tx_ms=72986 seq=7 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE7A9 tx_us=72986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279737544124839, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":7,\"frame_hex\":\"0xA10001FCE7A9\",\"imu_valid\":1}"}
+{"t": 1794279737544332990, "line": "\\n[TX NEW PACKET] Seq=7 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279738144700991, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=732 < 8000, Red=551) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279739144767656, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=734 < 8000, Red=539) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279740144740987, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279741144727329, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=538) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794279742144743923, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279743144656841, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=541) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.8\u00b0C room)"}
+{"t": 1794279744144609713, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=732 < 8000, Red=545) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.0\u00b0C room)"}
+{"t": 1794279745144569123, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.0\u00b0C room)"}
+{"t": 1794279746144418443, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.9\u00b0C room)"}
+{"t": 1794279746543960380, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.1\u00b0C)"}
+{"t": 1794279747144534925, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=732 < 8000, Red=542) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.9\u00b0C room)"}
+{"t": 1794279747542997016, "line": "[TX_GT] frame_id=8 tx_ms=82986 seq=8 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE884 tx_us=82986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279747544157751, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":8,\"frame_hex\":\"0xA10001FCE884\",\"imu_valid\":1}"}
+{"t": 1794279747544366154, "line": "\\n[TX NEW PACKET] Seq=8 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279748144456538, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=722 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.0\u00b0C room)"}
+{"t": 1794279749144419767, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.9\u00b0C room)"}
+{"t": 1794279750144456914, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=733 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.1\u00b0C room)"}
+{"t": 1794279751144276705, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=544) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.8\u00b0C room)"}
+{"t": 1794279752144237633, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=541) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.9\u00b0C room)"}
+{"t": 1794279753144166253, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.7\u00b0C room)"}
+{"t": 1794279754144279750, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.7\u00b0C room)"}
+{"t": 1794279755144233717, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=733 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279756144138482, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=545) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279756544039823, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C)"}
+{"t": 1794279757144167271, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=539) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794279757542959743, "line": "[TX_GT] frame_id=9 tx_ms=92986 seq=9 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE983 tx_us=92986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279757544069891, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":9,\"frame_hex\":\"0xA10001FCE983\",\"imu_valid\":1}"}
+{"t": 1794279757544280200, "line": "\\n[TX NEW PACKET] Seq=9 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279758143997979, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279759143913830, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=539) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794279760143915050, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794279761144022488, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=538) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279762143990214, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=540) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279763143823609, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794279764143836834, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=731 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279765143844495, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.1\u00b0C room)"}
+{"t": 1794279766143722421, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=540) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279766544218480, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=539) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.1\u00b0C)"}
+{"t": 1794279767143646657, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.4\u00b0C room)"}
+{"t": 1794279767543253554, "line": "[TX_GT] frame_id=10 tx_ms=102986 seq=10 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCEA8A tx_us=102986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279767544176486, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":10,\"frame_hex\":\"0xA10001FCEA8A\",\"imu_valid\":1}"}
+{"t": 1794279767544394697, "line": "\\n[TX NEW PACKET] Seq=10 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279768143656281, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=541) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.6\u00b0C room)"}
+{"t": 1794279769143610091, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.8\u00b0C room)"}
+{"t": 1794279770143720785, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=538) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.8\u00b0C room)"}
+{"t": 1794279771143546487, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=731 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.7\u00b0C room)"}
+{"t": 1794279772144463288, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.7\u00b0C room)"}
+{"t": 1794279773643628199, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279774643580457, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.0\u00b0C room)"}
+{"t": 1794279775643500231, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=539) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=22.4\u00b0C room)"}
+{"t": 1794279776544518644, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=731 < 8000, Red=540) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=22.0\u00b0C)"}
+{"t": 1794279776643394098, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=732 < 8000, Red=542) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=22.0\u00b0C room)"}
+{"t": 1794279777543428517, "line": "[TX_GT] frame_id=11 tx_ms=112986 seq=11 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCEB8D tx_us=112986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279777544523227, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":11,\"frame_hex\":\"0xA10001FCEB8D\",\"imu_valid\":1}"}
+{"t": 1794279777544744873, "line": "\\n[TX NEW PACKET] Seq=11 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279777643379469, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.4\u00b0C room)"}
+{"t": 1794279778644276894, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=538) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.0\u00b0C room)"}
+{"t": 1794279780143286795, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=538) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.0\u00b0C room)"}
+{"t": 1794279781143348866, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.1\u00b0C room)"}
+{"t": 1794279782143300310, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=539) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.0\u00b0C room)"}
+{"t": 1794279783143347092, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=732 < 8000, Red=538) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.0\u00b0C room)"}
+{"t": 1794279784143288536, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=722 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.1\u00b0C room)"}
+{"t": 1794279785143322575, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=734 < 8000, Red=550) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.0\u00b0C room)"}
+{"t": 1794279786143196225, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.9\u00b0C room)"}
+{"t": 1794279786544577319, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=732 < 8000, Red=541) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.2\u00b0C)"}
+{"t": 1794279787143124108, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.9\u00b0C room)"}
+{"t": 1794279787543535893, "line": "[TX_GT] frame_id=12 tx_ms=122986 seq=12 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCEC98 tx_us=122986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279787544579253, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":12,\"frame_hex\":\"0xA10001FCEC98\",\"imu_valid\":1}"}
+{"t": 1794279787544819101, "line": "\\n[TX NEW PACKET] Seq=12 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279788143176608, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=731 < 8000, Red=540) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.0\u00b0C room)"}
+{"t": 1794279789143174978, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=722 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.1\u00b0C room)"}
+{"t": 1794279790143060261, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=734 < 8000, Red=547) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.9\u00b0C room)"}
+{"t": 1794279791143094835, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=736 < 8000, Red=540) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.2\u00b0C room)"}
+{"t": 1794279792143062934, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.1\u00b0C room)"}
+{"t": 1794279793143943391, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.3\u00b0C room)"}
+{"t": 1794279794642953264, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=731 < 8000, Red=539) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.2\u00b0C room)"}
+{"t": 1794279795642908834, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.3\u00b0C room)"}
+{"t": 1794279796544963166, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.5\u00b0C)"}
+{"t": 1794279796642796327, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.7\u00b0C room)"}
+{"t": 1794279797543963589, "line": "[TX_GT] frame_id=13 tx_ms=132986 seq=13 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCED9F tx_us=132986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279797544707951, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":13,\"frame_hex\":\"0xA10001FCED9F\",\"imu_valid\":1}"}
+{"t": 1794279797544927552, "line": "\\n[TX NEW PACKET] Seq=13 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279797642707550, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=538) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.4\u00b0C room)"}
+{"t": 1794279798642695956, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=731 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.4\u00b0C room)"}
+{"t": 1794279799642739867, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=547) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.7\u00b0C room)"}
+{"t": 1794279800642604179, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=734 < 8000, Red=540) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.7\u00b0C room)"}
+{"t": 1794279801642695789, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=527) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279802642614368, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279803642545741, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=541) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794279804642462796, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279805642471837, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.7\u00b0C room)"}
+{"t": 1794279806545205208, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=732 < 8000, Red=539) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C)"}
+{"t": 1794279806642595458, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279807544104658, "line": "[TX_GT] frame_id=14 tx_ms=142986 seq=14 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCEE96 tx_us=142986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279807545073574, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":14,\"frame_hex\":\"0xA10001FCEE96\",\"imu_valid\":1}"}
+{"t": 1794279807545295229, "line": "\\n[TX NEW PACKET] Seq=14 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279807643270045, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=731 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279809142435975, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=540) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279810142301522, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=719 < 8000, Red=526) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279811142292782, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=731 < 8000, Red=542) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279812142263548, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=731 < 8000, Red=541) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279813142249185, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=717 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279814142274131, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.7\u00b0C room)"}
+{"t": 1794279815142302230, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=735 < 8000, Red=541) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279816142276578, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=720 < 8000, Red=526) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279816545321959, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=733 < 8000, Red=538) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C)"}
+{"t": 1794279817142252620, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279817544354421, "line": "[TX_GT] frame_id=15 tx_ms=152986 seq=15 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCEF91 tx_us=152986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279817545376942, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":15,\"frame_hex\":\"0xA10001FCEF91\",\"imu_valid\":1}"}
+{"t": 1794279817545588376, "line": "\\n[TX NEW PACKET] Seq=15 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279818142173484, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=541) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279819142108219, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=524) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279820142184792, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279821142159708, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=731 < 8000, Red=539) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279822142046770, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279823141878129, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279824142051872, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794279825141867461, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=732 < 8000, Red=529) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279826141782369, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=722 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279826545505408, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=527) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C)"}
+{"t": 1794279827141716806, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=549) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.1\u00b0C room)"}
+{"t": 1794279827544492445, "line": "[TX_GT] frame_id=16 tx_ms=162986 seq=0 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE0BC tx_us=162986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279827545280992, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":0,\"frame_hex\":\"0xA10001FCE0BC\",\"imu_valid\":1}"}
+{"t": 1794279827545495472, "line": "\\n[TX NEW PACKET] Seq=0 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279828141866794, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=732 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794279829141698388, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=720 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794279830141799303, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.0\u00b0C room)"}
+{"t": 1794279831141786190, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794279832141734367, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=720 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279833141606325, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=538) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.0\u00b0C room)"}
+{"t": 1794279834141637814, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=731 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794279835142562744, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=719 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279836545694899, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=718 < 8000, Red=522) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.1\u00b0C)"}
+{"t": 1794279836641544480, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=720 < 8000, Red=526) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279837544644858, "line": "[TX_GT] frame_id=17 tx_ms=172986 seq=1 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE1BB tx_us=172986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279837545663824, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":1,\"frame_hex\":\"0xA10001FCE1BB\",\"imu_valid\":1}"}
+{"t": 1794279837545895627, "line": "\\n[TX NEW PACKET] Seq=1 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279837641567922, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.1\u00b0C room)"}
+{"t": 1794279838641400307, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=731 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279839641425937, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279840641352431, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.1\u00b0C room)"}
+{"t": 1794279841641460932, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279842641269012, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=719 < 8000, Red=523) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794279843641362089, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279844641267895, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=731 < 8000, Red=538) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794279845641312834, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=719 < 8000, Red=524) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.0\u00b0C room)"}
+{"t": 1794279846545961859, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.1\u00b0C)"}
+{"t": 1794279846641297983, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=538) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279847544906571, "line": "[TX_GT] frame_id=18 tx_ms=182986 seq=2 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE2B2 tx_us=182986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279847545929241, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":2,\"frame_hex\":\"0xA10001FCE2B2\",\"imu_valid\":1}"}
+{"t": 1794279847546140326, "line": "\\n[TX NEW PACKET] Seq=2 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279847641222096, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=538) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279848641279468, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=718 < 8000, Red=525) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.1\u00b0C room)"}
+{"t": 1794279849642033509, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=718 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279851141195446, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=719 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279852141109680, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=731 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794279853141069807, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=707 < 8000, Red=525) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794279854140955070, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279855141023898, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.1\u00b0C room)"}
+{"t": 1794279856140915975, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=540) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279856546186958, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.0\u00b0C)"}
+{"t": 1794279857140821754, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794279857545135255, "line": "[TX_GT] frame_id=19 tx_ms=192986 seq=3 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE3B5 tx_us=192986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279857546265714, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":3,\"frame_hex\":\"0xA10001FCE3B5\",\"imu_valid\":1}"}
+{"t": 1794279857546478407, "line": "\\n[TX NEW PACKET] Seq=3 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279858140920853, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=525) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794279859140900561, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=716 < 8000, Red=527) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794279860140876704, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=538) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794279861140660700, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=718 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279862140821004, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.1\u00b0C room)"}
+{"t": 1794279863140707681, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.1\u00b0C room)"}
+{"t": 1794279864141560899, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=529) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.1\u00b0C room)"}
+{"t": 1794279865640763992, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279866546403433, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.0\u00b0C)"}
+{"t": 1794279866640596593, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279867545447220, "line": "[TX_GT] frame_id=20 tx_ms=202986 seq=4 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE4A0 tx_us=202986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279867546422695, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":4,\"frame_hex\":\"0xA10001FCE4A0\",\"imu_valid\":1}"}
+{"t": 1794279867546642109, "line": "\\n[TX NEW PACKET] Seq=4 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279867640488389, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279868640692929, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279869640508222, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=731 < 8000, Red=540) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.4\u00b0C room)"}
+{"t": 1794279870641518627, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279872140406442, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=526) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279873140565758, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279874140546024, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=529) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279875140421847, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=718 < 8000, Red=523) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279876140379962, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.8\u00b0C room)"}
+{"t": 1794279876546606207, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=719 < 8000, Red=529) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.7\u00b0C)"}
+{"t": 1794279877140380077, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.7\u00b0C room)"}
+{"t": 1794279877545486241, "line": "[TX_GT] frame_id=21 tx_ms=212986 seq=5 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE5A7 tx_us=212986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279877546458645, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":5,\"frame_hex\":\"0xA10001FCE5A7\",\"imu_valid\":1}"}
+{"t": 1794279877546671866, "line": "\\n[TX NEW PACKET] Seq=5 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279878140352798, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=722 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279879140352839, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.0\u00b0C room)"}
+{"t": 1794279880140292612, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=722 < 8000, Red=526) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.8\u00b0C room)"}
+{"t": 1794279881140298946, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794279882140265420, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279883140164854, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=722 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279884140216592, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279885140169414, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279886140099517, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279886546833456, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=529) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C)"}
+{"t": 1794279887140103988, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.7\u00b0C room)"}
+{"t": 1794279887545823638, "line": "[TX_GT] frame_id=22 tx_ms=222986 seq=6 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE6AE tx_us=222986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279887546875981, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":6,\"frame_hex\":\"0xA10001FCE6AE\",\"imu_valid\":1}"}
+{"t": 1794279887547087813, "line": "\\n[TX NEW PACKET] Seq=6 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279888140045261, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794279889139942834, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279890140989655, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279891639974206, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279892639954485, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=722 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=22.8\u00b0C room)"}
+{"t": 1794279893639804527, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=24.8\u00b0C room)"}
+{"t": 1794279894639919456, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=24.9\u00b0C room)"}
+{"t": 1794279895639918993, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=24.6\u00b0C room)"}
+{"t": 1794279896547057690, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=25.1\u00b0C)"}
+{"t": 1794279896640702987, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=25.0\u00b0C room)"}
+{"t": 1794279897545942648, "line": "[TX_GT] frame_id=23 tx_ms=232986 seq=7 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE7A9 tx_us=232986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279897546960115, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":7,\"frame_hex\":\"0xA10001FCE7A9\",\"imu_valid\":1}"}
+{"t": 1794279897547175425, "line": "\\n[TX NEW PACKET] Seq=7 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279898139805452, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=24.5\u00b0C room)"}
+{"t": 1794279899139726904, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=24.8\u00b0C room)"}
+{"t": 1794279900139567791, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=543) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=22.4\u00b0C room)"}
+{"t": 1794279901139567885, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=527) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.7\u00b0C room)"}
+{"t": 1794279902139529606, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=722 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279903139612212, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279904139550614, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=719 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279905139563934, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279906139576473, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279906547317400, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=736 < 8000, Red=543) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C)"}
+{"t": 1794279907139464936, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279907546292010, "line": "[TX_GT] frame_id=24 tx_ms=242986 seq=8 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE884 tx_us=242986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279907547219130, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":8,\"frame_hex\":\"0xA10001FCE884\",\"imu_valid\":1}"}
+{"t": 1794279907547430747, "line": "\\n[TX NEW PACKET] Seq=8 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279908139490537, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=543) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279909139438067, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=733 < 8000, Red=527) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794279910139424976, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=716 < 8000, Red=527) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279911139407453, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279912139355007, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279913139355867, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279914139266793, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279915139247607, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=719 < 8000, Red=524) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279916139086130, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279916547350859, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=719 < 8000, Red=540) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.9\u00b0C)"}
+{"t": 1794279917139144876, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=529) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.3\u00b0C room)"}
+{"t": 1794279917546503292, "line": "[TX_GT] frame_id=25 tx_ms=252986 seq=9 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE983 tx_us=252986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279917547325593, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":9,\"frame_hex\":\"0xA10001FCE983\",\"imu_valid\":1}"}
+{"t": 1794279917547551831, "line": "\\n[TX NEW PACKET] Seq=9 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279918139201904, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=719 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.8\u00b0C room)"}
+{"t": 1794279919139154671, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.7\u00b0C room)"}
+{"t": 1794279920139131901, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=524) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=21.7\u00b0C room)"}
+{"t": 1794279921140026499, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=722 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=23.5\u00b0C room)"}
+{"t": 1794279922639089999, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=719 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279923638888483, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794279924638826946, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=715 < 8000, Red=526) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794279925638971039, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279926547877669, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=722 < 8000, Red=522) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C)"}
+{"t": 1794279926639039073, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=524) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279927546654574, "line": "[TX_GT] frame_id=26 tx_ms=262986 seq=10 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCEA8A tx_us=262986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279927547558769, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":10,\"frame_hex\":\"0xA10001FCEA8A\",\"imu_valid\":1}"}
+{"t": 1794279927547784330, "line": "\\n[TX NEW PACKET] Seq=10 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279927639912342, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=717 < 8000, Red=519) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279929138752760, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=715 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279930138703697, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794279931138858763, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279932138946369, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=716 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279933138664183, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=731 < 8000, Red=529) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279934138618762, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=719 < 8000, Red=522) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279935138681556, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279936138665099, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=524) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.8\u00b0C room)"}
+{"t": 1794279936548019275, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=539) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C)"}
+{"t": 1794279937138524378, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=711 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279937546911901, "line": "[TX_GT] frame_id=27 tx_ms=272986 seq=11 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCEB8D tx_us=272986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279937547649692, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":11,\"frame_hex\":\"0xA10001FCEB8D\",\"imu_valid\":1}"}
+{"t": 1794279937547868136, "line": "\\n[TX NEW PACKET] Seq=11 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279938138556675, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279939138576348, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=718 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279940138400561, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=715 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279941138402031, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279942138422758, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=731 < 8000, Red=525) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279943138337929, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=715 < 8000, Red=525) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279944138295020, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=539) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279945138397272, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=522) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794279946138382437, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=529) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279946548313458, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=720 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C)"}
+{"t": 1794279947138365806, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279947547225696, "line": "[TX_GT] frame_id=28 tx_ms=282986 seq=12 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCEC98 tx_us=282986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279947548131568, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":12,\"frame_hex\":\"0xA10001FCEC98\",\"imu_valid\":1}"}
+{"t": 1794279947548343382, "line": "\\n[TX NEW PACKET] Seq=12 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279948138237149, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=523) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279949138242287, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=717 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794279950138263236, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279951138223904, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=522) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279952139152526, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=713 < 8000, Red=522) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794279953638143493, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=716 < 8000, Red=523) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279954638204648, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279955638135359, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=715 < 8000, Red=519) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279956548502821, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C)"}
+{"t": 1794279956638154680, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=716 < 8000, Red=529) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279957547480709, "line": "[TX_GT] frame_id=29 tx_ms=292986 seq=13 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCED9F tx_us=292986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279957548437398, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":13,\"frame_hex\":\"0xA10001FCED9F\",\"imu_valid\":1}"}
+{"t": 1794279957548648160, "line": "\\n[TX NEW PACKET] Seq=13 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279957638090294, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794279958639143247, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279960138112385, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279961138133383, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=722 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279962137856853, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=732 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279963138029861, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=718 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279964137953259, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=722 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279965138727505, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279966548720975, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=529) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C)"}
+{"t": 1794279966637983154, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279967547752511, "line": "[TX_GT] frame_id=30 tx_ms=302986 seq=14 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCEE96 tx_us=302986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279967548569932, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":14,\"frame_hex\":\"0xA10001FCEE96\",\"imu_valid\":1}"}
+{"t": 1794279967548789555, "line": "\\n[TX NEW PACKET] Seq=14 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279967637852021, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=715 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279968637854572, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=540) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279969637867627, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279970637811474, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279971637681885, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=717 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279972637788812, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=527) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279973637641853, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=712 < 8000, Red=523) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279974637578679, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279975637654751, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=523) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279976549018048, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=717 < 8000, Red=540) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.7\u00b0C)"}
+{"t": 1794279976637685546, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=716 < 8000, Red=529) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794279977547843444, "line": "[TX_GT] frame_id=31 tx_ms=312986 seq=15 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCEF91 tx_us=312986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279977548889610, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":15,\"frame_hex\":\"0xA10001FCEF91\",\"imu_valid\":1}"}
+{"t": 1794279977549092466, "line": "\\n[TX NEW PACKET] Seq=15 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279977637628798, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279978637618877, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=719 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794279979637489181, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=713 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279980637525569, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=538) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279981637522325, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=716 < 8000, Red=525) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279982637482712, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279983637340195, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279984637417890, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=522) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.8\u00b0C room)"}
+{"t": 1794279985637420835, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=717 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279986549160400, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C)"}
+{"t": 1794279986637374375, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794279987548281976, "line": "[TX_GT] frame_id=32 tx_ms=322986 seq=0 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE0BC tx_us=322986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279987549241016, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":0,\"frame_hex\":\"0xA10001FCE0BC\",\"imu_valid\":1}"}
+{"t": 1794279987549479247, "line": "\\n[TX NEW PACKET] Seq=0 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279987637211256, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=522) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794279988637397885, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=717 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794279989637372279, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279990637311689, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=719 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279991637276208, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.7\u00b0C room)"}
+{"t": 1794279992637212986, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279993637151243, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=716 < 8000, Red=519) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794279994637147847, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279995637138071, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=731 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794279996549451498, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=524) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C)"}
+{"t": 1794279996637109573, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=716 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794279997548414010, "line": "[TX_GT] frame_id=33 tx_ms=332986 seq=1 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE1BB tx_us=332986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794279997549444975, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":1,\"frame_hex\":\"0xA10001FCE1BB\",\"imu_valid\":1}"}
+{"t": 1794279997549655967, "line": "\\n[TX NEW PACKET] Seq=1 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794279997638032394, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=718 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794279999137160195, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=717 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280000137039668, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=731 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280001136991672, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=715 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280002136962084, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=719 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280003136968849, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280004136939117, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=713 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280005136940211, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=719 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280006136889159, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280006549751731, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C)"}
+{"t": 1794280007136885250, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=719 < 8000, Red=522) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280007549013886, "line": "[TX_GT] frame_id=34 tx_ms=342986 seq=2 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE2B2 tx_us=342986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280007549885162, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":2,\"frame_hex\":\"0xA10001FCE2B2\",\"imu_valid\":1}"}
+{"t": 1794280007550097722, "line": "\\n[TX NEW PACKET] Seq=2 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280008136783969, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280009136669976, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280010136630907, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=719 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280011136755225, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=720 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280012137616194, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280013636582693, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=538) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280014636719728, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=715 < 8000, Red=523) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280015636617921, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280016549965596, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=733 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C)"}
+{"t": 1794280016636634092, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=731 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280017548979172, "line": "[TX_GT] frame_id=35 tx_ms=352986 seq=3 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE3B5 tx_us=352986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280017549846317, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":3,\"frame_hex\":\"0xA10001FCE3B5\",\"imu_valid\":1}"}
+{"t": 1794280017550058842, "line": "\\n[TX NEW PACKET] Seq=3 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280017636580871, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280018637486744, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=719 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280020136612162, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280021136569042, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=522) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280022136426590, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=715 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280023136465967, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280024136440030, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=719 < 8000, Red=518) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280025136453545, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=542) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280026136197780, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280026550223403, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=716 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C)"}
+{"t": 1794280027136319501, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280027549286973, "line": "[TX_GT] frame_id=36 tx_ms=362986 seq=4 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE4A0 tx_us=362986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280027549982350, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":4,\"frame_hex\":\"0xA10001FCE4A0\",\"imu_valid\":1}"}
+{"t": 1794280027550194327, "line": "\\n[TX NEW PACKET] Seq=4 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280028136218894, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=716 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280029136356275, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280030136273767, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=712 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280031136275400, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280032136216214, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=524) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280033136212050, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=715 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280034136172119, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280035136175368, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=522) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280036136045536, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280036550563544, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=716 < 8000, Red=525) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C)"}
+{"t": 1794280037136166557, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280037549462053, "line": "[TX_GT] frame_id=37 tx_ms=372986 seq=5 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE5A7 tx_us=372986008 payload_mode=sensor imu_valid=1"}
+{"t": 1794280037550409477, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":5,\"frame_hex\":\"0xA10001FCE5A7\",\"imu_valid\":1}"}
+{"t": 1794280037550612279, "line": "\\n[TX NEW PACKET] Seq=5 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280038136085812, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=715 < 8000, Red=511) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280039136113752, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=713 < 8000, Red=526) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280040136039909, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280041136054140, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280042135951678, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=719 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280043135993855, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=527) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280044135804913, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=715 < 8000, Red=519) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280045135974450, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280046135906836, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=527) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280046550831511, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C)"}
+{"t": 1794280047135821483, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=519) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280047549844191, "line": "[TX_GT] frame_id=38 tx_ms=382986 seq=6 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE6AE tx_us=382986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280047550825891, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":6,\"frame_hex\":\"0xA10001FCE6AE\",\"imu_valid\":1}"}
+{"t": 1794280047554721019, "line": "\\n[TX NEW PACKET] Seq=6 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280048135898618, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280049135953515, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=525) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280050135860930, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=716 < 8000, Red=526) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280051135854013, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=548) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280052135833208, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=522) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280053135751980, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=717 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280054135704170, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280055135699509, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=717 < 8000, Red=522) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280056135692278, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=720 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280056551113303, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=518) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C)"}
+{"t": 1794280057549906983, "line": "[TX_GT] frame_id=39 tx_ms=392986 seq=7 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE7A9 tx_us=392986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280057550836265, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":7,\"frame_hex\":\"0xA10001FCE7A9\",\"imu_valid\":1}"}
+{"t": 1794280057551056523, "line": "\\n[TX NEW PACKET] Seq=7 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280057632028087, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280058631934553, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280059631953641, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280060631786942, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280061631805435, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=715 < 8000, Red=518) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280062631653890, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=542) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280063631809022, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280064631842177, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=720 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280065631714263, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=526) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280066551380935, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=713 < 8000, Red=522) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C)"}
+{"t": 1794280066631730773, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280067550266044, "line": "[TX_GT] frame_id=40 tx_ms=402986 seq=8 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE884 tx_us=402986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280067551294562, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":8,\"frame_hex\":\"0xA10001FCE884\",\"imu_valid\":1}"}
+{"t": 1794280067551509909, "line": "\\n[TX NEW PACKET] Seq=8 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280067631677566, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=718 < 8000, Red=522) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280068631686348, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280069631612890, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280070631595149, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=720 < 8000, Red=517) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280071631558672, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=715 < 8000, Red=519) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280072631540339, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280073631502846, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=519) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280074631522465, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280075631544228, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280076551468293, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C)"}
+{"t": 1794280076631482273, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280077550513489, "line": "[TX_GT] frame_id=41 tx_ms=412986 seq=9 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE983 tx_us=412986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280077551495950, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":9,\"frame_hex\":\"0xA10001FCE983\",\"imu_valid\":1}"}
+{"t": 1794280077551703917, "line": "\\n[TX NEW PACKET] Seq=9 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280077631484612, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=713 < 8000, Red=523) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280078631411205, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=720 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280079631455251, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=524) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280080631266439, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=716 < 8000, Red=526) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280081631382781, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280082631297765, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=524) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280083631285597, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=722 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280084631333731, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280085631262799, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=527) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280086551901067, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C)"}
+{"t": 1794280086631128851, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=716 < 8000, Red=518) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280087550894430, "line": "[TX_GT] frame_id=42 tx_ms=422986 seq=10 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCEA8A tx_us=422986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280087551823339, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":10,\"frame_hex\":\"0xA10001FCEA8A\",\"imu_valid\":1}"}
+{"t": 1794280087552039755, "line": "\\n[TX NEW PACKET] Seq=10 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280087631181377, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=722 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280088631022153, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280089631069744, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=718 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280090631115792, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280091630990361, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280092631121816, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=717 < 8000, Red=522) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280093631124160, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280094631103266, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280095631040061, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=720 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280096552186935, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=519) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C)"}
+{"t": 1794280096630944933, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=711 < 8000, Red=541) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280097551126806, "line": "[TX_GT] frame_id=43 tx_ms=432986 seq=11 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCEB8D tx_us=432986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280097552080755, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":11,\"frame_hex\":\"0xA10001FCEB8D\",\"imu_valid\":1}"}
+{"t": 1794280097552299850, "line": "\\n[TX NEW PACKET] Seq=11 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280097631013122, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280098630949758, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=519) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280099630923926, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=715 < 8000, Red=519) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280100630902858, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280101630931744, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280102630892418, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=522) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.7\u00b0C room)"}
+{"t": 1794280103630729621, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280104630814476, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=731 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280105630837610, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=523) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280106552463168, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=522) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C)"}
+{"t": 1794280106630784550, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=546) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280107551455938, "line": "[TX_GT] frame_id=44 tx_ms=442986 seq=12 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCEC98 tx_us=442986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280107552247632, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":12,\"frame_hex\":\"0xA10001FCEC98\",\"imu_valid\":1}"}
+{"t": 1794280107556212996, "line": "\\n[TX NEW PACKET] Seq=12 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280107630736223, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280108630598589, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280109630553387, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280110630650963, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280111630639878, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=717 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280112630587334, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=716 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280113630519606, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=731 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280114630560064, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=715 < 8000, Red=526) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280115630579984, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=712 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.7\u00b0C room)"}
+{"t": 1794280116552739670, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=720 < 8000, Red=529) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C)"}
+{"t": 1794280116630623771, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280117551754034, "line": "[TX_GT] frame_id=45 tx_ms=452986 seq=13 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCED9F tx_us=452986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280117552468593, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":13,\"frame_hex\":\"0xA10001FCED9F\",\"imu_valid\":1}"}
+{"t": 1794280117552685450, "line": "\\n[TX NEW PACKET] Seq=13 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280117630597358, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280118630522259, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=715 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280119630474276, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=542) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280120630400319, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=523) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280121630263066, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=716 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280122630371748, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280123630405370, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=522) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280124630317190, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=713 < 8000, Red=527) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280125630303780, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280126552988971, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C)"}
+{"t": 1794280126630315990, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=524) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280127551916408, "line": "[TX_GT] frame_id=46 tx_ms=462986 seq=14 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCEE96 tx_us=462986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280127552966602, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":14,\"frame_hex\":\"0xA10001FCEE96\",\"imu_valid\":1}"}
+{"t": 1794280127553180237, "line": "\\n[TX NEW PACKET] Seq=14 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280127630308613, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=516) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280128630111892, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=722 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280129630219454, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280130630127275, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=708 < 8000, Red=529) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280131630177504, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=716 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280132630165162, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280133630219212, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=523) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280134630133765, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280135630052585, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280136553270775, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C)"}
+{"t": 1794280136630034070, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=526) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280137552282935, "line": "[TX_GT] frame_id=47 tx_ms=472986 seq=15 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCEF91 tx_us=472986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280137553320255, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":15,\"frame_hex\":\"0xA10001FCEF91\",\"imu_valid\":1}"}
+{"t": 1794280137553535387, "line": "\\n[TX NEW PACKET] Seq=15 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280137630107333, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=524) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280138629940520, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280139630030926, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=527) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280140629963146, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=711 < 8000, Red=515) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280141630030396, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280142629935770, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280143629930727, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=716 < 8000, Red=524) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280144629978019, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=718 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280145629846209, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=527) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280146553503882, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C)"}
+{"t": 1794280146629843462, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=718 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280147552564639, "line": "[TX_GT] frame_id=48 tx_ms=482986 seq=0 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE0BC tx_us=482986008 payload_mode=sensor imu_valid=1"}
+{"t": 1794280147553311128, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":0,\"frame_hex\":\"0xA10001FCE0BC\",\"imu_valid\":1}"}
+{"t": 1794280147553530733, "line": "\\n[TX NEW PACKET] Seq=0 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280147629960049, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280148629852025, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=734 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280149629802842, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=718 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280150629729270, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=722 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280151629787556, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280152629723540, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=717 < 8000, Red=516) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.1\u00b0C room)"}
+{"t": 1794280153629695924, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280154629617909, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280155629647321, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=717 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280156553896548, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=709 < 8000, Red=518) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C)"}
+{"t": 1794280156629613040, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=712 < 8000, Red=522) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280157552867556, "line": "[TX_GT] frame_id=49 tx_ms=492986 seq=1 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE1BB tx_us=492986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280157553784947, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":1,\"frame_hex\":\"0xA10001FCE1BB\",\"imu_valid\":1}"}
+{"t": 1794280157553992274, "line": "\\n[TX NEW PACKET] Seq=1 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280157629569292, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=538) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280158629631851, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=717 < 8000, Red=519) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280159629581303, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=713 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.1\u00b0C room)"}
+{"t": 1794280160629536722, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280161629524876, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=527) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.1\u00b0C room)"}
+{"t": 1794280162629555739, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280163629500412, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280164629412069, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280165629426885, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=715 < 8000, Red=518) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280166554124874, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=529) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.1\u00b0C)"}
+{"t": 1794280166629450921, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280167553004876, "line": "[TX_GT] frame_id=50 tx_ms=502986 seq=2 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE2B2 tx_us=502986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280167553994099, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":2,\"frame_hex\":\"0xA10001FCE2B2\",\"imu_valid\":1}"}
+{"t": 1794280167554207010, "line": "\\n[TX NEW PACKET] Seq=2 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280167629432429, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280168629367899, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=716 < 8000, Red=518) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280169629360046, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=735 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280170629376526, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280171629284159, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=719 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280172629257853, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=712 < 8000, Red=524) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280173629260666, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280174629232204, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=527) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280175629268847, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=712 < 8000, Red=525) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280176554394017, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=529) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C)"}
+{"t": 1794280176629304029, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280177553517835, "line": "[TX_GT] frame_id=51 tx_ms=512986 seq=3 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE3B5 tx_us=512986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280177554250034, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":3,\"frame_hex\":\"0xA10001FCE3B5\",\"imu_valid\":1}"}
+{"t": 1794280177554459626, "line": "\\n[TX NEW PACKET] Seq=3 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280177629085342, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280178629211020, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=712 < 8000, Red=523) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280179629165181, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.6\u00b0C room)"}
+{"t": 1794280180629129626, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280181629076174, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=715 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280182629095133, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=527) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280183629101063, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280184629059601, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=717 < 8000, Red=522) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280185629083353, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280186554723162, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=711 < 8000, Red=523) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C)"}
+{"t": 1794280186629023482, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280187553555141, "line": "[TX_GT] frame_id=52 tx_ms=522986 seq=4 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE4A0 tx_us=522986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280187554445623, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":4,\"frame_hex\":\"0xA10001FCE4A0\",\"imu_valid\":1}"}
+{"t": 1794280187554658581, "line": "\\n[TX NEW PACKET] Seq=4 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280187628949557, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=519) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280188628813080, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=715 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280189628894858, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=722 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280190628893835, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=512) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280191628721142, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=715 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280192628853688, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280193628623456, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=734 < 8000, Red=526) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280194628801976, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=720 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280195628788615, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280196554955105, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C)"}
+{"t": 1794280196628750828, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280197553958410, "line": "[TX_GT] frame_id=53 tx_ms=532986 seq=5 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE5A7 tx_us=532986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280197554956417, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":5,\"frame_hex\":\"0xA10001FCE5A7\",\"imu_valid\":1}"}
+{"t": 1794280197555172724, "line": "\\n[TX NEW PACKET] Seq=5 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280197628741218, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280198628756320, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=711 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280199628707961, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280200628666928, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=522) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280201628637164, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=716 < 8000, Red=519) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280202628648735, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280203628596562, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=515) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280204628544490, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=712 < 8000, Red=519) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.1\u00b0C room)"}
+{"t": 1794280205628629737, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280206555228435, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=718 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C)"}
+{"t": 1794280206628556376, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=716 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280207554503397, "line": "[TX_GT] frame_id=54 tx_ms=542986 seq=6 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE6AE tx_us=542986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280207555120916, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":6,\"frame_hex\":\"0xA10001FCE6AE\",\"imu_valid\":1}"}
+{"t": 1794280207555331551, "line": "\\n[TX NEW PACKET] Seq=6 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280207628526699, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=712 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280208628538268, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280209628490460, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=538) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280210628358249, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=713 < 8000, Red=518) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280211628398107, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=526) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280212628453780, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280213628246934, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=716 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280214628429657, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280215628395742, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280216555585210, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C)"}
+{"t": 1794280216628216688, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=517) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280217554529458, "line": "[TX_GT] frame_id=55 tx_ms=552986 seq=7 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE7A9 tx_us=552986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280217555606533, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":7,\"frame_hex\":\"0xA10001FCE7A9\",\"imu_valid\":1}"}
+{"t": 1794280217559454754, "line": "\\n[TX NEW PACKET] Seq=7 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280217628366894, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=712 < 8000, Red=527) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280218628330503, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280219628279676, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=708 < 8000, Red=519) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280220628266790, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=713 < 8000, Red=527) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280221628214920, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=537) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280222628134733, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=527) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280223628213341, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=712 < 8000, Red=522) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280224628223593, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=542) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280225628197698, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=526) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.1\u00b0C room)"}
+{"t": 1794280226555878878, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=525) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C)"}
+{"t": 1794280226628141208, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=711 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280227554876770, "line": "[TX_GT] frame_id=56 tx_ms=562986 seq=8 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE884 tx_us=562986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280227555573871, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":8,\"frame_hex\":\"0xA10001FCE884\",\"imu_valid\":1}"}
+{"t": 1794280227560445339, "line": "\\n[TX NEW PACKET] Seq=8 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280227628162326, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=735 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280228628103308, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=731 < 8000, Red=529) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280229627967960, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=713 < 8000, Red=522) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280230628061015, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=718 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280231627945459, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=525) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280232628033440, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=713 < 8000, Red=526) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280233627989471, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=719 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280234627951774, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=527) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280235628027419, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=715 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280236556163183, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C)"}
+{"t": 1794280236628014843, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280237555106871, "line": "[TX_GT] frame_id=57 tx_ms=572986 seq=9 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCE983 tx_us=572986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280237556010921, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":9,\"frame_hex\":\"0xA10001FCE983\",\"imu_valid\":1}"}
+{"t": 1794280237556233897, "line": "\\n[TX NEW PACKET] Seq=9 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280237627842357, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=524) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280238627848496, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=519) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280239627946738, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280240627849914, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=722 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280241627831626, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=519) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280242627827328, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280243627773782, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=515) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280244627845777, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=715 < 8000, Red=519) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280245627785211, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280246556405138, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C)"}
+{"t": 1794280246627719694, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=530) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280247555403094, "line": "[TX_GT] frame_id=58 tx_ms=582986 seq=10 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCEA8A tx_us=582986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280247556202192, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":10,\"frame_hex\":\"0xA10001FCEA8A\",\"imu_valid\":1}"}
+{"t": 1794280247560190107, "line": "\\n[TX NEW PACKET] Seq=10 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280247627739506, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=712 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280248627723066, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=541) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.1\u00b0C room)"}
+{"t": 1794280249627686957, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280250627663205, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=712 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.1\u00b0C room)"}
+{"t": 1794280251627585389, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=734 < 8000, Red=542) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280252627665867, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280253627627187, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=711 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.1\u00b0C room)"}
+{"t": 1794280254627443245, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=720 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280255627521457, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=529) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280256556600652, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C)"}
+{"t": 1794280256627578222, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=712 < 8000, Red=515) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280257555747721, "line": "[TX_GT] frame_id=59 tx_ms=592986 seq=11 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCEB8D tx_us=592986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280257556840407, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":11,\"frame_hex\":\"0xA10001FCEB8D\",\"imu_valid\":1}"}
+{"t": 1794280257557054541, "line": "\\n[TX NEW PACKET] Seq=11 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280257627439595, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280258627481830, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=525) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280259627450144, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=716 < 8000, Red=524) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280260627430832, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280261627333888, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=523) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280262627375540, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=711 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280263627267876, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280264627283005, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=722 < 8000, Red=512) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.5\u00b0C room)"}
+{"t": 1794280265627193034, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=519) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280266556917883, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=715 < 8000, Red=522) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.1\u00b0C)"}
+{"t": 1794280266627363786, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.1\u00b0C room)"}
+{"t": 1794280267556018980, "line": "[TX_GT] frame_id=60 tx_ms=602986 seq=12 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCEC98 tx_us=602986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280267556895215, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":12,\"frame_hex\":\"0xA10001FCEC98\",\"imu_valid\":1}"}
+{"t": 1794280267557115724, "line": "\\n[TX NEW PACKET] Seq=12 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280267627352098, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=712 < 8000, Red=525) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280268627293752, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=518) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.1\u00b0C room)"}
+{"t": 1794280269627261822, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280270627229853, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=533) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280271627213343, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=713 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280272627199913, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=540) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280273627229860, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=536) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.1\u00b0C room)"}
+{"t": 1794280274627185876, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=713 < 8000, Red=519) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.1\u00b0C room)"}
+{"t": 1794280275627134515, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=732 < 8000, Red=529) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280276557253054, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=719 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C)"}
+{"t": 1794280276627123309, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=729 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280277556301869, "line": "[TX_GT] frame_id=61 tx_ms=612986 seq=13 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCED9F tx_us=612986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280277557181430, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":13,\"frame_hex\":\"0xA10001FCED9F\",\"imu_valid\":1}"}
+{"t": 1794280277561162389, "line": "\\n[TX NEW PACKET] Seq=13 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280277627103249, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=712 < 8000, Red=519) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280278627062244, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=717 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280279627052900, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=732 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280280627031462, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=717 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.1\u00b0C room)"}
+{"t": 1794280281627039869, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=721 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.1\u00b0C room)"}
+{"t": 1794280282626998882, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=523) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280283626957070, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=711 < 8000, Red=518) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280284626925098, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=722 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280285627000043, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=720 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280286557608030, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=727 < 8000, Red=525) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C)"}
+{"t": 1794280286626972886, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280287556575203, "line": "[TX_GT] frame_id=62 tx_ms=622986 seq=14 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCEE96 tx_us=622986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280287557703737, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":14,\"frame_hex\":\"0xA10001FCEE96\",\"imu_valid\":1}"}
+{"t": 1794280287557921062, "line": "\\n[TX NEW PACKET] Seq=14 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280287626895643, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=725 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280288626896561, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=720 < 8000, Red=527) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280289626855341, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=713 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.1\u00b0C room)"}
+{"t": 1794280290626833565, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=730 < 8000, Red=531) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280291626880350, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=716 < 8000, Red=522) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280292627017361, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=724 < 8000, Red=532) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280293626637344, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=722 < 8000, Red=528) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280294626788816, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280295626787250, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=728 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280296557828587, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=720 < 8000, Red=516) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C)"}
+{"t": 1794280296626802331, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=720 < 8000, Red=521) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280297556861119, "line": "[TX_GT] frame_id=63 tx_ms=632986 seq=15 ppg_valid=0 temp_valid=0 frame_hex=0xA10001FCEF91 tx_us=632986007 payload_mode=sensor imu_valid=1"}
+{"t": 1794280297557818842, "line": "[TX_TELEMETRY] {\"patient\":1,\"hr\":0,\"spo2\":0,\"temp_c\":0.0,\"ppg_valid\":false,\"hr_valid\":false,\"spo2_valid\":false,\"temp_valid\":false,\"imu\":0,\"battery\":7,\"alert\":0,\"seq\":15,\"frame_hex\":\"0xA10001FCEF91\",\"imu_valid\":1}"}
+{"t": 1794280297558032281, "line": "\\n[TX NEW PACKET] Seq=15 | HR=0 bpm | SpO2=0% | Temp=INVALID\u00b0C | Alert=0"}
+{"t": 1794280297626807264, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=720 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280298626682105, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=723 < 8000, Red=523) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280299626718519, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=714 < 8000, Red=520) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.2\u00b0C room)"}
+{"t": 1794280300626736182, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=726 < 8000, Red=535) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.3\u00b0C room)"}
+{"t": 1794280301626597821, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=716 < 8000, Red=514) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}
+{"t": 1794280302626611070, "line": "[MAX30102] \u26a0\ufe0f NO FINGER (Raw IR=719 < 8000, Red=534) -> Lead Off: HR=0 bpm | SpO2=0% | Temp=INVALID (MLX=20.4\u00b0C room)"}

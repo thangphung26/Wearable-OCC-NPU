@@ -1,0 +1,35 @@
+{
+  "sanity_int8_frames": [
+    800,
+    800
+  ],
+  "sanity_classic_bits": [
+    38400,
+    38400
+  ],
+  "audit_windows": 47200,
+  "condition_points": 19,
+  "verified_source_hashes": 39,
+  "png_pdf_pairs": 7,
+  "tests_passed": 15,
+  "tests_failed": 0,
+  "pytest_available": false,
+  "old_stored_cpu_bit_disagreements": 1,
+  "loso_accesses": 0,
+  "commands": [
+    "robustness.py --sanity-only",
+    "robustness.py",
+    "plots.py repeat lodo",
+    "python -m pytest (unavailable)",
+    "unittest: test_precrc, test_manchester_phase, test_preamble_tracker"
+  ],
+  "changed": [
+    "retrain_sessions/robustness.py",
+    "retrain_sessions/plots.py",
+    "results/repeat/summary.json (added fields)",
+    "results/lodo/summary.json (added fields)",
+    "results/robustness/*",
+    "results/*_repeat.png/pdf",
+    "results/*_lodo.png/pdf"
+  ]
+}

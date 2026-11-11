@@ -1,0 +1,9 @@
+{
+  "seeds": 3,
+  "frames": 800,
+  "candidate_seed": 73,
+  "session_isolation": true,
+  "calibration_isolation": true,
+  "error_positions_and_aggregates": true,
+  "minimum_agreement": 0.9999739583333334
+}

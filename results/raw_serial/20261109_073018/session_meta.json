@@ -1,0 +1,34 @@
+{
+  "start_time": "2026-11-09T07:30:18.580610+00:00",
+  "start_time_ns": 1794209418580907096,
+  "ports": {
+    "RX": "/dev/ttyUSB0",
+    "TX": null
+  },
+  "baud": {
+    "RX": 115200,
+    "TX": 115200
+  },
+  "connections": [
+    {
+      "role": "RX",
+      "port": "/dev/ttyUSB0",
+      "baud": 115200,
+      "host_time_ns": 1794209422549428966
+    },
+    {
+      "role": "RX",
+      "port": "/dev/ttyUSB0",
+      "baud": 115200,
+      "host_time_ns": 1794209841364318441
+    }
+  ],
+  "source_sha256": {
+    "start_monitor.py": "1800b6075e2ff15565f48850bc38a621c2c66f3d8ee46dc6c80743be97e237e2",
+    "backend/patient_simulator.py": "b54f266e5e44e74e4a8d406c5581f9cdbd68f8770a2ac637df3d2374cb14e5b2",
+    "backend/raw_session_log.py": "e0044a7cae2fde606b3043d8a1d7f90746a37df092726e5a3e2c14b3c8634ce4",
+    "backend/serial_receiver.py": "f114b5a9629d5c17be446acb225a9094fbac723b58468802a836421646000f6e",
+    "backend/server.py": "6b1b3f64e8488d262a3c07d97a6423a3fc53cb6c3cf065f76e09eda77fb49005",
+    "backend/thresholds.py": "4bd3e078ee00e32c92e1b00b8186f175ee0c134aed783a0c947725ce84947d39"
+  }
+}

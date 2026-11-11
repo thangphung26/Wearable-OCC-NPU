@@ -1,0 +1,22 @@
+{
+  "split": "repeat",
+  "learning_rate": 0.0005,
+  "batch_size": 32,
+  "max_epochs": 300,
+  "smoke": false,
+  "early_stopping_patience": 25,
+  "restore_best_weights": true,
+  "loss": "binary_crossentropy",
+  "class_weighting": "inverse frequency, half-total per class (train_model_advanced.bit_sample_weights)",
+  "seeds": [
+    17,
+    42,
+    73
+  ],
+  "validation": "whole sessions: every tenth eligible session; excluded from fit and calibration",
+  "representative": "training frames only",
+  "tensorflow": "2.21.0",
+  "data_sha256": "38090225fa076ed6a9a5dba731ae6f5c8f627b804ec4aaa18897234b948da5f6",
+  "input_layout": "NHWC (48,1,4), int8 scale 1/255 zero point -128",
+  "decision": "p = (int8_output - model_output_zero_point) * model_output_scale; p >= 0.5"
+}

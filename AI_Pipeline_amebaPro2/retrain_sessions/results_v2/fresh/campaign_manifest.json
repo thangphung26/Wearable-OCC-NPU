@@ -1,0 +1,159 @@
+{
+ "version": 1,
+ "description": "Fresh campaign, all 24 primary sessions (seed 20261199)",
+ "conditions": [
+  {
+   "name": "7m_on",
+   "distance_m": 7,
+   "lighting": "on",
+   "sessions": [
+    {
+     "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_on_20261109_r2_100f_s01",
+     "repeat": 1
+    },
+    {
+     "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_on_20261109_r2_100f_s02",
+     "repeat": 2
+    },
+    {
+     "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_on_20261109_r2_100f_s03",
+     "repeat": 3
+    }
+   ]
+  },
+  {
+   "name": "7m_off",
+   "distance_m": 7,
+   "lighting": "off",
+   "sessions": [
+    {
+     "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_off_20261109_r2_100f_s01",
+     "repeat": 1
+    },
+    {
+     "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_off_20261109_r2_100f_s02",
+     "repeat": 2
+    },
+    {
+     "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_off_20261109_r2_100f_s03",
+     "repeat": 3
+    }
+   ]
+  },
+  {
+   "name": "5m_on",
+   "distance_m": 5,
+   "lighting": "on",
+   "sessions": [
+    {
+     "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_on_20261110_100f_s01",
+     "repeat": 1
+    },
+    {
+     "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_on_20261110_100f_s02",
+     "repeat": 2
+    },
+    {
+     "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_on_20261110_100f_s03",
+     "repeat": 3
+    }
+   ]
+  },
+  {
+   "name": "5m_off",
+   "distance_m": 5,
+   "lighting": "off",
+   "sessions": [
+    {
+     "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_off_20261110_100f_s01",
+     "repeat": 1
+    },
+    {
+     "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_off_20261110_100f_s02",
+     "repeat": 2
+    },
+    {
+     "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_off_20261110_100f_s03",
+     "repeat": 3
+    }
+   ]
+  },
+  {
+   "name": "3m_off",
+   "distance_m": 3,
+   "lighting": "off",
+   "sessions": [
+    {
+     "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_off_20261110_100f_s01",
+     "repeat": 1
+    },
+    {
+     "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_off_20261110_100f_s02",
+     "repeat": 2
+    },
+    {
+     "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_off_20261110_100f_s03",
+     "repeat": 3
+    }
+   ]
+  },
+  {
+   "name": "3m_on",
+   "distance_m": 3,
+   "lighting": "on",
+   "sessions": [
+    {
+     "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s01",
+     "repeat": 1
+    },
+    {
+     "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s02",
+     "repeat": 2
+    },
+    {
+     "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s03",
+     "repeat": 3
+    }
+   ]
+  },
+  {
+   "name": "1m_off",
+   "distance_m": 1,
+   "lighting": "off",
+   "sessions": [
+    {
+     "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_off_20261110_100f_s01",
+     "repeat": 1
+    },
+    {
+     "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_off_20261110_100f_s02",
+     "repeat": 2
+    },
+    {
+     "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_off_20261110_100f_s03",
+     "repeat": 3
+    }
+   ]
+  },
+  {
+   "name": "1m_on",
+   "distance_m": 1,
+   "lighting": "on",
+   "sessions": [
+    {
+     "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_on_20261110_100f_s01",
+     "repeat": 1
+    },
+    {
+     "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_on_20261110_100f_s02",
+     "repeat": 2
+    },
+    {
+     "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_on_20261110_100f_s03",
+     "repeat": 3
+    }
+   ]
+  }
+ ],
+ "excluded": []
+}

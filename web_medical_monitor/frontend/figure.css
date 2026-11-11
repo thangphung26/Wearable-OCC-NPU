@@ -1,0 +1,593 @@
+/* Publication Figure Styling for IEEE Sensors Journal */
+/* Refined, calm, precise, print-safe, tabular figures, system sans, no web fonts */
+
+:root {
+  --fig-bg: #ffffff;
+  --fig-surface: #ffffff;
+  --fig-border: #a8bac8;
+  --fig-border-subtle: #cfdee7;
+  --fig-text: #22313f;
+  --fig-text-secondary: #4c5c69;
+  --fig-muted: #4c5c69;
+
+  /* Vital sign palette from DESIGN.md */
+  --fig-accent: #245b73;
+  --fig-hr: #84344e;
+  --fig-spo2: #185f91;
+  --fig-temp: #805019;
+  --fig-imu: #4d527c;
+  --fig-battery: #176c63;
+
+  /* Status colors */
+  --fig-normal: #176c63;
+  --fig-alert: #a22521;
+
+  --fig-font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Print-safe reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  animation: none !important;
+  transition: none !important;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background: #f1f5f9;
+  font-family: var(--fig-font);
+  color: var(--fig-text);
+  font-size: 15px;
+  font-variant-numeric: tabular-nums;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ==========================================================================
+   DOUBLE-COLUMN CANVAS: 1074 × 760 CSS px
+   ========================================================================== */
+.figure-canvas {
+  width: 1074px;
+  height: 760px;
+  margin: 0 auto;
+  background: var(--fig-bg);
+  border: 1px solid var(--fig-border);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 8px 12px 8px 12px;
+}
+
+/* Top Header */
+.fig-header {
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--fig-border-subtle);
+  padding-bottom: 4px;
+  margin-bottom: 6px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.fig-header-left {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.fig-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--fig-text);
+  line-height: 1;
+}
+
+.fig-prototype-tag {
+  font-size: 15px;
+  font-style: italic;
+  color: var(--fig-muted);
+}
+
+.fig-header-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* Approved Chip Style */
+.fig-badge {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--fig-text);
+  background: transparent;
+  border: 1px solid var(--fig-border);
+  padding: 2px 8px;
+  border-radius: 3px;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  line-height: 1.2;
+}
+
+/* Main Layout Grid - Double Column */
+.fig-body {
+  height: 680px;
+  display: grid;
+  grid-template-columns: 440px 1fr;
+  grid-template-rows: 414px 256px;
+  gap: 10px 14px;
+  flex-shrink: 0;
+}
+
+/* Generic Panel Styling */
+.fig-panel {
+  background: var(--fig-surface);
+  border: 1px solid var(--fig-border);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  padding: 6px 10px;
+  overflow: hidden;
+}
+
+.panel-header {
+  height: 24px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--fig-border-subtle);
+  padding-bottom: 3px;
+  margin-bottom: 6px;
+  white-space: nowrap;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.panel-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--fig-text);
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  flex-shrink: 0;
+  line-height: 1.2;
+}
+
+.panel-letter {
+  font-weight: 800;
+  color: var(--fig-accent);
+}
+
+.panel-meta {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--fig-muted);
+  flex-shrink: 0;
+}
+
+/* ==========================================================================
+   Panel (a): Current Vitals List - Strict 3-Column Row Grid
+   ========================================================================== */
+.fig-panel-vitals {
+  grid-column: 1;
+  grid-row: 1;
+  height: 414px;
+}
+
+.vitals-table {
+  display: flex;
+  flex-direction: column;
+  height: 374px;
+  justify-content: space-between;
+}
+
+.vital-row {
+  height: 72px;
+  display: grid;
+  grid-template-columns: 160px 100px 1fr;
+  align-items: center;
+  padding: 3px 0;
+  border-bottom: 1px solid var(--fig-border-subtle);
+  background: transparent;
+}
+
+.vital-row:last-child {
+  border-bottom: none;
+}
+
+.vital-col-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  overflow: hidden;
+  min-width: 0;
+}
+
+.vital-label {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--fig-text);
+  white-space: nowrap;
+  line-height: 1.2;
+}
+
+.vital-hr .vital-label { color: var(--fig-hr); }
+.vital-spo2 .vital-label { color: var(--fig-spo2); }
+.vital-temp .vital-label { color: var(--fig-temp); }
+.vital-imu .vital-label { color: var(--fig-imu); }
+.vital-battery .vital-label { color: var(--fig-battery); }
+
+.vital-sub {
+  font-size: 15px;
+  color: var(--fig-muted);
+  white-space: nowrap;
+  line-height: 1.2;
+}
+
+.vital-col-val {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  overflow: hidden;
+  min-width: 0;
+}
+
+.vital-num {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--fig-text);
+  font-variant-numeric: tabular-nums;
+}
+
+.vital-unit {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--fig-text-secondary);
+}
+
+.vital-val-text {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--fig-text);
+  white-space: nowrap;
+}
+
+.vital-col-status {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: hidden;
+  min-width: 0;
+}
+
+/* Status symbol + text */
+.vital-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 15px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.status-normal {
+  color: var(--fig-normal);
+}
+
+.status-alert {
+  color: var(--fig-alert);
+  font-weight: 600;
+}
+
+.status-neutral {
+  color: var(--fig-muted);
+}
+
+/* ==========================================================================
+   Panel (c): Compact Two-Column Definition List (Balanced, No dead band > 24px)
+   ========================================================================== */
+.fig-panel-link {
+  grid-column: 1;
+  grid-row: 2;
+  height: 256px;
+}
+
+.metrics-dl-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 16px;
+  height: 216px;
+  align-content: space-between;
+}
+
+.metrics-dl-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.metric-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--fig-border-subtle);
+  font-size: 15px;
+  min-width: 0;
+}
+
+.metric-row:last-child {
+  border-bottom: none;
+}
+
+.metric-label {
+  color: var(--fig-muted);
+  font-weight: 500;
+  white-space: nowrap;
+  font-size: 15px;
+}
+
+.metric-value {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--fig-text);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.link-state-active {
+  color: var(--fig-normal);
+  font-weight: 700;
+}
+
+.link-state-stale {
+  color: var(--fig-alert);
+  font-weight: 700;
+}
+
+.link-state-waiting {
+  color: var(--fig-muted);
+  font-weight: 700;
+}
+
+/* ==========================================================================
+   Panel (b): Right Column Trends & Categorical Strips
+   ========================================================================== */
+.fig-panel-trends {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  height: 680px;
+}
+
+.trends-svg-container {
+  height: 640px;
+  width: 100%;
+  position: relative;
+}
+
+.trend-svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Bottom Footer */
+.fig-footer {
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--fig-border-subtle);
+  margin-top: 6px;
+  padding-top: 2px;
+  white-space: nowrap;
+  gap: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.fig-rates-line {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--fig-text);
+  flex-shrink: 0;
+}
+
+.rates-label {
+  font-weight: 700;
+  color: var(--fig-muted);
+}
+
+.rates-spec {
+  font-weight: 500;
+}
+
+/* ==========================================================================
+   SINGLE-COLUMN CANVAS: 516 × 860 CSS px
+   ========================================================================== */
+body.single-column .figure-canvas {
+  width: 516px;
+  height: 860px;
+  padding: 6px 8px 6px 8px;
+}
+
+body.single-column .fig-header {
+  height: 26px;
+  padding-bottom: 2px;
+  margin-bottom: 4px;
+}
+
+body.single-column .fig-header-left {
+  gap: 8px;
+}
+
+body.single-column .fig-title {
+  font-size: 15px;
+}
+
+body.single-column .fig-prototype-tag {
+  display: none;
+}
+
+body.single-column .fig-badge {
+  font-size: 15px;
+  font-weight: 700;
+  padding: 2px 7px;
+}
+
+body.single-column .fig-body {
+  height: 768px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+body.single-column .fig-panel {
+  padding: 4px 8px;
+}
+
+body.single-column .panel-header {
+  height: 22px;
+  padding-bottom: 2px;
+  margin-bottom: 2px;
+  gap: 6px;
+}
+
+body.single-column .panel-title {
+  font-size: 15px;
+  display: flex;
+}
+
+body.single-column .panel-meta {
+  font-size: 15px;
+}
+
+/* Panel (a) in single column */
+body.single-column .fig-panel-vitals {
+  order: 1;
+  height: 192px;
+  grid-column: auto;
+  grid-row: auto;
+}
+
+body.single-column .vitals-table {
+  height: 160px;
+}
+
+body.single-column .vital-row {
+  height: 31px;
+  padding: 0;
+  grid-template-columns: 145px 105px 1fr;
+}
+
+body.single-column .vital-col-info {
+  gap: 0;
+}
+
+body.single-column .vital-label {
+  font-size: 15px;
+  line-height: 1.05;
+}
+
+body.single-column .vital-sub {
+  font-size: 15px;
+  line-height: 1.05;
+}
+
+body.single-column .vital-num {
+  font-size: 19px;
+}
+
+body.single-column .vital-unit {
+  font-size: 15px;
+}
+
+body.single-column .vital-val-text {
+  font-size: 15px;
+}
+
+body.single-column .vital-status {
+  font-size: 15px;
+}
+
+/* Panel (b) Trends in single column */
+body.single-column .fig-panel-trends {
+  order: 2;
+  height: 440px;
+  grid-column: auto;
+  grid-row: auto;
+}
+
+body.single-column .trends-svg-container {
+  height: 408px;
+}
+
+/* Panel (c) Link in single column */
+body.single-column .fig-panel-link {
+  order: 3;
+  height: 124px;
+  grid-column: auto;
+  grid-row: auto;
+}
+
+body.single-column .metrics-dl-grid {
+  height: 92px;
+  padding-top: 2px;
+  gap: 0 12px;
+}
+
+body.single-column .metric-row {
+  padding: 2px 0;
+  font-size: 15px;
+}
+
+body.single-column .metric-label {
+  font-size: 15px;
+}
+
+body.single-column .metric-value {
+  font-size: 15px;
+}
+
+/* Footer in single column */
+body.single-column .fig-footer {
+  height: 46px;
+  margin-top: 4px;
+  padding-top: 2px;
+  white-space: normal;
+  display: block;
+}
+
+body.single-column .fig-rates-line {
+  display: block;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+body.single-column .rates-label {
+  display: inline;
+  font-weight: 700;
+  margin-right: 4px;
+}
+
+body.single-column .rates-spec {
+  display: inline;
+  font-weight: 500;
+  white-space: pre-line;
+}

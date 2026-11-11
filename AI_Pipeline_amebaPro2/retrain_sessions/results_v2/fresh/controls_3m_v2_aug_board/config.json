@@ -1,0 +1,28 @@
+{
+  "model_sha256": "ef9076f8f5c08cf17ded2e5b5374f92d40b814ab0ad084462a7fe1eaa9e373ca",
+  "sessions": [
+    "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s01",
+    "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s02",
+    "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s03",
+    "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s01",
+    "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s02",
+    "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s03",
+    "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s01",
+    "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s04",
+    "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s03"
+  ],
+  "windows": 900,
+  "scoring_rule": "All listed non-excluded windows, no CRC/error/weak-fit filtering. TX frame_hex is 48 bits MSB first. Reuse eval_controls/export_dataset bits_hex, replay_input, decision_bytes and train_eval.tflite_predict/ci/metric. Classic bits used directly; no preamble polarity flip or truth-selected inversion. Host probabilities use model output scale/zero-point and >=0.5; AUG INT8 >=0 maps to 1 (scale 1/256, zero -128). Exact two-sided 95% Clopper-Pearson; pooled bits/windows may be correlated. Capture CPU/NPU values are ORIGINAL CNN and never used as AUG. 30 FPS acquisition, 20 Hz resampling, 5 bit/s link.",
+  "retries": 0,
+  "input_sha256": {
+    "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s01": "9f7f8c648eebec277c2b8dd1867af4d10d124a4a0725095c85b4ec66c4157f43",
+    "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s02": "86fab1b787834e65483d23c096f8a66daf7db82bb5c083971847fd5d7a61d8f1",
+    "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s03": "e1f8d3f0abcd98f1008c6229770019bdf0ee39559713a0d996eb8e1b65da09c2",
+    "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s01": "a400a98025bc2a2883f7b5436343c7ee6b00d6426bcdc502b95b741574327fb6",
+    "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s02": "8b5969f6086b06f5161090c6aae5bf3c160738cfb48bd9b01fdfd94229f856f5",
+    "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s03": "46caf39bdf3cd502b71bb761a542c70b6e31605758db283cf327c2f12989f0ac",
+    "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s01": "1a86bc477c1cade760e1af593f325b1aab5319c6e5c324cd364c2d1b61601726",
+    "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s04": "5938280446294ee5322d9adabca3d43a7a59aa4992a315514e9939153970cb8d",
+    "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s03": "a7c5855589e1fbff0e4181b9979e53e48b576223b74ef7082269e240e0cbce27"
+  }
+}

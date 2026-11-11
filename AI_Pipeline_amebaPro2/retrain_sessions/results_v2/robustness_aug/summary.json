@@ -1,0 +1,4723 @@
+{
+  "sanity": {
+    "frames": 800,
+    "matching_int8_frames": 800,
+    "int8_frame_match_rate": 1.0,
+    "bits": 38400,
+    "matching_classic_bits": 38400,
+    "classic_bit_match_rate": 1.0,
+    "passed": true
+  },
+  "conditions": [
+    {
+      "perturbation": "timing_offset",
+      "point": -40,
+      "realizations": 1,
+      "all_sessions": {
+        "classic": {
+          "errors": 153,
+          "n_bits": 38400,
+          "ber": 0.003984375,
+          "ber_95cp": [
+            0.0033790327407936934,
+            0.0046665119006950185
+          ],
+          "exact_windows": 739,
+          "n_windows": 800
+        },
+        "old_int8": {
+          "errors": 974,
+          "n_bits": 38400,
+          "ber": 0.025364583333333333,
+          "ber_95cp": [
+            0.0238149383159038,
+            0.026986557212702655
+          ],
+          "exact_windows": 280,
+          "n_windows": 800
+        },
+        "new_int8": {
+          "errors": 3604,
+          "n_bits": 38400,
+          "ber": 0.09385416666666667,
+          "ber_95cp": [
+            0.09095512404176377,
+            0.09681479334079462
+          ],
+          "exact_windows": 75,
+          "n_windows": 800
+        },
+        "new_aug_int8": {
+          "errors": 5,
+          "n_bits": 38400,
+          "ber": 0.00013020833333333333,
+          "ber_95cp": [
+            4.227959974733612e-05,
+            0.00030383643175017856
+          ],
+          "exact_windows": 798,
+          "n_windows": 800
+        }
+      },
+      "1_5m": {
+        "classic": {
+          "errors": 153,
+          "n_bits": 28800,
+          "ber": 0.0053125,
+          "ber_95cp": [
+            0.004505813829547898,
+            0.00622130535704444
+          ],
+          "exact_windows": 539,
+          "n_windows": 600
+        },
+        "old_int8": {
+          "errors": 732,
+          "n_bits": 28800,
+          "ber": 0.025416666666666667,
+          "ber_95cp": [
+            0.023629610893541052,
+            0.02730030842881789
+          ],
+          "exact_windows": 210,
+          "n_windows": 600
+        },
+        "new_int8": {
+          "errors": 2706,
+          "n_bits": 28800,
+          "ber": 0.09395833333333334,
+          "ber_95cp": [
+            0.09061233236952278,
+            0.09738649840242158
+          ],
+          "exact_windows": 59,
+          "n_windows": 600
+        },
+        "new_aug_int8": {
+          "errors": 5,
+          "n_bits": 28800,
+          "ber": 0.00017361111111111112,
+          "ber_95cp": [
+            5.637338118852413e-05,
+            0.0004051035170846937
+          ],
+          "exact_windows": 598,
+          "n_windows": 600
+        }
+      },
+      "per_realization": [
+        {
+          "classic": {
+            "errors": 153,
+            "n_bits": 38400,
+            "ber": 0.003984375,
+            "ber_95cp": [
+              0.0033790327407936934,
+              0.0046665119006950185
+            ],
+            "exact_windows": 739,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 974,
+            "n_bits": 38400,
+            "ber": 0.025364583333333333,
+            "ber_95cp": [
+              0.0238149383159038,
+              0.026986557212702655
+            ],
+            "exact_windows": 280,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 3604,
+            "n_bits": 38400,
+            "ber": 0.09385416666666667,
+            "ber_95cp": [
+              0.09095512404176377,
+              0.09681479334079462
+            ],
+            "exact_windows": 75,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 5,
+            "n_bits": 38400,
+            "ber": 0.00013020833333333333,
+            "ber_95cp": [
+              4.227959974733612e-05,
+              0.00030383643175017856
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        }
+      ],
+      "mean_errors_per_realization": {
+        "classic": 153.0,
+        "old_int8": 974.0,
+        "new_int8": 3604.0,
+        "new_aug_int8": 5.0
+      }
+    },
+    {
+      "perturbation": "timing_offset",
+      "point": -30,
+      "realizations": 1,
+      "all_sessions": {
+        "classic": {
+          "errors": 22,
+          "n_bits": 38400,
+          "ber": 0.0005729166666666667,
+          "ber_95cp": [
+            0.00035907755175901366,
+            0.0008672749947337457
+          ],
+          "exact_windows": 788,
+          "n_windows": 800
+        },
+        "old_int8": {
+          "errors": 40,
+          "n_bits": 38400,
+          "ber": 0.0010416666666666667,
+          "ber_95cp": [
+            0.0007442829765435043,
+            0.0014181870871151012
+          ],
+          "exact_windows": 768,
+          "n_windows": 800
+        },
+        "new_int8": {
+          "errors": 47,
+          "n_bits": 38400,
+          "ber": 0.0012239583333333334,
+          "ber_95cp": [
+            0.0008994528693786039,
+            0.0016272765722252205
+          ],
+          "exact_windows": 768,
+          "n_windows": 800
+        },
+        "new_aug_int8": {
+          "errors": 6,
+          "n_bits": 38400,
+          "ber": 0.00015625,
+          "ber_95cp": [
+            5.734308546247142e-05,
+            0.00034005920895049805
+          ],
+          "exact_windows": 798,
+          "n_windows": 800
+        }
+      },
+      "1_5m": {
+        "classic": {
+          "errors": 22,
+          "n_bits": 28800,
+          "ber": 0.0007638888888888889,
+          "ber_95cp": [
+            0.00047878506301110476,
+            0.0011563098907891498
+          ],
+          "exact_windows": 588,
+          "n_windows": 600
+        },
+        "old_int8": {
+          "errors": 36,
+          "n_bits": 28800,
+          "ber": 0.00125,
+          "ber_95cp": [
+            0.0008756334395425867,
+            0.0017301110525115519
+          ],
+          "exact_windows": 572,
+          "n_windows": 600
+        },
+        "new_int8": {
+          "errors": 42,
+          "n_bits": 28800,
+          "ber": 0.0014583333333333334,
+          "ber_95cp": [
+            0.0010512342860070423,
+            0.0019707373886897104
+          ],
+          "exact_windows": 572,
+          "n_windows": 600
+        },
+        "new_aug_int8": {
+          "errors": 6,
+          "n_bits": 28800,
+          "ber": 0.00020833333333333335,
+          "ber_95cp": [
+            7.645837593119928e-05,
+            0.0004533983855756674
+          ],
+          "exact_windows": 598,
+          "n_windows": 600
+        }
+      },
+      "per_realization": [
+        {
+          "classic": {
+            "errors": 22,
+            "n_bits": 38400,
+            "ber": 0.0005729166666666667,
+            "ber_95cp": [
+              0.00035907755175901366,
+              0.0008672749947337457
+            ],
+            "exact_windows": 788,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 40,
+            "n_bits": 38400,
+            "ber": 0.0010416666666666667,
+            "ber_95cp": [
+              0.0007442829765435043,
+              0.0014181870871151012
+            ],
+            "exact_windows": 768,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 47,
+            "n_bits": 38400,
+            "ber": 0.0012239583333333334,
+            "ber_95cp": [
+              0.0008994528693786039,
+              0.0016272765722252205
+            ],
+            "exact_windows": 768,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        }
+      ],
+      "mean_errors_per_realization": {
+        "classic": 22.0,
+        "old_int8": 40.0,
+        "new_int8": 47.0,
+        "new_aug_int8": 6.0
+      }
+    },
+    {
+      "perturbation": "timing_offset",
+      "point": -20,
+      "realizations": 1,
+      "all_sessions": {
+        "classic": {
+          "errors": 6,
+          "n_bits": 38400,
+          "ber": 0.00015625,
+          "ber_95cp": [
+            5.734308546247142e-05,
+            0.00034005920895049805
+          ],
+          "exact_windows": 798,
+          "n_windows": 800
+        },
+        "old_int8": {
+          "errors": 10,
+          "n_bits": 38400,
+          "ber": 0.00026041666666666666,
+          "ber_95cp": [
+            0.00012488675154399088,
+            0.00047886320135574707
+          ],
+          "exact_windows": 795,
+          "n_windows": 800
+        },
+        "new_int8": {
+          "errors": 10,
+          "n_bits": 38400,
+          "ber": 0.00026041666666666666,
+          "ber_95cp": [
+            0.00012488675154399088,
+            0.00047886320135574707
+          ],
+          "exact_windows": 794,
+          "n_windows": 800
+        },
+        "new_aug_int8": {
+          "errors": 6,
+          "n_bits": 38400,
+          "ber": 0.00015625,
+          "ber_95cp": [
+            5.734308546247142e-05,
+            0.00034005920895049805
+          ],
+          "exact_windows": 798,
+          "n_windows": 800
+        }
+      },
+      "1_5m": {
+        "classic": {
+          "errors": 6,
+          "n_bits": 28800,
+          "ber": 0.00020833333333333335,
+          "ber_95cp": [
+            7.645837593119928e-05,
+            0.0004533983855756674
+          ],
+          "exact_windows": 598,
+          "n_windows": 600
+        },
+        "old_int8": {
+          "errors": 10,
+          "n_bits": 28800,
+          "ber": 0.00034722222222222224,
+          "ber_95cp": [
+            0.0001665187080737854,
+            0.0006384610152866352
+          ],
+          "exact_windows": 595,
+          "n_windows": 600
+        },
+        "new_int8": {
+          "errors": 10,
+          "n_bits": 28800,
+          "ber": 0.00034722222222222224,
+          "ber_95cp": [
+            0.0001665187080737854,
+            0.0006384610152866352
+          ],
+          "exact_windows": 594,
+          "n_windows": 600
+        },
+        "new_aug_int8": {
+          "errors": 6,
+          "n_bits": 28800,
+          "ber": 0.00020833333333333335,
+          "ber_95cp": [
+            7.645837593119928e-05,
+            0.0004533983855756674
+          ],
+          "exact_windows": 598,
+          "n_windows": 600
+        }
+      },
+      "per_realization": [
+        {
+          "classic": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 10,
+            "n_bits": 38400,
+            "ber": 0.00026041666666666666,
+            "ber_95cp": [
+              0.00012488675154399088,
+              0.00047886320135574707
+            ],
+            "exact_windows": 795,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 10,
+            "n_bits": 38400,
+            "ber": 0.00026041666666666666,
+            "ber_95cp": [
+              0.00012488675154399088,
+              0.00047886320135574707
+            ],
+            "exact_windows": 794,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        }
+      ],
+      "mean_errors_per_realization": {
+        "classic": 6.0,
+        "old_int8": 10.0,
+        "new_int8": 10.0,
+        "new_aug_int8": 6.0
+      }
+    },
+    {
+      "perturbation": "timing_offset",
+      "point": -10,
+      "realizations": 1,
+      "all_sessions": {
+        "classic": {
+          "errors": 6,
+          "n_bits": 38400,
+          "ber": 0.00015625,
+          "ber_95cp": [
+            5.734308546247142e-05,
+            0.00034005920895049805
+          ],
+          "exact_windows": 798,
+          "n_windows": 800
+        },
+        "old_int8": {
+          "errors": 8,
+          "n_bits": 38400,
+          "ber": 0.00020833333333333335,
+          "ber_95cp": [
+            8.99476996809414e-05,
+            0.00041045822547412233
+          ],
+          "exact_windows": 796,
+          "n_windows": 800
+        },
+        "new_int8": {
+          "errors": 6,
+          "n_bits": 38400,
+          "ber": 0.00015625,
+          "ber_95cp": [
+            5.734308546247142e-05,
+            0.00034005920895049805
+          ],
+          "exact_windows": 798,
+          "n_windows": 800
+        },
+        "new_aug_int8": {
+          "errors": 6,
+          "n_bits": 38400,
+          "ber": 0.00015625,
+          "ber_95cp": [
+            5.734308546247142e-05,
+            0.00034005920895049805
+          ],
+          "exact_windows": 798,
+          "n_windows": 800
+        }
+      },
+      "1_5m": {
+        "classic": {
+          "errors": 6,
+          "n_bits": 28800,
+          "ber": 0.00020833333333333335,
+          "ber_95cp": [
+            7.645837593119928e-05,
+            0.0004533983855756674
+          ],
+          "exact_windows": 598,
+          "n_windows": 600
+        },
+        "old_int8": {
+          "errors": 8,
+          "n_bits": 28800,
+          "ber": 0.0002777777777777778,
+          "ber_95cp": [
+            0.00011993211241095437,
+            0.0005472591927620353
+          ],
+          "exact_windows": 596,
+          "n_windows": 600
+        },
+        "new_int8": {
+          "errors": 6,
+          "n_bits": 28800,
+          "ber": 0.00020833333333333335,
+          "ber_95cp": [
+            7.645837593119928e-05,
+            0.0004533983855756674
+          ],
+          "exact_windows": 598,
+          "n_windows": 600
+        },
+        "new_aug_int8": {
+          "errors": 6,
+          "n_bits": 28800,
+          "ber": 0.00020833333333333335,
+          "ber_95cp": [
+            7.645837593119928e-05,
+            0.0004533983855756674
+          ],
+          "exact_windows": 598,
+          "n_windows": 600
+        }
+      },
+      "per_realization": [
+        {
+          "classic": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 8,
+            "n_bits": 38400,
+            "ber": 0.00020833333333333335,
+            "ber_95cp": [
+              8.99476996809414e-05,
+              0.00041045822547412233
+            ],
+            "exact_windows": 796,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        }
+      ],
+      "mean_errors_per_realization": {
+        "classic": 6.0,
+        "old_int8": 8.0,
+        "new_int8": 6.0,
+        "new_aug_int8": 6.0
+      }
+    },
+    {
+      "perturbation": "timing_offset",
+      "point": 0,
+      "realizations": 1,
+      "all_sessions": {
+        "classic": {
+          "errors": 6,
+          "n_bits": 38400,
+          "ber": 0.00015625,
+          "ber_95cp": [
+            5.734308546247142e-05,
+            0.00034005920895049805
+          ],
+          "exact_windows": 798,
+          "n_windows": 800
+        },
+        "old_int8": {
+          "errors": 12,
+          "n_bits": 38400,
+          "ber": 0.0003125,
+          "ber_95cp": [
+            0.00016148340223932182,
+            0.0005458109143408875
+          ],
+          "exact_windows": 793,
+          "n_windows": 800
+        },
+        "new_int8": {
+          "errors": 6,
+          "n_bits": 38400,
+          "ber": 0.00015625,
+          "ber_95cp": [
+            5.734308546247142e-05,
+            0.00034005920895049805
+          ],
+          "exact_windows": 798,
+          "n_windows": 800
+        },
+        "new_aug_int8": {
+          "errors": 6,
+          "n_bits": 38400,
+          "ber": 0.00015625,
+          "ber_95cp": [
+            5.734308546247142e-05,
+            0.00034005920895049805
+          ],
+          "exact_windows": 798,
+          "n_windows": 800
+        }
+      },
+      "1_5m": {
+        "classic": {
+          "errors": 6,
+          "n_bits": 28800,
+          "ber": 0.00020833333333333335,
+          "ber_95cp": [
+            7.645837593119928e-05,
+            0.0004533983855756674
+          ],
+          "exact_windows": 598,
+          "n_windows": 600
+        },
+        "old_int8": {
+          "errors": 12,
+          "n_bits": 28800,
+          "ber": 0.0004166666666666667,
+          "ber_95cp": [
+            0.0002153156891079392,
+            0.0007277195765325402
+          ],
+          "exact_windows": 593,
+          "n_windows": 600
+        },
+        "new_int8": {
+          "errors": 6,
+          "n_bits": 28800,
+          "ber": 0.00020833333333333335,
+          "ber_95cp": [
+            7.645837593119928e-05,
+            0.0004533983855756674
+          ],
+          "exact_windows": 598,
+          "n_windows": 600
+        },
+        "new_aug_int8": {
+          "errors": 6,
+          "n_bits": 28800,
+          "ber": 0.00020833333333333335,
+          "ber_95cp": [
+            7.645837593119928e-05,
+            0.0004533983855756674
+          ],
+          "exact_windows": 598,
+          "n_windows": 600
+        }
+      },
+      "per_realization": [
+        {
+          "classic": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 12,
+            "n_bits": 38400,
+            "ber": 0.0003125,
+            "ber_95cp": [
+              0.00016148340223932182,
+              0.0005458109143408875
+            ],
+            "exact_windows": 793,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        }
+      ],
+      "mean_errors_per_realization": {
+        "classic": 6.0,
+        "old_int8": 12.0,
+        "new_int8": 6.0,
+        "new_aug_int8": 6.0
+      }
+    },
+    {
+      "perturbation": "timing_offset",
+      "point": 10,
+      "realizations": 1,
+      "all_sessions": {
+        "classic": {
+          "errors": 6,
+          "n_bits": 38400,
+          "ber": 0.00015625,
+          "ber_95cp": [
+            5.734308546247142e-05,
+            0.00034005920895049805
+          ],
+          "exact_windows": 798,
+          "n_windows": 800
+        },
+        "old_int8": {
+          "errors": 116,
+          "n_bits": 38400,
+          "ber": 0.0030208333333333333,
+          "ber_95cp": [
+            0.0024967959395684842,
+            0.0036221100018563037
+          ],
+          "exact_windows": 716,
+          "n_windows": 800
+        },
+        "new_int8": {
+          "errors": 6,
+          "n_bits": 38400,
+          "ber": 0.00015625,
+          "ber_95cp": [
+            5.734308546247142e-05,
+            0.00034005920895049805
+          ],
+          "exact_windows": 798,
+          "n_windows": 800
+        },
+        "new_aug_int8": {
+          "errors": 6,
+          "n_bits": 38400,
+          "ber": 0.00015625,
+          "ber_95cp": [
+            5.734308546247142e-05,
+            0.00034005920895049805
+          ],
+          "exact_windows": 798,
+          "n_windows": 800
+        }
+      },
+      "1_5m": {
+        "classic": {
+          "errors": 6,
+          "n_bits": 28800,
+          "ber": 0.00020833333333333335,
+          "ber_95cp": [
+            7.645837593119928e-05,
+            0.0004533983855756674
+          ],
+          "exact_windows": 598,
+          "n_windows": 600
+        },
+        "old_int8": {
+          "errors": 93,
+          "n_bits": 28800,
+          "ber": 0.0032291666666666666,
+          "ber_95cp": [
+            0.002607121434566081,
+            0.003954508997618269
+          ],
+          "exact_windows": 535,
+          "n_windows": 600
+        },
+        "new_int8": {
+          "errors": 6,
+          "n_bits": 28800,
+          "ber": 0.00020833333333333335,
+          "ber_95cp": [
+            7.645837593119928e-05,
+            0.0004533983855756674
+          ],
+          "exact_windows": 598,
+          "n_windows": 600
+        },
+        "new_aug_int8": {
+          "errors": 6,
+          "n_bits": 28800,
+          "ber": 0.00020833333333333335,
+          "ber_95cp": [
+            7.645837593119928e-05,
+            0.0004533983855756674
+          ],
+          "exact_windows": 598,
+          "n_windows": 600
+        }
+      },
+      "per_realization": [
+        {
+          "classic": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 116,
+            "n_bits": 38400,
+            "ber": 0.0030208333333333333,
+            "ber_95cp": [
+              0.0024967959395684842,
+              0.0036221100018563037
+            ],
+            "exact_windows": 716,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        }
+      ],
+      "mean_errors_per_realization": {
+        "classic": 6.0,
+        "old_int8": 116.0,
+        "new_int8": 6.0,
+        "new_aug_int8": 6.0
+      }
+    },
+    {
+      "perturbation": "timing_offset",
+      "point": 20,
+      "realizations": 1,
+      "all_sessions": {
+        "classic": {
+          "errors": 6,
+          "n_bits": 38400,
+          "ber": 0.00015625,
+          "ber_95cp": [
+            5.734308546247142e-05,
+            0.00034005920895049805
+          ],
+          "exact_windows": 798,
+          "n_windows": 800
+        },
+        "old_int8": {
+          "errors": 915,
+          "n_bits": 38400,
+          "ber": 0.023828125,
+          "ber_95cp": [
+            0.022325771581088814,
+            0.025403065575586734
+          ],
+          "exact_windows": 266,
+          "n_windows": 800
+        },
+        "new_int8": {
+          "errors": 10,
+          "n_bits": 38400,
+          "ber": 0.00026041666666666666,
+          "ber_95cp": [
+            0.00012488675154399088,
+            0.00047886320135574707
+          ],
+          "exact_windows": 795,
+          "n_windows": 800
+        },
+        "new_aug_int8": {
+          "errors": 6,
+          "n_bits": 38400,
+          "ber": 0.00015625,
+          "ber_95cp": [
+            5.734308546247142e-05,
+            0.00034005920895049805
+          ],
+          "exact_windows": 798,
+          "n_windows": 800
+        }
+      },
+      "1_5m": {
+        "classic": {
+          "errors": 6,
+          "n_bits": 28800,
+          "ber": 0.00020833333333333335,
+          "ber_95cp": [
+            7.645837593119928e-05,
+            0.0004533983855756674
+          ],
+          "exact_windows": 598,
+          "n_windows": 600
+        },
+        "old_int8": {
+          "errors": 680,
+          "n_bits": 28800,
+          "ber": 0.02361111111111111,
+          "ber_95cp": [
+            0.021888371770345073,
+            0.025430847789175905
+          ],
+          "exact_windows": 207,
+          "n_windows": 600
+        },
+        "new_int8": {
+          "errors": 10,
+          "n_bits": 28800,
+          "ber": 0.00034722222222222224,
+          "ber_95cp": [
+            0.0001665187080737854,
+            0.0006384610152866352
+          ],
+          "exact_windows": 595,
+          "n_windows": 600
+        },
+        "new_aug_int8": {
+          "errors": 6,
+          "n_bits": 28800,
+          "ber": 0.00020833333333333335,
+          "ber_95cp": [
+            7.645837593119928e-05,
+            0.0004533983855756674
+          ],
+          "exact_windows": 598,
+          "n_windows": 600
+        }
+      },
+      "per_realization": [
+        {
+          "classic": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 915,
+            "n_bits": 38400,
+            "ber": 0.023828125,
+            "ber_95cp": [
+              0.022325771581088814,
+              0.025403065575586734
+            ],
+            "exact_windows": 266,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 10,
+            "n_bits": 38400,
+            "ber": 0.00026041666666666666,
+            "ber_95cp": [
+              0.00012488675154399088,
+              0.00047886320135574707
+            ],
+            "exact_windows": 795,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        }
+      ],
+      "mean_errors_per_realization": {
+        "classic": 6.0,
+        "old_int8": 915.0,
+        "new_int8": 10.0,
+        "new_aug_int8": 6.0
+      }
+    },
+    {
+      "perturbation": "timing_offset",
+      "point": 30,
+      "realizations": 1,
+      "all_sessions": {
+        "classic": {
+          "errors": 7,
+          "n_bits": 38400,
+          "ber": 0.00018229166666666667,
+          "ber_95cp": [
+            7.329374476696261e-05,
+            0.00037555420444021866
+          ],
+          "exact_windows": 797,
+          "n_windows": 800
+        },
+        "old_int8": {
+          "errors": 3522,
+          "n_bits": 38400,
+          "ber": 0.09171875,
+          "ber_95cp": [
+            0.08884984594673367,
+            0.09464956566398795
+          ],
+          "exact_windows": 3,
+          "n_windows": 800
+        },
+        "new_int8": {
+          "errors": 468,
+          "n_bits": 38400,
+          "ber": 0.0121875,
+          "ber_95cp": [
+            0.011114058991466887,
+            0.013335623674876099
+          ],
+          "exact_windows": 493,
+          "n_windows": 800
+        },
+        "new_aug_int8": {
+          "errors": 6,
+          "n_bits": 38400,
+          "ber": 0.00015625,
+          "ber_95cp": [
+            5.734308546247142e-05,
+            0.00034005920895049805
+          ],
+          "exact_windows": 798,
+          "n_windows": 800
+        }
+      },
+      "1_5m": {
+        "classic": {
+          "errors": 7,
+          "n_bits": 28800,
+          "ber": 0.00024305555555555555,
+          "ber_95cp": [
+            9.77263444021409e-05,
+            0.0005007228065158319
+          ],
+          "exact_windows": 597,
+          "n_windows": 600
+        },
+        "old_int8": {
+          "errors": 2621,
+          "n_bits": 28800,
+          "ber": 0.09100694444444445,
+          "ber_95cp": [
+            0.08770918925952016,
+            0.09438746902583567
+          ],
+          "exact_windows": 3,
+          "n_windows": 600
+        },
+        "new_int8": {
+          "errors": 361,
+          "n_bits": 28800,
+          "ber": 0.012534722222222221,
+          "ber_95cp": [
+            0.011281816691477818,
+            0.013887343441440466
+          ],
+          "exact_windows": 369,
+          "n_windows": 600
+        },
+        "new_aug_int8": {
+          "errors": 6,
+          "n_bits": 28800,
+          "ber": 0.00020833333333333335,
+          "ber_95cp": [
+            7.645837593119928e-05,
+            0.0004533983855756674
+          ],
+          "exact_windows": 598,
+          "n_windows": 600
+        }
+      },
+      "per_realization": [
+        {
+          "classic": {
+            "errors": 7,
+            "n_bits": 38400,
+            "ber": 0.00018229166666666667,
+            "ber_95cp": [
+              7.329374476696261e-05,
+              0.00037555420444021866
+            ],
+            "exact_windows": 797,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 3522,
+            "n_bits": 38400,
+            "ber": 0.09171875,
+            "ber_95cp": [
+              0.08884984594673367,
+              0.09464956566398795
+            ],
+            "exact_windows": 3,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 468,
+            "n_bits": 38400,
+            "ber": 0.0121875,
+            "ber_95cp": [
+              0.011114058991466887,
+              0.013335623674876099
+            ],
+            "exact_windows": 493,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        }
+      ],
+      "mean_errors_per_realization": {
+        "classic": 7.0,
+        "old_int8": 3522.0,
+        "new_int8": 468.0,
+        "new_aug_int8": 6.0
+      }
+    },
+    {
+      "perturbation": "timing_offset",
+      "point": 40,
+      "realizations": 1,
+      "all_sessions": {
+        "classic": {
+          "errors": 88,
+          "n_bits": 38400,
+          "ber": 0.0022916666666666667,
+          "ber_95cp": [
+            0.0018383769658100139,
+            0.0028226465012386776
+          ],
+          "exact_windows": 779,
+          "n_windows": 800
+        },
+        "old_int8": {
+          "errors": 7121,
+          "n_bits": 38400,
+          "ber": 0.18544270833333334,
+          "ber_95cp": [
+            0.1815662802112083,
+            0.18936676306845773
+          ],
+          "exact_windows": 0,
+          "n_windows": 800
+        },
+        "new_int8": {
+          "errors": 4933,
+          "n_bits": 38400,
+          "ber": 0.12846354166666665,
+          "ber_95cp": [
+            0.12513201663257356,
+            0.13185136049460894
+          ],
+          "exact_windows": 1,
+          "n_windows": 800
+        },
+        "new_aug_int8": {
+          "errors": 7,
+          "n_bits": 38400,
+          "ber": 0.00018229166666666667,
+          "ber_95cp": [
+            7.329374476696261e-05,
+            0.00037555420444021866
+          ],
+          "exact_windows": 798,
+          "n_windows": 800
+        }
+      },
+      "1_5m": {
+        "classic": {
+          "errors": 88,
+          "n_bits": 28800,
+          "ber": 0.0030555555555555557,
+          "ber_95cp": [
+            0.0024513442528408735,
+            0.003763194754837909
+          ],
+          "exact_windows": 579,
+          "n_windows": 600
+        },
+        "old_int8": {
+          "errors": 5315,
+          "n_bits": 28800,
+          "ber": 0.18454861111111112,
+          "ber_95cp": [
+            0.18008294466945243,
+            0.1890780034451302
+          ],
+          "exact_windows": 0,
+          "n_windows": 600
+        },
+        "new_int8": {
+          "errors": 3690,
+          "n_bits": 28800,
+          "ber": 0.128125,
+          "ber_95cp": [
+            0.12428521167661959,
+            0.1320399741000042
+          ],
+          "exact_windows": 1,
+          "n_windows": 600
+        },
+        "new_aug_int8": {
+          "errors": 7,
+          "n_bits": 28800,
+          "ber": 0.00024305555555555555,
+          "ber_95cp": [
+            9.77263444021409e-05,
+            0.0005007228065158319
+          ],
+          "exact_windows": 598,
+          "n_windows": 600
+        }
+      },
+      "per_realization": [
+        {
+          "classic": {
+            "errors": 88,
+            "n_bits": 38400,
+            "ber": 0.0022916666666666667,
+            "ber_95cp": [
+              0.0018383769658100139,
+              0.0028226465012386776
+            ],
+            "exact_windows": 779,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 7121,
+            "n_bits": 38400,
+            "ber": 0.18544270833333334,
+            "ber_95cp": [
+              0.1815662802112083,
+              0.18936676306845773
+            ],
+            "exact_windows": 0,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 4933,
+            "n_bits": 38400,
+            "ber": 0.12846354166666665,
+            "ber_95cp": [
+              0.12513201663257356,
+              0.13185136049460894
+            ],
+            "exact_windows": 1,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 7,
+            "n_bits": 38400,
+            "ber": 0.00018229166666666667,
+            "ber_95cp": [
+              7.329374476696261e-05,
+              0.00037555420444021866
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        }
+      ],
+      "mean_errors_per_realization": {
+        "classic": 88.0,
+        "old_int8": 7121.0,
+        "new_int8": 4933.0,
+        "new_aug_int8": 7.0
+      }
+    },
+    {
+      "perturbation": "contrast",
+      "point": 1,
+      "realizations": 5,
+      "all_sessions": {
+        "classic": {
+          "errors": 26,
+          "n_bits": 192000,
+          "ber": 0.00013541666666666666,
+          "ber_95cp": [
+            8.84605092320626e-05,
+            0.00019841054188952866
+          ],
+          "exact_windows": 3989,
+          "n_windows": 4000
+        },
+        "old_int8": {
+          "errors": 123,
+          "n_bits": 192000,
+          "ber": 0.000640625,
+          "ber_95cp": [
+            0.000532449431521209,
+            0.0007643090603581261
+          ],
+          "exact_windows": 3903,
+          "n_windows": 4000
+        },
+        "new_int8": {
+          "errors": 26,
+          "n_bits": 192000,
+          "ber": 0.00013541666666666666,
+          "ber_95cp": [
+            8.84605092320626e-05,
+            0.00019841054188952866
+          ],
+          "exact_windows": 3989,
+          "n_windows": 4000
+        },
+        "new_aug_int8": {
+          "errors": 27,
+          "n_bits": 192000,
+          "ber": 0.000140625,
+          "ber_95cp": [
+            9.267474180154119e-05,
+            0.00020459544691385585
+          ],
+          "exact_windows": 3989,
+          "n_windows": 4000
+        }
+      },
+      "1_5m": {
+        "classic": {
+          "errors": 26,
+          "n_bits": 144000,
+          "ber": 0.00018055555555555555,
+          "ber_95cp": [
+            0.00011794816643027309,
+            0.00026454461127418266
+          ],
+          "exact_windows": 2989,
+          "n_windows": 3000
+        },
+        "old_int8": {
+          "errors": 108,
+          "n_bits": 144000,
+          "ber": 0.00075,
+          "ber_95cp": [
+            0.0006152788648478951,
+            0.0009054345181676247
+          ],
+          "exact_windows": 2918,
+          "n_windows": 3000
+        },
+        "new_int8": {
+          "errors": 26,
+          "n_bits": 144000,
+          "ber": 0.00018055555555555555,
+          "ber_95cp": [
+            0.00011794816643027309,
+            0.00026454461127418266
+          ],
+          "exact_windows": 2989,
+          "n_windows": 3000
+        },
+        "new_aug_int8": {
+          "errors": 27,
+          "n_bits": 144000,
+          "ber": 0.0001875,
+          "ber_95cp": [
+            0.00012356720277223834,
+            0.0002727910202886526
+          ],
+          "exact_windows": 2989,
+          "n_windows": 3000
+        }
+      },
+      "per_realization": [
+        {
+          "classic": {
+            "errors": 7,
+            "n_bits": 38400,
+            "ber": 0.00018229166666666667,
+            "ber_95cp": [
+              7.329374476696261e-05,
+              0.00037555420444021866
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 27,
+            "n_bits": 38400,
+            "ber": 0.000703125,
+            "ber_95cp": [
+              0.000463413333055891,
+              0.0010228463270003625
+            ],
+            "exact_windows": 777,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 7,
+            "n_bits": 38400,
+            "ber": 0.00018229166666666667,
+            "ber_95cp": [
+              7.329374476696261e-05,
+              0.00037555420444021866
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 2,
+            "n_bits": 38400,
+            "ber": 5.208333333333334e-05,
+            "ber_95cp": [
+              6.307595533438471e-06,
+              0.00018813010912670944
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 23,
+            "n_bits": 38400,
+            "ber": 0.0005989583333333333,
+            "ber_95cp": [
+              0.0003797248954651337,
+              0.0008985968724123353
+            ],
+            "exact_windows": 779,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 2,
+            "n_bits": 38400,
+            "ber": 5.208333333333334e-05,
+            "ber_95cp": [
+              6.307595533438471e-06,
+              0.00018813010912670944
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 3,
+            "n_bits": 38400,
+            "ber": 7.8125e-05,
+            "ber_95cp": [
+              1.6111542987121007e-05,
+              0.00022829725821812665
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 5,
+            "n_bits": 38400,
+            "ber": 0.00013020833333333333,
+            "ber_95cp": [
+              4.227959974733612e-05,
+              0.00030383643175017856
+            ],
+            "exact_windows": 797,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 25,
+            "n_bits": 38400,
+            "ber": 0.0006510416666666666,
+            "ber_95cp": [
+              0.0004213627572257337,
+              0.0009609169452466757
+            ],
+            "exact_windows": 781,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 5,
+            "n_bits": 38400,
+            "ber": 0.00013020833333333333,
+            "ber_95cp": [
+              4.227959974733612e-05,
+              0.00030383643175017856
+            ],
+            "exact_windows": 797,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 5,
+            "n_bits": 38400,
+            "ber": 0.00013020833333333333,
+            "ber_95cp": [
+              4.227959974733612e-05,
+              0.00030383643175017856
+            ],
+            "exact_windows": 797,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 5,
+            "n_bits": 38400,
+            "ber": 0.00013020833333333333,
+            "ber_95cp": [
+              4.227959974733612e-05,
+              0.00030383643175017856
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 26,
+            "n_bits": 38400,
+            "ber": 0.0006770833333333334,
+            "ber_95cp": [
+              0.00044233948826140964,
+              0.0009919276983737305
+            ],
+            "exact_windows": 781,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 7,
+            "n_bits": 38400,
+            "ber": 0.00018229166666666667,
+            "ber_95cp": [
+              7.329374476696261e-05,
+              0.00037555420444021866
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 22,
+            "n_bits": 38400,
+            "ber": 0.0005729166666666667,
+            "ber_95cp": [
+              0.00035907755175901366,
+              0.0008672749947337457
+            ],
+            "exact_windows": 785,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 7,
+            "n_bits": 38400,
+            "ber": 0.00018229166666666667,
+            "ber_95cp": [
+              7.329374476696261e-05,
+              0.00037555420444021866
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        }
+      ],
+      "mean_errors_per_realization": {
+        "classic": 5.2,
+        "old_int8": 24.6,
+        "new_int8": 5.2,
+        "new_aug_int8": 5.4
+      }
+    },
+    {
+      "perturbation": "contrast",
+      "point": 0.5,
+      "realizations": 5,
+      "all_sessions": {
+        "classic": {
+          "errors": 82,
+          "n_bits": 192000,
+          "ber": 0.00042708333333333335,
+          "ber_95cp": [
+            0.000339686012251972,
+            0.0005300957130130698
+          ],
+          "exact_windows": 3936,
+          "n_windows": 4000
+        },
+        "old_int8": {
+          "errors": 896,
+          "n_bits": 192000,
+          "ber": 0.004666666666666667,
+          "ber_95cp": [
+            0.00436671187810654,
+            0.00498172365739818
+          ],
+          "exact_windows": 3248,
+          "n_windows": 4000
+        },
+        "new_int8": {
+          "errors": 93,
+          "n_bits": 192000,
+          "ber": 0.000484375,
+          "ber_95cp": [
+            0.000390970385515987,
+            0.0005933597515303254
+          ],
+          "exact_windows": 3926,
+          "n_windows": 4000
+        },
+        "new_aug_int8": {
+          "errors": 76,
+          "n_bits": 192000,
+          "ber": 0.0003958333333333333,
+          "ber_95cp": [
+            0.0003118839272338609,
+            0.0004954197650943546
+          ],
+          "exact_windows": 3942,
+          "n_windows": 4000
+        }
+      },
+      "1_5m": {
+        "classic": {
+          "errors": 75,
+          "n_bits": 144000,
+          "ber": 0.0005208333333333333,
+          "ber_95cp": [
+            0.00040968980777898587,
+            0.0006528259888418093
+          ],
+          "exact_windows": 2943,
+          "n_windows": 3000
+        },
+        "old_int8": {
+          "errors": 715,
+          "n_bits": 144000,
+          "ber": 0.004965277777777778,
+          "ber_95cp": [
+            0.004608760196930535,
+            0.005341946142362858
+          ],
+          "exact_windows": 2407,
+          "n_windows": 3000
+        },
+        "new_int8": {
+          "errors": 81,
+          "n_bits": 144000,
+          "ber": 0.0005625,
+          "ber_95cp": [
+            0.0004467305106493632,
+            0.0006990883721928904
+          ],
+          "exact_windows": 2938,
+          "n_windows": 3000
+        },
+        "new_aug_int8": {
+          "errors": 70,
+          "n_bits": 144000,
+          "ber": 0.0004861111111111111,
+          "ber_95cp": [
+            0.00037896645100488063,
+            0.000614132815978638
+          ],
+          "exact_windows": 2948,
+          "n_windows": 3000
+        }
+      },
+      "per_realization": [
+        {
+          "classic": {
+            "errors": 15,
+            "n_bits": 38400,
+            "ber": 0.000390625,
+            "ber_95cp": [
+              0.0002186458045060016,
+              0.0006441948217210241
+            ],
+            "exact_windows": 791,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 175,
+            "n_bits": 38400,
+            "ber": 0.004557291666666667,
+            "ber_95cp": [
+              0.0039083007264724004,
+              0.005282859299631442
+            ],
+            "exact_windows": 652,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 16,
+            "n_bits": 38400,
+            "ber": 0.0004166666666666667,
+            "ber_95cp": [
+              0.00023817915978441366,
+              0.0006765526070659758
+            ],
+            "exact_windows": 789,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 14,
+            "n_bits": 38400,
+            "ber": 0.00036458333333333335,
+            "ber_95cp": [
+              0.00019933497770854318,
+              0.0006116332987545176
+            ],
+            "exact_windows": 791,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 12,
+            "n_bits": 38400,
+            "ber": 0.0003125,
+            "ber_95cp": [
+              0.00016148340223932182,
+              0.0005458109143408875
+            ],
+            "exact_windows": 789,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 178,
+            "n_bits": 38400,
+            "ber": 0.004635416666666667,
+            "ber_95cp": [
+              0.0039806942897601125,
+              0.005366687907406361
+            ],
+            "exact_windows": 650,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 18,
+            "n_bits": 38400,
+            "ber": 0.00046875,
+            "ber_95cp": [
+              0.00027783386703379443,
+              0.0007407263073427603
+            ],
+            "exact_windows": 785,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 10,
+            "n_bits": 38400,
+            "ber": 0.00026041666666666666,
+            "ber_95cp": [
+              0.00012488675154399088,
+              0.00047886320135574707
+            ],
+            "exact_windows": 792,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 17,
+            "n_bits": 38400,
+            "ber": 0.0004427083333333333,
+            "ber_95cp": [
+              0.000257914395192602,
+              0.0007087246139921638
+            ],
+            "exact_windows": 785,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 183,
+            "n_bits": 38400,
+            "ber": 0.004765625,
+            "ber_95cp": [
+              0.004101457997505869,
+              0.005506295355387012
+            ],
+            "exact_windows": 646,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 18,
+            "n_bits": 38400,
+            "ber": 0.00046875,
+            "ber_95cp": [
+              0.00027783386703379443,
+              0.0007407263073427603
+            ],
+            "exact_windows": 783,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 15,
+            "n_bits": 38400,
+            "ber": 0.000390625,
+            "ber_95cp": [
+              0.0002186458045060016,
+              0.0006441948217210241
+            ],
+            "exact_windows": 787,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 13,
+            "n_bits": 38400,
+            "ber": 0.0003385416666666667,
+            "ber_95cp": [
+              0.00018027109984319293,
+              0.0005788469819764611
+            ],
+            "exact_windows": 790,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 178,
+            "n_bits": 38400,
+            "ber": 0.004635416666666667,
+            "ber_95cp": [
+              0.0039806942897601125,
+              0.005366687907406361
+            ],
+            "exact_windows": 653,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 20,
+            "n_bits": 38400,
+            "ber": 0.0005208333333333333,
+            "ber_95cp": [
+              0.00031816663642811457,
+              0.0008042707957851959
+            ],
+            "exact_windows": 785,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 13,
+            "n_bits": 38400,
+            "ber": 0.0003385416666666667,
+            "ber_95cp": [
+              0.00018027109984319293,
+              0.0005788469819764611
+            ],
+            "exact_windows": 790,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 25,
+            "n_bits": 38400,
+            "ber": 0.0006510416666666666,
+            "ber_95cp": [
+              0.0004213627572257337,
+              0.0009609169452466757
+            ],
+            "exact_windows": 781,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 182,
+            "n_bits": 38400,
+            "ber": 0.0047395833333333335,
+            "ber_95cp": [
+              0.004077294686963941,
+              0.0054783843504949805
+            ],
+            "exact_windows": 647,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 21,
+            "n_bits": 38400,
+            "ber": 0.000546875,
+            "ber_95cp": [
+              0.0003385551086778971,
+              0.0008358356958731541
+            ],
+            "exact_windows": 784,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 24,
+            "n_bits": 38400,
+            "ber": 0.000625,
+            "ber_95cp": [
+              0.0004004890485983025,
+              0.0009298086572773717
+            ],
+            "exact_windows": 782,
+            "n_windows": 800
+          }
+        }
+      ],
+      "mean_errors_per_realization": {
+        "classic": 16.4,
+        "old_int8": 179.2,
+        "new_int8": 18.6,
+        "new_aug_int8": 15.2
+      }
+    },
+    {
+      "perturbation": "contrast",
+      "point": 0.25,
+      "realizations": 5,
+      "all_sessions": {
+        "classic": {
+          "errors": 3327,
+          "n_bits": 192000,
+          "ber": 0.017328125,
+          "ber_95cp": [
+            0.016749132877271696,
+            0.01792175505616713
+          ],
+          "exact_windows": 2278,
+          "n_windows": 4000
+        },
+        "old_int8": {
+          "errors": 7753,
+          "n_bits": 192000,
+          "ber": 0.040380208333333334,
+          "ber_95cp": [
+            0.03950404513538446,
+            0.04127028282024217
+          ],
+          "exact_windows": 910,
+          "n_windows": 4000
+        },
+        "new_int8": {
+          "errors": 4113,
+          "n_bits": 192000,
+          "ber": 0.021421875,
+          "ber_95cp": [
+            0.020778878188187393,
+            0.022079377198890734
+          ],
+          "exact_windows": 2052,
+          "n_windows": 4000
+        },
+        "new_aug_int8": {
+          "errors": 3458,
+          "n_bits": 192000,
+          "ber": 0.018010416666666668,
+          "ber_95cp": [
+            0.01742024039085046,
+            0.018615208575823775
+          ],
+          "exact_windows": 2235,
+          "n_windows": 4000
+        }
+      },
+      "1_5m": {
+        "classic": {
+          "errors": 2744,
+          "n_bits": 144000,
+          "ber": 0.019055555555555555,
+          "ber_95cp": [
+            0.018355624734174257,
+            0.01977494534894605
+          ],
+          "exact_windows": 1601,
+          "n_windows": 3000
+        },
+        "old_int8": {
+          "errors": 6193,
+          "n_bits": 144000,
+          "ber": 0.043006944444444445,
+          "ber_95cp": [
+            0.041964853344159316,
+            0.04406748653298501
+          ],
+          "exact_windows": 618,
+          "n_windows": 3000
+        },
+        "new_int8": {
+          "errors": 3337,
+          "n_bits": 144000,
+          "ber": 0.02317361111111111,
+          "ber_95cp": [
+            0.022402658889407043,
+            0.023963844329912935
+          ],
+          "exact_windows": 1425,
+          "n_windows": 3000
+        },
+        "new_aug_int8": {
+          "errors": 2844,
+          "n_bits": 144000,
+          "ber": 0.01975,
+          "ber_95cp": [
+            0.01903755734822744,
+            0.020481871347650824
+          ],
+          "exact_windows": 1572,
+          "n_windows": 3000
+        }
+      },
+      "per_realization": [
+        {
+          "classic": {
+            "errors": 661,
+            "n_bits": 38400,
+            "ber": 0.017213541666666665,
+            "ber_95cp": [
+              0.015936218284744775,
+              0.01856460128664463
+            ],
+            "exact_windows": 457,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 1550,
+            "n_bits": 38400,
+            "ber": 0.040364583333333336,
+            "ber_95cp": [
+              0.03841788773881307,
+              0.04238117014084472
+            ],
+            "exact_windows": 181,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 806,
+            "n_bits": 38400,
+            "ber": 0.020989583333333332,
+            "ber_95cp": [
+              0.019579108718630618,
+              0.022473129572303005
+            ],
+            "exact_windows": 401,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 681,
+            "n_bits": 38400,
+            "ber": 0.017734375,
+            "ber_95cp": [
+              0.01643782621858548,
+              0.019104566600163447
+            ],
+            "exact_windows": 444,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 667,
+            "n_bits": 38400,
+            "ber": 0.017369791666666665,
+            "ber_95cp": [
+              0.016086668899579555,
+              0.018726622577223767
+            ],
+            "exact_windows": 459,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 1534,
+            "n_bits": 38400,
+            "ber": 0.039947916666666666,
+            "ber_95cp": [
+              0.038011013982610295,
+              0.04195477693225534
+            ],
+            "exact_windows": 174,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 815,
+            "n_bits": 38400,
+            "ber": 0.021223958333333334,
+            "ber_95cp": [
+              0.01980565540192578,
+              0.02271529247230989
+            ],
+            "exact_windows": 415,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 666,
+            "n_bits": 38400,
+            "ber": 0.01734375,
+            "ber_95cp": [
+              0.01606159188543702,
+              0.01869962093629282
+            ],
+            "exact_windows": 445,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 639,
+            "n_bits": 38400,
+            "ber": 0.016640625,
+            "ber_95cp": [
+              0.015384806364876711,
+              0.01797028341843038
+            ],
+            "exact_windows": 452,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 1557,
+            "n_bits": 38400,
+            "ber": 0.040546875,
+            "ber_95cp": [
+              0.03859591296537696,
+              0.04256769922789395
+            ],
+            "exact_windows": 183,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 811,
+            "n_bits": 38400,
+            "ber": 0.021119791666666665,
+            "ber_95cp": [
+              0.01970496227743821,
+              0.022607670216250392
+            ],
+            "exact_windows": 418,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 691,
+            "n_bits": 38400,
+            "ber": 0.017994791666666666,
+            "ber_95cp": [
+              0.016688741674467496,
+              0.01937443800656183
+            ],
+            "exact_windows": 450,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 699,
+            "n_bits": 38400,
+            "ber": 0.018203125,
+            "ber_95cp": [
+              0.016889526108244943,
+              0.019590283171962864
+            ],
+            "exact_windows": 456,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 1574,
+            "n_bits": 38400,
+            "ber": 0.040989583333333336,
+            "ber_95cp": [
+              0.039028304895528,
+              0.04302065352892148
+            ],
+            "exact_windows": 200,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 860,
+            "n_bits": 38400,
+            "ber": 0.022395833333333334,
+            "ber_95cp": [
+              0.02093906277349217,
+              0.023925434196589608
+            ],
+            "exact_windows": 408,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 730,
+            "n_bits": 38400,
+            "ber": 0.019010416666666665,
+            "ber_95cp": [
+              0.017667988241803715,
+              0.02042626160196636
+            ],
+            "exact_windows": 445,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 661,
+            "n_bits": 38400,
+            "ber": 0.017213541666666665,
+            "ber_95cp": [
+              0.015936218284744775,
+              0.01856460128664463
+            ],
+            "exact_windows": 454,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 1538,
+            "n_bits": 38400,
+            "ber": 0.040052083333333335,
+            "ber_95cp": [
+              0.038112727036039545,
+              0.04206138061504981
+            ],
+            "exact_windows": 172,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 821,
+            "n_bits": 38400,
+            "ber": 0.021380208333333334,
+            "ber_95cp": [
+              0.01995671206385878,
+              0.022876708911306037
+            ],
+            "exact_windows": 410,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 690,
+            "n_bits": 38400,
+            "ber": 0.01796875,
+            "ber_95cp": [
+              0.016663646853725303,
+              0.01934745413416756
+            ],
+            "exact_windows": 451,
+            "n_windows": 800
+          }
+        }
+      ],
+      "mean_errors_per_realization": {
+        "classic": 665.4,
+        "old_int8": 1550.6,
+        "new_int8": 822.6,
+        "new_aug_int8": 691.6
+      }
+    },
+    {
+      "perturbation": "contrast",
+      "point": 0.1,
+      "realizations": 5,
+      "all_sessions": {
+        "classic": {
+          "errors": 33610,
+          "n_bits": 192000,
+          "ber": 0.17505208333333333,
+          "ber_95cp": [
+            0.17335460753503093,
+            0.17675937582404136
+          ],
+          "exact_windows": 2,
+          "n_windows": 4000
+        },
+        "old_int8": {
+          "errors": 41749,
+          "n_bits": 192000,
+          "ber": 0.21744270833333335,
+          "ber_95cp": [
+            0.2155992460070027,
+            0.2192947053669031
+          ],
+          "exact_windows": 0,
+          "n_windows": 4000
+        },
+        "new_int8": {
+          "errors": 35471,
+          "n_bits": 192000,
+          "ber": 0.18474479166666666,
+          "ber_95cp": [
+            0.1830110336982638,
+            0.1864880731086356
+          ],
+          "exact_windows": 2,
+          "n_windows": 4000
+        },
+        "new_aug_int8": {
+          "errors": 34519,
+          "n_bits": 192000,
+          "ber": 0.17978645833333334,
+          "ber_95cp": [
+            0.17807102890527512,
+            0.1815115612240672
+          ],
+          "exact_windows": 4,
+          "n_windows": 4000
+        }
+      },
+      "1_5m": {
+        "classic": {
+          "errors": 26227,
+          "n_bits": 144000,
+          "ber": 0.18213194444444444,
+          "ber_95cp": [
+            0.18014145410664475,
+            0.18413524204763274
+          ],
+          "exact_windows": 0,
+          "n_windows": 3000
+        },
+        "old_int8": {
+          "errors": 32131,
+          "n_bits": 144000,
+          "ber": 0.22313194444444445,
+          "ber_95cp": [
+            0.220983652406866,
+            0.22529138993601203
+          ],
+          "exact_windows": 0,
+          "n_windows": 3000
+        },
+        "new_int8": {
+          "errors": 27587,
+          "n_bits": 144000,
+          "ber": 0.1915763888888889,
+          "ber_95cp": [
+            0.18954651596846306,
+            0.1936186879956852
+          ],
+          "exact_windows": 0,
+          "n_windows": 3000
+        },
+        "new_aug_int8": {
+          "errors": 26879,
+          "n_bits": 144000,
+          "ber": 0.1866597222222222,
+          "ber_95cp": [
+            0.18465010860166817,
+            0.1886819604039876
+          ],
+          "exact_windows": 1,
+          "n_windows": 3000
+        }
+      },
+      "per_realization": [
+        {
+          "classic": {
+            "errors": 6761,
+            "n_bits": 38400,
+            "ber": 0.17606770833333332,
+            "ber_95cp": [
+              0.1722697861824135,
+              0.1799146809675137
+            ],
+            "exact_windows": 0,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 8460,
+            "n_bits": 38400,
+            "ber": 0.2203125,
+            "ber_95cp": [
+              0.2161753858269454,
+              0.2244919495812525
+            ],
+            "exact_windows": 0,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 7172,
+            "n_bits": 38400,
+            "ber": 0.18677083333333333,
+            "ber_95cp": [
+              0.18288359149344863,
+              0.1907055001221704
+            ],
+            "exact_windows": 0,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 6983,
+            "n_bits": 38400,
+            "ber": 0.18184895833333334,
+            "ber_95cp": [
+              0.1780021693377147,
+              0.18574391968279233
+            ],
+            "exact_windows": 0,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 6734,
+            "n_bits": 38400,
+            "ber": 0.17536458333333332,
+            "ber_95cp": [
+              0.171572706465784,
+              0.1792056175011648
+            ],
+            "exact_windows": 0,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 8377,
+            "n_bits": 38400,
+            "ber": 0.21815104166666666,
+            "ber_95cp": [
+              0.21402876155564138,
+              0.22231598498585312
+            ],
+            "exact_windows": 0,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 7107,
+            "n_bits": 38400,
+            "ber": 0.185078125,
+            "ber_95cp": [
+              0.18120467846533528,
+              0.18899925350854008
+            ],
+            "exact_windows": 1,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 6893,
+            "n_bits": 38400,
+            "ber": 0.17950520833333333,
+            "ber_95cp": [
+              0.17567805158287522,
+              0.18338089340572133
+            ],
+            "exact_windows": 2,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 6744,
+            "n_bits": 38400,
+            "ber": 0.175625,
+            "ber_95cp": [
+              0.1718308815232658,
+              0.17946823621470137
+            ],
+            "exact_windows": 0,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 8285,
+            "n_bits": 38400,
+            "ber": 0.21575520833333334,
+            "ber_95cp": [
+              0.2116495646642568,
+              0.2199038785800543
+            ],
+            "exact_windows": 0,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 7105,
+            "n_bits": 38400,
+            "ber": 0.18502604166666667,
+            "ber_95cp": [
+              0.18115302153596383,
+              0.18894675168001754
+            ],
+            "exact_windows": 1,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 6932,
+            "n_bits": 38400,
+            "ber": 0.18052083333333332,
+            "ber_95cp": [
+              0.17668513965757218,
+              0.18440490107321483
+            ],
+            "exact_windows": 1,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 6677,
+            "n_bits": 38400,
+            "ber": 0.17388020833333334,
+            "ber_95cp": [
+              0.17010116768076555,
+              0.1777086318017247
+            ],
+            "exact_windows": 1,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 8282,
+            "n_bits": 38400,
+            "ber": 0.21567708333333332,
+            "ber_95cp": [
+              0.21157198561522902,
+              0.21982521947853675
+            ],
+            "exact_windows": 0,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 6982,
+            "n_bits": 38400,
+            "ber": 0.18182291666666667,
+            "ber_95cp": [
+              0.17797634448547625,
+              0.1857176651566766
+            ],
+            "exact_windows": 0,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 6861,
+            "n_bits": 38400,
+            "ber": 0.178671875,
+            "ber_95cp": [
+              0.1748517569731056,
+              0.18254064792509975
+            ],
+            "exact_windows": 0,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 6694,
+            "n_bits": 38400,
+            "ber": 0.17432291666666666,
+            "ber_95cp": [
+              0.17054003712542554,
+              0.17815511176285762
+            ],
+            "exact_windows": 1,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 8345,
+            "n_bits": 38400,
+            "ber": 0.21731770833333333,
+            "ber_95cp": [
+              0.21320119157650952,
+              0.2214770146846938
+            ],
+            "exact_windows": 0,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 7105,
+            "n_bits": 38400,
+            "ber": 0.18502604166666667,
+            "ber_95cp": [
+              0.18115302153596383,
+              0.18894675168001754
+            ],
+            "exact_windows": 0,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 6850,
+            "n_bits": 38400,
+            "ber": 0.17838541666666666,
+            "ber_95cp": [
+              0.17456772532635018,
+              0.18225180641699587
+            ],
+            "exact_windows": 1,
+            "n_windows": 800
+          }
+        }
+      ],
+      "mean_errors_per_realization": {
+        "classic": 6722.0,
+        "old_int8": 8349.8,
+        "new_int8": 7094.2,
+        "new_aug_int8": 6903.8
+      }
+    },
+    {
+      "perturbation": "snr",
+      "point": 20,
+      "realizations": 5,
+      "all_sessions": {
+        "classic": {
+          "errors": 25,
+          "n_bits": 192000,
+          "ber": 0.00013020833333333333,
+          "ber_95cp": [
+            8.426568432881e-05,
+            0.00019220722678954747
+          ],
+          "exact_windows": 3990,
+          "n_windows": 4000
+        },
+        "old_int8": {
+          "errors": 56,
+          "n_bits": 192000,
+          "ber": 0.0002916666666666667,
+          "ber_95cp": [
+            0.0002203291518993889,
+            0.0003787369342423764
+          ],
+          "exact_windows": 3962,
+          "n_windows": 4000
+        },
+        "new_int8": {
+          "errors": 25,
+          "n_bits": 192000,
+          "ber": 0.00013020833333333333,
+          "ber_95cp": [
+            8.426568432881e-05,
+            0.00019220722678954747
+          ],
+          "exact_windows": 3990,
+          "n_windows": 4000
+        },
+        "new_aug_int8": {
+          "errors": 24,
+          "n_bits": 192000,
+          "ber": 0.000125,
+          "ber_95cp": [
+            8.00914485470772e-05,
+            0.00018598441980591476
+          ],
+          "exact_windows": 3990,
+          "n_windows": 4000
+        }
+      },
+      "1_5m": {
+        "classic": {
+          "errors": 25,
+          "n_bits": 144000,
+          "ber": 0.00017361111111111112,
+          "ber_95cp": [
+            0.00011235500865177479,
+            0.00025627365384604177
+          ],
+          "exact_windows": 2990,
+          "n_windows": 3000
+        },
+        "old_int8": {
+          "errors": 53,
+          "n_bits": 144000,
+          "ber": 0.00036805555555555555,
+          "ber_95cp": [
+            0.00027571064307126277,
+            0.00048139843763842465
+          ],
+          "exact_windows": 2965,
+          "n_windows": 3000
+        },
+        "new_int8": {
+          "errors": 25,
+          "n_bits": 144000,
+          "ber": 0.00017361111111111112,
+          "ber_95cp": [
+            0.00011235500865177479,
+            0.00025627365384604177
+          ],
+          "exact_windows": 2990,
+          "n_windows": 3000
+        },
+        "new_aug_int8": {
+          "errors": 24,
+          "n_bits": 144000,
+          "ber": 0.00016666666666666666,
+          "ber_95cp": [
+            0.00010678930474100185,
+            0.0002479767055646149
+          ],
+          "exact_windows": 2990,
+          "n_windows": 3000
+        }
+      },
+      "per_realization": [
+        {
+          "classic": {
+            "errors": 3,
+            "n_bits": 38400,
+            "ber": 7.8125e-05,
+            "ber_95cp": [
+              1.6111542987121007e-05,
+              0.00022829725821812665
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 9,
+            "n_bits": 38400,
+            "ber": 0.000234375,
+            "ber_95cp": [
+              0.00010717659575822885,
+              0.0004448699205385096
+            ],
+            "exact_windows": 793,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 3,
+            "n_bits": 38400,
+            "ber": 7.8125e-05,
+            "ber_95cp": [
+              1.6111542987121007e-05,
+              0.00022829725821812665
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 3,
+            "n_bits": 38400,
+            "ber": 7.8125e-05,
+            "ber_95cp": [
+              1.6111542987121007e-05,
+              0.00022829725821812665
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 11,
+            "n_bits": 38400,
+            "ber": 0.00028645833333333333,
+            "ber_95cp": [
+              0.0001430073641577744,
+              0.0005124951440378899
+            ],
+            "exact_windows": 793,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 5,
+            "n_bits": 38400,
+            "ber": 0.00013020833333333333,
+            "ber_95cp": [
+              4.227959974733612e-05,
+              0.00030383643175017856
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 11,
+            "n_bits": 38400,
+            "ber": 0.00028645833333333333,
+            "ber_95cp": [
+              0.0001430073641577744,
+              0.0005124951440378899
+            ],
+            "exact_windows": 794,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 5,
+            "n_bits": 38400,
+            "ber": 0.00013020833333333333,
+            "ber_95cp": [
+              4.227959974733612e-05,
+              0.00030383643175017856
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 14,
+            "n_bits": 38400,
+            "ber": 0.00036458333333333335,
+            "ber_95cp": [
+              0.00019933497770854318,
+              0.0006116332987545176
+            ],
+            "exact_windows": 790,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 7,
+            "n_bits": 38400,
+            "ber": 0.00018229166666666667,
+            "ber_95cp": [
+              7.329374476696261e-05,
+              0.00037555420444021866
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 4,
+            "n_bits": 38400,
+            "ber": 0.00010416666666666667,
+            "ber_95cp": [
+              2.8382616703784106e-05,
+              0.00026668636354695163
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 11,
+            "n_bits": 38400,
+            "ber": 0.00028645833333333333,
+            "ber_95cp": [
+              0.0001430073641577744,
+              0.0005124951440378899
+            ],
+            "exact_windows": 792,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 4,
+            "n_bits": 38400,
+            "ber": 0.00010416666666666667,
+            "ber_95cp": [
+              2.8382616703784106e-05,
+              0.00026668636354695163
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 4,
+            "n_bits": 38400,
+            "ber": 0.00010416666666666667,
+            "ber_95cp": [
+              2.8382616703784106e-05,
+              0.00026668636354695163
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        }
+      ],
+      "mean_errors_per_realization": {
+        "classic": 5.0,
+        "old_int8": 11.2,
+        "new_int8": 5.0,
+        "new_aug_int8": 4.8
+      }
+    },
+    {
+      "perturbation": "snr",
+      "point": 15,
+      "realizations": 5,
+      "all_sessions": {
+        "classic": {
+          "errors": 27,
+          "n_bits": 192000,
+          "ber": 0.000140625,
+          "ber_95cp": [
+            9.267474180154119e-05,
+            0.00020459544691385585
+          ],
+          "exact_windows": 3990,
+          "n_windows": 4000
+        },
+        "old_int8": {
+          "errors": 77,
+          "n_bits": 192000,
+          "ber": 0.0004010416666666667,
+          "ber_95cp": [
+            0.0003165083683677151,
+            0.0005012081621626068
+          ],
+          "exact_windows": 3945,
+          "n_windows": 4000
+        },
+        "new_int8": {
+          "errors": 27,
+          "n_bits": 192000,
+          "ber": 0.000140625,
+          "ber_95cp": [
+            9.267474180154119e-05,
+            0.00020459544691385585
+          ],
+          "exact_windows": 3990,
+          "n_windows": 4000
+        },
+        "new_aug_int8": {
+          "errors": 27,
+          "n_bits": 192000,
+          "ber": 0.000140625,
+          "ber_95cp": [
+            9.267474180154119e-05,
+            0.00020459544691385585
+          ],
+          "exact_windows": 3990,
+          "n_windows": 4000
+        }
+      },
+      "1_5m": {
+        "classic": {
+          "errors": 27,
+          "n_bits": 144000,
+          "ber": 0.0001875,
+          "ber_95cp": [
+            0.00012356720277223834,
+            0.0002727910202886526
+          ],
+          "exact_windows": 2990,
+          "n_windows": 3000
+        },
+        "old_int8": {
+          "errors": 71,
+          "n_bits": 144000,
+          "ber": 0.0004930555555555556,
+          "ber_95cp": [
+            0.0003850999351353877,
+            0.0006218824181339743
+          ],
+          "exact_windows": 2951,
+          "n_windows": 3000
+        },
+        "new_int8": {
+          "errors": 27,
+          "n_bits": 144000,
+          "ber": 0.0001875,
+          "ber_95cp": [
+            0.00012356720277223834,
+            0.0002727910202886526
+          ],
+          "exact_windows": 2990,
+          "n_windows": 3000
+        },
+        "new_aug_int8": {
+          "errors": 27,
+          "n_bits": 144000,
+          "ber": 0.0001875,
+          "ber_95cp": [
+            0.00012356720277223834,
+            0.0002727910202886526
+          ],
+          "exact_windows": 2990,
+          "n_windows": 3000
+        }
+      },
+      "per_realization": [
+        {
+          "classic": {
+            "errors": 3,
+            "n_bits": 38400,
+            "ber": 7.8125e-05,
+            "ber_95cp": [
+              1.6111542987121007e-05,
+              0.00022829725821812665
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 10,
+            "n_bits": 38400,
+            "ber": 0.00026041666666666666,
+            "ber_95cp": [
+              0.00012488675154399088,
+              0.00047886320135574707
+            ],
+            "exact_windows": 791,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 3,
+            "n_bits": 38400,
+            "ber": 7.8125e-05,
+            "ber_95cp": [
+              1.6111542987121007e-05,
+              0.00022829725821812665
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 3,
+            "n_bits": 38400,
+            "ber": 7.8125e-05,
+            "ber_95cp": [
+              1.6111542987121007e-05,
+              0.00022829725821812665
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 7,
+            "n_bits": 38400,
+            "ber": 0.00018229166666666667,
+            "ber_95cp": [
+              7.329374476696261e-05,
+              0.00037555420444021866
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 16,
+            "n_bits": 38400,
+            "ber": 0.0004166666666666667,
+            "ber_95cp": [
+              0.00023817915978441366,
+              0.0006765526070659758
+            ],
+            "exact_windows": 792,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 17,
+            "n_bits": 38400,
+            "ber": 0.0004427083333333333,
+            "ber_95cp": [
+              0.000257914395192602,
+              0.0007087246139921638
+            ],
+            "exact_windows": 788,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 7,
+            "n_bits": 38400,
+            "ber": 0.00018229166666666667,
+            "ber_95cp": [
+              7.329374476696261e-05,
+              0.00037555420444021866
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 7,
+            "n_bits": 38400,
+            "ber": 0.00018229166666666667,
+            "ber_95cp": [
+              7.329374476696261e-05,
+              0.00037555420444021866
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 17,
+            "n_bits": 38400,
+            "ber": 0.0004427083333333333,
+            "ber_95cp": [
+              0.000257914395192602,
+              0.0007087246139921638
+            ],
+            "exact_windows": 788,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 7,
+            "n_bits": 38400,
+            "ber": 0.00018229166666666667,
+            "ber_95cp": [
+              7.329374476696261e-05,
+              0.00037555420444021866
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 7,
+            "n_bits": 38400,
+            "ber": 0.00018229166666666667,
+            "ber_95cp": [
+              7.329374476696261e-05,
+              0.00037555420444021866
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 4,
+            "n_bits": 38400,
+            "ber": 0.00010416666666666667,
+            "ber_95cp": [
+              2.8382616703784106e-05,
+              0.00026668636354695163
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 17,
+            "n_bits": 38400,
+            "ber": 0.0004427083333333333,
+            "ber_95cp": [
+              0.000257914395192602,
+              0.0007087246139921638
+            ],
+            "exact_windows": 786,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 5,
+            "n_bits": 38400,
+            "ber": 0.00013020833333333333,
+            "ber_95cp": [
+              4.227959974733612e-05,
+              0.00030383643175017856
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 4,
+            "n_bits": 38400,
+            "ber": 0.00010416666666666667,
+            "ber_95cp": [
+              2.8382616703784106e-05,
+              0.00026668636354695163
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        }
+      ],
+      "mean_errors_per_realization": {
+        "classic": 5.4,
+        "old_int8": 15.4,
+        "new_int8": 5.4,
+        "new_aug_int8": 5.4
+      }
+    },
+    {
+      "perturbation": "snr",
+      "point": 10,
+      "realizations": 5,
+      "all_sessions": {
+        "classic": {
+          "errors": 29,
+          "n_bits": 192000,
+          "ber": 0.00015104166666666667,
+          "ber_95cp": [
+            0.00010115723451629954,
+            0.0002169138829178427
+          ],
+          "exact_windows": 3990,
+          "n_windows": 4000
+        },
+        "old_int8": {
+          "errors": 265,
+          "n_bits": 192000,
+          "ber": 0.0013802083333333333,
+          "ber_95cp": [
+            0.0012191135952940321,
+            0.001556645882058824
+          ],
+          "exact_windows": 3770,
+          "n_windows": 4000
+        },
+        "new_int8": {
+          "errors": 27,
+          "n_bits": 192000,
+          "ber": 0.000140625,
+          "ber_95cp": [
+            9.267474180154119e-05,
+            0.00020459544691385585
+          ],
+          "exact_windows": 3991,
+          "n_windows": 4000
+        },
+        "new_aug_int8": {
+          "errors": 29,
+          "n_bits": 192000,
+          "ber": 0.00015104166666666667,
+          "ber_95cp": [
+            0.00010115723451629954,
+            0.0002169138829178427
+          ],
+          "exact_windows": 3990,
+          "n_windows": 4000
+        }
+      },
+      "1_5m": {
+        "classic": {
+          "errors": 29,
+          "n_bits": 144000,
+          "ber": 0.0002013888888888889,
+          "ber_95cp": [
+            0.00013487731713500214,
+            0.0002892153347616852
+          ],
+          "exact_windows": 2990,
+          "n_windows": 3000
+        },
+        "old_int8": {
+          "errors": 220,
+          "n_bits": 144000,
+          "ber": 0.0015277777777777779,
+          "ber_95cp": [
+            0.0013326773244252772,
+            0.0017433691001984652
+          ],
+          "exact_windows": 2812,
+          "n_windows": 3000
+        },
+        "new_int8": {
+          "errors": 27,
+          "n_bits": 144000,
+          "ber": 0.0001875,
+          "ber_95cp": [
+            0.00012356720277223834,
+            0.0002727910202886526
+          ],
+          "exact_windows": 2991,
+          "n_windows": 3000
+        },
+        "new_aug_int8": {
+          "errors": 29,
+          "n_bits": 144000,
+          "ber": 0.0002013888888888889,
+          "ber_95cp": [
+            0.00013487731713500214,
+            0.0002892153347616852
+          ],
+          "exact_windows": 2990,
+          "n_windows": 3000
+        }
+      },
+      "per_realization": [
+        {
+          "classic": {
+            "errors": 3,
+            "n_bits": 38400,
+            "ber": 7.8125e-05,
+            "ber_95cp": [
+              1.6111542987121007e-05,
+              0.00022829725821812665
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 48,
+            "n_bits": 38400,
+            "ber": 0.00125,
+            "ber_95cp": [
+              0.0009217906935079945,
+              0.0016569810669824086
+            ],
+            "exact_windows": 756,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 3,
+            "n_bits": 38400,
+            "ber": 7.8125e-05,
+            "ber_95cp": [
+              1.6111542987121007e-05,
+              0.00022829725821812665
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 3,
+            "n_bits": 38400,
+            "ber": 7.8125e-05,
+            "ber_95cp": [
+              1.6111542987121007e-05,
+              0.00022829725821812665
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 7,
+            "n_bits": 38400,
+            "ber": 0.00018229166666666667,
+            "ber_95cp": [
+              7.329374476696261e-05,
+              0.00037555420444021866
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 44,
+            "n_bits": 38400,
+            "ber": 0.0011458333333333333,
+            "ber_95cp": [
+              0.0008326838687279234,
+              0.001537925928526157
+            ],
+            "exact_windows": 763,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 7,
+            "n_bits": 38400,
+            "ber": 0.00018229166666666667,
+            "ber_95cp": [
+              7.329374476696261e-05,
+              0.00037555420444021866
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 55,
+            "n_bits": 38400,
+            "ber": 0.0014322916666666666,
+            "ber_95cp": [
+              0.0010791747349875199,
+              0.0018639216733876251
+            ],
+            "exact_windows": 752,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 7,
+            "n_bits": 38400,
+            "ber": 0.00018229166666666667,
+            "ber_95cp": [
+              7.329374476696261e-05,
+              0.00037555420444021866
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 7,
+            "n_bits": 38400,
+            "ber": 0.00018229166666666667,
+            "ber_95cp": [
+              7.329374476696261e-05,
+              0.00037555420444021866
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 60,
+            "n_bits": 38400,
+            "ber": 0.0015625,
+            "ber_95cp": [
+              0.001192557362356673,
+              0.002010795851280864
+            ],
+            "exact_windows": 747,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 799,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 7,
+            "n_bits": 38400,
+            "ber": 0.00018229166666666667,
+            "ber_95cp": [
+              7.329374476696261e-05,
+              0.00037555420444021866
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 58,
+            "n_bits": 38400,
+            "ber": 0.0015104166666666666,
+            "ber_95cp": [
+              0.0011471163132079313,
+              0.0019521320421392035
+            ],
+            "exact_windows": 752,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 5,
+            "n_bits": 38400,
+            "ber": 0.00013020833333333333,
+            "ber_95cp": [
+              4.227959974733612e-05,
+              0.00030383643175017856
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 6,
+            "n_bits": 38400,
+            "ber": 0.00015625,
+            "ber_95cp": [
+              5.734308546247142e-05,
+              0.00034005920895049805
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          }
+        }
+      ],
+      "mean_errors_per_realization": {
+        "classic": 5.8,
+        "old_int8": 53.0,
+        "new_int8": 5.4,
+        "new_aug_int8": 5.8
+      }
+    },
+    {
+      "perturbation": "snr",
+      "point": 6,
+      "realizations": 5,
+      "all_sessions": {
+        "classic": {
+          "errors": 45,
+          "n_bits": 192000,
+          "ber": 0.000234375,
+          "ber_95cp": [
+            0.00017095970947350226,
+            0.000313599764845968
+          ],
+          "exact_windows": 3974,
+          "n_windows": 4000
+        },
+        "old_int8": {
+          "errors": 1185,
+          "n_bits": 192000,
+          "ber": 0.006171875,
+          "ber_95cp": [
+            0.005826425929274146,
+            0.006532358672613703
+          ],
+          "exact_windows": 2990,
+          "n_windows": 4000
+        },
+        "new_int8": {
+          "errors": 59,
+          "n_bits": 192000,
+          "ber": 0.00030729166666666665,
+          "ber_95cp": [
+            0.00023393262712779634,
+            0.00039636620312998293
+          ],
+          "exact_windows": 3960,
+          "n_windows": 4000
+        },
+        "new_aug_int8": {
+          "errors": 56,
+          "n_bits": 192000,
+          "ber": 0.0002916666666666667,
+          "ber_95cp": [
+            0.0002203291518993889,
+            0.0003787369342423764
+          ],
+          "exact_windows": 3965,
+          "n_windows": 4000
+        }
+      },
+      "1_5m": {
+        "classic": {
+          "errors": 38,
+          "n_bits": 144000,
+          "ber": 0.00026388888888888886,
+          "ber_95cp": [
+            0.00018675003903547072,
+            0.00036219031094758417
+          ],
+          "exact_windows": 2981,
+          "n_windows": 3000
+        },
+        "old_int8": {
+          "errors": 910,
+          "n_bits": 144000,
+          "ber": 0.006319444444444444,
+          "ber_95cp": [
+            0.005916649251251664,
+            0.006742307131961667
+          ],
+          "exact_windows": 2232,
+          "n_windows": 3000
+        },
+        "new_int8": {
+          "errors": 51,
+          "n_bits": 144000,
+          "ber": 0.0003541666666666667,
+          "ber_95cp": [
+            0.00026371135978881503,
+            0.0004656377982434804
+          ],
+          "exact_windows": 2968,
+          "n_windows": 3000
+        },
+        "new_aug_int8": {
+          "errors": 46,
+          "n_bits": 144000,
+          "ber": 0.00031944444444444446,
+          "ber_95cp": [
+            0.00023388267733725864,
+            0.0004260714006613352
+          ],
+          "exact_windows": 2975,
+          "n_windows": 3000
+        }
+      },
+      "per_realization": [
+        {
+          "classic": {
+            "errors": 3,
+            "n_bits": 38400,
+            "ber": 7.8125e-05,
+            "ber_95cp": [
+              1.6111542987121007e-05,
+              0.00022829725821812665
+            ],
+            "exact_windows": 798,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 203,
+            "n_bits": 38400,
+            "ber": 0.005286458333333333,
+            "ber_95cp": [
+              0.0045857629556211735,
+              0.006063484642391887
+            ],
+            "exact_windows": 616,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 4,
+            "n_bits": 38400,
+            "ber": 0.00010416666666666667,
+            "ber_95cp": [
+              2.8382616703784106e-05,
+              0.00026668636354695163
+            ],
+            "exact_windows": 797,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 8,
+            "n_bits": 38400,
+            "ber": 0.00020833333333333335,
+            "ber_95cp": [
+              8.99476996809414e-05,
+              0.00041045822547412233
+            ],
+            "exact_windows": 794,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 10,
+            "n_bits": 38400,
+            "ber": 0.00026041666666666666,
+            "ber_95cp": [
+              0.00012488675154399088,
+              0.00047886320135574707
+            ],
+            "exact_windows": 795,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 236,
+            "n_bits": 38400,
+            "ber": 0.006145833333333333,
+            "ber_95cp": [
+              0.005388658056718305,
+              0.006979081671900012
+            ],
+            "exact_windows": 602,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 15,
+            "n_bits": 38400,
+            "ber": 0.000390625,
+            "ber_95cp": [
+              0.0002186458045060016,
+              0.0006441948217210241
+            ],
+            "exact_windows": 790,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 10,
+            "n_bits": 38400,
+            "ber": 0.00026041666666666666,
+            "ber_95cp": [
+              0.00012488675154399088,
+              0.00047886320135574707
+            ],
+            "exact_windows": 794,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 12,
+            "n_bits": 38400,
+            "ber": 0.0003125,
+            "ber_95cp": [
+              0.00016148340223932182,
+              0.0005458109143408875
+            ],
+            "exact_windows": 792,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 261,
+            "n_bits": 38400,
+            "ber": 0.006796875,
+            "ber_95cp": [
+              0.005999546794435102,
+              0.007670097371178691
+            ],
+            "exact_windows": 586,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 15,
+            "n_bits": 38400,
+            "ber": 0.000390625,
+            "ber_95cp": [
+              0.0002186458045060016,
+              0.0006441948217210241
+            ],
+            "exact_windows": 789,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 14,
+            "n_bits": 38400,
+            "ber": 0.00036458333333333335,
+            "ber_95cp": [
+              0.00019933497770854318,
+              0.0006116332987545176
+            ],
+            "exact_windows": 791,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 12,
+            "n_bits": 38400,
+            "ber": 0.0003125,
+            "ber_95cp": [
+              0.00016148340223932182,
+              0.0005458109143408875
+            ],
+            "exact_windows": 793,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 246,
+            "n_bits": 38400,
+            "ber": 0.00640625,
+            "ber_95cp": [
+              0.005632765188750214,
+              0.007255734860023258
+            ],
+            "exact_windows": 586,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 11,
+            "n_bits": 38400,
+            "ber": 0.00028645833333333333,
+            "ber_95cp": [
+              0.0001430073641577744,
+              0.0005124951440378899
+            ],
+            "exact_windows": 794,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 13,
+            "n_bits": 38400,
+            "ber": 0.0003385416666666667,
+            "ber_95cp": [
+              0.00018027109984319293,
+              0.0005788469819764611
+            ],
+            "exact_windows": 792,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 8,
+            "n_bits": 38400,
+            "ber": 0.00020833333333333335,
+            "ber_95cp": [
+              8.99476996809414e-05,
+              0.00041045822547412233
+            ],
+            "exact_windows": 796,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 239,
+            "n_bits": 38400,
+            "ber": 0.006223958333333333,
+            "ber_95cp": [
+              0.005461853855301841,
+              0.0070621137502776135
+            ],
+            "exact_windows": 600,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 14,
+            "n_bits": 38400,
+            "ber": 0.00036458333333333335,
+            "ber_95cp": [
+              0.00019933497770854318,
+              0.0006116332987545176
+            ],
+            "exact_windows": 790,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 11,
+            "n_bits": 38400,
+            "ber": 0.00028645833333333333,
+            "ber_95cp": [
+              0.0001430073641577744,
+              0.0005124951440378899
+            ],
+            "exact_windows": 794,
+            "n_windows": 800
+          }
+        }
+      ],
+      "mean_errors_per_realization": {
+        "classic": 9.0,
+        "old_int8": 237.0,
+        "new_int8": 11.8,
+        "new_aug_int8": 11.2
+      }
+    },
+    {
+      "perturbation": "snr",
+      "point": 3,
+      "realizations": 5,
+      "all_sessions": {
+        "classic": {
+          "errors": 682,
+          "n_bits": 192000,
+          "ber": 0.0035520833333333333,
+          "ber_95cp": [
+            0.0032908854091170015,
+            0.0038284418818548384
+          ],
+          "exact_windows": 3392,
+          "n_windows": 4000
+        },
+        "old_int8": {
+          "errors": 3869,
+          "n_bits": 192000,
+          "ber": 0.020151041666666668,
+          "ber_95cp": [
+            0.019527160159064787,
+            0.020789469414499953
+          ],
+          "exact_windows": 1484,
+          "n_windows": 4000
+        },
+        "new_int8": {
+          "errors": 916,
+          "n_bits": 192000,
+          "ber": 0.0047708333333333335,
+          "ber_95cp": [
+            0.004467509250722021,
+            0.005089254610802078
+          ],
+          "exact_windows": 3219,
+          "n_windows": 4000
+        },
+        "new_aug_int8": {
+          "errors": 720,
+          "n_bits": 192000,
+          "ber": 0.00375,
+          "ber_95cp": [
+            0.0034815121918163336,
+            0.004033637267858981
+          ],
+          "exact_windows": 3359,
+          "n_windows": 4000
+        }
+      },
+      "1_5m": {
+        "classic": {
+          "errors": 521,
+          "n_bits": 144000,
+          "ber": 0.0036180555555555553,
+          "ber_95cp": [
+            0.0033145035148536314,
+            0.003941855929654423
+          ],
+          "exact_windows": 2539,
+          "n_windows": 3000
+        },
+        "old_int8": {
+          "errors": 2921,
+          "n_bits": 144000,
+          "ber": 0.02028472222222222,
+          "ber_95cp": [
+            0.019562803675841234,
+            0.021026046233289398
+          ],
+          "exact_windows": 1114,
+          "n_windows": 3000
+        },
+        "new_int8": {
+          "errors": 710,
+          "n_bits": 144000,
+          "ber": 0.004930555555555555,
+          "ber_95cp": [
+            0.004575304107613664,
+            0.0053059600743406935
+          ],
+          "exact_windows": 2403,
+          "n_windows": 3000
+        },
+        "new_aug_int8": {
+          "errors": 546,
+          "n_bits": 144000,
+          "ber": 0.0037916666666666667,
+          "ber_95cp": [
+            0.0034807845866278555,
+            0.004122783246370775
+          ],
+          "exact_windows": 2522,
+          "n_windows": 3000
+        }
+      },
+      "per_realization": [
+        {
+          "classic": {
+            "errors": 141,
+            "n_bits": 38400,
+            "ber": 0.003671875,
+            "ber_95cp": [
+              0.0030916880288401716,
+              0.004328987959510917
+            ],
+            "exact_windows": 674,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 767,
+            "n_bits": 38400,
+            "ber": 0.019973958333333333,
+            "ber_95cp": [
+              0.01859795553963989,
+              0.021423208889107242
+            ],
+            "exact_windows": 306,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 185,
+            "n_bits": 38400,
+            "ber": 0.0048177083333333336,
+            "ber_95cp": [
+              0.004149800170858207,
+              0.0055621019353713245
+            ],
+            "exact_windows": 637,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 142,
+            "n_bits": 38400,
+            "ber": 0.0036979166666666666,
+            "ber_95cp": [
+              0.003115593046369401,
+              0.00435715492994523
+            ],
+            "exact_windows": 672,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 139,
+            "n_bits": 38400,
+            "ber": 0.0036197916666666666,
+            "ber_95cp": [
+              0.0030439011043904445,
+              0.004272631144131082
+            ],
+            "exact_windows": 677,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 747,
+            "n_bits": 38400,
+            "ber": 0.019453125,
+            "ber_95cp": [
+              0.01809516125014963,
+              0.02088442751562938
+            ],
+            "exact_windows": 323,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 203,
+            "n_bits": 38400,
+            "ber": 0.005286458333333333,
+            "ber_95cp": [
+              0.0045857629556211735,
+              0.006063484642391887
+            ],
+            "exact_windows": 628,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 143,
+            "n_bits": 38400,
+            "ber": 0.0037239583333333335,
+            "ber_95cp": [
+              0.003139505659310854,
+              0.004385314381845577
+            ],
+            "exact_windows": 675,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 146,
+            "n_bits": 38400,
+            "ber": 0.0038020833333333335,
+            "ber_95cp": [
+              0.003211288284226244,
+              0.004469748399638761
+            ],
+            "exact_windows": 669,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 796,
+            "n_bits": 38400,
+            "ber": 0.020729166666666667,
+            "ber_95cp": [
+              0.01932744492040177,
+              0.022204005042957154
+            ],
+            "exact_windows": 293,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 186,
+            "n_bits": 38400,
+            "ber": 0.00484375,
+            "ber_95cp": [
+              0.004173978949933904,
+              0.0055899975931080655
+            ],
+            "exact_windows": 642,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 147,
+            "n_bits": 38400,
+            "ber": 0.003828125,
+            "ber_95cp": [
+              0.003235230499178286,
+              0.004497878544110083
+            ],
+            "exact_windows": 664,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 128,
+            "n_bits": 38400,
+            "ber": 0.0033333333333333335,
+            "ber_95cp": [
+              0.0027816528042400035,
+              0.003962095003728047
+            ],
+            "exact_windows": 684,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 772,
+            "n_bits": 38400,
+            "ber": 0.020104166666666666,
+            "ber_95cp": [
+              0.018723693198367582,
+              0.021557865220408933
+            ],
+            "exact_windows": 291,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 171,
+            "n_bits": 38400,
+            "ber": 0.004453125,
+            "ber_95cp": [
+              0.0038118540073156667,
+              0.005171010435272662
+            ],
+            "exact_windows": 650,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 149,
+            "n_bits": 38400,
+            "ber": 0.003880208333333333,
+            "ber_95cp": [
+              0.0032831364929877607,
+              0.00455411747966493
+            ],
+            "exact_windows": 666,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 128,
+            "n_bits": 38400,
+            "ber": 0.0033333333333333335,
+            "ber_95cp": [
+              0.0027816528042400035,
+              0.003962095003728047
+            ],
+            "exact_windows": 688,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 787,
+            "n_bits": 38400,
+            "ber": 0.020494791666666668,
+            "ber_95cp": [
+              0.019100997617089856,
+              0.021961742942533693
+            ],
+            "exact_windows": 271,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 171,
+            "n_bits": 38400,
+            "ber": 0.004453125,
+            "ber_95cp": [
+              0.0038118540073156667,
+              0.005171010435272662
+            ],
+            "exact_windows": 662,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 139,
+            "n_bits": 38400,
+            "ber": 0.0036197916666666666,
+            "ber_95cp": [
+              0.0030439011043904445,
+              0.004272631144131082
+            ],
+            "exact_windows": 682,
+            "n_windows": 800
+          }
+        }
+      ],
+      "mean_errors_per_realization": {
+        "classic": 136.4,
+        "old_int8": 773.8,
+        "new_int8": 183.2,
+        "new_aug_int8": 144.0
+      }
+    },
+    {
+      "perturbation": "snr",
+      "point": 0,
+      "realizations": 5,
+      "all_sessions": {
+        "classic": {
+          "errors": 4741,
+          "n_bits": 192000,
+          "ber": 0.024692708333333334,
+          "ber_95cp": [
+            0.02400313834629913,
+            0.025396679467177868
+          ],
+          "exact_windows": 1203,
+          "n_windows": 4000
+        },
+        "old_int8": {
+          "errors": 11157,
+          "n_bits": 192000,
+          "ber": 0.058109375,
+          "ber_95cp": [
+            0.057066992432450794,
+            0.059165123980369154
+          ],
+          "exact_windows": 225,
+          "n_windows": 4000
+        },
+        "new_int8": {
+          "errors": 5820,
+          "n_bits": 192000,
+          "ber": 0.0303125,
+          "ber_95cp": [
+            0.02955011893559628,
+            0.03108910527939537
+          ],
+          "exact_windows": 919,
+          "n_windows": 4000
+        },
+        "new_aug_int8": {
+          "errors": 5108,
+          "n_bits": 192000,
+          "ber": 0.02660416666666667,
+          "ber_95cp": [
+            0.02588890774694995,
+            0.02733376629573814
+          ],
+          "exact_windows": 1132,
+          "n_windows": 4000
+        }
+      },
+      "1_5m": {
+        "classic": {
+          "errors": 3625,
+          "n_bits": 144000,
+          "ber": 0.025173611111111112,
+          "ber_95cp": [
+            0.024370608149082325,
+            0.02599580974178567
+          ],
+          "exact_windows": 873,
+          "n_windows": 3000
+        },
+        "old_int8": {
+          "errors": 8421,
+          "n_bits": 144000,
+          "ber": 0.058479166666666665,
+          "ber_95cp": [
+            0.057272649671989,
+            0.05970349942819362
+          ],
+          "exact_windows": 162,
+          "n_windows": 3000
+        },
+        "new_int8": {
+          "errors": 4446,
+          "n_bits": 144000,
+          "ber": 0.030875,
+          "ber_95cp": [
+            0.02998755391080969,
+            0.03178140117770587
+          ],
+          "exact_windows": 676,
+          "n_windows": 3000
+        },
+        "new_aug_int8": {
+          "errors": 3899,
+          "n_bits": 144000,
+          "ber": 0.02707638888888889,
+          "ber_95cp": [
+            0.026244145104456804,
+            0.02792774766479615
+          ],
+          "exact_windows": 831,
+          "n_windows": 3000
+        }
+      },
+      "per_realization": [
+        {
+          "classic": {
+            "errors": 956,
+            "n_bits": 38400,
+            "ber": 0.024895833333333332,
+            "ber_95cp": [
+              0.023360448781490555,
+              0.026503625293947834
+            ],
+            "exact_windows": 243,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 2229,
+            "n_bits": 38400,
+            "ber": 0.058046875,
+            "ber_95cp": [
+              0.05572857814255399,
+              0.06043228238516786
+            ],
+            "exact_windows": 59,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 1165,
+            "n_bits": 38400,
+            "ber": 0.030338541666666666,
+            "ber_95cp": [
+              0.028645615106857543,
+              0.032102974899339935
+            ],
+            "exact_windows": 182,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 1036,
+            "n_bits": 38400,
+            "ber": 0.026979166666666665,
+            "ber_95cp": [
+              0.025381461648027247,
+              0.028648931543131553
+            ],
+            "exact_windows": 227,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 934,
+            "n_bits": 38400,
+            "ber": 0.024322916666666666,
+            "ber_95cp": [
+              0.022805159308525672,
+              0.025913177734164454
+            ],
+            "exact_windows": 242,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 2192,
+            "n_bits": 38400,
+            "ber": 0.05708333333333333,
+            "ber_95cp": [
+              0.05478341558527542,
+              0.05945051179021232
+            ],
+            "exact_windows": 55,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 1154,
+            "n_bits": 38400,
+            "ber": 0.030052083333333333,
+            "ber_95cp": [
+              0.028367044635104074,
+              0.031808675576702465
+            ],
+            "exact_windows": 186,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 1028,
+            "n_bits": 38400,
+            "ber": 0.026770833333333334,
+            "ber_95cp": [
+              0.025179240530042078,
+              0.02843452057783998
+            ],
+            "exact_windows": 216,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 945,
+            "n_bits": 38400,
+            "ber": 0.024609375,
+            "ber_95cp": [
+              0.02308277645126291,
+              0.026208429065660458
+            ],
+            "exact_windows": 230,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 2238,
+            "n_bits": 38400,
+            "ber": 0.05828125,
+            "ber_95cp": [
+              0.055958510168657945,
+              0.060671063845904635
+            ],
+            "exact_windows": 30,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 1139,
+            "n_bits": 38400,
+            "ber": 0.029661458333333335,
+            "ber_95cp": [
+              0.02798724238052748,
+              0.03140729183099314
+            ],
+            "exact_windows": 182,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 1020,
+            "n_bits": 38400,
+            "ber": 0.0265625,
+            "ber_95cp": [
+              0.02497704522391682,
+              0.02822008383686147
+            ],
+            "exact_windows": 217,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 944,
+            "n_bits": 38400,
+            "ber": 0.024583333333333332,
+            "ber_95cp": [
+              0.023057536234595007,
+              0.026181590326605927
+            ],
+            "exact_windows": 253,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 2251,
+            "n_bits": 38400,
+            "ber": 0.058619791666666664,
+            "ber_95cp": [
+              0.056290653051046864,
+              0.061015951567364474
+            ],
+            "exact_windows": 36,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 1179,
+            "n_bits": 38400,
+            "ber": 0.030703125,
+            "ber_95cp": [
+              0.02900021809578446,
+              0.03247747899382529
+            ],
+            "exact_windows": 183,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 993,
+            "n_bits": 38400,
+            "ber": 0.025859375,
+            "ber_95cp": [
+              0.02429483059055318,
+              0.027496165587828247
+            ],
+            "exact_windows": 245,
+            "n_windows": 800
+          }
+        },
+        {
+          "classic": {
+            "errors": 962,
+            "n_bits": 38400,
+            "ber": 0.025052083333333332,
+            "ber_95cp": [
+              0.023511929344740386,
+              0.026664618524554477
+            ],
+            "exact_windows": 235,
+            "n_windows": 800
+          },
+          "old_int8": {
+            "errors": 2247,
+            "n_bits": 38400,
+            "ber": 0.058515625,
+            "ber_95cp": [
+              0.05618845287794778,
+              0.060909834630118134
+            ],
+            "exact_windows": 45,
+            "n_windows": 800
+          },
+          "new_int8": {
+            "errors": 1183,
+            "n_bits": 38400,
+            "ber": 0.030807291666666667,
+            "ber_95cp": [
+              0.02910154517732425,
+              0.03258446823641701
+            ],
+            "exact_windows": 186,
+            "n_windows": 800
+          },
+          "new_aug_int8": {
+            "errors": 1031,
+            "n_bits": 38400,
+            "ber": 0.026848958333333332,
+            "ber_95cp": [
+              0.02525507044017168,
+              0.02851492769473762
+            ],
+            "exact_windows": 227,
+            "n_windows": 800
+          }
+        }
+      ],
+      "mean_errors_per_realization": {
+        "classic": 948.2,
+        "old_int8": 2231.4,
+        "new_int8": 1164.0,
+        "new_aug_int8": 1021.6
+      }
+    }
+  ],
+  "runtime_seconds": 17.967482328414917
+}

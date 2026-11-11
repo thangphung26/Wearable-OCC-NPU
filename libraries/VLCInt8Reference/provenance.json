@@ -1,0 +1,148 @@
+{
+  "vlc_cpu_bank.h": "669b53eb9b287d69a247ac7136dacb309a65c2ff15d3d3c99d791dd813e7b563",
+  "ruy/profiler/instrumentation.h": "801187e17d4ac0308bece6b07c1c0987db69ff78eaf0fb3a74c5c0f336c91a96",
+  "internal/detect_platform.h": "bfa61d487156c68cb11fd2b114e0aa68ac048ec15b4e44631da2bc6b033a3f10",
+  "fixedpoint/fixedpoint_sse.h": "c729d7abe8c52829be63bc0b51def7aee7a2b700aaaedbcd9bc3605605d9ce2e",
+  "fixedpoint/fixedpoint_neon.h": "83f64af6555d6c59b916f59ee2a837b1cd4140c0b7c26791ac3f0b36975f0ad0",
+  "fixedpoint/fixedpoint_avx.h": "e6a6fa2a5fcf5207e152eb0aff459003890d9632e9743377e291d57a3b4379c3",
+  "fixedpoint/fixedpoint.h": "f1b11e756ba138b42abd2f39095fd4d740a26b10ff1a8c682c2eb4d273658cf6",
+  "fixedpoint/fixedpoint_msa.h": "71985120ddeeacfc8b3eed81f084c7fc35b5c47bd2b62241505bb2834f91402f",
+  "fixedpoint/fixedpoint_wasmsimd.h": "17552be58bf100860f5a131491d126e795d2225af4a9f467d5bf1735aaa26d62",
+  "tensorflow/lite/kernels/op_macros.h": "4547aa089c93b1d2ced20a6e850dac59582c02bb044482719be6338205676590",
+  "tensorflow/lite/kernels/internal/common.h": "ad33133ddddb45cb648367777a657def377c30fe6737c9d6fa1880bf1b05b779",
+  "tensorflow/lite/kernels/internal/types.h": "83110892443825bfeb1e00e4cad653baf051d17a3cee80ed50f68101c421d0e5",
+  "tensorflow/lite/kernels/internal/compatibility.h": "2e6c675e7402525d79aef5108b47b03397ead0e57921c9cb337f150916b9725d",
+  "tensorflow/lite/kernels/internal/runtime_shape.cc": "0b4d717cfe3e5ce1845942eac8778d2267f98f02f76b9b02c1c0dad8a6501450",
+  "tensorflow/lite/kernels/internal/cppmath.h": "dca409b17610b26d6dfa4411fe074356f4e0f4c9ea67ed948974bfbf235052fa",
+  "tensorflow/lite/kernels/internal/runtime_shape.h": "c6d2ffc3a48f92dd7b7bd6943ca08df2a0cb5b6e8dd0e1baf9f6c370740e5cdc",
+  "tensorflow/lite/kernels/internal/common.cc": "138b5b5daa55f0d9fe2db33f8553266aa404013a9b2a4ec3833cb84beb52dba5",
+  "tensorflow/lite/kernels/internal/reference/integer_ops/conv.h": "370f80020b9aa44e61bb3a0a0d081c035432f99aaf1cb66c6c3d072700a4bec8",
+  "tensorflow/lite/kernels/internal/reference/integer_ops/logistic.h": "e30dacc18e0a5dfa880bf5dc2581916df07f18735c5c9f766b7ead5ce0434365",
+  "tensorflow/lite/kernels/internal/reference/integer_ops/mul.h": "4c316fe2ea277cde4818f6ba0373593f7f65578442b129b328c14315f23dd359",
+  "tensorflow/lite/kernels/internal/reference/integer_ops/add.h": "7ca1c716010ba20aeb9f39c5a3788d67b33f678917a74b960d75a11d44ddcd94",
+  "tensorflow/lite/kernels/internal/optimized/neon_check.h": "d64ad23887c80b035408e502ecc9fdb308b061dc1726ebf3c1d99b8a13d63be7",
+  "tensorflow/lite/core/macros.h": "f1f645b535a55a3c7cb0cef4703aaee95897b462a80379f8ab70d1dbfd4b8343",
+  "model_sha256": "ce60f7f60045592f3618d717001c2962538d601175f952994802e5b9c04c8175",
+  "operations": [
+    {
+      "index": 0,
+      "builtin_code": 3,
+      "inputs": [
+        0,
+        20,
+        19
+      ],
+      "output": 21
+    },
+    {
+      "index": 1,
+      "builtin_code": 18,
+      "inputs": [
+        21,
+        18
+      ],
+      "output": 22
+    },
+    {
+      "index": 2,
+      "builtin_code": 0,
+      "inputs": [
+        22,
+        17
+      ],
+      "output": 23
+    },
+    {
+      "index": 3,
+      "builtin_code": 3,
+      "inputs": [
+        23,
+        16,
+        15
+      ],
+      "output": 24
+    },
+    {
+      "index": 4,
+      "builtin_code": 18,
+      "inputs": [
+        24,
+        14
+      ],
+      "output": 25
+    },
+    {
+      "index": 5,
+      "builtin_code": 0,
+      "inputs": [
+        25,
+        13
+      ],
+      "output": 26
+    },
+    {
+      "index": 6,
+      "builtin_code": 3,
+      "inputs": [
+        26,
+        12,
+        11
+      ],
+      "output": 27
+    },
+    {
+      "index": 7,
+      "builtin_code": 18,
+      "inputs": [
+        27,
+        10
+      ],
+      "output": 28
+    },
+    {
+      "index": 8,
+      "builtin_code": 0,
+      "inputs": [
+        28,
+        9
+      ],
+      "output": 29
+    },
+    {
+      "index": 9,
+      "builtin_code": 3,
+      "inputs": [
+        29,
+        8,
+        7
+      ],
+      "output": 30
+    },
+    {
+      "index": 10,
+      "builtin_code": 3,
+      "inputs": [
+        30,
+        6,
+        5
+      ],
+      "output": 31
+    },
+    {
+      "index": 11,
+      "builtin_code": 14,
+      "inputs": [
+        31
+      ],
+      "output": 32
+    }
+  ],
+  "bank_source": "dataset/benchmark/npu_raw_pilot_1m_roi106_s01/npu_windows.csv",
+  "bank_n": 64,
+  "host_reference": "tflite_runtime 2.5.0.post1 BUILTIN_REF",
+  "nbg_sha256": "2838c4db8f34af99599c528a765d254e6ab82c8d2d76bdaedce8079cacdd9fb8",
+  "bank_input_sha256": "d464612c706cf6b3ed9140c9d36b5ee960a5a9da86cae1bd1b65faffe25c3668",
+  "tensorflow_commit": "4dacf3f368eb7965e9b5c3bbdd5193986081c3b2",
+  "gemmlowp_commit": "e844ffd17118c1e17d94e1ba4354c075a4577b88",
+  "ruy_commit": "2264753777198e4393fb83c44c693462d57a2be1"
+}

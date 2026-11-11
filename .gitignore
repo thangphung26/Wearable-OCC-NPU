@@ -1,0 +1,51 @@
+# Raw / derived data and scratch (never modify raw data; kept out of git)
+dataset/
+tmp/
+output/
+AI_Pipeline_amebaPro2/dataset/
+AI_Pipeline_amebaPro2/ameba_deployment/aug/work/
+# Vendor toolkit (download from Realtek/Ameba)
+AI_Pipeline_amebaPro2/ameba_deployment/toolkit/
+# Old paper snapshots and third-party papers
+paper_jsen/results_archive/
+paper_jsen/Behind-the-Ear_EEG-Based_Wearable_Driver_Drowsiness_Detection_System_Using_Embedded_Tiny_Neural_Networks.pdf
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+# Archives
+*.zip
+*.rar
+
+# Manuscript (not published in this repository; kept locally / on Overleaf)
+paper_jsen/
+
+# KICSP conference version (not published in this repository)
+paper_kicsp/
+
+# Large regenerable tables/caches and raw instrument/serial logs
+AI_Pipeline_amebaPro2/retrain_sessions/results_v2/fresh/robustness_fresh/per_window.csv
+AI_Pipeline_amebaPro2/retrain_sessions/results_v2/data/windows_offsets.npz
+results/raw_serial/20261110_040050/rx_raw.jsonl
+results/energy/tx_rt_imu_usb_nofinger_20261110/fnb58.jsonl
+# Acuity compiler dumps (retain work_v2 NBG, metadata JSON and YAML)
+AI_Pipeline_amebaPro2/ameba_deployment/aug/work_v2/simulator/
+AI_Pipeline_amebaPro2/ameba_deployment/aug/work_v2/inputs/
+AI_Pipeline_amebaPro2/ameba_deployment/aug/work_v2/wksp/
+AI_Pipeline_amebaPro2/ameba_deployment/aug/work_v2/wksp_nbg_unify/
+# Internal campaign notes
+results/fresh_roi/CAMPAIGN_NOTES.md
+# Python packaging and notebooks
+*.egg-info/
+.ipynb_checkpoints/

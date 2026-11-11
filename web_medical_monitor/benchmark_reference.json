@@ -1,0 +1,21 @@
+{
+  "description": "Measured same-board full-API mean latency; not live dashboard metrics or channel delivery rates.",
+  "models": [
+    {
+      "model": "original",
+      "cpu_ms": 24.996,
+      "npu_ms": 3.019,
+      "source": "1_VLC_code_main/paper_jsen/current_performance/table_current_performance.tex"
+    },
+    {
+      "model": "augmented",
+      "cpu_ms": 22.234,
+      "npu_ms": 2.901,
+      "source": "1_VLC_code_main/AI_Pipeline_amebaPro2/retrain_sessions/results_v2/onboard_aug_latency/aug_v2_reference_s01/summary.json",
+      "fields": [
+        "timing.cpu_full_us.mean_us",
+        "timing.npu_full_us.mean_us"
+      ]
+    }
+  ]
+}

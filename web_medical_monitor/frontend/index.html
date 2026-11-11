@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VLC Patient Telemetry Monitor</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/charts.js" defer></script>
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="monitor-root" id="dashboard">
+    <!-- Top Bar: Slim instrument header -->
+    <header class="masthead">
+      <div class="masthead-brand">
+        <h1 class="brand-title">VLC Patient Telemetry Monitor</h1>
+        <span class="prototype-notice">Research prototype · not a medical device</span>
+      </div>
+      <div class="header-actions">
+        <span id="synthetic" class="mode-badge" hidden>SIMULATION</span>
+        <span id="sourceText" class="source-badge">—</span>
+        <label class="patient-select-wrap">
+          <span class="sr-only">Monitored patient profile</span>
+          <select id="patientSelector" aria-label="Monitored patient profile">
+            <option value="1">Patient #1: Baseline</option>
+            <option value="2">Patient #2: Active</option>
+            <option value="3">Patient #3: Bradycardia</option>
+            <option value="4">Patient #4: Fever / Fall</option>
+            <option value="5">Patient #5: Recovery</option>
+            <option value="6">Patient #6: Tachycardia</option>
+            <option value="7">Patient #7: Ambulatory</option>
+            <option value="8">Patient #8: Multi-Organ</option>
+          </select>
+        </label>
+        <button id="themeButton" type="button" aria-label="Toggle dark and light theme">
+          <span id="themeButtonText">Light theme</span>
+        </button>
+        <button id="settingsButton" type="button">Settings &amp; tools</button>
+      </div>
+    </header>
+
+    <!-- Alarm State: One strong full-width red band, the only red on screen -->
+    <section id="alarmPanel" class="alarm-banner" aria-label="Alarm state">
+      <div id="alarmLive" class="alarm-live" role="status" aria-live="polite" aria-atomic="true">
+        <div class="alarm-text-block">
+          <strong id="alarmTitle" class="alarm-title">No active dashboard alarm</strong>
+          <p id="alarmDetail" class="alarm-desc">Waiting for a distinct snapshot.</p>
+        </div>
+        <span id="alarmOnset" class="alarm-onset"></span>
+      </div>
+      <button id="ackButton" class="btn-ack" hidden>Acknowledge episode</button>
+    </section>
+
+    <!-- Status Line: High-density optical telemetry metadata -->
+    <section class="status-bar" aria-label="Receiver link telemetry status">
+      <div class="status-item patient-meta">
+        <span class="status-label">PATIENT</span>
+        <strong id="patientName" class="status-val">Patient: Initializing</strong>
+      </div>
+      <div class="status-item link-meta" id="connectionCol">
+        <span class="status-label">LINK</span>
+        <span class="status-val-wrap">
+          <span id="linkIndicator" class="conn-dot" aria-hidden="true"></span>
+          <strong id="connectionText" class="status-val">Connecting</strong>
+        </span>
+        <small id="linkSummary" class="status-sub">Waiting for a distinct snapshot.</small>
+      </div>
+      <div class="status-item decoder-meta">
+        <span class="status-label">DECODER / CRC</span>
+        <strong id="decoderText" class="status-val">—</strong>
+        <small id="crcText" class="status-sub">CRC: Initializing</small>
+        <small id="txAlertText" class="status-sub" hidden>TX alert bit: none</small>
+      </div>
+      <div class="status-item seq-meta">
+        <span class="status-label">LAST SEQ</span>
+        <strong id="seqText" class="status-val">Seq: Initializing</strong>
+      </div>
+      <div class="status-item age-meta">
+        <span class="status-label">SNAPSHOT AGE</span>
+        <strong id="ageText" class="status-val">Waiting for data</strong>
+        <small id="periodText" class="status-sub">Period — · STALE at 25 s</small>
+      </div>
+      <div class="status-item counters-meta">
+        <span class="status-label">RECEIPT COUNTERS</span>
+        <strong id="countersText" class="status-val">0 valid / 0 CRC-rejected / 0 duplicate</strong>
+        <small id="counterScope" class="status-sub">since: initializing</small>
+      </div>
+      <div class="status-item rates-meta">
+        <span class="status-label">RATES</span>
+        <strong id="ratesText" class="status-val">30 FPS acquisition (nominal) · 20 Hz resampling · 5 bit/s</strong>
+        <small id="snapshotCadence" class="status-sub">Snapshot period unavailable</small>
+      </div>
+    </section>
+
+    <!-- Five Parameter Tiles on One Row -->
+    <section class="vitals-row" aria-label="Current snapshot vital signs">
+      <!-- HR Tile -->
+      <article class="vital-tile vital-hr" id="cardHR">
+        <div class="tile-header">
+          <div class="tile-title-group">
+            <span class="param-code">HR</span>
+            <span class="param-name">Heart rate</span>
+          </div>
+          <div class="tile-limits-group">
+            <span id="rangeHR" class="limits-val">Demo 50–140</span>
+          </div>
+        </div>
+        <div class="tile-body">
+          <div class="numeral-container">
+            <strong id="valHR" class="vital-numeral">--</strong>
+            <span class="vital-unit">bpm</span>
+          </div>
+        </div>
+        <div class="tile-footer">
+          <p id="warnHR" class="field-status">Data unavailable</p>
+        </div>
+      </article>
+
+      <!-- SpO2 Tile -->
+      <article class="vital-tile vital-spo2" id="cardSpO2">
+        <div class="tile-header">
+          <div class="tile-title-group">
+            <span class="param-code">SpO2</span>
+            <span class="param-name">Oxygen saturation</span>
+          </div>
+          <div class="tile-limits-group">
+            <span id="rangeSpO2" class="limits-val">Demo ≥94</span>
+          </div>
+        </div>
+        <div class="tile-body">
+          <div class="numeral-container">
+            <strong id="valSpO2" class="vital-numeral">--</strong>
+            <span class="vital-unit">%</span>
+          </div>
+        </div>
+        <div class="tile-footer">
+          <p id="warnSpO2" class="field-status">Data unavailable</p>
+        </div>
+      </article>
+
+      <!-- Temp Tile -->
+      <article class="vital-tile vital-temp" id="cardTemp">
+        <div class="tile-header">
+          <div class="tile-title-group">
+            <span class="param-code">Temp</span>
+            <span class="param-name">Temperature</span>
+          </div>
+          <div class="tile-limits-group">
+            <span id="rangeTemp" class="limits-val">Demo &lt;39.0</span>
+          </div>
+        </div>
+        <div class="tile-body">
+          <div class="numeral-container">
+            <strong id="valTemp" class="vital-numeral">--</strong>
+            <span class="vital-unit">°C</span>
+          </div>
+        </div>
+        <div class="tile-footer">
+          <p id="warnTemp" class="field-status">Data unavailable</p>
+        </div>
+      </article>
+
+      <!-- IMU Tile -->
+      <article class="vital-tile vital-imu" id="cardIMU">
+        <div class="tile-header">
+          <div class="tile-title-group">
+            <span class="param-code">IMU</span>
+            <span class="param-name">Activity / state</span>
+          </div>
+          <div class="tile-limits-group">
+            <span id="rangeIMU" class="limits-val">Warn 2–3</span>
+          </div>
+        </div>
+        <div class="tile-body">
+          <div class="numeral-container">
+            <strong id="valIMU" class="vital-numeral">--</strong>
+            <span class="vital-unit">/ 3</span>
+          </div>
+        </div>
+        <div class="tile-footer">
+          <p id="imuDescription" class="imu-desc">Protocol state: Initializing</p>
+          <p id="warnIMU" class="field-status">Data unavailable</p>
+        </div>
+      </article>
+
+      <!-- Battery Tile -->
+      <article class="vital-tile vital-battery" id="cardBattery">
+        <div class="tile-header">
+          <div class="tile-title-group">
+            <span class="param-code">BATT</span>
+            <span class="param-name">Transmitter power</span>
+          </div>
+          <div class="tile-limits-group">
+            <span class="limits-val">Range 0–7</span>
+          </div>
+        </div>
+        <div class="tile-body">
+          <div class="numeral-container">
+            <strong id="valBattery" class="vital-numeral">--</strong>
+            <span class="vital-unit">/ 7</span>
+          </div>
+          <div class="battery-segments" id="batterySegments" aria-label="Battery 7-step level">
+            <span class="batt-seg"></span><span class="batt-seg"></span><span class="batt-seg"></span><span class="batt-seg"></span><span class="batt-seg"></span><span class="batt-seg"></span><span class="batt-seg"></span>
+          </div>
+        </div>
+        <div class="tile-footer">
+          <p id="warnBattery" class="field-status">Data unavailable</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- Two Large Panels: Left Trend, Right Packet Timeline & Frame Breakdown -->
+    <section class="panels-grid" aria-label="Telemetry trends and packet cadence">
+      <!-- Left Panel: Stepped Trends with Stacked Lanes -->
+      <div class="panel panel-trends">
+        <div class="panel-header">
+          <div class="panel-heading-text">
+            <h2 class="panel-title">Telemetry Trends (Latest 30 Snapshots)</h2>
+            <p id="trendContext" class="panel-subtext">Selected patient &amp; source · wall-clock receipt time</p>
+          </div>
+          <div class="panel-badges">
+            <span class="cadence-tag">True receipt time · blank gaps</span>
+          </div>
+        </div>
+        <div class="panel-body">
+          <div class="canvas-wrap">
+            <canvas id="trendCanvas" aria-describedby="trendContext chartLegend packetTableCaption" role="img" aria-label="Receipt-time observation chart: HR, SpO2, temperature, IMU state and battery. Each dot is a received snapshot; missing time remains blank."></canvas>
+          </div>
+        </div>
+        <div class="panel-footer">
+          <p class="caption" id="chartLegend">Dot = received value · Δ = changed at newest receipt · shaded column = newest<br>Demo bands only; no clinical score. Blank intervals = no received snapshot.</p>
+        </div>
+      </div>
+
+      <!-- Right Panel: Optical Packet Timeline & Snapshot Fields -->
+      <div class="panel panel-timeline">
+        <div class="panel-header">
+          <div class="panel-heading-text">
+            <h2 class="panel-title">Optical Link Packet Timeline</h2>
+            <p id="timelineSubtext" class="panel-subtext">5 bit/s Manchester OOK · discrete telemetry · 48-bit CRC frame</p>
+          </div>
+          <div class="panel-badges">
+            <span id="timelineCadenceBadge" class="cadence-tag">Cadence: —</span>
+          </div>
+        </div>
+        <div class="panel-body timeline-body">
+          <div class="timeline-visual-wrap">
+            <div class="timeline-status-sub">
+              <span>Time axis (past 120 seconds)</span>
+              <span id="timelineGapsNotice">Ticks = received snapshots · Blank intervals = missing data</span>
+            </div>
+            <div class="timeline-canvas-container">
+              <canvas id="packetTimelineCanvas" aria-label="Optical packet arrival timeline"></canvas>
+            </div>
+          </div>
+
+          <!-- Latest Snapshot Fields Grid -->
+          <div class="decoded-frame-wrap">
+            <div class="frame-bar-header">
+              <h3>Latest snapshot fields</h3>
+            </div>
+            <div class="frame-grid">
+              <div class="field-item">
+                <span class="f-label">PATIENT</span>
+                <strong id="framePatient" class="f-val">--</strong>
+                <span class="f-bits">4b [43:40]</span>
+              </div>
+              <div class="field-item">
+                <span class="f-label">HEART RATE</span>
+                <strong id="frameHR" class="f-val color-hr">--</strong>
+                <span class="f-bits">8b [39:32]</span>
+              </div>
+              <div class="field-item">
+                <span class="f-label">SPO2</span>
+                <strong id="frameSpO2" class="f-val color-spo2">--</strong>
+                <span class="f-bits">7b [31:25]</span>
+              </div>
+              <div class="field-item">
+                <span class="f-label">TEMP</span>
+                <strong id="frameTemp" class="f-val color-temp">--</strong>
+                <span class="f-bits">7b [24:18]</span>
+              </div>
+              <div class="field-item">
+                <span class="f-label">IMU STATE</span>
+                <strong id="frameIMU" class="f-val color-imu">--</strong>
+                <span class="f-bits">2b [17:16]</span>
+              </div>
+              <div class="field-item">
+                <span class="f-label">BATTERY</span>
+                <strong id="frameBattery" class="f-val color-battery">--</strong>
+                <span class="f-bits">3b [15:13]</span>
+              </div>
+              <div class="field-item">
+                <span class="f-label">TX ALERT</span>
+                <strong id="frameAlert" class="f-val">--</strong>
+                <span class="f-bits">1b [12]</span>
+              </div>
+              <div class="field-item">
+                <span class="f-label">SEQUENCE</span>
+                <strong id="frameSeq" class="f-val">--</strong>
+                <span class="f-bits">4b [11:8]</span>
+              </div>
+              <div class="field-item">
+                <span class="f-label">CRC STATUS</span>
+                <strong id="frameCRC" class="f-val">--</strong>
+                <span class="f-bits">8b [7:0]</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bottom: Telemetry Feed Table & Status Strip -->
+    <section class="bottom-section" aria-label="Received telemetry log">
+      <div class="panel panel-packets">
+        <div class="panel-header">
+          <div class="panel-heading-text">
+            <h2 id="packetTitle" class="panel-title">Received Telemetry Feed</h2>
+            <p class="panel-subtext">Latest five received snapshots · newest first</p>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table id="packetTable">
+            <caption id="packetTableCaption" class="sr-only">Latest five received snapshots · newest first · CRC-rejected / duplicate counts above; their timestamps are not supplied</caption>
+            <thead>
+              <tr>
+                <th scope="col">Time / Patient</th>
+                <th scope="col">Seq / Decoder / CRC</th>
+                <th scope="col">Snapshot vitals / Warnings</th>
+              </tr>
+            </thead>
+            <tbody id="packetRows"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <footer class="bottom-footer">
+        <span>Research-demo thresholds · snapshot telemetry, not a continuous physiological signal</span>
+        <span id="footerState">Waiting for data</span>
+      </footer>
+    </section>
+  </div>
+
+  <!-- Dialogs: Settings, Ports, Benchmark, Verify -->
+  <dialog id="settingsDialog" role="dialog" aria-modal="true" aria-labelledby="settingsTitle">
+    <div class="dialog-heading">
+      <h2 id="settingsTitle">Settings &amp; tools</h2>
+      <button data-close type="button" aria-label="Close settings">Close</button>
+    </div>
+    <div class="dialog-body">
+      <label class="dialog-row">
+        <span>Data source</span>
+        <select id="modeSelect">
+          <option value="simulation">Simulation</option>
+          <option value="serial">UART</option>
+          <option value="api">API</option>
+          <option value="wifi">UDP</option>
+        </select>
+      </label>
+      <div class="tool-grid">
+        <button id="portsButton" type="button">COM ports</button>
+        <button id="benchmarkButton" type="button">Benchmark reference</button>
+        <button id="verifyButton" type="button">Ground-truth verify</button>
+        <button id="soundButton" type="button" aria-pressed="false">Sound: off</button>
+        <button id="testButton" type="button" disabled>Test alarm (simulation)</button>
+        <button id="clearTestButton" type="button" disabled>Clear test flag</button>
+      </div>
+      <h3>Receiver log</h3>
+      <div id="terminalLogs" class="logs" role="log" aria-label="Receiver messages"></div>
+    </div>
+  </dialog>
+
+  <dialog id="portsDialog" role="dialog" aria-modal="true" aria-labelledby="portsTitle">
+    <div class="dialog-heading">
+      <h2 id="portsTitle">COM ports</h2>
+      <button data-close type="button" aria-label="Close COM ports">Close</button>
+    </div>
+    <div class="dialog-body">
+      <p id="portStatus">Select ports or enter a device path.</p>
+      <datalist id="portOptions"></datalist>
+      <label class="dialog-row">
+        <span>RX port</span>
+        <input id="rxPort" list="portOptions" value="/dev/ttyUSB0">
+      </label>
+      <label class="dialog-row">
+        <span>TX ground-truth port</span>
+        <input id="txPort" list="portOptions" value="/dev/ttyACM0">
+      </label>
+      <label class="dialog-row">
+        <span>Baud rate</span>
+        <input id="baudRate" type="number" value="115200" min="1" max="4000000">
+      </label>
+      <div class="tool-grid">
+        <button id="refreshPortsButton" type="button">Refresh ports</button>
+        <button id="connectRX" type="button">Connect RX Only</button>
+        <button id="connectTX" type="button">Connect TX Only</button>
+        <button id="connectBoth" type="button">Connect RX + TX</button>
+        <button id="disconnectRX" type="button">Disconnect RX</button>
+        <button id="disconnectTX" type="button">Disconnect TX</button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="benchmarkDialog" role="dialog" aria-modal="true" aria-labelledby="benchmarkTitle">
+    <div class="dialog-heading">
+      <h2 id="benchmarkTitle">Benchmark reference</h2>
+      <button data-close type="button" aria-label="Close benchmark">Close</button>
+    </div>
+    <div class="dialog-body">
+      <p>Measured model latency reference; not live link performance.</p>
+      <div id="benchmarkReference" class="logs">Loading reference…</div>
+    </div>
+  </dialog>
+
+  <dialog id="verifyDialog" role="dialog" aria-modal="true" aria-labelledby="verifyTitle">
+    <div class="dialog-heading">
+      <h2 id="verifyTitle">Ground-truth field verification</h2>
+      <button data-close type="button" aria-label="Close verification">Close</button>
+    </div>
+    <div class="dialog-body">
+      <p id="comparisonStats">N/A · no comparisons</p>
+      <p>Exact normalized fields: patient, seq, hr, spo2, temp_c (0.1 °C), imu, battery, alert.</p>
+      <p><a href="/api/export_csv">Export current-session CSV</a></p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Time</th>
+              <th scope="col">Patient / seq</th>
+              <th scope="col">Result</th>
+            </tr>
+          </thead>
+          <tbody id="comparisonRows"></tbody>
+        </table>
+      </div>
+    </div>
+  </dialog>
+
+  <p id="actionNotice" role="status" aria-live="polite" hidden></p>
+</body>
+</html>

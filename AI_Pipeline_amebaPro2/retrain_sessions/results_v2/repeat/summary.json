@@ -1,0 +1,474 @@
+{
+  "metrics": {
+    "all_sessions": {
+      "classic": {
+        "errors": 6,
+        "n_bits": 38400,
+        "ber": 0.00015625,
+        "ber_95cp": [
+          5.734308546247142e-05,
+          0.00034005920895049805
+        ],
+        "exact_windows": 798
+      },
+      "old_int8": {
+        "errors": 12,
+        "n_bits": 38400,
+        "ber": 0.0003125,
+        "ber_95cp": [
+          0.00016148340223932182,
+          0.0005458109143408875
+        ],
+        "exact_windows": 793
+      },
+      "new_fp32": {
+        "errors": 6,
+        "n_bits": 38400,
+        "ber": 0.00015625,
+        "ber_95cp": [
+          5.734308546247142e-05,
+          0.00034005920895049805
+        ],
+        "exact_windows": 798
+      },
+      "new_int8": {
+        "errors": 6,
+        "n_bits": 38400,
+        "ber": 0.00015625,
+        "ber_95cp": [
+          5.734308546247142e-05,
+          0.00034005920895049805
+        ],
+        "exact_windows": 798
+      }
+    },
+    "1_5m": {
+      "classic": {
+        "errors": 6,
+        "n_bits": 28800,
+        "ber": 0.00020833333333333335,
+        "ber_95cp": [
+          7.645837593119928e-05,
+          0.0004533983855756674
+        ],
+        "exact_windows": 598
+      },
+      "old_int8": {
+        "errors": 12,
+        "n_bits": 28800,
+        "ber": 0.0004166666666666667,
+        "ber_95cp": [
+          0.0002153156891079392,
+          0.0007277195765325402
+        ],
+        "exact_windows": 593
+      },
+      "new_fp32": {
+        "errors": 6,
+        "n_bits": 28800,
+        "ber": 0.00020833333333333335,
+        "ber_95cp": [
+          7.645837593119928e-05,
+          0.0004533983855756674
+        ],
+        "exact_windows": 598
+      },
+      "new_int8": {
+        "errors": 6,
+        "n_bits": 28800,
+        "ber": 0.00020833333333333335,
+        "ber_95cp": [
+          7.645837593119928e-05,
+          0.0004533983855756674
+        ],
+        "exact_windows": 598
+      }
+    },
+    "per_condition": {
+      "1m_off": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100
+        },
+        "old_int8": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100
+        },
+        "new_fp32": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100
+        },
+        "new_int8": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100
+        }
+      },
+      "1m_on": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100
+        },
+        "old_int8": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100
+        },
+        "new_fp32": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100
+        },
+        "new_int8": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100
+        }
+      },
+      "3m_off": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100
+        },
+        "old_int8": {
+          "errors": 1,
+          "n_bits": 4800,
+          "ber": 0.00020833333333333335,
+          "ber_95cp": [
+            5.274529419681177e-06,
+            0.0011602064222732368
+          ],
+          "exact_windows": 99
+        },
+        "new_fp32": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100
+        },
+        "new_int8": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100
+        }
+      },
+      "3m_on": {
+        "classic": {
+          "errors": 6,
+          "n_bits": 4800,
+          "ber": 0.00125,
+          "ber_95cp": [
+            0.0004588617437598915,
+            0.0027187234526283893
+          ],
+          "exact_windows": 98
+        },
+        "old_int8": {
+          "errors": 9,
+          "n_bits": 4800,
+          "ber": 0.001875,
+          "ber_95cp": [
+            0.0008577165918561187,
+            0.0035563368917907808
+          ],
+          "exact_windows": 96
+        },
+        "new_fp32": {
+          "errors": 6,
+          "n_bits": 4800,
+          "ber": 0.00125,
+          "ber_95cp": [
+            0.0004588617437598915,
+            0.0027187234526283893
+          ],
+          "exact_windows": 98
+        },
+        "new_int8": {
+          "errors": 6,
+          "n_bits": 4800,
+          "ber": 0.00125,
+          "ber_95cp": [
+            0.0004588617437598915,
+            0.0027187234526283893
+          ],
+          "exact_windows": 98
+        }
+      },
+      "5m_off": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100
+        },
+        "old_int8": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100
+        },
+        "new_fp32": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100
+        },
+        "new_int8": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100
+        }
+      },
+      "5m_on": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100
+        },
+        "old_int8": {
+          "errors": 2,
+          "n_bits": 4800,
+          "ber": 0.0004166666666666667,
+          "ber_95cp": [
+            5.046425012150798e-05,
+            0.001504324330223477
+          ],
+          "exact_windows": 98
+        },
+        "new_fp32": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100
+        },
+        "new_int8": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100
+        }
+      },
+      "7m_off": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100
+        },
+        "old_int8": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100
+        },
+        "new_fp32": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100
+        },
+        "new_int8": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100
+        }
+      },
+      "7m_on": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100
+        },
+        "old_int8": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100
+        },
+        "new_fp32": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100
+        },
+        "new_int8": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100
+        }
+      }
+    }
+  },
+  "runtime_seconds": 232.06162929534912,
+  "int8_fp32_agreement": [
+    {
+      "label": "repeat_17",
+      "matched_bits": 38400,
+      "n_bits": 38400,
+      "agreement": 1.0
+    },
+    {
+      "label": "repeat_42",
+      "matched_bits": 38400,
+      "n_bits": 38400,
+      "agreement": 1.0
+    },
+    {
+      "label": "repeat_73",
+      "matched_bits": 38400,
+      "n_bits": 38400,
+      "agreement": 1.0
+    }
+  ],
+  "candidate_agreement": {
+    "label": "deployment_candidate",
+    "matched_bits": 38400,
+    "n_bits": 38400,
+    "agreement": 1.0
+  },
+  "best_epochs": [
+    {
+      "fold": "repeat",
+      "seed": 17,
+      "best_epoch": 300,
+      "best_val_loss": 1.262977491478523e-07
+    },
+    {
+      "fold": "repeat",
+      "seed": 42,
+      "best_epoch": 300,
+      "best_val_loss": 1.6830738047701743e-07
+    },
+    {
+      "fold": "repeat",
+      "seed": 73,
+      "best_epoch": 300,
+      "best_val_loss": 1.2323828002536175e-07
+    }
+  ],
+  "best_epoch_convention": "1-based argmin(val_loss); star marks restored best epoch"
+}

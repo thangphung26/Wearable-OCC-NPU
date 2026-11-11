@@ -1,0 +1,3497 @@
+{
+  "manifest": {
+    "version": 1,
+    "description": "Fresh campaign, all 24 primary sessions (seed 20261199)",
+    "conditions": [
+      {
+        "name": "7m_on",
+        "distance_m": 7,
+        "lighting": "on",
+        "sessions": [
+          {
+            "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_on_20261109_r2_100f_s01",
+            "repeat": 1
+          },
+          {
+            "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_on_20261109_r2_100f_s02",
+            "repeat": 2
+          },
+          {
+            "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_on_20261109_r2_100f_s03",
+            "repeat": 3
+          }
+        ]
+      },
+      {
+        "name": "7m_off",
+        "distance_m": 7,
+        "lighting": "off",
+        "sessions": [
+          {
+            "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_off_20261109_r2_100f_s01",
+            "repeat": 1
+          },
+          {
+            "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_off_20261109_r2_100f_s02",
+            "repeat": 2
+          },
+          {
+            "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_off_20261109_r2_100f_s03",
+            "repeat": 3
+          }
+        ]
+      },
+      {
+        "name": "5m_on",
+        "distance_m": 5,
+        "lighting": "on",
+        "sessions": [
+          {
+            "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_on_20261110_100f_s01",
+            "repeat": 1
+          },
+          {
+            "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_on_20261110_100f_s02",
+            "repeat": 2
+          },
+          {
+            "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_on_20261110_100f_s03",
+            "repeat": 3
+          }
+        ]
+      },
+      {
+        "name": "5m_off",
+        "distance_m": 5,
+        "lighting": "off",
+        "sessions": [
+          {
+            "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_off_20261110_100f_s01",
+            "repeat": 1
+          },
+          {
+            "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_off_20261110_100f_s02",
+            "repeat": 2
+          },
+          {
+            "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_off_20261110_100f_s03",
+            "repeat": 3
+          }
+        ]
+      },
+      {
+        "name": "3m_off",
+        "distance_m": 3,
+        "lighting": "off",
+        "sessions": [
+          {
+            "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_off_20261110_100f_s01",
+            "repeat": 1
+          },
+          {
+            "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_off_20261110_100f_s02",
+            "repeat": 2
+          },
+          {
+            "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_off_20261110_100f_s03",
+            "repeat": 3
+          }
+        ]
+      },
+      {
+        "name": "3m_on",
+        "distance_m": 3,
+        "lighting": "on",
+        "sessions": [
+          {
+            "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s01",
+            "repeat": 1
+          },
+          {
+            "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s02",
+            "repeat": 2
+          },
+          {
+            "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s03",
+            "repeat": 3
+          }
+        ]
+      },
+      {
+        "name": "1m_off",
+        "distance_m": 1,
+        "lighting": "off",
+        "sessions": [
+          {
+            "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_off_20261110_100f_s01",
+            "repeat": 1
+          },
+          {
+            "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_off_20261110_100f_s02",
+            "repeat": 2
+          },
+          {
+            "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_off_20261110_100f_s03",
+            "repeat": 3
+          }
+        ]
+      },
+      {
+        "name": "1m_on",
+        "distance_m": 1,
+        "lighting": "on",
+        "sessions": [
+          {
+            "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_on_20261110_100f_s01",
+            "repeat": 1
+          },
+          {
+            "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_on_20261110_100f_s02",
+            "repeat": 2
+          },
+          {
+            "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_on_20261110_100f_s03",
+            "repeat": 3
+          }
+        ]
+      }
+    ],
+    "excluded": []
+  },
+  "polarity": "preamble",
+  "offsets_ms": [
+    -45,
+    -40,
+    -35,
+    -30,
+    -25,
+    -20,
+    -15,
+    -10,
+    -5,
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45
+  ],
+  "offset_zero_equal": true,
+  "model_sha256": {
+    "aug": "ef9076f8f5c08cf17ded2e5b5374f92d40b814ab0ad084462a7fe1eaa9e373ca",
+    "retrained": "7a914b44dbdb9d7d35f886756fdfdc57483f1f860d89bc2d1695e12b04849a05"
+  },
+  "main_summary_sha256": "a6b233ddce88d9f0657e5a47147d9c6dbf1c8ac54528ff7afb7244ed9c1e38b3",
+  "source_sha256": {
+    "robustness_fresh.py": "e107979ca991269cc61e42b84a16c4226c9b3ec669e68a6a7cbf5d0c59728ea3",
+    "fresh_common.py": "c1f40493a617f6b4d7c2a8449a96f2a264bd2e08457f577d19fa615c2c526340",
+    "robustness.py": "7af56ecf8d7ec967da2ae56680ca26f46542bbf31df0fc57406336c23553445f",
+    "robustness_offgrid.py": "dbfd1f911eb48c20ae0f83aa9cbab2b4548fa45069380bdad502d677f68318e0",
+    "export_offsets.py": "5e359c085707aa321567cdad060ad68c8d68c7d56cab24ce3436919e7685911f"
+  },
+  "input_sha256": {
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_on_20261109_r2_100f_s01/samples.json": "0479efda6b64dbf3e2e693fc5603a11356f07aacb81f965f2a380fd3ee2a9573",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_on_20261109_r2_100f_s01/frame_decisions.json": "edf971fdae4a8293bbaa40328d6b73c8d9dec143802db45fad1bad4e2eaaaad3",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_on_20261109_r2_100f_s01/tx_ground_truth.json": "44509c13a01aaec036c713d3679524fb3efd8c58b2eb766db8fbd65ccd0f413c",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_on_20261109_r2_100f_s01/metadata.json": "d970cd8d257e36edb4c0b300035c8e6e89ed53b0eade080e708140852fc3e2ae",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_on_20261109_r2_100f_s01/frame_decisions.json": "ac10449b6a480b3adf5faba6fed8349f1118680902bc094532eac80bba15fe29",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_on_20261109_r2_100f_s02/samples.json": "367f026ccc567a9fb3c37c46ebf1065a2b21c1e866130936c5537052855272f6",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_on_20261109_r2_100f_s02/frame_decisions.json": "8f6f05a9c38772d7fd75ead22f532088d38aa7f057091a350b80bb77859e5979",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_on_20261109_r2_100f_s02/tx_ground_truth.json": "d98daa277a1a56f0482522096d92f5eed270a8c940dbcae54eb378b106d72752",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_on_20261109_r2_100f_s02/metadata.json": "926c859a67e3d5358ca9346a55b949a96719bcbc8bc99f7a6b420400b7c74b1b",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_on_20261109_r2_100f_s02/frame_decisions.json": "cfecf1de649a3a48651f8294ca822cc5feaf7c108b531aa8d27c356b83a91239",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_on_20261109_r2_100f_s03/samples.json": "54bd26544434605d5718cc33286203a7f492dd51b563f45e8879b368b2aa3466",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_on_20261109_r2_100f_s03/frame_decisions.json": "60f136274ff746c3ec0d14a88cc8d20400466830281b232be607c1593c4783ea",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_on_20261109_r2_100f_s03/tx_ground_truth.json": "f23ad2b2057b840e6adb212da90885c781f76c052587d3675b4d4ae2ce5038a0",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_on_20261109_r2_100f_s03/metadata.json": "fb683387646d7b528c1eab78f98945dbc0604b9cc894c50d32e5fa825edadb19",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_on_20261109_r2_100f_s03/frame_decisions.json": "955ac9f9f64a2e740d3766ecd6fecbac4d4479839dbd071be9a8d4f5123478a8",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_off_20261109_r2_100f_s01/samples.json": "d0f6158b224fe0c8a0c641cf29612398b465686b04637b49f0b20fda2698620e",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_off_20261109_r2_100f_s01/frame_decisions.json": "14246caae5c7467ecfebf2b65d5d339983c44dd9f0c4b7b9b14f5d97d3011ca2",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_off_20261109_r2_100f_s01/tx_ground_truth.json": "7caebda89db8539f75a265d0364262ff97a63801b5f92d1813de10af12f68608",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_off_20261109_r2_100f_s01/metadata.json": "b4200d5221003b54e53b170512522c8a44bf6bf0d3050d31a683073962db4bd7",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_off_20261109_r2_100f_s01/frame_decisions.json": "81df06a19544b2d63f2c44dc1db9dd23ca5214c252b406f1a9dcadf4443a221d",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_off_20261109_r2_100f_s02/samples.json": "618fdba07e3439217ba76ecbff2b38b523c79a0d7455a151496e8e11f37ffb56",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_off_20261109_r2_100f_s02/frame_decisions.json": "bc0547092c84ca8aa030f38c24a5aafd8fa4db76a6683b880b9d410e5998df9b",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_off_20261109_r2_100f_s02/tx_ground_truth.json": "1e7fffdcb50bed5a41cf3fc32deece6199f9f1dc50a69d21adad2d053b5bd71d",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_off_20261109_r2_100f_s02/metadata.json": "8cb77e0af6fe66a549c9f288d96fdeaf3addcdccd06a36cc644e0c01090273f1",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_off_20261109_r2_100f_s02/frame_decisions.json": "1ee9d0a5c1470868ca555344a28e28c37a49eb6ef1e080a4fdd5171edd8b65e6",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_off_20261109_r2_100f_s03/samples.json": "7e3452525d47b5a715698769468b278b986e6e6e78eccb75ac39dc1544cb3257",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_off_20261109_r2_100f_s03/frame_decisions.json": "fd1be6091d02413d20164adbb88f502dab152bfcbe377fa25eb27f715325614e",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_off_20261109_r2_100f_s03/tx_ground_truth.json": "2082c4a087a4db7e0734e3e899d1ec06abac51eadc54d3f22fff17bfff2cfb5d",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_off_20261109_r2_100f_s03/metadata.json": "9104b3511e3774efdbef76169f23b80c8bbeb7e163aad7f852bce9b871e4249d",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_off_20261109_r2_100f_s03/frame_decisions.json": "a51c02566a2ee296fe01ccabea86bf3e91c3ada10c51e7033c44dfe77662419a",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_on_20261110_100f_s01/samples.json": "0b4d356496e7ddedcd9672684788474ae116420d52b32087a9499643752a4d53",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_on_20261110_100f_s01/frame_decisions.json": "fdbfa55259890f8c9320bd3b9e1e5a7a60e5ea1ead1779c3f5c9d4fef291b5b8",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_on_20261110_100f_s01/tx_ground_truth.json": "d04e6122415d1f822f6266f6d4f79107b235c5395953d18e2f39d1cb9dcb020b",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_on_20261110_100f_s01/metadata.json": "8a33c0f106aca2fa4e97eea8fca8883ebd6e5c240672979d015cf40f8c1ea9d4",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_on_20261110_100f_s01/frame_decisions.json": "897924c6cb81d9e352e208ce5f5899df6c418d6394d5fd3a2def9c45e4110f45",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_on_20261110_100f_s02/samples.json": "67f79bd70703404f86f24270f2e83fc89524244c762e8e6dd7c4dfb9743d913e",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_on_20261110_100f_s02/frame_decisions.json": "e06fc43ab2e922243ad4a43e64053f9b17a82ff072f2c90a442c3f3c87074a0d",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_on_20261110_100f_s02/tx_ground_truth.json": "7b364a5bff9d18fbb0fbbdb6fa4a6d8a9628e2802897b47e90102a5e9fb33f11",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_on_20261110_100f_s02/metadata.json": "ca44f4c80b105ae92d42195befb38f95c70ce421511bfe2e4013dd5f68250fd5",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_on_20261110_100f_s02/frame_decisions.json": "cae49d98c9bbe6ed2eab0af61fb7e28ee7b98ab912a273e36c80c1be14656ccd",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_on_20261110_100f_s03/samples.json": "1656289882c4beb77f2eddc8d4a42052fdcaffc71d4770dd74fd931856c37273",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_on_20261110_100f_s03/frame_decisions.json": "556af8e21d73a22eb49794a94088c29fafb8eec10c7abb604a7036cb7add12f3",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_on_20261110_100f_s03/tx_ground_truth.json": "0c26f0c703c48d7862edbdc118217a4b8d9c304a03d1378d24065d04c14ccf8c",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_on_20261110_100f_s03/metadata.json": "c428aeb59dafc295d168dc5cfd1c91f0d3922489ce841cab382be74b31c9e881",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_on_20261110_100f_s03/frame_decisions.json": "0494cb2054983e3650c5b3e0b22f409a7e6d6d9f06f5eda364e94bdea5c8f4a3",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_off_20261110_100f_s01/samples.json": "1a69b6a16efccf7d7eb9ecae9485f9d8c7edb587e0dd0d8c680ca17e61c0b90a",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_off_20261110_100f_s01/frame_decisions.json": "4d5cd198996fc58fbbbbdd16e365fec78f94e3d0f8e3b7adf89621832255ce8c",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_off_20261110_100f_s01/tx_ground_truth.json": "86463db07ea5828d41d08dbcf6475612f5418551e61cdd541a0688e16e36d614",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_off_20261110_100f_s01/metadata.json": "8cdb49da8948c2e2b3030ef3862936901dd432fc96f841570c9ee53a2caf5bda",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_off_20261110_100f_s01/frame_decisions.json": "73c9b09ee509c679469484a92b33ac5fde96dfddb68fb88e14771d43b562aac3",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_off_20261110_100f_s02/samples.json": "9a68ac2a6a6db1ed077327ed48b23a81479af2be96a94b669cad8d676fc61e4a",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_off_20261110_100f_s02/frame_decisions.json": "499a7d232ef4febba6d1ba22ecdd545fd382ab61ce7ad62993da7c04abfb3544",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_off_20261110_100f_s02/tx_ground_truth.json": "a64cf2d1a7c9489ee57a169256c49379468f12d000d87a1723b459bce78f5607",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_off_20261110_100f_s02/metadata.json": "c9352b8aca943c7f1084ff6299372d44f56543128ac5becfd1cc95f7d0ca475f",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_off_20261110_100f_s02/frame_decisions.json": "7e5101548123a38dff47899fffbcd5692511691f05791e779dd4af3dacb9c4b2",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_off_20261110_100f_s03/samples.json": "71198562ab2181768390e360b9c0ce8bde17095e29fc165f4a072526dafca0d0",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_off_20261110_100f_s03/frame_decisions.json": "d3475d3db1f0fcf445ad03634b461434d52c9fd43a9eb3e4e75fdf377d6d46d2",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_off_20261110_100f_s03/tx_ground_truth.json": "b46a73188cfbe797acbfe716bdc545327619302cc1c1606efbfcce42ef962f45",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_off_20261110_100f_s03/metadata.json": "6a5908042a245182b5220c52f1df0ecdb2ac39c735e3942eb3b2388024128073",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_off_20261110_100f_s03/frame_decisions.json": "07851b816603cf270a1e7578c3cc55f23ada5de164e7073053ed8dd6b283aebf",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_off_20261110_100f_s01/samples.json": "07809a2d1d887c5d0a61c4769ad834dac85d25efd170f947515ea01c95973680",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_off_20261110_100f_s01/frame_decisions.json": "136a8e3d30bd321463a93a4d78330d6849212e3d1ca321843005496618a805b5",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_off_20261110_100f_s01/tx_ground_truth.json": "e21ffa5e11db56a37f8db01ab4fba39fe2196382d3dd3c8a6f29b5b6c1582989",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_off_20261110_100f_s01/metadata.json": "c1c59077810189505bcaaacd8c6bfdca6683803c75b55fbcd61b2006034c8ce0",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_off_20261110_100f_s01/frame_decisions.json": "01fbd8261e800a72bca6a83c2377c9e505790850548e62fd5a5418e60b9bc1d5",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_off_20261110_100f_s02/samples.json": "0ac9de98de5967b884d2a9356624d6ea2d9e7209d036135d9ac382f4d9ba222e",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_off_20261110_100f_s02/frame_decisions.json": "ac0295a87bec1ab4bc64e0e91e6ecce9104876b1e3b1b303d761c0c802e29303",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_off_20261110_100f_s02/tx_ground_truth.json": "f838f256c7c802049904bc62704048539a71d38af2842fb0ca279b1134363204",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_off_20261110_100f_s02/metadata.json": "cacd526f6c87640e79fc7cdf4339c45edc0666add6cddd0d83267ff5d12d041c",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_off_20261110_100f_s02/frame_decisions.json": "d9c52f8a9b8983c01b2f4bf7ae96d9d185cc21e6d6f26a18000aff56463dc5c9",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_off_20261110_100f_s03/samples.json": "a58dc66e63699c74be081c9a1739804b7026e62101f40f0c54a9e4549fd5c908",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_off_20261110_100f_s03/frame_decisions.json": "85e7070624eee172b6ed9ecbbdba5697368ed320299408e1f47c4a2d46e41526",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_off_20261110_100f_s03/tx_ground_truth.json": "86b8a6fbc5084a17047ecbdd0d31ad1f1b26e404948b73ec4b8a4f070f18e8ac",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_off_20261110_100f_s03/metadata.json": "ae157e2c48f0876031f0604701d1e3f697b821b77872426de0275c9dd61c9438",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_off_20261110_100f_s03/frame_decisions.json": "0397eba0ec3f5a36f9d0318cc3ec6f8149b082856b24420de529c645aaf5db2a",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s01/samples.json": "b939d65b27d52959c30fcefa6b1a3ad5c30e363c1da534755780c2c76b3797f3",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s01/frame_decisions.json": "87fced0c5a7f7c6393c9bfe8a6344e1ee57142157e9f2bba5ce7dfa77125e5a0",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s01/tx_ground_truth.json": "7f6fe98d51fe4288e6bb2dd2df349ad8cb004e722a127baec645f53d59727651",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s01/metadata.json": "8ce73eb0b649a42b9a644f540b877c83bcddf8b6f3bc00f32bf819c12de93191",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s01/frame_decisions.json": "17ee38bb38d51cf3ed10ff8dbc8c03367d2276eceef1dfe3999f21e9a6a7e188",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s02/samples.json": "a25d60cf210e97491fd75730358c965c1047003c947b3ec28ca696fcc5dc808b",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s02/frame_decisions.json": "d336f7e46baa5319ab7f13fa2fe448dfbfdd5b6b6b29f611784ce0188cb89367",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s02/tx_ground_truth.json": "edef48e20f4174da58837ad2ce5e96b1caa7d96676f5cea135e65bdd482d3580",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s02/metadata.json": "c281a6959ed4a02e74d19a7424e344667725164b0aa3a029e4bb7b692409b02c",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s02/frame_decisions.json": "441c640b4c6a4792ddd128cc3d229c563b99b4ccea4c47fa0e2f9ab659487f71",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s03/samples.json": "cbcd74ca2c3c7c3f6d01a5235b9215b018851bf9c7f0c187c87541b3fca96cc2",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s03/frame_decisions.json": "b01676ecf520849c442214eaaa69ae0f75cd03013ab5f80bfdc05798df287ca4",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s03/tx_ground_truth.json": "8c87daa4de71f7fe01152eaf5f62b13a3f54689365ddcdc8ad046c0a613ee0f5",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s03/metadata.json": "203fb292fed95fbbf37b3e94af497f7b522d407883eb1272a9ea29a6fec40dee",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s03/frame_decisions.json": "d69055424aca37e4417929b1e3474cbf04f5c996b875419a7d73206f27e4a53a",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_off_20261110_100f_s01/samples.json": "0e6c2e60b790b1041f72baee77d11a835d987232c0c3945d2b14453684adf33b",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_off_20261110_100f_s01/frame_decisions.json": "6619a660c9eaf6cf039f0f94361e6393d8139035ecdda2f198dcb5b77bee7bd6",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_off_20261110_100f_s01/tx_ground_truth.json": "4d9d879144f706e955ed6a8e28f6fe8b497926cbd5be7bfa7265eeb0bda793dd",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_off_20261110_100f_s01/metadata.json": "c48ea99ea8a4d864d0856ded6be3d52b0e90f9a65acd91645fd9125c19c5e542",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_off_20261110_100f_s01/frame_decisions.json": "c0dcf7e02ca80edd3e9c2af14b1c5ecc58f8fa8f47a3e7106cd1c73025b4104a",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_off_20261110_100f_s02/samples.json": "3ff6f71640540cb5bc4f9749683dddab7e7287bdf75e228bd627e3429e4b2461",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_off_20261110_100f_s02/frame_decisions.json": "24301427c3dd637640e35eb4d224c468a6d2a25dac79a828469613ca4db9429b",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_off_20261110_100f_s02/tx_ground_truth.json": "d7eb4ae20843fec944f6132c3aa1a045048d99882b32533295e7b4b931bff0d6",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_off_20261110_100f_s02/metadata.json": "7543714b67521992ed565e5ac1ef07525a86a083d1a7d215748259a646479278",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_off_20261110_100f_s02/frame_decisions.json": "256edca9dc58cf0ad0f75b6089d3e3006672c32c15b0640602e0fd70f11ec2eb",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_off_20261110_100f_s03/samples.json": "18caa6c326646df63321a63a71ac02fad420dcafd61d32a3e9b4d11e969d0f97",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_off_20261110_100f_s03/frame_decisions.json": "1a8617ebaf6ef50e78c1d0536b50c09baa52b3b24562349bec947880c9b6b714",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_off_20261110_100f_s03/tx_ground_truth.json": "7663fa4a123d2dc6b0c8b57d408bb15c2b2bf749c4543373ef99d1b6cbb37fce",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_off_20261110_100f_s03/metadata.json": "4ed78d62bfa7203ba964e439d9e978a3e2c94bc6766e312cb914d50ad0538eb1",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_off_20261110_100f_s03/frame_decisions.json": "abdf2e69515158039a2a96a209146b7e46e71b991910b8f6c28a4a84bfbbc763",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_on_20261110_100f_s01/samples.json": "c55cdb7248e47ff2e3737b87d90eca4502ec110943a9aa7c34228aed821f2981",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_on_20261110_100f_s01/frame_decisions.json": "220f67e334d4d1805541345ea58440e8a7539e4dea0ff4f3c0966d88e027cd01",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_on_20261110_100f_s01/tx_ground_truth.json": "03a669985b82dd4843801f6a9d93b6c78d51c3b588df787ef36400acfdd7a8d9",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_on_20261110_100f_s01/metadata.json": "18f510357aded9b13a472773d62df2b7fda0ba2e720218d17269aa5efaaf9667",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_on_20261110_100f_s01/frame_decisions.json": "9fc813633168500104e8bb145587ed8e53372c162fa033d41bb3145d97385317",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_on_20261110_100f_s02/samples.json": "434a6c11c514ac3c66d7fb221189d5fd1c3e506ed4d58d4707117ee12c8dbfd2",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_on_20261110_100f_s02/frame_decisions.json": "927d13781fb1f4d0549a5855e431ec4cac4cc4d30081f4da2c3de04645e1c364",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_on_20261110_100f_s02/tx_ground_truth.json": "417a0590f8a29525b7aebd11519ac5a6806d6104021ac0491f34d90aaaa21a2a",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_on_20261110_100f_s02/metadata.json": "cd6dbd91b93f2d2b78905c0e7548491dc3d403d649875136ed6a0aa448cd6f0e",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_on_20261110_100f_s02/frame_decisions.json": "0ad73a78bde6829773cbcfcdeac8502f6846107acec8c291ef5c11665f2a308c",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_on_20261110_100f_s03/samples.json": "6fda877ec0b8ada9f78955c19a3d60653dc8946eee0d719489fcc7429600c598",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_on_20261110_100f_s03/frame_decisions.json": "97eae1e705bcddb44a0a214f146f22ded7596b67bdfe4ad3afd6d797dc77fe9e",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_on_20261110_100f_s03/tx_ground_truth.json": "d1b70531f0dc03b6cf0f2e0fa9a3dbded04ba6bfde4792d12f979617c7fcd42f",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_on_20261110_100f_s03/metadata.json": "a9f62e68a7f4b1d6f791f6067cd05c61d3cb33978a08ee3b1861cb9c79fc2386",
+    "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_on_20261110_100f_s03/frame_decisions.json": "57f1757b36452ac8cfc0cb21db2651c00dbd1ed487f4932cf9ac58d192d3868a"
+  },
+  "acquisition_fps": 30,
+  "resampling_hz": 20,
+  "link_bit_s": 5,
+  "conditions": [
+    {
+      "offset_ms": -45,
+      "groups": {
+        "all": {
+          "metrics": {
+            "classic": {
+              "errors": 4740,
+              "n_bits": 115200,
+              "ber": 0.04114583333333333,
+              "ber_95cp": [
+                0.04000606292059117,
+                0.042308775686693424
+              ],
+              "exact_windows": 1371,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.5511650676050255,
+                0.5911608015074254
+              ]
+            },
+            "aug_host": {
+              "errors": 116,
+              "n_bits": 115200,
+              "ber": 0.0010069444444444444,
+              "ber_95cp": [
+                0.0008321268462400576,
+                0.001207612673436707
+              ],
+              "exact_windows": 2336,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9660735247714096,
+                0.9794042276377682
+              ]
+            },
+            "retrained_host": {
+              "errors": 20546,
+              "n_bits": 115200,
+              "ber": 0.17835069444444446,
+              "ber_95cp": [
+                0.17614390983867476,
+                0.18057368327412923
+              ],
+              "exact_windows": 4,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.00045429140747274045,
+                0.004261782418894524
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        },
+        "lighting:off": {
+          "metrics": {
+            "classic": {
+              "errors": 1327,
+              "n_bits": 57600,
+              "ber": 0.023038194444444444,
+              "ber_95cp": [
+                0.021828411080909604,
+                0.02429635866108817
+              ],
+              "exact_windows": 907,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.7305013153319373,
+                0.779904965900688
+              ]
+            },
+            "aug_host": {
+              "errors": 22,
+              "n_bits": 57600,
+              "ber": 0.00038194444444444446,
+              "ber_95cp": [
+                0.0002393775385662964,
+                0.0005782117135563113
+              ],
+              "exact_windows": 1188,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9825972267203521,
+                0.9948224800624806
+              ]
+            },
+            "retrained_host": {
+              "errors": 9752,
+              "n_bits": 57600,
+              "ber": 0.16930555555555554,
+              "ber_95cp": [
+                0.16625097186477783,
+                0.1723934969554707
+              ],
+              "exact_windows": 2,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.00020190483438781775,
+                0.006007480796118043
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 0,
+            "aug_host": 0,
+            "retrained_host": 0
+          }
+        },
+        "lighting:on": {
+          "metrics": {
+            "classic": {
+              "errors": 3413,
+              "n_bits": 57600,
+              "ber": 0.05925347222222222,
+              "ber_95cp": [
+                0.057338932894216696,
+                0.06121256804012011
+              ],
+              "exact_windows": 464,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.35900309560236754,
+                0.4148871492433772
+              ]
+            },
+            "aug_host": {
+              "errors": 94,
+              "n_bits": 57600,
+              "ber": 0.0016319444444444445,
+              "ber_95cp": [
+                0.0013189723814566701,
+                0.0019967219865641966
+              ],
+              "exact_windows": 1148,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9435597787940374,
+                0.9674701194159828
+              ]
+            },
+            "retrained_host": {
+              "errors": 10794,
+              "n_bits": 57600,
+              "ber": 0.18739583333333334,
+              "ber_95cp": [
+                0.18421615008047942,
+                0.1906070449070882
+              ],
+              "exact_windows": 2,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.00020190483438781775,
+                0.006007480796118043
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        }
+      }
+    },
+    {
+      "offset_ms": -40,
+      "groups": {
+        "all": {
+          "metrics": {
+            "classic": {
+              "errors": 539,
+              "n_bits": 115200,
+              "ber": 0.004678819444444445,
+              "ber_95cp": [
+                0.0042929232269873704,
+                0.0050899659715892085
+              ],
+              "exact_windows": 2148,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.8820414404475676,
+                0.9069851683798894
+              ]
+            },
+            "aug_host": {
+              "errors": 21,
+              "n_bits": 115200,
+              "ber": 0.00018229166666666667,
+              "ber_95cp": [
+                0.0001128448436940429,
+                0.00027863875084181293
+              ],
+              "exact_windows": 2386,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9902320082526228,
+                0.9968073023647488
+              ]
+            },
+            "retrained_host": {
+              "errors": 11005,
+              "n_bits": 115200,
+              "ber": 0.09552951388888889,
+              "ber_95cp": [
+                0.09383795553324041,
+                0.0972414648500955
+              ],
+              "exact_windows": 204,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.0741459174385705,
+                0.09687894805459085
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        },
+        "lighting:off": {
+          "metrics": {
+            "classic": {
+              "errors": 40,
+              "n_bits": 57600,
+              "ber": 0.0006944444444444445,
+              "ber_95cp": [
+                0.0004961661927490992,
+                0.0009455174542567593
+              ],
+              "exact_windows": 1169,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9635308055863476,
+                0.9823815327965241
+              ]
+            },
+            "aug_host": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "retrained_host": {
+              "errors": 5072,
+              "n_bits": 57600,
+              "ber": 0.08805555555555555,
+              "ber_95cp": [
+                0.085753478641875,
+                0.09039923618429724
+              ],
+              "exact_windows": 106,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.07288494935852875,
+                0.10583238380004648
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 0,
+            "aug_host": 0,
+            "retrained_host": 0
+          }
+        },
+        "lighting:on": {
+          "metrics": {
+            "classic": {
+              "errors": 499,
+              "n_bits": 57600,
+              "ber": 0.008663194444444444,
+              "ber_95cp": [
+                0.007922542847415037,
+                0.009453969293176823
+              ],
+              "exact_windows": 979,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.7927208310385763,
+                0.8373861902058946
+              ]
+            },
+            "aug_host": {
+              "errors": 21,
+              "n_bits": 57600,
+              "ber": 0.00036458333333333335,
+              "ber_95cp": [
+                0.00022569654612153363,
+                0.0005572506497542534
+              ],
+              "exact_windows": 1186,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9805027206360435,
+                0.9936074522031889
+              ]
+            },
+            "retrained_host": {
+              "errors": 5933,
+              "n_bits": 57600,
+              "ber": 0.10300347222222223,
+              "ber_95cp": [
+                0.10053251462454947,
+                0.10551451049406532
+              ],
+              "exact_windows": 98,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.06679568903809402,
+                0.0986239491201817
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        }
+      }
+    },
+    {
+      "offset_ms": -35,
+      "groups": {
+        "all": {
+          "metrics": {
+            "classic": {
+              "errors": 166,
+              "n_bits": 115200,
+              "ber": 0.0014409722222222222,
+              "ber_95cp": [
+                0.0012302260001191142,
+                0.0016774209759070917
+              ],
+              "exact_windows": 2298,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.948644184658027,
+                0.9652158344652195
+              ]
+            },
+            "aug_host": {
+              "errors": 8,
+              "n_bits": 115200,
+              "ber": 6.944444444444444e-05,
+              "ber_95cp": [
+                2.9981643553862707e-05,
+                0.000136828629275424
+              ],
+              "exact_windows": 2394,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9945665520425169,
+                0.9990820086869966
+              ]
+            },
+            "retrained_host": {
+              "errors": 2534,
+              "n_bits": 115200,
+              "ber": 0.021996527777777778,
+              "ber_95cp": [
+                0.021157264451521714,
+                0.022859972593167008
+              ],
+              "exact_windows": 1217,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.48687488833542103,
+                0.5272744694532563
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        },
+        "lighting:off": {
+          "metrics": {
+            "classic": {
+              "errors": 15,
+              "n_bits": 57600,
+              "ber": 0.00026041666666666666,
+              "ber_95cp": [
+                0.00014576032324823885,
+                0.0004294813726453839
+              ],
+              "exact_windows": 1186,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9805027206360435,
+                0.9936074522031889
+              ]
+            },
+            "aug_host": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "retrained_host": {
+              "errors": 979,
+              "n_bits": 57600,
+              "ber": 0.016996527777777777,
+              "ber_95cp": [
+                0.015956648887596223,
+                0.018085473049570453
+              ],
+              "exact_windows": 634,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.4996323235914968,
+                0.5568951809895452
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 0,
+            "aug_host": 0,
+            "retrained_host": 0
+          }
+        },
+        "lighting:on": {
+          "metrics": {
+            "classic": {
+              "errors": 151,
+              "n_bits": 57600,
+              "ber": 0.0026215277777777777,
+              "ber_95cp": [
+                0.0022205002342592117,
+                0.0030739009545857677
+              ],
+              "exact_windows": 1112,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9104295978884047,
+                0.9407722965416618
+              ]
+            },
+            "aug_host": {
+              "errors": 8,
+              "n_bits": 57600,
+              "ber": 0.0001388888888888889,
+              "ber_95cp": [
+                5.996421008804558e-05,
+                0.00027364803770602036
+              ],
+              "exact_windows": 1194,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9891490899561235,
+                0.9981629444062434
+              ]
+            },
+            "retrained_host": {
+              "errors": 1555,
+              "n_bits": 57600,
+              "ber": 0.02699652777777778,
+              "ber_95cp": [
+                0.02568814833384612,
+                0.028352853588683682
+              ],
+              "exact_windows": 583,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.45720266589779657,
+                0.5145335802291839
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        }
+      }
+    },
+    {
+      "offset_ms": -30,
+      "groups": {
+        "all": {
+          "metrics": {
+            "classic": {
+              "errors": 71,
+              "n_bits": 115200,
+              "ber": 0.0006163194444444444,
+              "ber_95cp": [
+                0.0004813810000135383,
+                0.0007773404978335469
+              ],
+              "exact_windows": 2348,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9716831760472372,
+                0.983776987723204
+              ]
+            },
+            "aug_host": {
+              "errors": 4,
+              "n_bits": 115200,
+              "ber": 3.472222222222222e-05,
+              "ber_95cp": [
+                9.460715358513114e-06,
+                8.890027110490051e-05
+              ],
+              "exact_windows": 2396,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9957382175811055,
+                0.9995457085925272
+              ]
+            },
+            "retrained_host": {
+              "errors": 244,
+              "n_bits": 115200,
+              "ber": 0.0021180555555555558,
+              "ber_95cp": [
+                0.0018608414411074418,
+                0.0024008247708554756
+              ],
+              "exact_windows": 2236,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9208267615652135,
+                0.9414378984937815
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        },
+        "lighting:off": {
+          "metrics": {
+            "classic": {
+              "errors": 6,
+              "n_bits": 57600,
+              "ber": 0.00010416666666666667,
+              "ber_95cp": [
+                3.822825933769337e-05,
+                0.0002267130859327907
+              ],
+              "exact_windows": 1195,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9903033820283299,
+                0.9986457526902445
+              ]
+            },
+            "aug_host": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "retrained_host": {
+              "errors": 43,
+              "n_bits": 57600,
+              "ber": 0.0007465277777777778,
+              "ber_95cp": [
+                0.0005403168957939139,
+                0.0010054377642705053
+              ],
+              "exact_windows": 1161,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.955837434866274,
+                0.9767893209908467
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 0,
+            "aug_host": 0,
+            "retrained_host": 0
+          }
+        },
+        "lighting:on": {
+          "metrics": {
+            "classic": {
+              "errors": 65,
+              "n_bits": 57600,
+              "ber": 0.0011284722222222221,
+              "ber_95cp": [
+                0.0008710356659551514,
+                0.0014381076060973501
+              ],
+              "exact_windows": 1153,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9482547534922954,
+                0.971082446745052
+              ]
+            },
+            "aug_host": {
+              "errors": 4,
+              "n_bits": 57600,
+              "ber": 6.944444444444444e-05,
+              "ber_95cp": [
+                1.8921587590862865e-05,
+                0.00017779572557090887
+              ],
+              "exact_windows": 1196,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.991487516590909,
+                0.9990910550170662
+              ]
+            },
+            "retrained_host": {
+              "errors": 201,
+              "n_bits": 57600,
+              "ber": 0.0034895833333333333,
+              "ber_95cp": [
+                0.003024491946895745,
+                0.00400575219177387
+              ],
+              "exact_windows": 1075,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.8771521493315191,
+                0.9125472378700837
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        }
+      }
+    },
+    {
+      "offset_ms": -25,
+      "groups": {
+        "all": {
+          "metrics": {
+            "classic": {
+              "errors": 24,
+              "n_bits": 115200,
+              "ber": 0.00020833333333333335,
+              "ber_95cp": [
+                0.00013348751430101893,
+                0.0003099677308824692
+              ],
+              "exact_windows": 2379,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9866556440096156,
+                0.9945756866122788
+              ]
+            },
+            "aug_host": {
+              "errors": 3,
+              "n_bits": 115200,
+              "ber": 2.604166666666667e-05,
+              "ber_95cp": [
+                5.370449931320823e-06,
+                7.610289595101083e-05
+              ],
+              "exact_windows": 2397,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9963513564243113,
+                0.9997421457285486
+              ]
+            },
+            "retrained_host": {
+              "errors": 37,
+              "n_bits": 115200,
+              "ber": 0.00032118055555555556,
+              "ber_95cp": [
+                0.000226150517218511,
+                0.00044267818730556364
+              ],
+              "exact_windows": 2366,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9802593125951644,
+                0.9901697510450916
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        },
+        "lighting:off": {
+          "metrics": {
+            "classic": {
+              "errors": 1,
+              "n_bits": 57600,
+              "ber": 1.736111111111111e-05,
+              "ber_95cp": [
+                4.3954518090502127e-07,
+                9.672608139963667e-05
+              ],
+              "exact_windows": 1199,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9953657984850536,
+                0.9999789020492447
+              ]
+            },
+            "aug_host": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "retrained_host": {
+              "errors": 4,
+              "n_bits": 57600,
+              "ber": 6.944444444444444e-05,
+              "ber_95cp": [
+                1.8921587590862865e-05,
+                0.00017779572557090887
+              ],
+              "exact_windows": 1196,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.991487516590909,
+                0.9990910550170662
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 0,
+            "aug_host": 0,
+            "retrained_host": 0
+          }
+        },
+        "lighting:on": {
+          "metrics": {
+            "classic": {
+              "errors": 23,
+              "n_bits": 57600,
+              "ber": 0.0003993055555555556,
+              "ber_95cp": [
+                0.00025314177547212084,
+                0.000599094518739075
+              ],
+              "exact_windows": 1180,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.974376569901237,
+                0.9897906116373211
+              ]
+            },
+            "aug_host": {
+              "errors": 3,
+              "n_bits": 57600,
+              "ber": 5.208333333333334e-05,
+              "ber_95cp": [
+                1.0740964259689344e-05,
+                0.00015220198198207882
+              ],
+              "exact_windows": 1197,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9927114773905099,
+                0.9994841428677618
+              ]
+            },
+            "retrained_host": {
+              "errors": 33,
+              "n_bits": 57600,
+              "ber": 0.0005729166666666667,
+              "ber_95cp": [
+                0.000394401261625078,
+                0.0008044948026667639
+              ],
+              "exact_windows": 1170,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.964502145426583,
+                0.9830704878821106
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        }
+      }
+    },
+    {
+      "offset_ms": -20,
+      "groups": {
+        "all": {
+          "metrics": {
+            "classic": {
+              "errors": 13,
+              "n_bits": 115200,
+              "ber": 0.00011284722222222222,
+              "ber_95cp": [
+                6.008771752187409e-05,
+                0.00019296445584888314
+              ],
+              "exact_windows": 2388,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9912823111608634,
+                0.9974138386681062
+              ]
+            },
+            "aug_host": {
+              "errors": 2,
+              "n_bits": 115200,
+              "ber": 1.736111111111111e-05,
+              "ber_95cp": [
+                2.102518013721028e-06,
+                6.271288054043822e-05
+              ],
+              "exact_windows": 2398,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9969929883167999,
+                0.9998990635298411
+              ]
+            },
+            "retrained_host": {
+              "errors": 10,
+              "n_bits": 115200,
+              "ber": 8.680555555555556e-05,
+              "ber_95cp": [
+                4.1627397665744694e-05,
+                0.0001596326938623307
+              ],
+              "exact_windows": 2390,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9923507431351437,
+                0.9980001682087766
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        },
+        "lighting:off": {
+          "metrics": {
+            "classic": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "aug_host": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "retrained_host": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 0,
+            "aug_host": 0,
+            "retrained_host": 0
+          }
+        },
+        "lighting:on": {
+          "metrics": {
+            "classic": {
+              "errors": 13,
+              "n_bits": 57600,
+              "ber": 0.00022569444444444443,
+              "ber_95cp": [
+                0.00012017808401928299,
+                0.0003859134498328404
+              ],
+              "exact_windows": 1188,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9825972267203521,
+                0.9948224800624806
+              ]
+            },
+            "aug_host": {
+              "errors": 2,
+              "n_bits": 57600,
+              "ber": 3.472222222222222e-05,
+              "ber_95cp": [
+                4.205049858113773e-06,
+                0.00012542291688378025
+              ],
+              "exact_windows": 1198,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.993992519203882,
+                0.9997980951656121
+              ]
+            },
+            "retrained_host": {
+              "errors": 10,
+              "n_bits": 57600,
+              "ber": 0.00017361111111111112,
+              "ber_95cp": [
+                8.32563147941976e-05,
+                0.00031925376093093716
+              ],
+              "exact_windows": 1190,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.984728258324248,
+                0.9959968183123841
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        }
+      }
+    },
+    {
+      "offset_ms": -15,
+      "groups": {
+        "all": {
+          "metrics": {
+            "classic": {
+              "errors": 6,
+              "n_bits": 115200,
+              "ber": 5.208333333333334e-05,
+              "ber_95cp": [
+                1.9113897526867634e-05,
+                0.0001133600163426082
+              ],
+              "exact_windows": 2394,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9945665520425169,
+                0.9990820086869966
+              ]
+            },
+            "aug_host": {
+              "errors": 2,
+              "n_bits": 115200,
+              "ber": 1.736111111111111e-05,
+              "ber_95cp": [
+                2.102518013721028e-06,
+                6.271288054043822e-05
+              ],
+              "exact_windows": 2398,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9969929883167999,
+                0.9998990635298411
+              ]
+            },
+            "retrained_host": {
+              "errors": 5,
+              "n_bits": 115200,
+              "ber": 4.340277777777778e-05,
+              "ber_95cp": [
+                1.4092909168769185e-05,
+                0.0001012846733754195
+              ],
+              "exact_windows": 2395,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9951449460735712,
+                0.9993232121314519
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        },
+        "lighting:off": {
+          "metrics": {
+            "classic": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "aug_host": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "retrained_host": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 0,
+            "aug_host": 0,
+            "retrained_host": 0
+          }
+        },
+        "lighting:on": {
+          "metrics": {
+            "classic": {
+              "errors": 6,
+              "n_bits": 57600,
+              "ber": 0.00010416666666666667,
+              "ber_95cp": [
+                3.822825933769337e-05,
+                0.0002267130859327907
+              ],
+              "exact_windows": 1194,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9891490899561235,
+                0.9981629444062434
+              ]
+            },
+            "aug_host": {
+              "errors": 2,
+              "n_bits": 57600,
+              "ber": 3.472222222222222e-05,
+              "ber_95cp": [
+                4.205049858113773e-06,
+                0.00012542291688378025
+              ],
+              "exact_windows": 1198,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.993992519203882,
+                0.9997980951656121
+              ]
+            },
+            "retrained_host": {
+              "errors": 5,
+              "n_bits": 57600,
+              "ber": 8.680555555555556e-05,
+              "ber_95cp": [
+                2.8186109079316418e-05,
+                0.00020256348390294815
+              ],
+              "exact_windows": 1195,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9903033820283299,
+                0.9986457526902445
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        }
+      }
+    },
+    {
+      "offset_ms": -10,
+      "groups": {
+        "all": {
+          "metrics": {
+            "classic": {
+              "errors": 5,
+              "n_bits": 115200,
+              "ber": 4.340277777777778e-05,
+              "ber_95cp": [
+                1.4092909168769185e-05,
+                0.0001012846733754195
+              ],
+              "exact_windows": 2395,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9951449460735712,
+                0.9993232121314519
+              ]
+            },
+            "aug_host": {
+              "errors": 3,
+              "n_bits": 115200,
+              "ber": 2.604166666666667e-05,
+              "ber_95cp": [
+                5.370449931320823e-06,
+                7.610289595101083e-05
+              ],
+              "exact_windows": 2397,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9963513564243113,
+                0.9997421457285486
+              ]
+            },
+            "retrained_host": {
+              "errors": 3,
+              "n_bits": 115200,
+              "ber": 2.604166666666667e-05,
+              "ber_95cp": [
+                5.370449931320823e-06,
+                7.610289595101083e-05
+              ],
+              "exact_windows": 2397,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9963513564243113,
+                0.9997421457285486
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        },
+        "lighting:off": {
+          "metrics": {
+            "classic": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "aug_host": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "retrained_host": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 0,
+            "aug_host": 0,
+            "retrained_host": 0
+          }
+        },
+        "lighting:on": {
+          "metrics": {
+            "classic": {
+              "errors": 5,
+              "n_bits": 57600,
+              "ber": 8.680555555555556e-05,
+              "ber_95cp": [
+                2.8186109079316418e-05,
+                0.00020256348390294815
+              ],
+              "exact_windows": 1195,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9903033820283299,
+                0.9986457526902445
+              ]
+            },
+            "aug_host": {
+              "errors": 3,
+              "n_bits": 57600,
+              "ber": 5.208333333333334e-05,
+              "ber_95cp": [
+                1.0740964259689344e-05,
+                0.00015220198198207882
+              ],
+              "exact_windows": 1197,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9927114773905099,
+                0.9994841428677618
+              ]
+            },
+            "retrained_host": {
+              "errors": 3,
+              "n_bits": 57600,
+              "ber": 5.208333333333334e-05,
+              "ber_95cp": [
+                1.0740964259689344e-05,
+                0.00015220198198207882
+              ],
+              "exact_windows": 1197,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9927114773905099,
+                0.9994841428677618
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        }
+      }
+    },
+    {
+      "offset_ms": -5,
+      "groups": {
+        "all": {
+          "metrics": {
+            "classic": {
+              "errors": 4,
+              "n_bits": 115200,
+              "ber": 3.472222222222222e-05,
+              "ber_95cp": [
+                9.460715358513114e-06,
+                8.890027110490051e-05
+              ],
+              "exact_windows": 2396,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9957382175811055,
+                0.9995457085925272
+              ]
+            },
+            "aug_host": {
+              "errors": 3,
+              "n_bits": 115200,
+              "ber": 2.604166666666667e-05,
+              "ber_95cp": [
+                5.370449931320823e-06,
+                7.610289595101083e-05
+              ],
+              "exact_windows": 2397,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9963513564243113,
+                0.9997421457285486
+              ]
+            },
+            "retrained_host": {
+              "errors": 3,
+              "n_bits": 115200,
+              "ber": 2.604166666666667e-05,
+              "ber_95cp": [
+                5.370449931320823e-06,
+                7.610289595101083e-05
+              ],
+              "exact_windows": 2397,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9963513564243113,
+                0.9997421457285486
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        },
+        "lighting:off": {
+          "metrics": {
+            "classic": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "aug_host": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "retrained_host": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 0,
+            "aug_host": 0,
+            "retrained_host": 0
+          }
+        },
+        "lighting:on": {
+          "metrics": {
+            "classic": {
+              "errors": 4,
+              "n_bits": 57600,
+              "ber": 6.944444444444444e-05,
+              "ber_95cp": [
+                1.8921587590862865e-05,
+                0.00017779572557090887
+              ],
+              "exact_windows": 1196,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.991487516590909,
+                0.9990910550170662
+              ]
+            },
+            "aug_host": {
+              "errors": 3,
+              "n_bits": 57600,
+              "ber": 5.208333333333334e-05,
+              "ber_95cp": [
+                1.0740964259689344e-05,
+                0.00015220198198207882
+              ],
+              "exact_windows": 1197,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9927114773905099,
+                0.9994841428677618
+              ]
+            },
+            "retrained_host": {
+              "errors": 3,
+              "n_bits": 57600,
+              "ber": 5.208333333333334e-05,
+              "ber_95cp": [
+                1.0740964259689344e-05,
+                0.00015220198198207882
+              ],
+              "exact_windows": 1197,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9927114773905099,
+                0.9994841428677618
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        }
+      }
+    },
+    {
+      "offset_ms": 0,
+      "groups": {
+        "all": {
+          "metrics": {
+            "classic": {
+              "errors": 3,
+              "n_bits": 115200,
+              "ber": 2.604166666666667e-05,
+              "ber_95cp": [
+                5.370449931320823e-06,
+                7.610289595101083e-05
+              ],
+              "exact_windows": 2397,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9963513564243113,
+                0.9997421457285486
+              ]
+            },
+            "aug_host": {
+              "errors": 2,
+              "n_bits": 115200,
+              "ber": 1.736111111111111e-05,
+              "ber_95cp": [
+                2.102518013721028e-06,
+                6.271288054043822e-05
+              ],
+              "exact_windows": 2398,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9969929883167999,
+                0.9998990635298411
+              ]
+            },
+            "retrained_host": {
+              "errors": 3,
+              "n_bits": 115200,
+              "ber": 2.604166666666667e-05,
+              "ber_95cp": [
+                5.370449931320823e-06,
+                7.610289595101083e-05
+              ],
+              "exact_windows": 2397,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9963513564243113,
+                0.9997421457285486
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        },
+        "lighting:off": {
+          "metrics": {
+            "classic": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "aug_host": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "retrained_host": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 0,
+            "aug_host": 0,
+            "retrained_host": 0
+          }
+        },
+        "lighting:on": {
+          "metrics": {
+            "classic": {
+              "errors": 3,
+              "n_bits": 57600,
+              "ber": 5.208333333333334e-05,
+              "ber_95cp": [
+                1.0740964259689344e-05,
+                0.00015220198198207882
+              ],
+              "exact_windows": 1197,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9927114773905099,
+                0.9994841428677618
+              ]
+            },
+            "aug_host": {
+              "errors": 2,
+              "n_bits": 57600,
+              "ber": 3.472222222222222e-05,
+              "ber_95cp": [
+                4.205049858113773e-06,
+                0.00012542291688378025
+              ],
+              "exact_windows": 1198,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.993992519203882,
+                0.9997980951656121
+              ]
+            },
+            "retrained_host": {
+              "errors": 3,
+              "n_bits": 57600,
+              "ber": 5.208333333333334e-05,
+              "ber_95cp": [
+                1.0740964259689344e-05,
+                0.00015220198198207882
+              ],
+              "exact_windows": 1197,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9927114773905099,
+                0.9994841428677618
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        }
+      }
+    },
+    {
+      "offset_ms": 5,
+      "groups": {
+        "all": {
+          "metrics": {
+            "classic": {
+              "errors": 3,
+              "n_bits": 115200,
+              "ber": 2.604166666666667e-05,
+              "ber_95cp": [
+                5.370449931320823e-06,
+                7.610289595101083e-05
+              ],
+              "exact_windows": 2397,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9963513564243113,
+                0.9997421457285486
+              ]
+            },
+            "aug_host": {
+              "errors": 3,
+              "n_bits": 115200,
+              "ber": 2.604166666666667e-05,
+              "ber_95cp": [
+                5.370449931320823e-06,
+                7.610289595101083e-05
+              ],
+              "exact_windows": 2397,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9963513564243113,
+                0.9997421457285486
+              ]
+            },
+            "retrained_host": {
+              "errors": 3,
+              "n_bits": 115200,
+              "ber": 2.604166666666667e-05,
+              "ber_95cp": [
+                5.370449931320823e-06,
+                7.610289595101083e-05
+              ],
+              "exact_windows": 2397,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9963513564243113,
+                0.9997421457285486
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        },
+        "lighting:off": {
+          "metrics": {
+            "classic": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "aug_host": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "retrained_host": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 0,
+            "aug_host": 0,
+            "retrained_host": 0
+          }
+        },
+        "lighting:on": {
+          "metrics": {
+            "classic": {
+              "errors": 3,
+              "n_bits": 57600,
+              "ber": 5.208333333333334e-05,
+              "ber_95cp": [
+                1.0740964259689344e-05,
+                0.00015220198198207882
+              ],
+              "exact_windows": 1197,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9927114773905099,
+                0.9994841428677618
+              ]
+            },
+            "aug_host": {
+              "errors": 3,
+              "n_bits": 57600,
+              "ber": 5.208333333333334e-05,
+              "ber_95cp": [
+                1.0740964259689344e-05,
+                0.00015220198198207882
+              ],
+              "exact_windows": 1197,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9927114773905099,
+                0.9994841428677618
+              ]
+            },
+            "retrained_host": {
+              "errors": 3,
+              "n_bits": 57600,
+              "ber": 5.208333333333334e-05,
+              "ber_95cp": [
+                1.0740964259689344e-05,
+                0.00015220198198207882
+              ],
+              "exact_windows": 1197,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9927114773905099,
+                0.9994841428677618
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        }
+      }
+    },
+    {
+      "offset_ms": 10,
+      "groups": {
+        "all": {
+          "metrics": {
+            "classic": {
+              "errors": 4,
+              "n_bits": 115200,
+              "ber": 3.472222222222222e-05,
+              "ber_95cp": [
+                9.460715358513114e-06,
+                8.890027110490051e-05
+              ],
+              "exact_windows": 2396,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9957382175811055,
+                0.9995457085925272
+              ]
+            },
+            "aug_host": {
+              "errors": 3,
+              "n_bits": 115200,
+              "ber": 2.604166666666667e-05,
+              "ber_95cp": [
+                5.370449931320823e-06,
+                7.610289595101083e-05
+              ],
+              "exact_windows": 2397,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9963513564243113,
+                0.9997421457285486
+              ]
+            },
+            "retrained_host": {
+              "errors": 4,
+              "n_bits": 115200,
+              "ber": 3.472222222222222e-05,
+              "ber_95cp": [
+                9.460715358513114e-06,
+                8.890027110490051e-05
+              ],
+              "exact_windows": 2396,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9957382175811055,
+                0.9995457085925272
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        },
+        "lighting:off": {
+          "metrics": {
+            "classic": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "aug_host": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "retrained_host": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 0,
+            "aug_host": 0,
+            "retrained_host": 0
+          }
+        },
+        "lighting:on": {
+          "metrics": {
+            "classic": {
+              "errors": 4,
+              "n_bits": 57600,
+              "ber": 6.944444444444444e-05,
+              "ber_95cp": [
+                1.8921587590862865e-05,
+                0.00017779572557090887
+              ],
+              "exact_windows": 1196,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.991487516590909,
+                0.9990910550170662
+              ]
+            },
+            "aug_host": {
+              "errors": 3,
+              "n_bits": 57600,
+              "ber": 5.208333333333334e-05,
+              "ber_95cp": [
+                1.0740964259689344e-05,
+                0.00015220198198207882
+              ],
+              "exact_windows": 1197,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9927114773905099,
+                0.9994841428677618
+              ]
+            },
+            "retrained_host": {
+              "errors": 4,
+              "n_bits": 57600,
+              "ber": 6.944444444444444e-05,
+              "ber_95cp": [
+                1.8921587590862865e-05,
+                0.00017779572557090887
+              ],
+              "exact_windows": 1196,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.991487516590909,
+                0.9990910550170662
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        }
+      }
+    },
+    {
+      "offset_ms": 15,
+      "groups": {
+        "all": {
+          "metrics": {
+            "classic": {
+              "errors": 5,
+              "n_bits": 115200,
+              "ber": 4.340277777777778e-05,
+              "ber_95cp": [
+                1.4092909168769185e-05,
+                0.0001012846733754195
+              ],
+              "exact_windows": 2395,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9951449460735712,
+                0.9993232121314519
+              ]
+            },
+            "aug_host": {
+              "errors": 3,
+              "n_bits": 115200,
+              "ber": 2.604166666666667e-05,
+              "ber_95cp": [
+                5.370449931320823e-06,
+                7.610289595101083e-05
+              ],
+              "exact_windows": 2397,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9963513564243113,
+                0.9997421457285486
+              ]
+            },
+            "retrained_host": {
+              "errors": 7,
+              "n_bits": 115200,
+              "ber": 6.076388888888889e-05,
+              "ber_95cp": [
+                2.443057261649871e-05,
+                0.00012519280136742225
+              ],
+              "exact_windows": 2394,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9945665520425169,
+                0.9990820086869966
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        },
+        "lighting:off": {
+          "metrics": {
+            "classic": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "aug_host": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "retrained_host": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 0,
+            "aug_host": 0,
+            "retrained_host": 0
+          }
+        },
+        "lighting:on": {
+          "metrics": {
+            "classic": {
+              "errors": 5,
+              "n_bits": 57600,
+              "ber": 8.680555555555556e-05,
+              "ber_95cp": [
+                2.8186109079316418e-05,
+                0.00020256348390294815
+              ],
+              "exact_windows": 1195,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9903033820283299,
+                0.9986457526902445
+              ]
+            },
+            "aug_host": {
+              "errors": 3,
+              "n_bits": 57600,
+              "ber": 5.208333333333334e-05,
+              "ber_95cp": [
+                1.0740964259689344e-05,
+                0.00015220198198207882
+              ],
+              "exact_windows": 1197,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9927114773905099,
+                0.9994841428677618
+              ]
+            },
+            "retrained_host": {
+              "errors": 7,
+              "n_bits": 57600,
+              "ber": 0.00012152777777777777,
+              "ber_95cp": [
+                4.8861820855285144e-05,
+                0.00025037753611911875
+              ],
+              "exact_windows": 1194,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9891490899561235,
+                0.9981629444062434
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        }
+      }
+    },
+    {
+      "offset_ms": 20,
+      "groups": {
+        "all": {
+          "metrics": {
+            "classic": {
+              "errors": 8,
+              "n_bits": 115200,
+              "ber": 6.944444444444444e-05,
+              "ber_95cp": [
+                2.9981643553862707e-05,
+                0.000136828629275424
+              ],
+              "exact_windows": 2393,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.993999841478704,
+                0.9988265695359844
+              ]
+            },
+            "aug_host": {
+              "errors": 3,
+              "n_bits": 115200,
+              "ber": 2.604166666666667e-05,
+              "ber_95cp": [
+                5.370449931320823e-06,
+                7.610289595101083e-05
+              ],
+              "exact_windows": 2397,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9963513564243113,
+                0.9997421457285486
+              ]
+            },
+            "retrained_host": {
+              "errors": 15,
+              "n_bits": 115200,
+              "ber": 0.00013020833333333333,
+              "ber_95cp": [
+                7.287838859100902e-05,
+                0.00021474976536607366
+              ],
+              "exact_windows": 2386,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9902320082526228,
+                0.9968073023647488
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        },
+        "lighting:off": {
+          "metrics": {
+            "classic": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "aug_host": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "retrained_host": {
+              "errors": 1,
+              "n_bits": 57600,
+              "ber": 1.736111111111111e-05,
+              "ber_95cp": [
+                4.3954518090502127e-07,
+                9.672608139963667e-05
+              ],
+              "exact_windows": 1199,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9953657984850536,
+                0.9999789020492447
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 0,
+            "aug_host": 0,
+            "retrained_host": 0
+          }
+        },
+        "lighting:on": {
+          "metrics": {
+            "classic": {
+              "errors": 8,
+              "n_bits": 57600,
+              "ber": 0.0001388888888888889,
+              "ber_95cp": [
+                5.996421008804558e-05,
+                0.00027364803770602036
+              ],
+              "exact_windows": 1193,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9880182484500573,
+                0.997651576939643
+              ]
+            },
+            "aug_host": {
+              "errors": 3,
+              "n_bits": 57600,
+              "ber": 5.208333333333334e-05,
+              "ber_95cp": [
+                1.0740964259689344e-05,
+                0.00015220198198207882
+              ],
+              "exact_windows": 1197,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9927114773905099,
+                0.9994841428677618
+              ]
+            },
+            "retrained_host": {
+              "errors": 14,
+              "n_bits": 57600,
+              "ber": 0.00024305555555555555,
+              "ber_95cp": [
+                0.00013288690112272196,
+                0.0004077723291133471
+              ],
+              "exact_windows": 1187,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.981545915243716,
+                0.994219449365623
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        }
+      }
+    },
+    {
+      "offset_ms": 25,
+      "groups": {
+        "all": {
+          "metrics": {
+            "classic": {
+              "errors": 14,
+              "n_bits": 115200,
+              "ber": 0.00012152777777777777,
+              "ber_95cp": [
+                6.644190869879081e-05,
+                0.00020389456284850666
+              ],
+              "exact_windows": 2388,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9912823111608634,
+                0.9974138386681062
+              ]
+            },
+            "aug_host": {
+              "errors": 3,
+              "n_bits": 115200,
+              "ber": 2.604166666666667e-05,
+              "ber_95cp": [
+                5.370449931320823e-06,
+                7.610289595101083e-05
+              ],
+              "exact_windows": 2397,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9963513564243113,
+                0.9997421457285486
+              ]
+            },
+            "retrained_host": {
+              "errors": 84,
+              "n_bits": 115200,
+              "ber": 0.0007291666666666667,
+              "ber_95cp": [
+                0.00058165228500182,
+                0.0009026795846590794
+              ],
+              "exact_windows": 2332,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9642175835073694,
+                0.9779323776730567
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        },
+        "lighting:off": {
+          "metrics": {
+            "classic": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "aug_host": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "retrained_host": {
+              "errors": 11,
+              "n_bits": 57600,
+              "ber": 0.00019097222222222223,
+              "ber_95cp": [
+                9.533637679441526e-05,
+                0.0003416763053339252
+              ],
+              "exact_windows": 1190,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.984728258324248,
+                0.9959968183123841
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 0,
+            "aug_host": 0,
+            "retrained_host": 0
+          }
+        },
+        "lighting:on": {
+          "metrics": {
+            "classic": {
+              "errors": 14,
+              "n_bits": 57600,
+              "ber": 0.00024305555555555555,
+              "ber_95cp": [
+                0.00013288690112272196,
+                0.0004077723291133471
+              ],
+              "exact_windows": 1188,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9825972267203521,
+                0.9948224800624806
+              ]
+            },
+            "aug_host": {
+              "errors": 3,
+              "n_bits": 57600,
+              "ber": 5.208333333333334e-05,
+              "ber_95cp": [
+                1.0740964259689344e-05,
+                0.00015220198198207882
+              ],
+              "exact_windows": 1197,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9927114773905099,
+                0.9994841428677618
+              ]
+            },
+            "retrained_host": {
+              "errors": 73,
+              "n_bits": 57600,
+              "ber": 0.001267361111111111,
+              "ber_95cp": [
+                0.0009935363032751133,
+                0.001593256404596724
+              ],
+              "exact_windows": 1142,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9379631119382039,
+                0.9630970444770588
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        }
+      }
+    },
+    {
+      "offset_ms": 30,
+      "groups": {
+        "all": {
+          "metrics": {
+            "classic": {
+              "errors": 25,
+              "n_bits": 115200,
+              "ber": 0.00021701388888888888,
+              "ber_95cp": [
+                0.00014044471444495105,
+                0.0003203387566103107
+              ],
+              "exact_windows": 2381,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9876646385069573,
+                0.9952271152756488
+              ]
+            },
+            "aug_host": {
+              "errors": 3,
+              "n_bits": 115200,
+              "ber": 2.604166666666667e-05,
+              "ber_95cp": [
+                5.370449931320823e-06,
+                7.610289595101083e-05
+              ],
+              "exact_windows": 2397,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9963513564243113,
+                0.9997421457285486
+              ]
+            },
+            "retrained_host": {
+              "errors": 1423,
+              "n_bits": 115200,
+              "ber": 0.012352430555555556,
+              "ber_95cp": [
+                0.011722567511231446,
+                0.013007017248798882
+              ],
+              "exact_windows": 1507,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.6082235164064429,
+                0.647297094495602
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        },
+        "lighting:off": {
+          "metrics": {
+            "classic": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "aug_host": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "retrained_host": {
+              "errors": 589,
+              "n_bits": 57600,
+              "ber": 0.010225694444444445,
+              "ber_95cp": [
+                0.009420182195032902,
+                0.011081112237648516
+              ],
+              "exact_windows": 801,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.6400425623485841,
+                0.6941338196077673
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 0,
+            "aug_host": 0,
+            "retrained_host": 0
+          }
+        },
+        "lighting:on": {
+          "metrics": {
+            "classic": {
+              "errors": 25,
+              "n_bits": 57600,
+              "ber": 0.00043402777777777775,
+              "ber_95cp": [
+                0.00028089896609828966,
+                0.0006406444055815972
+              ],
+              "exact_windows": 1181,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9753843076192714,
+                0.9904410835285692
+              ]
+            },
+            "aug_host": {
+              "errors": 3,
+              "n_bits": 57600,
+              "ber": 5.208333333333334e-05,
+              "ber_95cp": [
+                1.0740964259689344e-05,
+                0.00015220198198207882
+              ],
+              "exact_windows": 1197,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9927114773905099,
+                0.9994841428677618
+              ]
+            },
+            "retrained_host": {
+              "errors": 834,
+              "n_bits": 57600,
+              "ber": 0.014479166666666666,
+              "ber_95cp": [
+                0.013519476138305252,
+                0.015488222575930301
+              ],
+              "exact_windows": 706,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.5598835970673475,
+                0.6163490939424283
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        }
+      }
+    },
+    {
+      "offset_ms": 35,
+      "groups": {
+        "all": {
+          "metrics": {
+            "classic": {
+              "errors": 67,
+              "n_bits": 115200,
+              "ber": 0.0005815972222222222,
+              "ber_95cp": [
+                0.0004507574006009851,
+                0.0007385499236791237
+              ],
+              "exact_windows": 2357,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.975941553946332,
+                0.9870040446014726
+              ]
+            },
+            "aug_host": {
+              "errors": 2,
+              "n_bits": 115200,
+              "ber": 1.736111111111111e-05,
+              "ber_95cp": [
+                2.102518013721028e-06,
+                6.271288054043822e-05
+              ],
+              "exact_windows": 2398,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9969929883167999,
+                0.9998990635298411
+              ]
+            },
+            "retrained_host": {
+              "errors": 6812,
+              "n_bits": 115200,
+              "ber": 0.059131944444444445,
+              "ber_95cp": [
+                0.05777665154639437,
+                0.06050948349281063
+              ],
+              "exact_windows": 239,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.08788910795960599,
+                0.11226480384621638
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        },
+        "lighting:off": {
+          "metrics": {
+            "classic": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "aug_host": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "retrained_host": {
+              "errors": 3263,
+              "n_bits": 57600,
+              "ber": 0.05664930555555556,
+              "ber_95cp": [
+                0.05477513545252083,
+                0.058568301057515246
+              ],
+              "exact_windows": 119,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.08283763242575092,
+                0.11748915021675255
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 0,
+            "aug_host": 0,
+            "retrained_host": 0
+          }
+        },
+        "lighting:on": {
+          "metrics": {
+            "classic": {
+              "errors": 67,
+              "n_bits": 57600,
+              "ber": 0.0011631944444444443,
+              "ber_95cp": [
+                0.0009015699059808331,
+                0.0014769838474834557
+              ],
+              "exact_windows": 1157,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9520341652168595,
+                0.973948195301578
+              ]
+            },
+            "aug_host": {
+              "errors": 2,
+              "n_bits": 57600,
+              "ber": 3.472222222222222e-05,
+              "ber_95cp": [
+                4.205049858113773e-06,
+                0.00012542291688378025
+              ],
+              "exact_windows": 1198,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.993992519203882,
+                0.9997980951656121
+              ]
+            },
+            "retrained_host": {
+              "errors": 3549,
+              "n_bits": 57600,
+              "ber": 0.061614583333333334,
+              "ber_95cp": [
+                0.0596643541732683,
+                0.06360912554623742
+              ],
+              "exact_windows": 120,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.08360592398982154,
+                0.1183831542342933
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        }
+      }
+    },
+    {
+      "offset_ms": 40,
+      "groups": {
+        "all": {
+          "metrics": {
+            "classic": {
+              "errors": 396,
+              "n_bits": 115200,
+              "ber": 0.0034375,
+              "ber_95cp": [
+                0.0031077295185716588,
+                0.003792643745329498
+              ],
+              "exact_windows": 2209,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9088595560554302,
+                0.9309347888398218
+              ]
+            },
+            "aug_host": {
+              "errors": 6,
+              "n_bits": 115200,
+              "ber": 5.208333333333334e-05,
+              "ber_95cp": [
+                1.9113897526867634e-05,
+                0.0001133600163426082
+              ],
+              "exact_windows": 2397,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9963513564243113,
+                0.9997421457285486
+              ]
+            },
+            "retrained_host": {
+              "errors": 14573,
+              "n_bits": 115200,
+              "ber": 0.12650173611111112,
+              "ber_95cp": [
+                0.12458725684226725,
+                0.12843503907587567
+              ],
+              "exact_windows": 6,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.0009179913130034495,
+                0.005433447957483109
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        },
+        "lighting:off": {
+          "metrics": {
+            "classic": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "aug_host": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "retrained_host": {
+              "errors": 7185,
+              "n_bits": 57600,
+              "ber": 0.12473958333333333,
+              "ber_95cp": [
+                0.12205144868090369,
+                0.1274655902236115
+              ],
+              "exact_windows": 0,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.0,
+                0.003069346108100284
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 0,
+            "aug_host": 0,
+            "retrained_host": 0
+          }
+        },
+        "lighting:on": {
+          "metrics": {
+            "classic": {
+              "errors": 396,
+              "n_bits": 57600,
+              "ber": 0.006875,
+              "ber_95cp": [
+                0.006216461240369002,
+                0.00758393480031846
+              ],
+              "exact_windows": 1009,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.8188876054177557,
+                0.8610935552338423
+              ]
+            },
+            "aug_host": {
+              "errors": 6,
+              "n_bits": 57600,
+              "ber": 0.00010416666666666667,
+              "ber_95cp": [
+                3.822825933769337e-05,
+                0.0002267130859327907
+              ],
+              "exact_windows": 1197,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9927114773905099,
+                0.9994841428677618
+              ]
+            },
+            "retrained_host": {
+              "errors": 7388,
+              "n_bits": 57600,
+              "ber": 0.1282638888888889,
+              "ber_95cp": [
+                0.12554323780561716,
+                0.1310220546459039
+              ],
+              "exact_windows": 6,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.0018370555937565788,
+                0.010850910043876468
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 300
+          }
+        }
+      }
+    },
+    {
+      "offset_ms": 45,
+      "groups": {
+        "all": {
+          "metrics": {
+            "classic": {
+              "errors": 3726,
+              "n_bits": 115200,
+              "ber": 0.03234375,
+              "ber_95cp": [
+                0.03132960352707826,
+                0.033381527336757436
+              ],
+              "exact_windows": 1536,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.6204263631555353,
+                0.6592313405092143
+              ]
+            },
+            "aug_host": {
+              "errors": 29,
+              "n_bits": 115200,
+              "ber": 0.0002517361111111111,
+              "ber_95cp": [
+                0.00016859790202236933,
+                0.0003615151986712442
+              ],
+              "exact_windows": 2389,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.9918139817922869,
+                0.9977098633905155
+              ]
+            },
+            "retrained_host": {
+              "errors": 20212,
+              "n_bits": 115200,
+              "ber": 0.1754513888888889,
+              "ber_95cp": [
+                0.17325885347230102,
+                0.17766027486588515
+              ],
+              "exact_windows": 0,
+              "n_windows": 2400,
+              "exact_window_rate_95cp": [
+                0.0,
+                0.0015358524754633355
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 299
+          }
+        },
+        "lighting:off": {
+          "metrics": {
+            "classic": {
+              "errors": 1130,
+              "n_bits": 57600,
+              "ber": 0.019618055555555555,
+              "ber_95cp": [
+                0.01850106513703946,
+                0.020783810560904652
+              ],
+              "exact_windows": 969,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.7840334096597041,
+                0.8294487112215179
+              ]
+            },
+            "aug_host": {
+              "errors": 0,
+              "n_bits": 57600,
+              "ber": 0.0,
+              "ber_95cp": [
+                0.0,
+                6.404099536626962e-05
+              ],
+              "exact_windows": 1200,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9969306538918997,
+                1.0
+              ]
+            },
+            "retrained_host": {
+              "errors": 9661,
+              "n_bits": 57600,
+              "ber": 0.16772569444444443,
+              "ber_95cp": [
+                0.16468261552379895,
+                0.1708022909063869
+              ],
+              "exact_windows": 0,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.0,
+                0.003069346108100284
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 0,
+            "aug_host": 0,
+            "retrained_host": 0
+          }
+        },
+        "lighting:on": {
+          "metrics": {
+            "classic": {
+              "errors": 2596,
+              "n_bits": 57600,
+              "ber": 0.04506944444444445,
+              "ber_95cp": [
+                0.04338952532689173,
+                0.0467953914730257
+              ],
+              "exact_windows": 567,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.4439334746097927,
+                0.5012015942355286
+              ]
+            },
+            "aug_host": {
+              "errors": 29,
+              "n_bits": 57600,
+              "ber": 0.0005034722222222222,
+              "ber_95cp": [
+                0.0003372083614420427,
+                0.0007229906984366495
+              ],
+              "exact_windows": 1189,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.9836576173409209,
+                0.9954154047584731
+              ]
+            },
+            "retrained_host": {
+              "errors": 10551,
+              "n_bits": 57600,
+              "ber": 0.18317708333333332,
+              "ber_95cp": [
+                0.18002551950281595,
+                0.18636060198907742
+              ],
+              "exact_windows": 0,
+              "n_windows": 1200,
+              "exact_window_rate_95cp": [
+                0.0,
+                0.003069346108100284
+              ]
+            }
+          },
+          "flipped_windows": {
+            "classic": 300,
+            "aug_host": 300,
+            "retrained_host": 299
+          }
+        }
+      }
+    }
+  ],
+  "runtime_seconds": 24.679179668426514
+}

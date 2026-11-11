@@ -1,0 +1,10 @@
+{
+  "folds": 24,
+  "frames": 2400,
+  "unique_frames": 2400,
+  "session_isolation": true,
+  "calibration_isolation": true,
+  "error_positions_and_aggregates": true,
+  "minimum_agreement": 1.0,
+  "unchanged_baseline_files": 51
+}

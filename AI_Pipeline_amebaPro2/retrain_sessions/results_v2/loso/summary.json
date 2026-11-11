@@ -1,0 +1,574 @@
+{
+  "metrics": {
+    "all_sessions": {
+      "classic": {
+        "errors": 9,
+        "n_bits": 115200,
+        "ber": 7.8125e-05,
+        "ber_95cp": [
+          3.5724327137508033e-05,
+          0.00014830038145785738
+        ],
+        "exact_windows": 2395
+      },
+      "old_int8": {
+        "errors": 26,
+        "n_bits": 115200,
+        "ber": 0.00022569444444444443,
+        "ber_95cp": [
+          0.00014743623405588646,
+          0.00033067729167746146
+        ],
+        "exact_windows": 2381
+      },
+      "new_fp32": {
+        "errors": 9,
+        "n_bits": 115200,
+        "ber": 7.8125e-05,
+        "ber_95cp": [
+          3.5724327137508033e-05,
+          0.00014830038145785738
+        ],
+        "exact_windows": 2395
+      },
+      "new_int8": {
+        "errors": 9,
+        "n_bits": 115200,
+        "ber": 7.8125e-05,
+        "ber_95cp": [
+          3.5724327137508033e-05,
+          0.00014830038145785738
+        ],
+        "exact_windows": 2395
+      }
+    },
+    "1_5m": {
+      "classic": {
+        "errors": 9,
+        "n_bits": 86400,
+        "ber": 0.00010416666666666667,
+        "ber_95cp": [
+          4.7632703898562356e-05,
+          0.0001977315290460479
+        ],
+        "exact_windows": 1795
+      },
+      "old_int8": {
+        "errors": 26,
+        "n_bits": 86400,
+        "ber": 0.00030092592592592595,
+        "ber_95cp": [
+          0.00019658392554763553,
+          0.00044089533901616807
+        ],
+        "exact_windows": 1781
+      },
+      "new_fp32": {
+        "errors": 9,
+        "n_bits": 86400,
+        "ber": 0.00010416666666666667,
+        "ber_95cp": [
+          4.7632703898562356e-05,
+          0.0001977315290460479
+        ],
+        "exact_windows": 1795
+      },
+      "new_int8": {
+        "errors": 9,
+        "n_bits": 86400,
+        "ber": 0.00010416666666666667,
+        "ber_95cp": [
+          4.7632703898562356e-05,
+          0.0001977315290460479
+        ],
+        "exact_windows": 1795
+      }
+    },
+    "per_condition": {
+      "1m_off": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300
+        },
+        "old_int8": {
+          "errors": 1,
+          "n_bits": 14400,
+          "ber": 6.944444444444444e-05,
+          "ber_95cp": [
+            1.7581795644206285e-06,
+            0.0003868582668065295
+          ],
+          "exact_windows": 299
+        },
+        "new_fp32": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300
+        },
+        "new_int8": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300
+        }
+      },
+      "1m_on": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300
+        },
+        "old_int8": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300
+        },
+        "new_fp32": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300
+        },
+        "new_int8": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300
+        }
+      },
+      "3m_off": {
+        "classic": {
+          "errors": 1,
+          "n_bits": 14400,
+          "ber": 6.944444444444444e-05,
+          "ber_95cp": [
+            1.7581795644206285e-06,
+            0.0003868582668065295
+          ],
+          "exact_windows": 299
+        },
+        "old_int8": {
+          "errors": 4,
+          "n_bits": 14400,
+          "ber": 0.0002777777777777778,
+          "ber_95cp": [
+            7.569011571271452e-05,
+            0.0007110673112896409
+          ],
+          "exact_windows": 297
+        },
+        "new_fp32": {
+          "errors": 1,
+          "n_bits": 14400,
+          "ber": 6.944444444444444e-05,
+          "ber_95cp": [
+            1.7581795644206285e-06,
+            0.0003868582668065295
+          ],
+          "exact_windows": 299
+        },
+        "new_int8": {
+          "errors": 1,
+          "n_bits": 14400,
+          "ber": 6.944444444444444e-05,
+          "ber_95cp": [
+            1.7581795644206285e-06,
+            0.0003868582668065295
+          ],
+          "exact_windows": 299
+        }
+      },
+      "3m_on": {
+        "classic": {
+          "errors": 8,
+          "n_bits": 14400,
+          "ber": 0.0005555555555555556,
+          "ber_95cp": [
+            0.0002398789962706603,
+            0.0010943708607569417
+          ],
+          "exact_windows": 296
+        },
+        "old_int8": {
+          "errors": 14,
+          "n_bits": 14400,
+          "ber": 0.0009722222222222222,
+          "ber_95cp": [
+            0.000531621638360034,
+            0.0016306861961940431
+          ],
+          "exact_windows": 292
+        },
+        "new_fp32": {
+          "errors": 8,
+          "n_bits": 14400,
+          "ber": 0.0005555555555555556,
+          "ber_95cp": [
+            0.0002398789962706603,
+            0.0010943708607569417
+          ],
+          "exact_windows": 296
+        },
+        "new_int8": {
+          "errors": 8,
+          "n_bits": 14400,
+          "ber": 0.0005555555555555556,
+          "ber_95cp": [
+            0.0002398789962706603,
+            0.0010943708607569417
+          ],
+          "exact_windows": 296
+        }
+      },
+      "5m_off": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300
+        },
+        "old_int8": {
+          "errors": 3,
+          "n_bits": 14400,
+          "ber": 0.00020833333333333335,
+          "ber_95cp": [
+            4.296540268077359e-05,
+            0.0006087164968450235
+          ],
+          "exact_windows": 297
+        },
+        "new_fp32": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300
+        },
+        "new_int8": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300
+        }
+      },
+      "5m_on": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300
+        },
+        "old_int8": {
+          "errors": 4,
+          "n_bits": 14400,
+          "ber": 0.0002777777777777778,
+          "ber_95cp": [
+            7.569011571271452e-05,
+            0.0007110673112896409
+          ],
+          "exact_windows": 296
+        },
+        "new_fp32": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300
+        },
+        "new_int8": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300
+        }
+      },
+      "7m_off": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300
+        },
+        "old_int8": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300
+        },
+        "new_fp32": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300
+        },
+        "new_int8": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300
+        }
+      },
+      "7m_on": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300
+        },
+        "old_int8": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300
+        },
+        "new_fp32": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300
+        },
+        "new_int8": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300
+        }
+      }
+    }
+  },
+  "runtime_seconds": 1345.2097301483154,
+  "int8_fp32_agreement": [
+    {
+      "label": "goal2_replay_gray8v2_phasev1_1m_roi167_94_exp2000_lights_on_20261026_100f_s01_42",
+      "matched_bits": 4800,
+      "n_bits": 4800,
+      "agreement": 1.0
+    },
+    {
+      "label": "goal2_replay_gray8v2_phasev1_1m_roi167_94_exp2000_lights_on_20261026_100f_s02_42",
+      "matched_bits": 4800,
+      "n_bits": 4800,
+      "agreement": 1.0
+    },
+    {
+      "label": "goal2_replay_gray8v2_phasev1_1m_roi167_94_exp2000_lights_on_20261026_100f_s03_42",
+      "matched_bits": 4800,
+      "n_bits": 4800,
+      "agreement": 1.0
+    },
+    {
+      "label": "goal2_replay_gray8v2_phasev1_1m_roi167_94_exp2000_lights_off_20261026_100f_s01_42",
+      "matched_bits": 4800,
+      "n_bits": 4800,
+      "agreement": 1.0
+    },
+    {
+      "label": "goal2_replay_gray8v2_phasev1_1m_roi167_94_exp2000_lights_off_20261026_100f_s02_42",
+      "matched_bits": 4800,
+      "n_bits": 4800,
+      "agreement": 1.0
+    },
+    {
+      "label": "goal2_replay_gray8v2_phasev1_1m_roi167_94_exp2000_lights_off_20261026_100f_s03_42",
+      "matched_bits": 4800,
+      "n_bits": 4800,
+      "agreement": 1.0
+    },
+    {
+      "label": "goal2_replay_gray8v2_phasev1_3m_roi195_51_exp2000_lights_on_20261026_100f_s01_42",
+      "matched_bits": 4800,
+      "n_bits": 4800,
+      "agreement": 1.0
+    },
+    {
+      "label": "goal2_replay_gray8v2_phasev1_3m_roi195_51_exp2000_lights_on_20261026_100f_s02_42",
+      "matched_bits": 4800,
+      "n_bits": 4800,
+      "agreement": 1.0
+    },
+    {
+      "label": "goal2_replay_gray8v2_phasev1_3m_roi195_51_exp2000_lights_on_20261026_100f_s03_42",
+      "matched_bits": 4800,
+      "n_bits": 4800,
+      "agreement": 1.0
+    },
+    {
+      "label": "goal2_replay_gray8v2_phasev1_3m_roi195_51_exp2000_lights_off_20261026_100f_s01_42",
+      "matched_bits": 4800,
+      "n_bits": 4800,
+      "agreement": 1.0
+    },
+    {
+      "label": "goal2_replay_gray8v2_phasev1_3m_roi195_51_exp2000_lights_off_20261026_100f_s02_42",
+      "matched_bits": 4800,
+      "n_bits": 4800,
+      "agreement": 1.0
+    },
+    {
+      "label": "goal2_replay_gray8v2_phasev1_3m_roi195_51_exp2000_lights_off_20261026_100f_s03_42",
+      "matched_bits": 4800,
+      "n_bits": 4800,
+      "agreement": 1.0
+    },
+    {
+      "label": "goal2_replay_gray8v2_phasev1_5m_core133_82_exp2000_lights_on_20261025_100f_s01_42",
+      "matched_bits": 4800,
+      "n_bits": 4800,
+      "agreement": 1.0
+    },
+    {
+      "label": "goal2_replay_gray8v2_phasev1_5m_core133_82_exp2000_lights_on_20261025_100f_s02_42",
+      "matched_bits": 4800,
+      "n_bits": 4800,
+      "agreement": 1.0
+    },
+    {
+      "label": "goal2_replay_gray8v2_phasev1_5m_core133_82_exp2000_lights_on_20261025_100f_s03_42",
+      "matched_bits": 4800,
+      "n_bits": 4800,
+      "agreement": 1.0
+    },
+    {
+      "label": "goal2_replay_gray8v2_phasev1_5m_core133_82_exp2000_lights_off_20261026_100f_s01_42",
+      "matched_bits": 4800,
+      "n_bits": 4800,
+      "agreement": 1.0
+    },
+    {
+      "label": "goal2_replay_gray8v2_phasev1_5m_core133_82_exp2000_lights_off_20261026_100f_s02_42",
+      "matched_bits": 4800,
+      "n_bits": 4800,
+      "agreement": 1.0
+    },
+    {
+      "label": "goal2_replay_gray8v2_phasev1_5m_core133_82_exp2000_lights_off_20261026_100f_s03_42",
+      "matched_bits": 4800,
+      "n_bits": 4800,
+      "agreement": 1.0
+    },
+    {
+      "label": "goal2_replay_gray8v2_phasev1_7m_roi162_90_14_15_exp2000_lights_on_20261107_100f_s01_42",
+      "matched_bits": 4800,
+      "n_bits": 4800,
+      "agreement": 1.0
+    },
+    {
+      "label": "goal2_replay_gray8v2_phasev1_7m_roi162_90_14_15_exp2000_lights_on_20261107_100f_s02_42",
+      "matched_bits": 4800,
+      "n_bits": 4800,
+      "agreement": 1.0
+    },
+    {
+      "label": "goal2_replay_gray8v2_phasev1_7m_roi162_90_14_15_exp2000_lights_on_20261107_100f_s03_42",
+      "matched_bits": 4800,
+      "n_bits": 4800,
+      "agreement": 1.0
+    },
+    {
+      "label": "goal2_replay_gray8v2_phasev1_7m_roi162_90_14_15_exp2000_lights_off_20261107_r2_100f_s01_42",
+      "matched_bits": 4800,
+      "n_bits": 4800,
+      "agreement": 1.0
+    },
+    {
+      "label": "goal2_replay_gray8v2_phasev1_7m_roi162_90_14_15_exp2000_lights_off_20261107_r2_100f_s02_42",
+      "matched_bits": 4800,
+      "n_bits": 4800,
+      "agreement": 1.0
+    },
+    {
+      "label": "goal2_replay_gray8v2_phasev1_7m_roi162_90_14_15_exp2000_lights_off_20261107_r2_100f_s03_42",
+      "matched_bits": 4800,
+      "n_bits": 4800,
+      "agreement": 1.0
+    }
+  ],
+  "candidate_agreement": null
+}

@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "description": "Host-only reproduction of nine primary 3m controls, old payload seed; not fresh campaign results",
+  "conditions": [
+    {
+      "name": "wide_off",
+      "distance_m": 3,
+      "lighting": "off",
+      "sessions": [
+        {
+          "session": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s01",
+          "repeat": 1
+        },
+        {
+          "session": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s02",
+          "repeat": 2
+        },
+        {
+          "session": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s03",
+          "repeat": 3
+        }
+      ]
+    },
+    {
+      "name": "wide_on",
+      "distance_m": 3,
+      "lighting": "on",
+      "sessions": [
+        {
+          "session": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s01",
+          "repeat": 1
+        },
+        {
+          "session": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s02",
+          "repeat": 2
+        },
+        {
+          "session": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s03",
+          "repeat": 3
+        }
+      ]
+    },
+    {
+      "name": "tight_on_primary",
+      "distance_m": 3,
+      "lighting": "on",
+      "sessions": [
+        {
+          "session": "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s01",
+          "repeat": 1
+        },
+        {
+          "session": "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s04",
+          "repeat": 2
+        },
+        {
+          "session": "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s03",
+          "repeat": 3
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "session": "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s02",
+      "batch": "goal2_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108",
+      "excluded": true,
+      "reason": "person crossed room during capture",
+      "rule_fixed_at": "2026-11-08T12:08:00+09:00",
+      "rule_timing": "before s02 was scored",
+      "replacement_display_repeat": 2,
+      "replacement_session": "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s04"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "error": null,
+  "complete": true,
+  "completed_rounds": 3,
+  "requested_rounds": 3,
+  "quality": [
+    {
+      "round": 1,
+      "bank_windows": 64,
+      "cpu_reference_unequal_values": 0,
+      "cpu_npu_mae_lsb": 0.859375,
+      "cpu_npu_max_lsb": 53,
+      "cpu_npu_bit_disagreements": 2,
+      "compared_bits": 3072
+    },
+    {
+      "round": 2,
+      "bank_windows": 64,
+      "cpu_reference_unequal_values": 0,
+      "cpu_npu_mae_lsb": 0.859375,
+      "cpu_npu_max_lsb": 53,
+      "cpu_npu_bit_disagreements": 2,
+      "compared_bits": 3072
+    },
+    {
+      "round": 3,
+      "bank_windows": 64,
+      "cpu_reference_unequal_values": 0,
+      "cpu_npu_mae_lsb": 0.859375,
+      "cpu_npu_max_lsb": 53,
+      "cpu_npu_bit_disagreements": 2,
+      "compared_bits": 3072
+    }
+  ],
+  "timing": {
+    "cpu_core_us": {
+      "n": 1536,
+      "mean_us": 22232.386067708332,
+      "median_us": 22236.0,
+      "p95_nearest_rank_us": 22265,
+      "max_us": 22278,
+      "min_us": 22197
+    },
+    "cpu_full_us": {
+      "n": 1536,
+      "mean_us": 22234.205729166668,
+      "median_us": 22237.0,
+      "p95_nearest_rank_us": 22267,
+      "max_us": 22280,
+      "min_us": 22199
+    },
+    "npu_core_us": {
+      "n": 1536,
+      "mean_us": 2887.3606770833335,
+      "median_us": 2949.0,
+      "p95_nearest_rank_us": 2997,
+      "max_us": 2999,
+      "min_us": 2745
+    },
+    "npu_full_us": {
+      "n": 1536,
+      "mean_us": 2901.3606770833335,
+      "median_us": 2963.5,
+      "p95_nearest_rank_us": 3008,
+      "max_us": 3009,
+      "min_us": 2762
+    }
+  },
+  "note": "Same-board CPU reference microbenchmark. Not channel BER/PDR, production FPS, CPU utilization, power, or a claim against optimized CPU implementations.",
+  "full_api_mean_ratio_cpu_over_npu": 7.66337184645315
+}

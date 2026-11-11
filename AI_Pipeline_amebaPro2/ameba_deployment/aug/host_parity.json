@@ -1,0 +1,22 @@
+{
+  "kind": "host_correctness_only",
+  "model_sha256": "f1248c13ba5e6e5a3e7225d19a72239b6aefe932abc435a140e15dd26890e586",
+  "results": {
+    "reference": {
+      "windows": 931,
+      "values": 44688,
+      "unequal_values": 0,
+      "mae_lsb": 0.0,
+      "max_lsb": 0,
+      "bit_disagreements": 0
+    },
+    "builtin_no_delegates": {
+      "windows": 931,
+      "values": 44688,
+      "unequal_values": 6,
+      "mae_lsb": 0.0008279627640529896,
+      "max_lsb": 9,
+      "bit_disagreements": 0
+    }
+  }
+}

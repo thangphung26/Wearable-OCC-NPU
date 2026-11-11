@@ -1,0 +1,141 @@
+{
+  "port": "/dev/ttyUSB0",
+  "session": "aug_v2_reference_s01",
+  "dry_run": false,
+  "rounds": 3,
+  "timeout": 600,
+  "sketch": "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/RX/Ameba_CPU_NPU_Benchmark_AUG_V2",
+  "build": "/tmp/vlc_goal2_aug_v2_build",
+  "output": "/home/usnlab/Desktop/Job_ngon_UWC/1_VLC_code_main/AI_Pipeline_amebaPro2/retrain_sessions/results_v2/onboard_aug_latency/aug_v2_reference_s01",
+  "kind": "same_board_reference_microbenchmark",
+  "source_sha256": {
+    "RX/Ameba_CPU_NPU_Benchmark_AUG_V2/Ameba_CPU_NPU_Benchmark_AUG_V2.ino": "b1567b2d0452cb78a96c4041d22e76bfb032d149ea34d599dd3f24d99a63e642",
+    "RX/Ameba_CPU_NPU_Benchmark_AUG_V2/vlc_cpu_model.h": "fcd86e1d454ee0c68b2812b9cb508d9f81a2ba75bf5e32858ace0b6f20666e16",
+    "RX/Ameba_CPU_NPU_Benchmark_AUG_V2/vlc_cpu_bank.h": "79333a81643f9523239b5bf9f8e7060343bb181ad341ecfbe1fd87179362f8b4",
+    "RX/Ameba_CPU_NPU_Benchmark_AUG_V2/vlc_cpu_nbg.h": "990e4a400043895e09fbd002722fd29e81c7b9413c1e56712dfba005abe2c6c4"
+  },
+  "provenance": {
+    "model_sha256": "ef9076f8f5c08cf17ded2e5b5374f92d40b814ab0ad084462a7fe1eaa9e373ca",
+    "operations": [
+      {
+        "index": 0,
+        "builtin_code": 3,
+        "inputs": [
+          0,
+          20,
+          19
+        ],
+        "output": 21
+      },
+      {
+        "index": 1,
+        "builtin_code": 18,
+        "inputs": [
+          21,
+          18
+        ],
+        "output": 22
+      },
+      {
+        "index": 2,
+        "builtin_code": 0,
+        "inputs": [
+          22,
+          17
+        ],
+        "output": 23
+      },
+      {
+        "index": 3,
+        "builtin_code": 3,
+        "inputs": [
+          23,
+          16,
+          15
+        ],
+        "output": 24
+      },
+      {
+        "index": 4,
+        "builtin_code": 18,
+        "inputs": [
+          24,
+          14
+        ],
+        "output": 25
+      },
+      {
+        "index": 5,
+        "builtin_code": 0,
+        "inputs": [
+          25,
+          13
+        ],
+        "output": 26
+      },
+      {
+        "index": 6,
+        "builtin_code": 3,
+        "inputs": [
+          26,
+          12,
+          11
+        ],
+        "output": 27
+      },
+      {
+        "index": 7,
+        "builtin_code": 18,
+        "inputs": [
+          27,
+          10
+        ],
+        "output": 28
+      },
+      {
+        "index": 8,
+        "builtin_code": 0,
+        "inputs": [
+          28,
+          9
+        ],
+        "output": 29
+      },
+      {
+        "index": 9,
+        "builtin_code": 3,
+        "inputs": [
+          29,
+          8,
+          7
+        ],
+        "output": 30
+      },
+      {
+        "index": 10,
+        "builtin_code": 3,
+        "inputs": [
+          30,
+          6,
+          5
+        ],
+        "output": 31
+      },
+      {
+        "index": 11,
+        "builtin_code": 14,
+        "inputs": [
+          31
+        ],
+        "output": 32
+      }
+    ],
+    "bank_n": 64,
+    "bank_input_sha256": "d464612c706cf6b3ed9140c9d36b5ee960a5a9da86cae1bd1b65faffe25c3668",
+    "kernel_provenance": "7b18c24aca4986e6964c7733c6bd31f6e62e6756d9822623826c45eca8ef197d",
+    "nbg_sha256": "c3f0eec20652e9e786904bb5bd0281e87903eeb0fae19d9622181431627fc097"
+  },
+  "build_flags": "-O3 -DTF_LITE_STATIC_MEMORY -DNDEBUG",
+  "timing": "CPU core: complete 12-op static graph; NPU core: vip_run_network. Full API includes input copy; NPU also includes cache/buffer/API/output copy. UART and quality checks outside measured calls; AB/BA alternating order. Video capture domain active; JPEG/ROI processing inactive. Not CPU utilization or power.",
+  "baseline": "Official TensorFlow Lite 2.14 reference kernels; not optimized CMSIS-NN or best achievable CPU."
+}

@@ -1,0 +1,42 @@
+{
+    "Inputs": {
+        "input_0": {
+            "name": "serving_default_vlc_features/0",
+            "shape": [
+                1,
+                48,
+                1,
+                4
+            ],
+            "format": "nhwc",
+            "quantizer": "asymmetric_affine",
+            "quantize": {
+                "qtype": "i8",
+                "max_value": 1.0000000591389835,
+                "min_value": 0.0,
+                "scale": 0.003921568859368563,
+                "zero_point": -128
+            }
+        }
+    },
+    "Outputs": {
+        "output_21": {
+            "name": "StatefulPartitionedCall_1/0",
+            "shape": [
+                1,
+                48,
+                1
+            ],
+            "format": "nhwc",
+            "quantizer": "asymmetric_affine",
+            "quantize": {
+                "qtype": "i8",
+                "max_value": 0.99609375,
+                "min_value": 0.0,
+                "scale": 0.00390625,
+                "zero_point": -128
+            }
+        }
+    },
+    "Recurrent_connections": {}
+}

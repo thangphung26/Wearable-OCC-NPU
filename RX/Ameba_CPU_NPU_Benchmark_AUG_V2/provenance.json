@@ -1,0 +1,121 @@
+{
+  "model_sha256": "ef9076f8f5c08cf17ded2e5b5374f92d40b814ab0ad084462a7fe1eaa9e373ca",
+  "operations": [
+    {
+      "index": 0,
+      "builtin_code": 3,
+      "inputs": [
+        0,
+        20,
+        19
+      ],
+      "output": 21
+    },
+    {
+      "index": 1,
+      "builtin_code": 18,
+      "inputs": [
+        21,
+        18
+      ],
+      "output": 22
+    },
+    {
+      "index": 2,
+      "builtin_code": 0,
+      "inputs": [
+        22,
+        17
+      ],
+      "output": 23
+    },
+    {
+      "index": 3,
+      "builtin_code": 3,
+      "inputs": [
+        23,
+        16,
+        15
+      ],
+      "output": 24
+    },
+    {
+      "index": 4,
+      "builtin_code": 18,
+      "inputs": [
+        24,
+        14
+      ],
+      "output": 25
+    },
+    {
+      "index": 5,
+      "builtin_code": 0,
+      "inputs": [
+        25,
+        13
+      ],
+      "output": 26
+    },
+    {
+      "index": 6,
+      "builtin_code": 3,
+      "inputs": [
+        26,
+        12,
+        11
+      ],
+      "output": 27
+    },
+    {
+      "index": 7,
+      "builtin_code": 18,
+      "inputs": [
+        27,
+        10
+      ],
+      "output": 28
+    },
+    {
+      "index": 8,
+      "builtin_code": 0,
+      "inputs": [
+        28,
+        9
+      ],
+      "output": 29
+    },
+    {
+      "index": 9,
+      "builtin_code": 3,
+      "inputs": [
+        29,
+        8,
+        7
+      ],
+      "output": 30
+    },
+    {
+      "index": 10,
+      "builtin_code": 3,
+      "inputs": [
+        30,
+        6,
+        5
+      ],
+      "output": 31
+    },
+    {
+      "index": 11,
+      "builtin_code": 14,
+      "inputs": [
+        31
+      ],
+      "output": 32
+    }
+  ],
+  "bank_n": 64,
+  "bank_input_sha256": "d464612c706cf6b3ed9140c9d36b5ee960a5a9da86cae1bd1b65faffe25c3668",
+  "kernel_provenance": "7b18c24aca4986e6964c7733c6bd31f6e62e6756d9822623826c45eca8ef197d",
+  "nbg_sha256": "c3f0eec20652e9e786904bb5bd0281e87903eeb0fae19d9622181431627fc097"
+}

@@ -1,0 +1,13 @@
+{
+ "duration_s": 600.0,
+ "samples": 60004,
+ "crc_valid": 60004,
+ "mean_V": 4.938872338177455,
+ "mean_I_A": 0.09607507082861143,
+ "mean_P_W": 0.47409675199989,
+ "min_P_W": 0.3213819608,
+ "max_P_W": 0.6302011034999999,
+ "stdev_P_W": 0.13601581205749785,
+ "firmware": "TX/VLC_OOK_TX_realtime_sensors_rt_imu",
+ "condition": "USB-input, no finger on sensors, TX transmitting, battery attached (charge state reported 7)"
+}

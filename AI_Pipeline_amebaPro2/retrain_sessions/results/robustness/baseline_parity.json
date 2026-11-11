@@ -1,0 +1,19 @@
+{
+  "old_int8_stored_cpu_disagreements": [
+    {
+      "session": "goal2_precrc_phasev1_7m_legacygray_roi97_71_lights_on_20261025_s03",
+      "frame": 2294,
+      "bits": [
+        39
+      ],
+      "tflite_output": [
+        -3
+      ],
+      "stored_cpu_output": [
+        0
+      ]
+    }
+  ],
+  "matching_bits": 38399,
+  "total_bits": 38400
+}

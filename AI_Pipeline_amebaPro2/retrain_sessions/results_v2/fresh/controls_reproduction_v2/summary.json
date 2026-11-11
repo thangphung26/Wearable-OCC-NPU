@@ -1,0 +1,2757 @@
+{
+  "created_utc": "2026-11-10T01:41:08.455395+00:00",
+  "host_only": true,
+  "manifest": {
+    "version": 1,
+    "description": "Host-only reproduction of nine primary 3m controls, old payload seed; not fresh campaign results",
+    "conditions": [
+      {
+        "name": "wide_off",
+        "distance_m": 3,
+        "lighting": "off",
+        "sessions": [
+          {
+            "session": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s01",
+            "repeat": 1
+          },
+          {
+            "session": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s02",
+            "repeat": 2
+          },
+          {
+            "session": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s03",
+            "repeat": 3
+          }
+        ]
+      },
+      {
+        "name": "wide_on",
+        "distance_m": 3,
+        "lighting": "on",
+        "sessions": [
+          {
+            "session": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s01",
+            "repeat": 1
+          },
+          {
+            "session": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s02",
+            "repeat": 2
+          },
+          {
+            "session": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s03",
+            "repeat": 3
+          }
+        ]
+      },
+      {
+        "name": "tight_on_primary",
+        "distance_m": 3,
+        "lighting": "on",
+        "sessions": [
+          {
+            "session": "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s01",
+            "repeat": 1
+          },
+          {
+            "session": "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s04",
+            "repeat": 2
+          },
+          {
+            "session": "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s03",
+            "repeat": 3
+          }
+        ]
+      }
+    ],
+    "excluded": [
+      {
+        "session": "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s02",
+        "batch": "goal2_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108",
+        "excluded": true,
+        "reason": "person crossed room during capture",
+        "rule_fixed_at": "2026-11-08T12:08:00+09:00",
+        "rule_timing": "before s02 was scored",
+        "replacement_display_repeat": 2,
+        "replacement_session": "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s04"
+      }
+    ]
+  },
+  "manifest_schema": {
+    "version": 1,
+    "conditions": [
+      {
+        "name": "unique condition name",
+        "distance_m": 3,
+        "lighting": "on or off",
+        "sessions": [
+          {
+            "session": "benchmark replay directory basename",
+            "repeat": 1
+          }
+        ]
+      }
+    ],
+    "excluded": [
+      {
+        "session": "excluded replay basename",
+        "reason": "required nonempty reason"
+      }
+    ]
+  },
+  "scoring_rule": "All listed non-excluded windows, no CRC/error/weak-fit filtering. TX frame_hex is 48 bits MSB first. Reuse eval_controls/export_dataset bits_hex, replay_input, decision_bytes and train_eval.ci/metric. Host inference uses builtin kernels without default delegates, one thread. Polarity is explicit: direct or per-decoder preamble-only correction; never truth-selected inversion. Host probabilities use model output scale/zero-point and >=0.5; AUG INT8 >=0 maps to 1 (scale 1/256, zero -128). Exact two-sided 95% Clopper-Pearson; pooled bits/windows may be correlated. Capture CPU/NPU values are ORIGINAL CNN and never used as AUG. 30 FPS acquisition, 20 Hz resampling, 5 bit/s link.",
+  "polarity": "direct",
+  "kernel_disagreement_windows": [],
+  "require_unseen_payload": false,
+  "acquisition_fps": 30,
+  "resampling_hz": 20,
+  "link_bit_s": 5,
+  "model_sha256": {
+    "aug": "ef9076f8f5c08cf17ded2e5b5374f92d40b814ab0ad084462a7fe1eaa9e373ca",
+    "retrained": "7a914b44dbdb9d7d35f886756fdfdc57483f1f860d89bc2d1695e12b04849a05"
+  },
+  "input_sha256": {
+    "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s01": "9f7f8c648eebec277c2b8dd1867af4d10d124a4a0725095c85b4ec66c4157f43",
+    "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s02": "86fab1b787834e65483d23c096f8a66daf7db82bb5c083971847fd5d7a61d8f1",
+    "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s03": "e1f8d3f0abcd98f1008c6229770019bdf0ee39559713a0d996eb8e1b65da09c2",
+    "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s01": "a400a98025bc2a2883f7b5436343c7ee6b00d6426bcdc502b95b741574327fb6",
+    "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s02": "8b5969f6086b06f5161090c6aae5bf3c160738cfb48bd9b01fdfd94229f856f5",
+    "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s03": "46caf39bdf3cd502b71bb761a542c70b6e31605758db283cf327c2f12989f0ac",
+    "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s01": "1a86bc477c1cade760e1af593f325b1aab5319c6e5c324cd364c2d1b61601726",
+    "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s04": "5938280446294ee5322d9adabca3d43a7a59aa4992a315514e9939153970cb8d",
+    "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s03": "a7c5855589e1fbff0e4181b9979e53e48b576223b74ef7082269e240e0cbce27"
+  },
+  "source_sha256": {
+    "eval_fresh.py": "6c5a354aaf00bbce96ca1e44ff2a8b5e241e45f9a37fd5e7e1a3e86936b29809",
+    "fresh_common.py": "c1f40493a617f6b4d7c2a8449a96f2a264bd2e08457f577d19fa615c2c526340",
+    "eval_controls.py": "0ad56d3e4cb5f8ce568b1e4ea87a0cc3a1fac1c9a194ea6bd2855a95e1a6c3a7",
+    "export_dataset.py": "e7d6d5b8586f9d0ee091a938aaae4b07174a51d4f976efd87676d5577caaed1a",
+    "train_eval.py": "afe5f11626593e708f5c3fcda5d839ea5c926399bf3e5e9f2befffedfb170121"
+  },
+  "manifest_sha256": "4efc079681eafda9c56fd0a33d79f1e8d969e0bc75bcd1f08bd2e1418a692d29",
+  "training_dataset_sha256": "38090225fa076ed6a9a5dba731ae6f5c8f627b804ec4aaa18897234b948da5f6",
+  "excluded": [
+    {
+      "session": "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s02",
+      "batch": "goal2_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108",
+      "excluded": true,
+      "reason": "person crossed room during capture",
+      "rule_fixed_at": "2026-11-08T12:08:00+09:00",
+      "rule_timing": "before s02 was scored",
+      "replacement_display_repeat": 2,
+      "replacement_session": "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s04"
+    }
+  ],
+  "conditions": {
+    "wide_off": {
+      "metrics": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300,
+          "n_windows": 300,
+          "exact_window_rate_95cp": [
+            0.9877790253057065,
+            1.0
+          ]
+        },
+        "aug_cpu": {
+          "available": false
+        },
+        "aug_npu": {
+          "available": false
+        },
+        "aug_host": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300,
+          "n_windows": 300,
+          "exact_window_rate_95cp": [
+            0.9877790253057065,
+            1.0
+          ]
+        },
+        "retrained_host": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300,
+          "n_windows": 300,
+          "exact_window_rate_95cp": [
+            0.9877790253057065,
+            1.0
+          ]
+        }
+      },
+      "flipped_windows": {
+        "classic": 0,
+        "aug_cpu": null,
+        "aug_npu": null,
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "kernel_disagreements": {
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "cpu_npu": {
+        "available": false
+      },
+      "cpu_host": {
+        "available": false
+      }
+    },
+    "wide_on": {
+      "metrics": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300,
+          "n_windows": 300,
+          "exact_window_rate_95cp": [
+            0.9877790253057065,
+            1.0
+          ]
+        },
+        "aug_cpu": {
+          "available": false
+        },
+        "aug_npu": {
+          "available": false
+        },
+        "aug_host": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300,
+          "n_windows": 300,
+          "exact_window_rate_95cp": [
+            0.9877790253057065,
+            1.0
+          ]
+        },
+        "retrained_host": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300,
+          "n_windows": 300,
+          "exact_window_rate_95cp": [
+            0.9877790253057065,
+            1.0
+          ]
+        }
+      },
+      "flipped_windows": {
+        "classic": 0,
+        "aug_cpu": null,
+        "aug_npu": null,
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "kernel_disagreements": {
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "cpu_npu": {
+        "available": false
+      },
+      "cpu_host": {
+        "available": false
+      }
+    },
+    "tight_on_primary": {
+      "metrics": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300,
+          "n_windows": 300,
+          "exact_window_rate_95cp": [
+            0.9877790253057065,
+            1.0
+          ]
+        },
+        "aug_cpu": {
+          "available": false
+        },
+        "aug_npu": {
+          "available": false
+        },
+        "aug_host": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300,
+          "n_windows": 300,
+          "exact_window_rate_95cp": [
+            0.9877790253057065,
+            1.0
+          ]
+        },
+        "retrained_host": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300,
+          "n_windows": 300,
+          "exact_window_rate_95cp": [
+            0.9877790253057065,
+            1.0
+          ]
+        }
+      },
+      "flipped_windows": {
+        "classic": 0,
+        "aug_cpu": null,
+        "aug_npu": null,
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "kernel_disagreements": {
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "cpu_npu": {
+        "available": false
+      },
+      "cpu_host": {
+        "available": false
+      }
+    }
+  },
+  "sessions": {
+    "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s01": {
+      "metrics": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100,
+          "n_windows": 100,
+          "exact_window_rate_95cp": [
+            0.9637833073548235,
+            1.0
+          ]
+        },
+        "aug_cpu": {
+          "available": false
+        },
+        "aug_npu": {
+          "available": false
+        },
+        "aug_host": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100,
+          "n_windows": 100,
+          "exact_window_rate_95cp": [
+            0.9637833073548235,
+            1.0
+          ]
+        },
+        "retrained_host": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100,
+          "n_windows": 100,
+          "exact_window_rate_95cp": [
+            0.9637833073548235,
+            1.0
+          ]
+        }
+      },
+      "flipped_windows": {
+        "classic": 0,
+        "aug_cpu": null,
+        "aug_npu": null,
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "kernel_disagreements": {
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "cpu_npu": {
+        "available": false
+      },
+      "cpu_host": {
+        "available": false
+      },
+      "tracker": {
+        "fitted_preamble_gain_median": 97.27949286922848,
+        "weak_fit": 0,
+        "fallback": 0,
+        "boundary_hit": 17,
+        "missing_gain": 0,
+        "missing_tracker": 0,
+        "missing_phase": 0
+      },
+      "session": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s01",
+      "repeat": 1,
+      "condition": "wide_off",
+      "distance_m": 3,
+      "lighting": "off"
+    },
+    "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s02": {
+      "metrics": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100,
+          "n_windows": 100,
+          "exact_window_rate_95cp": [
+            0.9637833073548235,
+            1.0
+          ]
+        },
+        "aug_cpu": {
+          "available": false
+        },
+        "aug_npu": {
+          "available": false
+        },
+        "aug_host": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100,
+          "n_windows": 100,
+          "exact_window_rate_95cp": [
+            0.9637833073548235,
+            1.0
+          ]
+        },
+        "retrained_host": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100,
+          "n_windows": 100,
+          "exact_window_rate_95cp": [
+            0.9637833073548235,
+            1.0
+          ]
+        }
+      },
+      "flipped_windows": {
+        "classic": 0,
+        "aug_cpu": null,
+        "aug_npu": null,
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "kernel_disagreements": {
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "cpu_npu": {
+        "available": false
+      },
+      "cpu_host": {
+        "available": false
+      },
+      "tracker": {
+        "fitted_preamble_gain_median": 96.48321304353317,
+        "weak_fit": 0,
+        "fallback": 0,
+        "boundary_hit": 17,
+        "missing_gain": 0,
+        "missing_tracker": 0,
+        "missing_phase": 0
+      },
+      "session": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s02",
+      "repeat": 2,
+      "condition": "wide_off",
+      "distance_m": 3,
+      "lighting": "off"
+    },
+    "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s03": {
+      "metrics": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100,
+          "n_windows": 100,
+          "exact_window_rate_95cp": [
+            0.9637833073548235,
+            1.0
+          ]
+        },
+        "aug_cpu": {
+          "available": false
+        },
+        "aug_npu": {
+          "available": false
+        },
+        "aug_host": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100,
+          "n_windows": 100,
+          "exact_window_rate_95cp": [
+            0.9637833073548235,
+            1.0
+          ]
+        },
+        "retrained_host": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100,
+          "n_windows": 100,
+          "exact_window_rate_95cp": [
+            0.9637833073548235,
+            1.0
+          ]
+        }
+      },
+      "flipped_windows": {
+        "classic": 0,
+        "aug_cpu": null,
+        "aug_npu": null,
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "kernel_disagreements": {
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "cpu_npu": {
+        "available": false
+      },
+      "cpu_host": {
+        "available": false
+      },
+      "tracker": {
+        "fitted_preamble_gain_median": 94.80114488686948,
+        "weak_fit": 0,
+        "fallback": 0,
+        "boundary_hit": 0,
+        "missing_gain": 0,
+        "missing_tracker": 0,
+        "missing_phase": 0
+      },
+      "session": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s03",
+      "repeat": 3,
+      "condition": "wide_off",
+      "distance_m": 3,
+      "lighting": "off"
+    },
+    "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s01": {
+      "metrics": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100,
+          "n_windows": 100,
+          "exact_window_rate_95cp": [
+            0.9637833073548235,
+            1.0
+          ]
+        },
+        "aug_cpu": {
+          "available": false
+        },
+        "aug_npu": {
+          "available": false
+        },
+        "aug_host": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100,
+          "n_windows": 100,
+          "exact_window_rate_95cp": [
+            0.9637833073548235,
+            1.0
+          ]
+        },
+        "retrained_host": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100,
+          "n_windows": 100,
+          "exact_window_rate_95cp": [
+            0.9637833073548235,
+            1.0
+          ]
+        }
+      },
+      "flipped_windows": {
+        "classic": 0,
+        "aug_cpu": null,
+        "aug_npu": null,
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "kernel_disagreements": {
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "cpu_npu": {
+        "available": false
+      },
+      "cpu_host": {
+        "available": false
+      },
+      "tracker": {
+        "fitted_preamble_gain_median": 9.510830893018579,
+        "weak_fit": 0,
+        "fallback": 0,
+        "boundary_hit": 7,
+        "missing_gain": 0,
+        "missing_tracker": 0,
+        "missing_phase": 0
+      },
+      "session": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s01",
+      "repeat": 1,
+      "condition": "wide_on",
+      "distance_m": 3,
+      "lighting": "on"
+    },
+    "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s02": {
+      "metrics": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100,
+          "n_windows": 100,
+          "exact_window_rate_95cp": [
+            0.9637833073548235,
+            1.0
+          ]
+        },
+        "aug_cpu": {
+          "available": false
+        },
+        "aug_npu": {
+          "available": false
+        },
+        "aug_host": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100,
+          "n_windows": 100,
+          "exact_window_rate_95cp": [
+            0.9637833073548235,
+            1.0
+          ]
+        },
+        "retrained_host": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100,
+          "n_windows": 100,
+          "exact_window_rate_95cp": [
+            0.9637833073548235,
+            1.0
+          ]
+        }
+      },
+      "flipped_windows": {
+        "classic": 0,
+        "aug_cpu": null,
+        "aug_npu": null,
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "kernel_disagreements": {
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "cpu_npu": {
+        "available": false
+      },
+      "cpu_host": {
+        "available": false
+      },
+      "tracker": {
+        "fitted_preamble_gain_median": 10.797704035111813,
+        "weak_fit": 0,
+        "fallback": 0,
+        "boundary_hit": 5,
+        "missing_gain": 0,
+        "missing_tracker": 0,
+        "missing_phase": 0
+      },
+      "session": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s02",
+      "repeat": 2,
+      "condition": "wide_on",
+      "distance_m": 3,
+      "lighting": "on"
+    },
+    "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s03": {
+      "metrics": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100,
+          "n_windows": 100,
+          "exact_window_rate_95cp": [
+            0.9637833073548235,
+            1.0
+          ]
+        },
+        "aug_cpu": {
+          "available": false
+        },
+        "aug_npu": {
+          "available": false
+        },
+        "aug_host": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100,
+          "n_windows": 100,
+          "exact_window_rate_95cp": [
+            0.9637833073548235,
+            1.0
+          ]
+        },
+        "retrained_host": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100,
+          "n_windows": 100,
+          "exact_window_rate_95cp": [
+            0.9637833073548235,
+            1.0
+          ]
+        }
+      },
+      "flipped_windows": {
+        "classic": 0,
+        "aug_cpu": null,
+        "aug_npu": null,
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "kernel_disagreements": {
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "cpu_npu": {
+        "available": false
+      },
+      "cpu_host": {
+        "available": false
+      },
+      "tracker": {
+        "fitted_preamble_gain_median": 10.243834980551862,
+        "weak_fit": 0,
+        "fallback": 0,
+        "boundary_hit": 5,
+        "missing_gain": 0,
+        "missing_tracker": 0,
+        "missing_phase": 0
+      },
+      "session": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s03",
+      "repeat": 3,
+      "condition": "wide_on",
+      "distance_m": 3,
+      "lighting": "on"
+    },
+    "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s01": {
+      "metrics": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100,
+          "n_windows": 100,
+          "exact_window_rate_95cp": [
+            0.9637833073548235,
+            1.0
+          ]
+        },
+        "aug_cpu": {
+          "available": false
+        },
+        "aug_npu": {
+          "available": false
+        },
+        "aug_host": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100,
+          "n_windows": 100,
+          "exact_window_rate_95cp": [
+            0.9637833073548235,
+            1.0
+          ]
+        },
+        "retrained_host": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100,
+          "n_windows": 100,
+          "exact_window_rate_95cp": [
+            0.9637833073548235,
+            1.0
+          ]
+        }
+      },
+      "flipped_windows": {
+        "classic": 0,
+        "aug_cpu": null,
+        "aug_npu": null,
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "kernel_disagreements": {
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "cpu_npu": {
+        "available": false
+      },
+      "cpu_host": {
+        "available": false
+      },
+      "tracker": {
+        "fitted_preamble_gain_median": 149.01498804557724,
+        "weak_fit": 0,
+        "fallback": 0,
+        "boundary_hit": 19,
+        "missing_gain": 0,
+        "missing_tracker": 0,
+        "missing_phase": 0
+      },
+      "session": "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s01",
+      "repeat": 1,
+      "condition": "tight_on_primary",
+      "distance_m": 3,
+      "lighting": "on"
+    },
+    "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s04": {
+      "metrics": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100,
+          "n_windows": 100,
+          "exact_window_rate_95cp": [
+            0.9637833073548235,
+            1.0
+          ]
+        },
+        "aug_cpu": {
+          "available": false
+        },
+        "aug_npu": {
+          "available": false
+        },
+        "aug_host": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100,
+          "n_windows": 100,
+          "exact_window_rate_95cp": [
+            0.9637833073548235,
+            1.0
+          ]
+        },
+        "retrained_host": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100,
+          "n_windows": 100,
+          "exact_window_rate_95cp": [
+            0.9637833073548235,
+            1.0
+          ]
+        }
+      },
+      "flipped_windows": {
+        "classic": 0,
+        "aug_cpu": null,
+        "aug_npu": null,
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "kernel_disagreements": {
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "cpu_npu": {
+        "available": false
+      },
+      "cpu_host": {
+        "available": false
+      },
+      "tracker": {
+        "fitted_preamble_gain_median": 134.00451591066076,
+        "weak_fit": 0,
+        "fallback": 0,
+        "boundary_hit": 18,
+        "missing_gain": 0,
+        "missing_tracker": 0,
+        "missing_phase": 0
+      },
+      "session": "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s04",
+      "repeat": 2,
+      "condition": "tight_on_primary",
+      "distance_m": 3,
+      "lighting": "on"
+    },
+    "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s03": {
+      "metrics": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100,
+          "n_windows": 100,
+          "exact_window_rate_95cp": [
+            0.9637833073548235,
+            1.0
+          ]
+        },
+        "aug_cpu": {
+          "available": false
+        },
+        "aug_npu": {
+          "available": false
+        },
+        "aug_host": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100,
+          "n_windows": 100,
+          "exact_window_rate_95cp": [
+            0.9637833073548235,
+            1.0
+          ]
+        },
+        "retrained_host": {
+          "errors": 0,
+          "n_bits": 4800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.0007682213197297114
+          ],
+          "exact_windows": 100,
+          "n_windows": 100,
+          "exact_window_rate_95cp": [
+            0.9637833073548235,
+            1.0
+          ]
+        }
+      },
+      "flipped_windows": {
+        "classic": 0,
+        "aug_cpu": null,
+        "aug_npu": null,
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "kernel_disagreements": {
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "cpu_npu": {
+        "available": false
+      },
+      "cpu_host": {
+        "available": false
+      },
+      "tracker": {
+        "fitted_preamble_gain_median": 152.44143845426328,
+        "weak_fit": 0,
+        "fallback": 0,
+        "boundary_hit": 4,
+        "missing_gain": 0,
+        "missing_tracker": 0,
+        "missing_phase": 0
+      },
+      "session": "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s03",
+      "repeat": 3,
+      "condition": "tight_on_primary",
+      "distance_m": 3,
+      "lighting": "on"
+    }
+  },
+  "pooled": {
+    "all": {
+      "metrics": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 43200,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            8.53870824200361e-05
+          ],
+          "exact_windows": 900,
+          "n_windows": 900,
+          "exact_window_rate_95cp": [
+            0.9959096334824288,
+            1.0
+          ]
+        },
+        "aug_cpu": {
+          "available": false
+        },
+        "aug_npu": {
+          "available": false
+        },
+        "aug_host": {
+          "errors": 0,
+          "n_bits": 43200,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            8.53870824200361e-05
+          ],
+          "exact_windows": 900,
+          "n_windows": 900,
+          "exact_window_rate_95cp": [
+            0.9959096334824288,
+            1.0
+          ]
+        },
+        "retrained_host": {
+          "errors": 0,
+          "n_bits": 43200,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            8.53870824200361e-05
+          ],
+          "exact_windows": 900,
+          "n_windows": 900,
+          "exact_window_rate_95cp": [
+            0.9959096334824288,
+            1.0
+          ]
+        }
+      },
+      "flipped_windows": {
+        "classic": 0,
+        "aug_cpu": null,
+        "aug_npu": null,
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "kernel_disagreements": {
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "cpu_npu": {
+        "available": false
+      },
+      "cpu_host": {
+        "available": false
+      }
+    },
+    "lighting:off": {
+      "metrics": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300,
+          "n_windows": 300,
+          "exact_window_rate_95cp": [
+            0.9877790253057065,
+            1.0
+          ]
+        },
+        "aug_cpu": {
+          "available": false
+        },
+        "aug_npu": {
+          "available": false
+        },
+        "aug_host": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300,
+          "n_windows": 300,
+          "exact_window_rate_95cp": [
+            0.9877790253057065,
+            1.0
+          ]
+        },
+        "retrained_host": {
+          "errors": 0,
+          "n_bits": 14400,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00025613937502112896
+          ],
+          "exact_windows": 300,
+          "n_windows": 300,
+          "exact_window_rate_95cp": [
+            0.9877790253057065,
+            1.0
+          ]
+        }
+      },
+      "flipped_windows": {
+        "classic": 0,
+        "aug_cpu": null,
+        "aug_npu": null,
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "kernel_disagreements": {
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "cpu_npu": {
+        "available": false
+      },
+      "cpu_host": {
+        "available": false
+      }
+    },
+    "lighting:on": {
+      "metrics": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 28800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00012807788948345175
+          ],
+          "exact_windows": 600,
+          "n_windows": 600,
+          "exact_window_rate_95cp": [
+            0.9938707286693308,
+            1.0
+          ]
+        },
+        "aug_cpu": {
+          "available": false
+        },
+        "aug_npu": {
+          "available": false
+        },
+        "aug_host": {
+          "errors": 0,
+          "n_bits": 28800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00012807788948345175
+          ],
+          "exact_windows": 600,
+          "n_windows": 600,
+          "exact_window_rate_95cp": [
+            0.9938707286693308,
+            1.0
+          ]
+        },
+        "retrained_host": {
+          "errors": 0,
+          "n_bits": 28800,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            0.00012807788948345175
+          ],
+          "exact_windows": 600,
+          "n_windows": 600,
+          "exact_window_rate_95cp": [
+            0.9938707286693308,
+            1.0
+          ]
+        }
+      },
+      "flipped_windows": {
+        "classic": 0,
+        "aug_cpu": null,
+        "aug_npu": null,
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "kernel_disagreements": {
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "cpu_npu": {
+        "available": false
+      },
+      "cpu_host": {
+        "available": false
+      }
+    },
+    "distance_m:3": {
+      "metrics": {
+        "classic": {
+          "errors": 0,
+          "n_bits": 43200,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            8.53870824200361e-05
+          ],
+          "exact_windows": 900,
+          "n_windows": 900,
+          "exact_window_rate_95cp": [
+            0.9959096334824288,
+            1.0
+          ]
+        },
+        "aug_cpu": {
+          "available": false
+        },
+        "aug_npu": {
+          "available": false
+        },
+        "aug_host": {
+          "errors": 0,
+          "n_bits": 43200,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            8.53870824200361e-05
+          ],
+          "exact_windows": 900,
+          "n_windows": 900,
+          "exact_window_rate_95cp": [
+            0.9959096334824288,
+            1.0
+          ]
+        },
+        "retrained_host": {
+          "errors": 0,
+          "n_bits": 43200,
+          "ber": 0.0,
+          "ber_95cp": [
+            0.0,
+            8.53870824200361e-05
+          ],
+          "exact_windows": 900,
+          "n_windows": 900,
+          "exact_window_rate_95cp": [
+            0.9959096334824288,
+            1.0
+          ]
+        }
+      },
+      "flipped_windows": {
+        "classic": 0,
+        "aug_cpu": null,
+        "aug_npu": null,
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "kernel_disagreements": {
+        "aug_host": 0,
+        "retrained_host": 0
+      },
+      "cpu_npu": {
+        "available": false
+      },
+      "cpu_host": {
+        "available": false
+      }
+    }
+  },
+  "session_map": {
+    "wide_off": {
+      "1": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s01",
+      "2": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s02",
+      "3": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s03"
+    },
+    "wide_on": {
+      "1": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s01",
+      "2": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s02",
+      "3": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s03"
+    },
+    "tight_on_primary": {
+      "1": "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s01",
+      "2": "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s04",
+      "3": "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s03"
+    }
+  },
+  "payload": {
+    "training_words": 100,
+    "windows": 900,
+    "distinct_words": 100,
+    "overlap_count": 900,
+    "distinct_overlap_count": 100,
+    "overlap_fraction": 1.0,
+    "nearest_hamming_min": 0,
+    "nearest_hamming_mean": 0.0,
+    "hamming_weighting": "one observation per included window",
+    "passed": false
+  },
+  "controls_parity": [
+    {
+      "condition": "wide_off",
+      "scope": "group",
+      "decoder": "classic",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 14400,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.00025613937502112896
+        ],
+        "exact_windows": 300,
+        "n_windows": 300,
+        "exact_window_rate_95cp": [
+          0.9877790253057065,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 14400,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.00025613937502112896
+        ],
+        "exact_windows": 300,
+        "n_windows": 300,
+        "exact_window_rate_95cp": [
+          0.9877790253057065,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "wide_off",
+      "scope": "group",
+      "decoder": "retrained_host",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 14400,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.00025613937502112896
+        ],
+        "exact_windows": 300,
+        "n_windows": 300,
+        "exact_window_rate_95cp": [
+          0.9877790253057065,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 14400,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.00025613937502112896
+        ],
+        "exact_windows": 300,
+        "n_windows": 300,
+        "exact_window_rate_95cp": [
+          0.9877790253057065,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "wide_off",
+      "scope": "group",
+      "decoder": "aug_host",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 14400,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.00025613937502112896
+        ],
+        "exact_windows": 300,
+        "n_windows": 300,
+        "exact_window_rate_95cp": [
+          0.9877790253057065,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 14400,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.00025613937502112896
+        ],
+        "exact_windows": 300,
+        "n_windows": 300,
+        "exact_window_rate_95cp": [
+          0.9877790253057065,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "wide_off",
+      "scope": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s01",
+      "decoder": "classic",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "wide_off",
+      "scope": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s01",
+      "decoder": "retrained_host",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "wide_off",
+      "scope": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s01",
+      "decoder": "aug_host",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "wide_off",
+      "scope": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s02",
+      "decoder": "classic",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "wide_off",
+      "scope": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s02",
+      "decoder": "retrained_host",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "wide_off",
+      "scope": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s02",
+      "decoder": "aug_host",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "wide_off",
+      "scope": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s03",
+      "decoder": "classic",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "wide_off",
+      "scope": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s03",
+      "decoder": "retrained_host",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "wide_off",
+      "scope": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_off_20261107_100f_s03",
+      "decoder": "aug_host",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "wide_on",
+      "scope": "group",
+      "decoder": "classic",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 14400,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.00025613937502112896
+        ],
+        "exact_windows": 300,
+        "n_windows": 300,
+        "exact_window_rate_95cp": [
+          0.9877790253057065,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 14400,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.00025613937502112896
+        ],
+        "exact_windows": 300,
+        "n_windows": 300,
+        "exact_window_rate_95cp": [
+          0.9877790253057065,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "wide_on",
+      "scope": "group",
+      "decoder": "retrained_host",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 14400,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.00025613937502112896
+        ],
+        "exact_windows": 300,
+        "n_windows": 300,
+        "exact_window_rate_95cp": [
+          0.9877790253057065,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 14400,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.00025613937502112896
+        ],
+        "exact_windows": 300,
+        "n_windows": 300,
+        "exact_window_rate_95cp": [
+          0.9877790253057065,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "wide_on",
+      "scope": "group",
+      "decoder": "aug_host",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 14400,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.00025613937502112896
+        ],
+        "exact_windows": 300,
+        "n_windows": 300,
+        "exact_window_rate_95cp": [
+          0.9877790253057065,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 14400,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.00025613937502112896
+        ],
+        "exact_windows": 300,
+        "n_windows": 300,
+        "exact_window_rate_95cp": [
+          0.9877790253057065,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "wide_on",
+      "scope": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s01",
+      "decoder": "classic",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "wide_on",
+      "scope": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s01",
+      "decoder": "retrained_host",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "wide_on",
+      "scope": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s01",
+      "decoder": "aug_host",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "wide_on",
+      "scope": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s02",
+      "decoder": "classic",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "wide_on",
+      "scope": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s02",
+      "decoder": "retrained_host",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "wide_on",
+      "scope": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s02",
+      "decoder": "aug_host",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "wide_on",
+      "scope": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s03",
+      "decoder": "classic",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "wide_on",
+      "scope": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s03",
+      "decoder": "retrained_host",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "wide_on",
+      "scope": "goal2_replay_gray8v2_phasev1_3m_roi169_97_32_26_exp2000_lights_on_20261108_100f_s03",
+      "decoder": "aug_host",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "tight_on_primary",
+      "scope": "group",
+      "decoder": "classic",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 14400,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.00025613937502112896
+        ],
+        "exact_windows": 300,
+        "n_windows": 300,
+        "exact_window_rate_95cp": [
+          0.9877790253057065,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 14400,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.00025613937502112896
+        ],
+        "exact_windows": 300,
+        "n_windows": 300,
+        "exact_window_rate_95cp": [
+          0.9877790253057065,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "tight_on_primary",
+      "scope": "group",
+      "decoder": "retrained_host",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 14400,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.00025613937502112896
+        ],
+        "exact_windows": 300,
+        "n_windows": 300,
+        "exact_window_rate_95cp": [
+          0.9877790253057065,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 14400,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.00025613937502112896
+        ],
+        "exact_windows": 300,
+        "n_windows": 300,
+        "exact_window_rate_95cp": [
+          0.9877790253057065,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "tight_on_primary",
+      "scope": "group",
+      "decoder": "aug_host",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 14400,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.00025613937502112896
+        ],
+        "exact_windows": 300,
+        "n_windows": 300,
+        "exact_window_rate_95cp": [
+          0.9877790253057065,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 14400,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.00025613937502112896
+        ],
+        "exact_windows": 300,
+        "n_windows": 300,
+        "exact_window_rate_95cp": [
+          0.9877790253057065,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "tight_on_primary",
+      "scope": "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s01",
+      "decoder": "classic",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "tight_on_primary",
+      "scope": "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s01",
+      "decoder": "retrained_host",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "tight_on_primary",
+      "scope": "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s01",
+      "decoder": "aug_host",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "tight_on_primary",
+      "scope": "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s04",
+      "decoder": "classic",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "tight_on_primary",
+      "scope": "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s04",
+      "decoder": "retrained_host",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "tight_on_primary",
+      "scope": "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s04",
+      "decoder": "aug_host",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "tight_on_primary",
+      "scope": "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s03",
+      "decoder": "classic",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "tight_on_primary",
+      "scope": "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s03",
+      "decoder": "retrained_host",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      }
+    },
+    {
+      "condition": "tight_on_primary",
+      "scope": "goal2_replay_gray8v2_phasev1_3m_roi180_107_11_10_exp2000_lights_on_20261108_100f_s03",
+      "decoder": "aug_host",
+      "passed": true,
+      "actual": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      },
+      "expected": {
+        "errors": 0,
+        "n_bits": 4800,
+        "ber": 0.0,
+        "ber_95cp": [
+          0.0,
+          0.0007682213197297114
+        ],
+        "exact_windows": 100,
+        "n_windows": 100,
+        "exact_window_rate_95cp": [
+          0.9637833073548235,
+          1.0
+        ]
+      }
+    }
+  ],
+  "accepted": true,
+  "board_cpu_host_equal": null
+}

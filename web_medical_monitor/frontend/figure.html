@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>VLC Patient Telemetry Monitor — Publication Figure</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./figure.css">
+</head>
+<body>
+  <div id="figureCanvas" class="figure-canvas" role="figure" aria-label="VLC Patient Telemetry Monitor Publication Figure">
+    
+    <!-- Top Figure Header -->
+    <header class="fig-header">
+      <div class="fig-header-left">
+        <h1 id="figTitle" class="fig-title">VLC Patient Telemetry Monitor</h1>
+        <span class="fig-prototype-tag">Research prototype — not a medical device</span>
+      </div>
+      <div class="fig-header-right">
+        <span id="sourceBadge" class="fig-badge">SOURCE: SIMULATION</span>
+      </div>
+    </header>
+
+    <!-- Main Figure Body -->
+    <main class="fig-body">
+      <!-- Panel (a): Current Bedside Patient Snapshot -->
+      <section class="fig-panel fig-panel-vitals" aria-labelledby="panelAHeading">
+        <div class="panel-header">
+          <h2 id="panelAHeading" class="panel-title"><span class="panel-letter">(a)</span> Patient Snapshot</h2>
+          <div id="snapshotMeta" class="panel-meta">Patient #1 · Seq -- · Age -- s</div>
+        </div>
+        
+        <div class="vitals-table">
+          <!-- Heart Rate -->
+          <div class="vital-row vital-hr">
+            <div class="vital-col-info">
+              <span class="vital-label">Heart Rate (HR)</span>
+              <span id="limitHr" class="vital-sub">Limits unavailable</span>
+            </div>
+            <div class="vital-col-val">
+              <span id="valHr" class="vital-num">--</span>
+              <span class="vital-unit">bpm</span>
+            </div>
+            <div class="vital-col-status">
+              <span id="statusHr" class="vital-status status-neutral">unavailable</span>
+            </div>
+          </div>
+
+          <!-- SpO2 -->
+          <div class="vital-row vital-spo2">
+            <div class="vital-col-info">
+              <span class="vital-label">SpO2</span>
+              <span id="limitSpo2" class="vital-sub">Limits unavailable</span>
+            </div>
+            <div class="vital-col-val">
+              <span id="valSpo2" class="vital-num">--</span>
+              <span class="vital-unit">%</span>
+            </div>
+            <div class="vital-col-status">
+              <span id="statusSpo2" class="vital-status status-neutral">unavailable</span>
+            </div>
+          </div>
+
+          <!-- Temperature -->
+          <div class="vital-row vital-temp">
+            <div class="vital-col-info">
+              <span class="vital-label">Temperature</span>
+              <span id="limitTemp" class="vital-sub">Limits unavailable</span>
+            </div>
+            <div class="vital-col-val">
+              <span id="valTemp" class="vital-num">--</span>
+              <span class="vital-unit">°C</span>
+            </div>
+            <div class="vital-col-status">
+              <span id="statusTemp" class="vital-status status-neutral">unavailable</span>
+            </div>
+          </div>
+
+          <!-- IMU State -->
+          <div class="vital-row vital-imu">
+            <div class="vital-col-info">
+              <span id="labelImu" class="vital-label">Activity</span>
+              <span id="limitImu" class="vital-sub">Limits unavailable</span>
+            </div>
+            <div class="vital-col-val">
+              <span id="valImu" class="vital-val-text">--</span>
+            </div>
+            <div class="vital-col-status">
+              <span id="statusImu" class="vital-status status-neutral">unavailable</span>
+            </div>
+          </div>
+
+          <!-- Battery Level -->
+          <div class="vital-row vital-battery">
+            <div class="vital-col-info">
+              <span id="labelBattery" class="vital-label">TX Battery</span>
+              <span class="vital-sub">Encoded level 0–7</span>
+            </div>
+            <div class="vital-col-val">
+              <span id="valBattery" class="vital-val-text">--</span>
+            </div>
+            <div class="vital-col-status">
+              <span id="statusBattery" class="vital-status status-neutral">unavailable</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Panel (b): Stepped Trends and Categorical Strips -->
+      <section class="fig-panel fig-panel-trends" aria-labelledby="panelBHeading">
+        <div class="panel-header">
+          <h2 id="panelBHeading" class="panel-title"><span class="panel-letter">(b)</span> Snapshot Trends</h2>
+          <div id="trendSummaryMeta" class="panel-meta">-- snapshots · -- min</div>
+        </div>
+
+        <!-- SVG Plot Container -->
+        <div id="trendPlotContainer" class="trends-svg-container">
+          <svg id="trendSvg" class="trend-svg" width="100%" height="100%" aria-hidden="true"></svg>
+        </div>
+      </section>
+
+      <!-- Panel (c): Link Integrity & Diagnostics (Two-Column Definition List) -->
+      <section class="fig-panel fig-panel-link" aria-labelledby="panelCHeading">
+        <div class="panel-header">
+          <h2 id="panelCHeading" class="panel-title"><span class="panel-letter">(c)</span> Link Integrity &amp; CRC</h2>
+          <div id="linkStateMeta" class="panel-meta link-state-waiting">WAITING</div>
+        </div>
+
+        <div class="metrics-dl-grid">
+          <div class="metrics-dl-col">
+            <div class="metric-row">
+              <span class="metric-label">Valid Snapshots</span>
+              <span id="countValid" class="metric-value">--</span>
+            </div>
+            <div class="metric-row">
+              <span class="metric-label">CRC-Rejected</span>
+              <span id="countRejected" class="metric-value">0</span>
+            </div>
+            <div class="metric-row metric-row-opt">
+              <span class="metric-label">Duplicates</span>
+              <span id="countDuplicate" class="metric-value">0</span>
+            </div>
+            <div class="metric-row tx-metric">
+              <span class="metric-label">TX alert bit</span>
+              <span id="valAlertBit" class="metric-value">--</span>
+            </div>
+          </div>
+          <div class="metrics-dl-col">
+            <div class="metric-row">
+              <span class="metric-label">Freshness</span>
+              <span id="valAge" class="metric-value">-- s</span>
+            </div>
+            <div class="metric-row">
+              <span class="metric-label">Decoder</span>
+              <span id="valDecoder" class="metric-value">simulated</span>
+            </div>
+            <div class="metric-row">
+              <span class="metric-label">Frame CRC</span>
+              <span id="valCrcStatus" class="metric-value">Unverified</span>
+            </div>
+            <div class="metric-row metric-row-opt">
+              <span class="metric-label">Alarm Episode</span>
+              <span id="episodeState" class="metric-value">—</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Bottom Figure Footer -->
+    <footer class="fig-footer">
+      <div class="fig-rates-line">
+        <span class="rates-label">Rates:</span>
+        <span id="ratesSpec" class="rates-spec">Rates unavailable</span>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="./figure.js"></script>
+</body>
+</html>

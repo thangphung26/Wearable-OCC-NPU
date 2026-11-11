@@ -1,0 +1,13 @@
+{
+  "csv_rows": 20000,
+  "unique_frame_point_keys": true,
+  "pooled_counts_exact_windows_and_cp_verified": true,
+  "all_input_model_hashes_verified": true,
+  "loso_zero_matches_prior": true,
+  "tests": {
+    "test_precrc.py": 4,
+    "test_manchester_phase.py": 6,
+    "test_preamble_tracker.py": 5
+  },
+  "tests_passed": 15
+}

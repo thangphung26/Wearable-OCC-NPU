@@ -1,0 +1,462 @@
+{
+    "MetaData": {
+        "Name": "main",
+        "AcuityVersion": "6",
+        "Platform": "tensorflow",
+        "Org_Platform": "tflite"
+    },
+    "Layers": {
+        "input_0": {
+            "name": "serving_default_vlc_features:0",
+            "op": "input",
+            "parameters": {
+                "size": "",
+                "channels": 1,
+                "shape": [
+                    1,
+                    48,
+                    1,
+                    4
+                ],
+                "is_scalar": false,
+                "type": "float32"
+            },
+            "inputs": [],
+            "outputs": [
+                "out0"
+            ]
+        },
+        "vlc_edge_cnn_1/bit_features_1/Relu_vlc_edge_cnn_1/bit_features_1/BiasAdd_vlc_edge_cnn_1/bit_features_1/convolution_vlc_edge_cnn_1/bit_features_1/Squeeze1_1": {
+            "name": "vlc_edge_cnn_1/bit_features_1/Relu_vlc_edge_cnn_1/bit_features_1/BiasAdd_vlc_edge_cnn_1/bit_features_1/convolution_vlc_edge_cnn_1/bit_features_1/Squeeze1",
+            "op": "convolution",
+            "parameters": {
+                "padding_mode": "CONSTANT",
+                "weights": 24,
+                "padding": "VALID",
+                "bias": true,
+                "group_number": 1,
+                "regularize": false,
+                "ksize_h": 1,
+                "ksize_w": 1,
+                "stride_h": 1,
+                "stride_w": 1,
+                "pad_h": 0,
+                "pad_w": 0,
+                "dilation": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "pad_method": "padding_const",
+                "pad": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "inputs": [
+                "@input_0:out0"
+            ],
+            "outputs": [
+                "out0"
+            ]
+        },
+        "vlc_edge_cnn_1/bit_features_1/Relu_vlc_edge_cnn_1/bit_features_1/BiasAdd_vlc_edge_cnn_1/bit_features_1/convolution_vlc_edge_cnn_1/bit_features_1/Squeeze1_2": {
+            "name": "vlc_edge_cnn_1/bit_features_1/Relu_vlc_edge_cnn_1/bit_features_1/BiasAdd_vlc_edge_cnn_1/bit_features_1/convolution_vlc_edge_cnn_1/bit_features_1/Squeeze1",
+            "op": "relu",
+            "inputs": [
+                "@vlc_edge_cnn_1/bit_features_1/Relu_vlc_edge_cnn_1/bit_features_1/BiasAdd_vlc_edge_cnn_1/bit_features_1/convolution_vlc_edge_cnn_1/bit_features_1/Squeeze1_1:out0"
+            ],
+            "outputs": [
+                "out0"
+            ]
+        },
+        "vlc_edge_cnn_1/bit_bn_1/batchnorm/mul_1_3": {
+            "name": "vlc_edge_cnn_1/bit_bn_1/batchnorm/mul_1",
+            "op": "multiply",
+            "parameters": {
+                "axis": 1,
+                "bias": true
+            },
+            "inputs": [
+                "@vlc_edge_cnn_1/bit_features_1/Relu_vlc_edge_cnn_1/bit_features_1/BiasAdd_vlc_edge_cnn_1/bit_features_1/convolution_vlc_edge_cnn_1/bit_features_1/Squeeze1_2:out0",
+                "@variable_22:out0"
+            ],
+            "outputs": [
+                "out0"
+            ]
+        },
+        "vlc_edge_cnn_1/bit_bn_1/batchnorm/add_1_4": {
+            "name": "vlc_edge_cnn_1/bit_bn_1/batchnorm/add_1",
+            "op": "add",
+            "inputs": [
+                "@vlc_edge_cnn_1/bit_bn_1/batchnorm/mul_1_3:out0",
+                "@variable_23:out0"
+            ],
+            "outputs": [
+                "out0"
+            ]
+        },
+        "vlc_edge_cnn_1/context_1_1/Relu_vlc_edge_cnn_1/context_1_1/BiasAdd_vlc_edge_cnn_1/context_1_1/convolution_vlc_edge_cnn_1/context_1_1/Squeeze1_5": {
+            "name": "vlc_edge_cnn_1/context_1_1/Relu_vlc_edge_cnn_1/context_1_1/BiasAdd_vlc_edge_cnn_1/context_1_1/convolution_vlc_edge_cnn_1/context_1_1/Squeeze1",
+            "op": "convolution",
+            "parameters": {
+                "padding_mode": "CONSTANT",
+                "weights": 48,
+                "padding": "SAME",
+                "bias": true,
+                "group_number": 1,
+                "regularize": false,
+                "ksize_h": 5,
+                "ksize_w": 1,
+                "stride_h": 1,
+                "stride_w": 1,
+                "pad_h": 2,
+                "pad_w": 0,
+                "dilation": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "pad_method": "padding_const",
+                "pad": [
+                    2,
+                    2,
+                    0,
+                    0
+                ]
+            },
+            "inputs": [
+                "@vlc_edge_cnn_1/bit_bn_1/batchnorm/add_1_4:out0"
+            ],
+            "outputs": [
+                "out0"
+            ]
+        },
+        "vlc_edge_cnn_1/context_1_1/Relu_vlc_edge_cnn_1/context_1_1/BiasAdd_vlc_edge_cnn_1/context_1_1/convolution_vlc_edge_cnn_1/context_1_1/Squeeze1_6": {
+            "name": "vlc_edge_cnn_1/context_1_1/Relu_vlc_edge_cnn_1/context_1_1/BiasAdd_vlc_edge_cnn_1/context_1_1/convolution_vlc_edge_cnn_1/context_1_1/Squeeze1",
+            "op": "relu",
+            "inputs": [
+                "@vlc_edge_cnn_1/context_1_1/Relu_vlc_edge_cnn_1/context_1_1/BiasAdd_vlc_edge_cnn_1/context_1_1/convolution_vlc_edge_cnn_1/context_1_1/Squeeze1_5:out0"
+            ],
+            "outputs": [
+                "out0"
+            ]
+        },
+        "vlc_edge_cnn_1/context_bn_1_1/batchnorm/mul_1_7": {
+            "name": "vlc_edge_cnn_1/context_bn_1_1/batchnorm/mul_1",
+            "op": "multiply",
+            "parameters": {
+                "axis": 1,
+                "bias": true
+            },
+            "inputs": [
+                "@vlc_edge_cnn_1/context_1_1/Relu_vlc_edge_cnn_1/context_1_1/BiasAdd_vlc_edge_cnn_1/context_1_1/convolution_vlc_edge_cnn_1/context_1_1/Squeeze1_6:out0",
+                "@variable_24:out0"
+            ],
+            "outputs": [
+                "out0"
+            ]
+        },
+        "vlc_edge_cnn_1/context_bn_1_1/batchnorm/add_1_8": {
+            "name": "vlc_edge_cnn_1/context_bn_1_1/batchnorm/add_1",
+            "op": "add",
+            "inputs": [
+                "@vlc_edge_cnn_1/context_bn_1_1/batchnorm/mul_1_7:out0",
+                "@variable_25:out0"
+            ],
+            "outputs": [
+                "out0"
+            ]
+        },
+        "vlc_edge_cnn_1/context_2_1/Relu_vlc_edge_cnn_1/context_2_1/BiasAdd_vlc_edge_cnn_1/context_2_1/convolution_vlc_edge_cnn_1/context_2_1/Squeeze1_9": {
+            "name": "vlc_edge_cnn_1/context_2_1/Relu_vlc_edge_cnn_1/context_2_1/BiasAdd_vlc_edge_cnn_1/context_2_1/convolution_vlc_edge_cnn_1/context_2_1/Squeeze1",
+            "op": "convolution",
+            "parameters": {
+                "padding_mode": "CONSTANT",
+                "weights": 48,
+                "padding": "SAME",
+                "bias": true,
+                "group_number": 1,
+                "regularize": false,
+                "ksize_h": 5,
+                "ksize_w": 1,
+                "stride_h": 1,
+                "stride_w": 1,
+                "pad_h": 2,
+                "pad_w": 0,
+                "dilation": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "pad_method": "padding_const",
+                "pad": [
+                    2,
+                    2,
+                    0,
+                    0
+                ]
+            },
+            "inputs": [
+                "@vlc_edge_cnn_1/context_bn_1_1/batchnorm/add_1_8:out0"
+            ],
+            "outputs": [
+                "out0"
+            ]
+        },
+        "vlc_edge_cnn_1/context_2_1/Relu_vlc_edge_cnn_1/context_2_1/BiasAdd_vlc_edge_cnn_1/context_2_1/convolution_vlc_edge_cnn_1/context_2_1/Squeeze1_10": {
+            "name": "vlc_edge_cnn_1/context_2_1/Relu_vlc_edge_cnn_1/context_2_1/BiasAdd_vlc_edge_cnn_1/context_2_1/convolution_vlc_edge_cnn_1/context_2_1/Squeeze1",
+            "op": "relu",
+            "inputs": [
+                "@vlc_edge_cnn_1/context_2_1/Relu_vlc_edge_cnn_1/context_2_1/BiasAdd_vlc_edge_cnn_1/context_2_1/convolution_vlc_edge_cnn_1/context_2_1/Squeeze1_9:out0"
+            ],
+            "outputs": [
+                "out0"
+            ]
+        },
+        "vlc_edge_cnn_1/context_bn_2_1/batchnorm/mul_1_11": {
+            "name": "vlc_edge_cnn_1/context_bn_2_1/batchnorm/mul_1",
+            "op": "multiply",
+            "parameters": {
+                "axis": 1,
+                "bias": true
+            },
+            "inputs": [
+                "@vlc_edge_cnn_1/context_2_1/Relu_vlc_edge_cnn_1/context_2_1/BiasAdd_vlc_edge_cnn_1/context_2_1/convolution_vlc_edge_cnn_1/context_2_1/Squeeze1_10:out0",
+                "@variable_26:out0"
+            ],
+            "outputs": [
+                "out0"
+            ]
+        },
+        "vlc_edge_cnn_1/context_bn_2_1/batchnorm/add_1_12": {
+            "name": "vlc_edge_cnn_1/context_bn_2_1/batchnorm/add_1",
+            "op": "add",
+            "inputs": [
+                "@vlc_edge_cnn_1/context_bn_2_1/batchnorm/mul_1_11:out0",
+                "@variable_27:out0"
+            ],
+            "outputs": [
+                "out0"
+            ]
+        },
+        "vlc_edge_cnn_1/context_3_1/Relu_vlc_edge_cnn_1/context_3_1/BiasAdd_vlc_edge_cnn_1/context_3_1/convolution_vlc_edge_cnn_1/context_3_1/Squeeze1_13": {
+            "name": "vlc_edge_cnn_1/context_3_1/Relu_vlc_edge_cnn_1/context_3_1/BiasAdd_vlc_edge_cnn_1/context_3_1/convolution_vlc_edge_cnn_1/context_3_1/Squeeze1",
+            "op": "convolution",
+            "parameters": {
+                "padding_mode": "CONSTANT",
+                "weights": 24,
+                "padding": "SAME",
+                "bias": true,
+                "group_number": 1,
+                "regularize": false,
+                "ksize_h": 3,
+                "ksize_w": 1,
+                "stride_h": 1,
+                "stride_w": 1,
+                "pad_h": 1,
+                "pad_w": 0,
+                "dilation": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "pad_method": "padding_const",
+                "pad": [
+                    1,
+                    1,
+                    0,
+                    0
+                ]
+            },
+            "inputs": [
+                "@vlc_edge_cnn_1/context_bn_2_1/batchnorm/add_1_12:out0"
+            ],
+            "outputs": [
+                "out0"
+            ]
+        },
+        "vlc_edge_cnn_1/context_3_1/Relu_vlc_edge_cnn_1/context_3_1/BiasAdd_vlc_edge_cnn_1/context_3_1/convolution_vlc_edge_cnn_1/context_3_1/Squeeze1_14": {
+            "name": "vlc_edge_cnn_1/context_3_1/Relu_vlc_edge_cnn_1/context_3_1/BiasAdd_vlc_edge_cnn_1/context_3_1/convolution_vlc_edge_cnn_1/context_3_1/Squeeze1",
+            "op": "relu",
+            "inputs": [
+                "@vlc_edge_cnn_1/context_3_1/Relu_vlc_edge_cnn_1/context_3_1/BiasAdd_vlc_edge_cnn_1/context_3_1/convolution_vlc_edge_cnn_1/context_3_1/Squeeze1_13:out0"
+            ],
+            "outputs": [
+                "out0"
+            ]
+        },
+        "vlc_edge_cnn_1/bit_probability_map_1/Add_vlc_edge_cnn_1/bit_probability_map_1/convolution_vlc_edge_cnn_1/bit_probability_map_1/Reshape1_15": {
+            "name": "vlc_edge_cnn_1/bit_probability_map_1/Add_vlc_edge_cnn_1/bit_probability_map_1/convolution_vlc_edge_cnn_1/bit_probability_map_1/Reshape1",
+            "op": "convolution",
+            "parameters": {
+                "padding_mode": "CONSTANT",
+                "weights": 1,
+                "padding": "VALID",
+                "bias": true,
+                "group_number": 1,
+                "regularize": false,
+                "ksize_h": 1,
+                "ksize_w": 1,
+                "stride_h": 1,
+                "stride_w": 1,
+                "pad_h": 0,
+                "pad_w": 0,
+                "dilation": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "pad_method": "padding_const",
+                "pad": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "inputs": [
+                "@vlc_edge_cnn_1/context_3_1/Relu_vlc_edge_cnn_1/context_3_1/BiasAdd_vlc_edge_cnn_1/context_3_1/convolution_vlc_edge_cnn_1/context_3_1/Squeeze1_14:out0"
+            ],
+            "outputs": [
+                "out0"
+            ]
+        },
+        "vlc_edge_cnn_1/bit_probability_map_1/Sigmoid_16": {
+            "name": "vlc_edge_cnn_1/bit_probability_map_1/Sigmoid",
+            "op": "sigmoid",
+            "inputs": [
+                "@vlc_edge_cnn_1/bit_probability_map_1/Add_vlc_edge_cnn_1/bit_probability_map_1/convolution_vlc_edge_cnn_1/bit_probability_map_1/Reshape1_15:out0"
+            ],
+            "outputs": [
+                "out0"
+            ]
+        },
+        "StatefulPartitionedCall_1/0_20": {
+            "name": "StatefulPartitionedCall_1/0",
+            "op": "reshape",
+            "parameters": {
+                "shape": [
+                    -1,
+                    48,
+                    1
+                ]
+            },
+            "inputs": [
+                "@vlc_edge_cnn_1/bit_probability_map_1/Sigmoid_16:out0"
+            ],
+            "outputs": [
+                "out0"
+            ]
+        },
+        "output_21": {
+            "name": "StatefulPartitionedCall_1:0",
+            "op": "output",
+            "parameters": {},
+            "inputs": [
+                "@StatefulPartitionedCall_1/0_20:out0"
+            ],
+            "outputs": [
+                "out0"
+            ]
+        },
+        "variable_22": {
+            "name": "variable",
+            "op": "variable",
+            "parameters": {
+                "shape": [
+                    24
+                ],
+                "is_scalar": false,
+                "type": "float32"
+            },
+            "inputs": [],
+            "outputs": [
+                "out0"
+            ]
+        },
+        "variable_23": {
+            "name": "variable",
+            "op": "variable",
+            "parameters": {
+                "shape": [
+                    24
+                ],
+                "is_scalar": false,
+                "type": "float32"
+            },
+            "inputs": [],
+            "outputs": [
+                "out0"
+            ]
+        },
+        "variable_24": {
+            "name": "variable",
+            "op": "variable",
+            "parameters": {
+                "shape": [
+                    48
+                ],
+                "is_scalar": false,
+                "type": "float32"
+            },
+            "inputs": [],
+            "outputs": [
+                "out0"
+            ]
+        },
+        "variable_25": {
+            "name": "variable",
+            "op": "variable",
+            "parameters": {
+                "shape": [
+                    48
+                ],
+                "is_scalar": false,
+                "type": "float32"
+            },
+            "inputs": [],
+            "outputs": [
+                "out0"
+            ]
+        },
+        "variable_26": {
+            "name": "variable",
+            "op": "variable",
+            "parameters": {
+                "shape": [
+                    48
+                ],
+                "is_scalar": false,
+                "type": "float32"
+            },
+            "inputs": [],
+            "outputs": [
+                "out0"
+            ]
+        },
+        "variable_27": {
+            "name": "variable",
+            "op": "variable",
+            "parameters": {
+                "shape": [
+                    48
+                ],
+                "is_scalar": false,
+                "type": "float32"
+            },
+            "inputs": [],
+            "outputs": [
+                "out0"
+            ]
+        }
+    },
+    "quantize_info": {}
+}

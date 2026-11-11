@@ -1,0 +1,168 @@
+{
+  "points": {
+    "timing_offset": [
+      -40,
+      -30,
+      -20,
+      -10,
+      0,
+      10,
+      20,
+      30,
+      40
+    ],
+    "contrast": [
+      1,
+      0.5,
+      0.25,
+      0.1
+    ],
+    "snr": [
+      20,
+      15,
+      10,
+      6,
+      3,
+      0
+    ]
+  },
+  "noise_seeds": [
+    76101,
+    76102,
+    76103,
+    76104,
+    76105
+  ],
+  "noise_realizations": 5,
+  "tensorflow_device": "CPU",
+  "sessions": {
+    "goal2_replay_gray8v2_phasev1_1m_roi167_94_exp2000_lights_on_20261026_100f_s03": {
+      "noise_std": 7.8307906371606295,
+      "frames": 100,
+      "distance_m": 1
+    },
+    "goal2_replay_gray8v2_phasev1_1m_roi167_94_exp2000_lights_off_20261026_100f_s03": {
+      "noise_std": 13.70676516534694,
+      "frames": 100,
+      "distance_m": 1
+    },
+    "goal2_replay_gray8v2_phasev1_3m_roi195_51_exp2000_lights_on_20261026_100f_s03": {
+      "noise_std": 7.714785458228636,
+      "frames": 100,
+      "distance_m": 3
+    },
+    "goal2_replay_gray8v2_phasev1_3m_roi195_51_exp2000_lights_off_20261026_100f_s03": {
+      "noise_std": 3.1142091606476447,
+      "frames": 100,
+      "distance_m": 3
+    },
+    "goal2_replay_gray8v2_phasev1_5m_core133_82_exp2000_lights_on_20261025_100f_s03": {
+      "noise_std": 14.154609325684323,
+      "frames": 100,
+      "distance_m": 5
+    },
+    "goal2_replay_gray8v2_phasev1_5m_core133_82_exp2000_lights_off_20261026_100f_s03": {
+      "noise_std": 21.62948847369086,
+      "frames": 100,
+      "distance_m": 5
+    },
+    "goal2_precrc_phasev1_7m_legacygray_roi97_71_lights_on_20261025_s03": {
+      "noise_std": 1.3757634036206388,
+      "frames": 100,
+      "distance_m": 7
+    },
+    "goal2_precrc_phasev1_7m_legacygray_roi97_71_lights_off_20261025_s03": {
+      "noise_std": 2.227928200351361,
+      "frames": 100,
+      "distance_m": 7
+    }
+  },
+  "inputs_sha256": {
+    "1_VLC_code_main/paper_jsen/distance_results/summary.json": "6c284a3ad3febf0eec4cba205ac3f2d55c091558b95e7428f15c23735e8f6797",
+    "1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_1m_roi167_94_exp2000_lights_on_20261026_100f_s03/samples.json": "54419b71215ad2aa2bac56304c39f1a86bb1411b2dfb691960c6a92326ef33af",
+    "1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_1m_roi167_94_exp2000_lights_on_20261026_100f_s03/tx_ground_truth.json": "88e4c0b84dee1cc647ce412d4e99c851c164e458200796065af8ddc46e07177d",
+    "1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_1m_roi167_94_exp2000_lights_on_20261026_100f_s03/frame_decisions.json": "cff24153e6fceeeb1b838b4d6e2fb61abb76af7a67635490aeccdb5e51a70124",
+    "1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_1m_roi167_94_exp2000_lights_on_20261026_100f_s03/frame_decisions.json": "56e487352c919c9c130a7aaf7fc39864922da173ce692560adb22f327e8e7ba4",
+    "1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_1m_roi167_94_exp2000_lights_off_20261026_100f_s03/samples.json": "feef0c0274ba7bbfd198cf21a04aef1000000b93a8d2507624be325327d61347",
+    "1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_1m_roi167_94_exp2000_lights_off_20261026_100f_s03/tx_ground_truth.json": "61105579c301d40f080e1e44ef8e2fd424ad230ebe04e56774c39a9737f25cc9",
+    "1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_1m_roi167_94_exp2000_lights_off_20261026_100f_s03/frame_decisions.json": "f1d6d10af0a7eccce4cab0017a25835e281836333ce40123a10405d830618cff",
+    "1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_1m_roi167_94_exp2000_lights_off_20261026_100f_s03/frame_decisions.json": "8373590af5480e4fdc6e6654bf235c15fabb82da1c4b6bc726d4bf8700d0bf8a",
+    "1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_3m_roi195_51_exp2000_lights_on_20261026_100f_s03/samples.json": "8b8212f96ad5feee06b68b25398698a91442732d3e3f815aa6e06f870d6ddf3f",
+    "1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_3m_roi195_51_exp2000_lights_on_20261026_100f_s03/tx_ground_truth.json": "b4cbb7b0c95b1ab907a6473a93e5c7050104768f7e4e5d1baf30fe70e3b346db",
+    "1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_3m_roi195_51_exp2000_lights_on_20261026_100f_s03/frame_decisions.json": "adfc813753a80f4febb62d673d330474f85cab0f86673c36dcf970bf844da980",
+    "1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_3m_roi195_51_exp2000_lights_on_20261026_100f_s03/frame_decisions.json": "e79940cc50083995ef114ccdc8e11532e5c1c319324948c01631f0c2bb977cc2",
+    "1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_3m_roi195_51_exp2000_lights_off_20261026_100f_s03/samples.json": "ddf465d7ca243e5176908d7747c3f02e087e37e64534f2782654854ee9fd2b86",
+    "1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_3m_roi195_51_exp2000_lights_off_20261026_100f_s03/tx_ground_truth.json": "84cc98d49a89c6a3d3f485e521961b551af2630dcc8e75196b7ab7cd7cb72cbc",
+    "1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_3m_roi195_51_exp2000_lights_off_20261026_100f_s03/frame_decisions.json": "1cfc3d1792eeeab9a6fe05beb063d8584474a41f8036d2c6af44a966e2d1ceee",
+    "1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_3m_roi195_51_exp2000_lights_off_20261026_100f_s03/frame_decisions.json": "e80adc81081afa9c1d927f9185d3a40e1c9248f53226ce577d48027e6ff73524",
+    "1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_5m_core133_82_exp2000_lights_on_20261025_100f_s03/samples.json": "43aed040584e482f6229c480abc9aec4c37922d676a73d2ecd6dd1e8d4ec9e40",
+    "1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_5m_core133_82_exp2000_lights_on_20261025_100f_s03/tx_ground_truth.json": "fd945e259d050088de18bf5993f8d87f7f8b5610999cfa63896133cf5ccad3fa",
+    "1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_5m_core133_82_exp2000_lights_on_20261025_100f_s03/frame_decisions.json": "fe8d978b9ffba0b899e25e87f12a31baf99b1cd8fc5ae21306bc0d80b5df6f3e",
+    "1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_5m_core133_82_exp2000_lights_on_20261025_100f_s03/frame_decisions.json": "5c582679a4950f280200f8735c7aacd485e47502819fa4cf084652dc8ed82bc2",
+    "1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_5m_core133_82_exp2000_lights_off_20261026_100f_s03/samples.json": "6e571864d39510a5fe0d455d46aac6e6c58d80d6331119a7fb03d6088f0fe79c",
+    "1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_5m_core133_82_exp2000_lights_off_20261026_100f_s03/tx_ground_truth.json": "11b76b2b60a8217816be89371c86e99e222bde516e3e67758bc3baf4b62743cf",
+    "1_VLC_code_main/dataset/benchmark/goal2_precrc_gray8v2_phasev1_5m_core133_82_exp2000_lights_off_20261026_100f_s03/frame_decisions.json": "02c591592892d189b4c07c8292b35cdb41c4d1f052b17fd938fc3ba15ad6e6ab",
+    "1_VLC_code_main/dataset/benchmark/goal2_replay_gray8v2_phasev1_5m_core133_82_exp2000_lights_off_20261026_100f_s03/frame_decisions.json": "9efc435f55b1a5f9072b5b11284ec373e1471c78bc84dbacd26090a0d4e4118d",
+    "1_VLC_code_main/dataset/benchmark/goal2_precrc_7m_roi97_71_exp2000_lights_on_20261025_100f_s03/samples.json": "3497375ca4a2057d53c2005a8084f5f149154a87762d0735e10bef3958b42c53",
+    "1_VLC_code_main/dataset/benchmark/goal2_precrc_7m_roi97_71_exp2000_lights_on_20261025_100f_s03/tx_ground_truth.json": "5df08925bfddab1c202dd439b873d561e0e1d8329f9c556676feee9d6bb4216d",
+    "1_VLC_code_main/dataset/benchmark/goal2_precrc_7m_roi97_71_exp2000_lights_on_20261025_100f_s03/frame_decisions.json": "c8fcc480584fd73850ea52b9f5930d620a060da5e8ab5d5c587e3d3b5cbd62f9",
+    "1_VLC_code_main/dataset/benchmark/goal2_precrc_phasev1_7m_legacygray_roi97_71_lights_on_20261025_s03/frame_decisions.json": "a38558663d517e0376f12b2ea41344f1d689b655f526cb1ee825bd1c4f0d44bb",
+    "1_VLC_code_main/dataset/benchmark/goal2_precrc_7m_roi97_71_exp2000_lights_off_20261025_100f_s03/samples.json": "47c04a25bcb3f46ec69744a7de7b022d1d64b7ef556e81231bf3b1bb516c5aa1",
+    "1_VLC_code_main/dataset/benchmark/goal2_precrc_7m_roi97_71_exp2000_lights_off_20261025_100f_s03/tx_ground_truth.json": "117c3dccdae6f77d7cc7b20d87d34073a227d77029a987a413c0ea760faba6f3",
+    "1_VLC_code_main/dataset/benchmark/goal2_precrc_7m_roi97_71_exp2000_lights_off_20261025_100f_s03/frame_decisions.json": "4b05cdcb01e4441976d8e232eabf75160dd3d6ebd79544a33b04d6b8da5b16de",
+    "1_VLC_code_main/dataset/benchmark/goal2_precrc_phasev1_7m_legacygray_roi97_71_lights_off_20261025_s03/frame_decisions.json": "061e683a2b01188fcfcfe64cd4ffd9d80bf154abab5f67351bea285a477ed532",
+    "1_VLC_code_main/AI_Pipeline_amebaPro2/retrain_sessions/results/repeat/history_all.json": "5e7bb6010aebd1522d1b36a2a36818e0add04c762fb7da9df2917c5460b1cd21",
+    "1_VLC_code_main/AI_Pipeline_amebaPro2/retrain_sessions/results/repeat_aug/history_all.json": "68b523482fc0e8897278e9f470ff1362630578e6d8642fd54880c8b6ef0e2960",
+    "1_VLC_code_main/AI_Pipeline_amebaPro2/retrain_sessions/robustness.py": "d80b44b50599f1a11c32d96c3b3155f8b09dae01740b31eeb96de517a7739390",
+    "1_VLC_code_main/AI_Pipeline_amebaPro2/retrain_sessions/plots.py": "4af80ad9e3efe080e7cd16274ecc296b377d1e336f013082c9081d6b7cf81c1d",
+    "1_VLC_code_main/AI_Pipeline_amebaPro2/replay_precrc_buffer.py": "8660dda44269993bd4d654e17cd73c10dd33469b5d7ba8c32b4d71cb9552a505",
+    "1_VLC_code_main/AI_Pipeline_amebaPro2/preamble_tracker.py": "8a312e77803ebc33fb816598c917b0f248c3f1cf87329fecde9d89f343a207cd",
+    "1_VLC_code_main/AI_Pipeline_amebaPro2/manchester_phase.py": "d2e308d02cba3031dc26a359d3c7d8e3ba3e78a999568153a36e7e5c83a404e9",
+    "1_VLC_code_main/AI_Pipeline_amebaPro2/benchmark_precrc.py": "b2723e9aaa161cbaea9eb1cd12282f76f6b01dbdc0d542b2d807993ac2a57c6a"
+  },
+  "models": [
+    {
+      "path": "1_VLC_code_main/AI_Pipeline_amebaPro2/vlc_edge_cnn_int8.tflite",
+      "sha256": "ce60f7f60045592f3618d717001c2962538d601175f952994802e5b9c04c8175",
+      "input_quantization": [
+        0.003921568859368563,
+        -128
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ]
+    },
+    {
+      "path": "1_VLC_code_main/AI_Pipeline_amebaPro2/retrain_sessions/results/repeat/deployment_candidate_int8.tflite",
+      "sha256": "1bf32337dcc45e1b652f402835e0e0a78e86a30d38fc93eee72150fca72a8355",
+      "input_quantization": [
+        0.003921568859368563,
+        -128
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ]
+    },
+    {
+      "path": "1_VLC_code_main/AI_Pipeline_amebaPro2/retrain_sessions/results/repeat_aug/deployment_candidate_aug_int8.tflite",
+      "sha256": "f1248c13ba5e6e5a3e7225d19a72239b6aefe932abc435a140e15dd26890e586",
+      "input_quantization": [
+        0.003921568859368563,
+        -128
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ]
+    }
+  ],
+  "acquisition_fps": 30,
+  "resampling_hz": 20,
+  "link_bit_s": 5,
+  "noise_estimator": "sqrt(mean((x[2k]-x[2k+1])**2)/2), pooled aligned within-half-bit residual DOF",
+  "snr_definition": "A=sqrt(mean_bits(((mean_first_half-mean_second_half)/2)**2)); sigma=A*10**(-SNR_dB/20)",
+  "intervals": "95% two-sided Clopper-Pearson on pooled bit counts; repeated windows/bits are correlated; not independent capture confidence",
+  "random_pairing": "same standardized Gaussian draws across points in each perturbation family; families independent"
+}

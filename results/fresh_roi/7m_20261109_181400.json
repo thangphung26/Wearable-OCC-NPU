@@ -1,0 +1,31 @@
+{
+ "distance_m": 7,
+ "roi": [
+  158,
+  17,
+  14,
+  15
+ ],
+ "snapshots": 10,
+ "stamp": "20261109_181400",
+ "max_gray": 255,
+ "roi_mod_mean": 7.338095238095238,
+ "roi_mod_max": 31.0,
+ "frame_mod_peak_xy": [
+  194,
+  264
+ ],
+ "peak_inside_roi": false,
+ "gray_means": [
+  66.0,
+  66.6,
+  66.5,
+  66.4,
+  65.8,
+  65.9,
+  66.2,
+  66.0,
+  65.5,
+  65.8
+ ]
+}

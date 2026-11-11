@@ -1,0 +1,38 @@
+{
+ "distance_m": 7,
+ "roi": [
+  233,
+  106,
+  14,
+  15
+ ],
+ "snapshots": 10,
+ "stamp": "20261109_181450",
+ "max_gray": 255,
+ "roi_mod_mean": 72.2,
+ "roi_mod_max": 226.0,
+ "mod_peak_xy": [
+  240,
+  113
+ ],
+ "mod_peak_value": 176.171875,
+ "brightest_rule_roi": [
+  158,
+  16,
+  14,
+  15
+ ],
+ "rule": "centre = blurred (max-min) modulation peak within 320x192; size = campaign size",
+ "gray_means": [
+  66.1,
+  66.2,
+  66.2,
+  66.3,
+  66.5,
+  66.5,
+  66.5,
+  66.6,
+  66.5,
+  66.5
+ ]
+}

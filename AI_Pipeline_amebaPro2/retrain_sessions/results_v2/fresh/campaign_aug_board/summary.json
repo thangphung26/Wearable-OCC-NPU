@@ -1,0 +1,77 @@
+{
+  "complete": true,
+  "error": null,
+  "model_sha256": "ef9076f8f5c08cf17ded2e5b5374f92d40b814ab0ad084462a7fe1eaa9e373ca",
+  "sessions": [
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_on_20261109_r2_100f_s01",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_on_20261109_r2_100f_s02",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_on_20261109_r2_100f_s03",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_off_20261109_r2_100f_s01",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_off_20261109_r2_100f_s02",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_off_20261109_r2_100f_s03",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_on_20261110_100f_s01",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_on_20261110_100f_s02",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_on_20261110_100f_s03",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_off_20261110_100f_s01",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_off_20261110_100f_s02",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_off_20261110_100f_s03",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_off_20261110_100f_s01",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_off_20261110_100f_s02",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_off_20261110_100f_s03",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s01",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s02",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s03",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_off_20261110_100f_s01",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_off_20261110_100f_s02",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_off_20261110_100f_s03",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_on_20261110_100f_s01",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_on_20261110_100f_s02",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_on_20261110_100f_s03"
+  ],
+  "windows": 2400,
+  "scoring_rule": "All listed non-excluded windows, no CRC/error/weak-fit filtering. TX frame_hex is 48 bits MSB first. Reuse eval_controls/export_dataset bits_hex, replay_input, decision_bytes and train_eval.ci/metric. Host inference uses builtin kernels without default delegates, one thread. Polarity is explicit: direct or per-decoder preamble-only correction; never truth-selected inversion. Host probabilities use model output scale/zero-point and >=0.5; AUG INT8 >=0 maps to 1 (scale 1/256, zero -128). Exact two-sided 95% Clopper-Pearson; pooled bits/windows may be correlated. Capture CPU/NPU values are ORIGINAL CNN and never used as AUG. 30 FPS acquisition, 20 Hz resampling, 5 bit/s link.",
+  "retries": 0,
+  "input_sha256": {
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_on_20261109_r2_100f_s01": "ac10449b6a480b3adf5faba6fed8349f1118680902bc094532eac80bba15fe29",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_on_20261109_r2_100f_s02": "cfecf1de649a3a48651f8294ca822cc5feaf7c108b531aa8d27c356b83a91239",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_on_20261109_r2_100f_s03": "955ac9f9f64a2e740d3766ecd6fecbac4d4479839dbd071be9a8d4f5123478a8",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_off_20261109_r2_100f_s01": "81df06a19544b2d63f2c44dc1db9dd23ca5214c252b406f1a9dcadf4443a221d",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_off_20261109_r2_100f_s02": "1ee9d0a5c1470868ca555344a28e28c37a49eb6ef1e080a4fdd5171edd8b65e6",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_7m_roi233_106_14_15_exp2000_lights_off_20261109_r2_100f_s03": "a51c02566a2ee296fe01ccabea86bf3e91c3ada10c51e7033c44dfe77662419a",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_on_20261110_100f_s01": "897924c6cb81d9e352e208ce5f5899df6c418d6394d5fd3a2def9c45e4110f45",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_on_20261110_100f_s02": "cae49d98c9bbe6ed2eab0af61fb7e28ee7b98ab912a273e36c80c1be14656ccd",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_on_20261110_100f_s03": "0494cb2054983e3650c5b3e0b22f409a7e6d6d9f06f5eda364e94bdea5c8f4a3",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_off_20261110_100f_s01": "73c9b09ee509c679469484a92b33ac5fde96dfddb68fb88e14771d43b562aac3",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_off_20261110_100f_s02": "7e5101548123a38dff47899fffbcd5692511691f05791e779dd4af3dacb9c4b2",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_5m_roi116_102_25_28_exp2000_lights_off_20261110_100f_s03": "07851b816603cf270a1e7578c3cc55f23ada5de164e7073053ed8dd6b283aebf",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_off_20261110_100f_s01": "01fbd8261e800a72bca6a83c2377c9e505790850548e62fd5a5418e60b9bc1d5",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_off_20261110_100f_s02": "d9c52f8a9b8983c01b2f4bf7ae96d9d185cc21e6d6f26a18000aff56463dc5c9",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_off_20261110_100f_s03": "0397eba0ec3f5a36f9d0318cc3ec6f8149b082856b24420de529c645aaf5db2a",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s01": "17ee38bb38d51cf3ed10ff8dbc8c03367d2276eceef1dfe3999f21e9a6a7e188",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s02": "441c640b4c6a4792ddd128cc3d229c563b99b4ccea4c47fa0e2f9ab659487f71",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s03": "d69055424aca37e4417929b1e3474cbf04f5c996b875419a7d73206f27e4a53a",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_off_20261110_100f_s01": "c0dcf7e02ca80edd3e9c2af14b1c5ecc58f8fa8f47a3e7106cd1c73025b4104a",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_off_20261110_100f_s02": "256edca9dc58cf0ad0f75b6089d3e3006672c32c15b0640602e0fd70f11ec2eb",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_off_20261110_100f_s03": "abdf2e69515158039a2a96a209146b7e46e71b991910b8f6c28a4a84bfbbc763",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_on_20261110_100f_s01": "9fc813633168500104e8bb145587ed8e53372c162fa033d41bb3145d97385317",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_on_20261110_100f_s02": "0ad73a78bde6829773cbcfcdeac8502f6846107acec8c291ef5c11665f2a308c",
+    "goal2_replay_gray8v2_phasev1_fresh_seed20261199_1m_roi152_127_71_65_exp2000_lights_on_20261110_100f_s03": "57f1757b36452ac8cfc0cb21db2651c00dbd1ed487f4932cf9ac58d192d3868a"
+  },
+  "identity": "[GOAL2_READY] build=paired-int8-pipeline-v2 accuracy=buffered-v1 snapshot=serial-jpeg-v1 preprocess=jpeg-gray8-v2 exposure_us=2000 gain=256 bank=64 pairs=512 cpu_workspace_bytes=4608 model_sha256=ef9076f8f5c08cf17ded2e5b5374f92d40b814ab0ad084462a7fe1eaa9e373ca",
+  "cpu_host_mismatches": [
+    {
+      "session": "goal2_replay_gray8v2_phasev1_fresh_seed20261199_3m_roi149_87_32_26_exp2000_lights_on_20261110_100f_s02",
+      "frame_id": 3894,
+      "positions": [
+        0
+      ],
+      "cpu": [
+        -126
+      ],
+      "host": [
+        -125
+      ]
+    }
+  ],
+  "cpu_host_equal": false
+}

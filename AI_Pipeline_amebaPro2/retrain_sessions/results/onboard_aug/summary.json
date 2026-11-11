@@ -1,0 +1,339 @@
+{
+  "complete": true,
+  "conditions": [
+    {
+      "offset_ms": 0,
+      "cpu": {
+        "errors": 9,
+        "n_bits": 38400,
+        "ber": 0.000234375,
+        "ber_95cp": [
+          0.00010717659575822885,
+          0.0004448699205385096
+        ],
+        "windows": 800,
+        "exact_windows": 796
+      },
+      "npu": {
+        "errors": 9,
+        "n_bits": 38400,
+        "ber": 0.000234375,
+        "ber_95cp": [
+          0.00010717659575822885,
+          0.0004448699205385096
+        ],
+        "windows": 800,
+        "exact_windows": 796
+      },
+      "host": {
+        "errors": 9,
+        "n_bits": 38400,
+        "ber": 0.000234375,
+        "ber_95cp": [
+          0.00010717659575822885,
+          0.0004448699205385096
+        ],
+        "windows": 800,
+        "exact_windows": 796
+      },
+      "cpu_npu": {
+        "bit_agreement": 1.0,
+        "bit_disagreements": 0,
+        "raw_equal_values": 38385,
+        "values": 38400,
+        "mae_lsb": 0.000625,
+        "max_lsb": 4
+      },
+      "cpu_host": {
+        "bit_agreement": 1.0,
+        "bit_disagreements": 0,
+        "raw_equal_values": 38400,
+        "values": 38400,
+        "mae_lsb": 0.0,
+        "max_lsb": 0
+      },
+      "npu_host": {
+        "bit_agreement": 1.0,
+        "bit_disagreements": 0,
+        "raw_equal_values": 38385,
+        "values": 38400,
+        "mae_lsb": 0.000625,
+        "max_lsb": 4
+      }
+    },
+    {
+      "offset_ms": -40,
+      "cpu": {
+        "errors": 18,
+        "n_bits": 38400,
+        "ber": 0.00046875,
+        "ber_95cp": [
+          0.00027783386703379443,
+          0.0007407263073427603
+        ],
+        "windows": 800,
+        "exact_windows": 795
+      },
+      "npu": {
+        "errors": 18,
+        "n_bits": 38400,
+        "ber": 0.00046875,
+        "ber_95cp": [
+          0.00027783386703379443,
+          0.0007407263073427603
+        ],
+        "windows": 800,
+        "exact_windows": 795
+      },
+      "host": {
+        "errors": 18,
+        "n_bits": 38400,
+        "ber": 0.00046875,
+        "ber_95cp": [
+          0.00027783386703379443,
+          0.0007407263073427603
+        ],
+        "windows": 800,
+        "exact_windows": 795
+      },
+      "cpu_npu": {
+        "bit_agreement": 1.0,
+        "bit_disagreements": 0,
+        "raw_equal_values": 38272,
+        "values": 38400,
+        "mae_lsb": 0.005390625,
+        "max_lsb": 13
+      },
+      "cpu_host": {
+        "bit_agreement": 1.0,
+        "bit_disagreements": 0,
+        "raw_equal_values": 38400,
+        "values": 38400,
+        "mae_lsb": 0.0,
+        "max_lsb": 0
+      },
+      "npu_host": {
+        "bit_agreement": 1.0,
+        "bit_disagreements": 0,
+        "raw_equal_values": 38272,
+        "values": 38400,
+        "mae_lsb": 0.005390625,
+        "max_lsb": 13
+      }
+    },
+    {
+      "offset_ms": -25,
+      "cpu": {
+        "errors": 7,
+        "n_bits": 38400,
+        "ber": 0.00018229166666666667,
+        "ber_95cp": [
+          7.329374476696261e-05,
+          0.00037555420444021866
+        ],
+        "windows": 800,
+        "exact_windows": 797
+      },
+      "npu": {
+        "errors": 6,
+        "n_bits": 38400,
+        "ber": 0.00015625,
+        "ber_95cp": [
+          5.734308546247142e-05,
+          0.00034005920895049805
+        ],
+        "windows": 800,
+        "exact_windows": 798
+      },
+      "host": {
+        "errors": 7,
+        "n_bits": 38400,
+        "ber": 0.00018229166666666667,
+        "ber_95cp": [
+          7.329374476696261e-05,
+          0.00037555420444021866
+        ],
+        "windows": 800,
+        "exact_windows": 797
+      },
+      "cpu_npu": {
+        "bit_agreement": 0.9999739583333334,
+        "bit_disagreements": 1,
+        "raw_equal_values": 38347,
+        "values": 38400,
+        "mae_lsb": 0.0025,
+        "max_lsb": 12
+      },
+      "cpu_host": {
+        "bit_agreement": 1.0,
+        "bit_disagreements": 0,
+        "raw_equal_values": 38400,
+        "values": 38400,
+        "mae_lsb": 0.0,
+        "max_lsb": 0
+      },
+      "npu_host": {
+        "bit_agreement": 0.9999739583333334,
+        "bit_disagreements": 1,
+        "raw_equal_values": 38347,
+        "values": 38400,
+        "mae_lsb": 0.0025,
+        "max_lsb": 12
+      }
+    },
+    {
+      "offset_ms": 25,
+      "cpu": {
+        "errors": 7,
+        "n_bits": 38400,
+        "ber": 0.00018229166666666667,
+        "ber_95cp": [
+          7.329374476696261e-05,
+          0.00037555420444021866
+        ],
+        "windows": 800,
+        "exact_windows": 797
+      },
+      "npu": {
+        "errors": 7,
+        "n_bits": 38400,
+        "ber": 0.00018229166666666667,
+        "ber_95cp": [
+          7.329374476696261e-05,
+          0.00037555420444021866
+        ],
+        "windows": 800,
+        "exact_windows": 797
+      },
+      "host": {
+        "errors": 7,
+        "n_bits": 38400,
+        "ber": 0.00018229166666666667,
+        "ber_95cp": [
+          7.329374476696261e-05,
+          0.00037555420444021866
+        ],
+        "windows": 800,
+        "exact_windows": 797
+      },
+      "cpu_npu": {
+        "bit_agreement": 1.0,
+        "bit_disagreements": 0,
+        "raw_equal_values": 38372,
+        "values": 38400,
+        "mae_lsb": 0.0016927083333333334,
+        "max_lsb": 11
+      },
+      "cpu_host": {
+        "bit_agreement": 1.0,
+        "bit_disagreements": 0,
+        "raw_equal_values": 38400,
+        "values": 38400,
+        "mae_lsb": 0.0,
+        "max_lsb": 0
+      },
+      "npu_host": {
+        "bit_agreement": 1.0,
+        "bit_disagreements": 0,
+        "raw_equal_values": 38372,
+        "values": 38400,
+        "mae_lsb": 0.0016927083333333334,
+        "max_lsb": 11
+      }
+    },
+    {
+      "offset_ms": 40,
+      "cpu": {
+        "errors": 24,
+        "n_bits": 38400,
+        "ber": 0.000625,
+        "ber_95cp": [
+          0.0004004890485983025,
+          0.0009298086572773717
+        ],
+        "windows": 800,
+        "exact_windows": 791
+      },
+      "npu": {
+        "errors": 23,
+        "n_bits": 38400,
+        "ber": 0.0005989583333333333,
+        "ber_95cp": [
+          0.0003797248954651337,
+          0.0008985968724123353
+        ],
+        "windows": 800,
+        "exact_windows": 791
+      },
+      "host": {
+        "errors": 24,
+        "n_bits": 38400,
+        "ber": 0.000625,
+        "ber_95cp": [
+          0.0004004890485983025,
+          0.0009298086572773717
+        ],
+        "windows": 800,
+        "exact_windows": 791
+      },
+      "cpu_npu": {
+        "bit_agreement": 0.9999739583333334,
+        "bit_disagreements": 1,
+        "raw_equal_values": 38266,
+        "values": 38400,
+        "mae_lsb": 0.007447916666666667,
+        "max_lsb": 15
+      },
+      "cpu_host": {
+        "bit_agreement": 1.0,
+        "bit_disagreements": 0,
+        "raw_equal_values": 38400,
+        "values": 38400,
+        "mae_lsb": 0.0,
+        "max_lsb": 0
+      },
+      "npu_host": {
+        "bit_agreement": 0.9999739583333334,
+        "bit_disagreements": 1,
+        "raw_equal_values": 38266,
+        "values": 38400,
+        "mae_lsb": 0.007447916666666667,
+        "max_lsb": 15
+      }
+    }
+  ],
+  "model_sha256": "f1248c13ba5e6e5a3e7225d19a72239b6aefe932abc435a140e15dd26890e586",
+  "offsets_ms": [
+    0,
+    -40,
+    -25,
+    25,
+    40
+  ],
+  "windows_per_offset": 800,
+  "sessions": [
+    "goal2_precrc_phasev1_7m_legacygray_roi97_71_lights_off_20261025_s03",
+    "goal2_precrc_phasev1_7m_legacygray_roi97_71_lights_on_20261025_s03",
+    "goal2_replay_gray8v2_phasev1_1m_roi167_94_exp2000_lights_off_20261026_100f_s03",
+    "goal2_replay_gray8v2_phasev1_1m_roi167_94_exp2000_lights_on_20261026_100f_s03",
+    "goal2_replay_gray8v2_phasev1_3m_roi195_51_exp2000_lights_off_20261026_100f_s03",
+    "goal2_replay_gray8v2_phasev1_3m_roi195_51_exp2000_lights_on_20261026_100f_s03",
+    "goal2_replay_gray8v2_phasev1_5m_core133_82_exp2000_lights_off_20261026_100f_s03",
+    "goal2_replay_gray8v2_phasev1_5m_core133_82_exp2000_lights_on_20261025_100f_s03"
+  ],
+  "acquisition_fps": 30,
+  "resampling_hz": 20,
+  "link_bit_s": 5,
+  "host_resolver": "BUILTIN_WITHOUT_DEFAULT_DELEGATES",
+  "note": "Pre-CRC direct bits. CP intervals on pooled bits are descriptive; captured bits and offsets are correlated.",
+  "source_sha256": {
+    "onboard_replay.py": "86359e943aa9cb958fe52da3938e5a138b742d93288d287155d9f3e8e6861c6a",
+    "model_header": "482a1e13f4986470a36d1ad2c85d819bfea2656b3d5f317d36501b04e31ac53b",
+    "dataset.npz": "19b3bba3680e8e0ec85e4d87198bfb47af603d4a5ecd28262601dc71a3c6de5f",
+    "windows_offsets.npz": "0763bf1ba8280ed35b1e889bf6899808be78522b47cb61013728c9a265e24b91",
+    "robustness.py": "d80b44b50599f1a11c32d96c3b3155f8b09dae01740b31eeb96de517a7739390",
+    "history_all.json": "68b523482fc0e8897278e9f470ff1362630578e6d8642fd54880c8b6ef0e2960"
+  },
+  "identity": "[GOAL2_READY] build=paired-int8-pipeline-v2 accuracy=buffered-v1 snapshot=serial-jpeg-v1 preprocess=jpeg-gray8-v2 exposure_us=2000 gain=256 bank=64 pairs=512 cpu_workspace_bytes=4608 model_sha256=f1248c13ba5e6e5a3e7225d19a72239b6aefe932abc435a140e15dd26890e586",
+  "error": null
+}

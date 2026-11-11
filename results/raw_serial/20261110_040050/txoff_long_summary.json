@@ -1,0 +1,6743 @@
+{
+ "final": false,
+ "start_epoch": 1794283305.0782242,
+ "start_local": "2026-11-10 13:01:45",
+ "duration_s": 50445.74523115158,
+ "hours": 14.012707004878257,
+ "raw_lines": 79875,
+ "accepted_publications": 0,
+ "poisson_upper95_per_h": 0.21378683451463618,
+ "connection_drops": [],
+ "snapshots": [
+  {
+   "t": 0,
+   "local": "13:01",
+   "connected": true,
+   "valid": 0,
+   "frames": 101800,
+   "fps": 29.7
+  },
+  {
+   "t": 60,
+   "local": "13:02",
+   "connected": true,
+   "valid": 0,
+   "frames": 103600,
+   "fps": 29.7
+  },
+  {
+   "t": 120,
+   "local": "13:03",
+   "connected": true,
+   "valid": 0,
+   "frames": 105400,
+   "fps": 29.7
+  },
+  {
+   "t": 180,
+   "local": "13:04",
+   "connected": true,
+   "valid": 0,
+   "frames": 107200,
+   "fps": 29.7
+  },
+  {
+   "t": 240,
+   "local": "13:05",
+   "connected": true,
+   "valid": 0,
+   "frames": 109000,
+   "fps": 29.7
+  },
+  {
+   "t": 300,
+   "local": "13:06",
+   "connected": true,
+   "valid": 0,
+   "frames": 110700,
+   "fps": 29.7
+  },
+  {
+   "t": 360,
+   "local": "13:07",
+   "connected": true,
+   "valid": 0,
+   "frames": 112500,
+   "fps": 29.7
+  },
+  {
+   "t": 420,
+   "local": "13:08",
+   "connected": true,
+   "valid": 0,
+   "frames": 114300,
+   "fps": 29.7
+  },
+  {
+   "t": 480,
+   "local": "13:09",
+   "connected": true,
+   "valid": 0,
+   "frames": 116100,
+   "fps": 29.7
+  },
+  {
+   "t": 540,
+   "local": "13:10",
+   "connected": true,
+   "valid": 0,
+   "frames": 117900,
+   "fps": 29.7
+  },
+  {
+   "t": 600,
+   "local": "13:11",
+   "connected": true,
+   "valid": 0,
+   "frames": 119700,
+   "fps": 29.7
+  },
+  {
+   "t": 660,
+   "local": "13:12",
+   "connected": true,
+   "valid": 0,
+   "frames": 121400,
+   "fps": 29.7
+  },
+  {
+   "t": 721,
+   "local": "13:13",
+   "connected": true,
+   "valid": 0,
+   "frames": 123200,
+   "fps": 29.7
+  },
+  {
+   "t": 781,
+   "local": "13:14",
+   "connected": true,
+   "valid": 0,
+   "frames": 125000,
+   "fps": 29.7
+  },
+  {
+   "t": 841,
+   "local": "13:15",
+   "connected": true,
+   "valid": 0,
+   "frames": 126800,
+   "fps": 29.7
+  },
+  {
+   "t": 901,
+   "local": "13:16",
+   "connected": true,
+   "valid": 0,
+   "frames": 128600,
+   "fps": 29.7
+  },
+  {
+   "t": 961,
+   "local": "13:17",
+   "connected": true,
+   "valid": 0,
+   "frames": 130400,
+   "fps": 29.7
+  },
+  {
+   "t": 1021,
+   "local": "13:18",
+   "connected": true,
+   "valid": 0,
+   "frames": 132200,
+   "fps": 29.7
+  },
+  {
+   "t": 1081,
+   "local": "13:19",
+   "connected": true,
+   "valid": 0,
+   "frames": 133900,
+   "fps": 29.7
+  },
+  {
+   "t": 1141,
+   "local": "13:20",
+   "connected": true,
+   "valid": 0,
+   "frames": 135700,
+   "fps": 29.7
+  },
+  {
+   "t": 1201,
+   "local": "13:21",
+   "connected": true,
+   "valid": 0,
+   "frames": 137500,
+   "fps": 29.7
+  },
+  {
+   "t": 1261,
+   "local": "13:22",
+   "connected": true,
+   "valid": 0,
+   "frames": 139300,
+   "fps": 29.7
+  },
+  {
+   "t": 1321,
+   "local": "13:23",
+   "connected": true,
+   "valid": 0,
+   "frames": 141100,
+   "fps": 29.7
+  },
+  {
+   "t": 1381,
+   "local": "13:24",
+   "connected": true,
+   "valid": 0,
+   "frames": 142900,
+   "fps": 29.7
+  },
+  {
+   "t": 1441,
+   "local": "13:25",
+   "connected": true,
+   "valid": 0,
+   "frames": 144600,
+   "fps": 29.7
+  },
+  {
+   "t": 1501,
+   "local": "13:26",
+   "connected": true,
+   "valid": 0,
+   "frames": 146400,
+   "fps": 29.7
+  },
+  {
+   "t": 1561,
+   "local": "13:27",
+   "connected": true,
+   "valid": 0,
+   "frames": 148200,
+   "fps": 29.7
+  },
+  {
+   "t": 1621,
+   "local": "13:28",
+   "connected": true,
+   "valid": 0,
+   "frames": 150000,
+   "fps": 29.7
+  },
+  {
+   "t": 1681,
+   "local": "13:29",
+   "connected": true,
+   "valid": 0,
+   "frames": 151800,
+   "fps": 29.7
+  },
+  {
+   "t": 1741,
+   "local": "13:30",
+   "connected": true,
+   "valid": 0,
+   "frames": 153600,
+   "fps": 29.7
+  },
+  {
+   "t": 1801,
+   "local": "13:31",
+   "connected": true,
+   "valid": 0,
+   "frames": 155300,
+   "fps": 29.7
+  },
+  {
+   "t": 1861,
+   "local": "13:32",
+   "connected": true,
+   "valid": 0,
+   "frames": 157100,
+   "fps": 29.7
+  },
+  {
+   "t": 1921,
+   "local": "13:33",
+   "connected": true,
+   "valid": 0,
+   "frames": 158900,
+   "fps": 29.7
+  },
+  {
+   "t": 1982,
+   "local": "13:34",
+   "connected": true,
+   "valid": 0,
+   "frames": 160700,
+   "fps": 29.7
+  },
+  {
+   "t": 2042,
+   "local": "13:35",
+   "connected": true,
+   "valid": 0,
+   "frames": 162500,
+   "fps": 29.7
+  },
+  {
+   "t": 2102,
+   "local": "13:36",
+   "connected": true,
+   "valid": 0,
+   "frames": 164300,
+   "fps": 29.7
+  },
+  {
+   "t": 2162,
+   "local": "13:37",
+   "connected": true,
+   "valid": 0,
+   "frames": 166000,
+   "fps": 29.7
+  },
+  {
+   "t": 2222,
+   "local": "13:38",
+   "connected": true,
+   "valid": 0,
+   "frames": 167800,
+   "fps": 29.7
+  },
+  {
+   "t": 2282,
+   "local": "13:39",
+   "connected": true,
+   "valid": 0,
+   "frames": 169600,
+   "fps": 29.7
+  },
+  {
+   "t": 2342,
+   "local": "13:40",
+   "connected": true,
+   "valid": 0,
+   "frames": 171400,
+   "fps": 29.7
+  },
+  {
+   "t": 2402,
+   "local": "13:41",
+   "connected": true,
+   "valid": 0,
+   "frames": 173200,
+   "fps": 29.7
+  },
+  {
+   "t": 2462,
+   "local": "13:42",
+   "connected": true,
+   "valid": 0,
+   "frames": 175000,
+   "fps": 29.7
+  },
+  {
+   "t": 2522,
+   "local": "13:43",
+   "connected": true,
+   "valid": 0,
+   "frames": 176700,
+   "fps": 29.7
+  },
+  {
+   "t": 2582,
+   "local": "13:44",
+   "connected": true,
+   "valid": 0,
+   "frames": 178500,
+   "fps": 29.7
+  },
+  {
+   "t": 2642,
+   "local": "13:45",
+   "connected": true,
+   "valid": 0,
+   "frames": 180300,
+   "fps": 29.7
+  },
+  {
+   "t": 2702,
+   "local": "13:46",
+   "connected": true,
+   "valid": 0,
+   "frames": 182100,
+   "fps": 29.7
+  },
+  {
+   "t": 2762,
+   "local": "13:47",
+   "connected": true,
+   "valid": 0,
+   "frames": 183900,
+   "fps": 29.7
+  },
+  {
+   "t": 2822,
+   "local": "13:48",
+   "connected": true,
+   "valid": 0,
+   "frames": 185700,
+   "fps": 29.7
+  },
+  {
+   "t": 2882,
+   "local": "13:49",
+   "connected": true,
+   "valid": 0,
+   "frames": 187400,
+   "fps": 29.7
+  },
+  {
+   "t": 2942,
+   "local": "13:50",
+   "connected": true,
+   "valid": 0,
+   "frames": 189200,
+   "fps": 29.7
+  },
+  {
+   "t": 3002,
+   "local": "13:51",
+   "connected": true,
+   "valid": 0,
+   "frames": 191000,
+   "fps": 29.7
+  },
+  {
+   "t": 3062,
+   "local": "13:52",
+   "connected": true,
+   "valid": 0,
+   "frames": 192800,
+   "fps": 29.7
+  },
+  {
+   "t": 3123,
+   "local": "13:53",
+   "connected": true,
+   "valid": 0,
+   "frames": 194600,
+   "fps": 29.7
+  },
+  {
+   "t": 3183,
+   "local": "13:54",
+   "connected": true,
+   "valid": 0,
+   "frames": 196400,
+   "fps": 29.7
+  },
+  {
+   "t": 3243,
+   "local": "13:55",
+   "connected": true,
+   "valid": 0,
+   "frames": 198100,
+   "fps": 29.7
+  },
+  {
+   "t": 3303,
+   "local": "13:56",
+   "connected": true,
+   "valid": 0,
+   "frames": 199900,
+   "fps": 29.7
+  },
+  {
+   "t": 3363,
+   "local": "13:57",
+   "connected": true,
+   "valid": 0,
+   "frames": 201700,
+   "fps": 29.7
+  },
+  {
+   "t": 3423,
+   "local": "13:58",
+   "connected": true,
+   "valid": 0,
+   "frames": 203500,
+   "fps": 29.7
+  },
+  {
+   "t": 3483,
+   "local": "13:59",
+   "connected": true,
+   "valid": 0,
+   "frames": 205300,
+   "fps": 29.7
+  },
+  {
+   "t": 3543,
+   "local": "14:00",
+   "connected": true,
+   "valid": 0,
+   "frames": 207100,
+   "fps": 29.7
+  },
+  {
+   "t": 3603,
+   "local": "14:01",
+   "connected": true,
+   "valid": 0,
+   "frames": 208800,
+   "fps": 29.7
+  },
+  {
+   "t": 3663,
+   "local": "14:02",
+   "connected": true,
+   "valid": 0,
+   "frames": 210600,
+   "fps": 29.7
+  },
+  {
+   "t": 3723,
+   "local": "14:03",
+   "connected": true,
+   "valid": 0,
+   "frames": 212400,
+   "fps": 29.7
+  },
+  {
+   "t": 3783,
+   "local": "14:04",
+   "connected": true,
+   "valid": 0,
+   "frames": 214200,
+   "fps": 29.7
+  },
+  {
+   "t": 3843,
+   "local": "14:05",
+   "connected": true,
+   "valid": 0,
+   "frames": 216000,
+   "fps": 29.7
+  },
+  {
+   "t": 3903,
+   "local": "14:06",
+   "connected": true,
+   "valid": 0,
+   "frames": 217800,
+   "fps": 29.7
+  },
+  {
+   "t": 3963,
+   "local": "14:07",
+   "connected": true,
+   "valid": 0,
+   "frames": 219600,
+   "fps": 29.7
+  },
+  {
+   "t": 4023,
+   "local": "14:08",
+   "connected": true,
+   "valid": 0,
+   "frames": 221300,
+   "fps": 29.7
+  },
+  {
+   "t": 4083,
+   "local": "14:09",
+   "connected": true,
+   "valid": 0,
+   "frames": 223100,
+   "fps": 29.7
+  },
+  {
+   "t": 4143,
+   "local": "14:10",
+   "connected": true,
+   "valid": 0,
+   "frames": 224900,
+   "fps": 29.7
+  },
+  {
+   "t": 4203,
+   "local": "14:11",
+   "connected": true,
+   "valid": 0,
+   "frames": 226700,
+   "fps": 29.7
+  },
+  {
+   "t": 4263,
+   "local": "14:12",
+   "connected": true,
+   "valid": 0,
+   "frames": 228500,
+   "fps": 29.7
+  },
+  {
+   "t": 4324,
+   "local": "14:13",
+   "connected": true,
+   "valid": 0,
+   "frames": 230300,
+   "fps": 29.7
+  },
+  {
+   "t": 4384,
+   "local": "14:14",
+   "connected": true,
+   "valid": 0,
+   "frames": 232000,
+   "fps": 29.7
+  },
+  {
+   "t": 4444,
+   "local": "14:15",
+   "connected": true,
+   "valid": 0,
+   "frames": 233800,
+   "fps": 29.7
+  },
+  {
+   "t": 4504,
+   "local": "14:16",
+   "connected": true,
+   "valid": 0,
+   "frames": 235600,
+   "fps": 29.7
+  },
+  {
+   "t": 4564,
+   "local": "14:17",
+   "connected": true,
+   "valid": 0,
+   "frames": 237400,
+   "fps": 29.7
+  },
+  {
+   "t": 4624,
+   "local": "14:18",
+   "connected": true,
+   "valid": 0,
+   "frames": 239200,
+   "fps": 29.7
+  },
+  {
+   "t": 4684,
+   "local": "14:19",
+   "connected": true,
+   "valid": 0,
+   "frames": 241000,
+   "fps": 29.7
+  },
+  {
+   "t": 4744,
+   "local": "14:20",
+   "connected": true,
+   "valid": 0,
+   "frames": 242700,
+   "fps": 29.7
+  },
+  {
+   "t": 4804,
+   "local": "14:21",
+   "connected": true,
+   "valid": 0,
+   "frames": 244500,
+   "fps": 29.7
+  },
+  {
+   "t": 4864,
+   "local": "14:22",
+   "connected": true,
+   "valid": 0,
+   "frames": 246300,
+   "fps": 29.7
+  },
+  {
+   "t": 4924,
+   "local": "14:23",
+   "connected": true,
+   "valid": 0,
+   "frames": 248100,
+   "fps": 29.7
+  },
+  {
+   "t": 4984,
+   "local": "14:24",
+   "connected": true,
+   "valid": 0,
+   "frames": 249900,
+   "fps": 29.7
+  },
+  {
+   "t": 5044,
+   "local": "14:25",
+   "connected": true,
+   "valid": 0,
+   "frames": 251700,
+   "fps": 29.7
+  },
+  {
+   "t": 5104,
+   "local": "14:26",
+   "connected": true,
+   "valid": 0,
+   "frames": 253400,
+   "fps": 29.7
+  },
+  {
+   "t": 5164,
+   "local": "14:27",
+   "connected": true,
+   "valid": 0,
+   "frames": 255200,
+   "fps": 29.7
+  },
+  {
+   "t": 5224,
+   "local": "14:28",
+   "connected": true,
+   "valid": 0,
+   "frames": 257000,
+   "fps": 29.7
+  },
+  {
+   "t": 5284,
+   "local": "14:29",
+   "connected": true,
+   "valid": 0,
+   "frames": 258800,
+   "fps": 29.7
+  },
+  {
+   "t": 5344,
+   "local": "14:30",
+   "connected": true,
+   "valid": 0,
+   "frames": 260600,
+   "fps": 29.7
+  },
+  {
+   "t": 5404,
+   "local": "14:31",
+   "connected": true,
+   "valid": 0,
+   "frames": 262400,
+   "fps": 29.7
+  },
+  {
+   "t": 5464,
+   "local": "14:32",
+   "connected": true,
+   "valid": 0,
+   "frames": 264100,
+   "fps": 29.7
+  },
+  {
+   "t": 5524,
+   "local": "14:33",
+   "connected": true,
+   "valid": 0,
+   "frames": 265900,
+   "fps": 29.7
+  },
+  {
+   "t": 5584,
+   "local": "14:34",
+   "connected": true,
+   "valid": 0,
+   "frames": 267700,
+   "fps": 29.7
+  },
+  {
+   "t": 5645,
+   "local": "14:35",
+   "connected": true,
+   "valid": 0,
+   "frames": 269500,
+   "fps": 29.7
+  },
+  {
+   "t": 5705,
+   "local": "14:36",
+   "connected": true,
+   "valid": 0,
+   "frames": 271300,
+   "fps": 29.7
+  },
+  {
+   "t": 5765,
+   "local": "14:37",
+   "connected": true,
+   "valid": 0,
+   "frames": 273100,
+   "fps": 29.7
+  },
+  {
+   "t": 5825,
+   "local": "14:38",
+   "connected": true,
+   "valid": 0,
+   "frames": 274800,
+   "fps": 29.7
+  },
+  {
+   "t": 5885,
+   "local": "14:39",
+   "connected": true,
+   "valid": 0,
+   "frames": 276600,
+   "fps": 29.7
+  },
+  {
+   "t": 5945,
+   "local": "14:40",
+   "connected": true,
+   "valid": 0,
+   "frames": 278400,
+   "fps": 29.7
+  },
+  {
+   "t": 6005,
+   "local": "14:41",
+   "connected": true,
+   "valid": 0,
+   "frames": 280200,
+   "fps": 29.7
+  },
+  {
+   "t": 6065,
+   "local": "14:42",
+   "connected": true,
+   "valid": 0,
+   "frames": 282000,
+   "fps": 29.7
+  },
+  {
+   "t": 6125,
+   "local": "14:43",
+   "connected": true,
+   "valid": 0,
+   "frames": 283800,
+   "fps": 29.7
+  },
+  {
+   "t": 6185,
+   "local": "14:44",
+   "connected": true,
+   "valid": 0,
+   "frames": 285500,
+   "fps": 29.7
+  },
+  {
+   "t": 6245,
+   "local": "14:45",
+   "connected": true,
+   "valid": 0,
+   "frames": 287300,
+   "fps": 29.7
+  },
+  {
+   "t": 6305,
+   "local": "14:46",
+   "connected": true,
+   "valid": 0,
+   "frames": 289100,
+   "fps": 29.7
+  },
+  {
+   "t": 6365,
+   "local": "14:47",
+   "connected": true,
+   "valid": 0,
+   "frames": 290900,
+   "fps": 29.7
+  },
+  {
+   "t": 6425,
+   "local": "14:48",
+   "connected": true,
+   "valid": 0,
+   "frames": 292700,
+   "fps": 29.7
+  },
+  {
+   "t": 6485,
+   "local": "14:49",
+   "connected": true,
+   "valid": 0,
+   "frames": 294500,
+   "fps": 29.7
+  },
+  {
+   "t": 6545,
+   "local": "14:50",
+   "connected": true,
+   "valid": 0,
+   "frames": 296200,
+   "fps": 29.7
+  },
+  {
+   "t": 6605,
+   "local": "14:51",
+   "connected": true,
+   "valid": 0,
+   "frames": 298000,
+   "fps": 29.7
+  },
+  {
+   "t": 6665,
+   "local": "14:52",
+   "connected": true,
+   "valid": 0,
+   "frames": 299800,
+   "fps": 29.7
+  },
+  {
+   "t": 6725,
+   "local": "14:53",
+   "connected": true,
+   "valid": 0,
+   "frames": 301600,
+   "fps": 29.7
+  },
+  {
+   "t": 6785,
+   "local": "14:54",
+   "connected": true,
+   "valid": 0,
+   "frames": 303400,
+   "fps": 29.7
+  },
+  {
+   "t": 6845,
+   "local": "14:55",
+   "connected": true,
+   "valid": 0,
+   "frames": 305200,
+   "fps": 29.7
+  },
+  {
+   "t": 6906,
+   "local": "14:56",
+   "connected": true,
+   "valid": 0,
+   "frames": 306900,
+   "fps": 29.7
+  },
+  {
+   "t": 6966,
+   "local": "14:57",
+   "connected": true,
+   "valid": 0,
+   "frames": 308700,
+   "fps": 29.7
+  },
+  {
+   "t": 7026,
+   "local": "14:58",
+   "connected": true,
+   "valid": 0,
+   "frames": 310500,
+   "fps": 29.7
+  },
+  {
+   "t": 7086,
+   "local": "14:59",
+   "connected": true,
+   "valid": 0,
+   "frames": 312300,
+   "fps": 29.7
+  },
+  {
+   "t": 7146,
+   "local": "15:00",
+   "connected": true,
+   "valid": 0,
+   "frames": 314100,
+   "fps": 29.7
+  },
+  {
+   "t": 7206,
+   "local": "15:01",
+   "connected": true,
+   "valid": 0,
+   "frames": 315900,
+   "fps": 29.7
+  },
+  {
+   "t": 7266,
+   "local": "15:02",
+   "connected": true,
+   "valid": 0,
+   "frames": 317600,
+   "fps": 29.7
+  },
+  {
+   "t": 7326,
+   "local": "15:03",
+   "connected": true,
+   "valid": 0,
+   "frames": 319400,
+   "fps": 29.7
+  },
+  {
+   "t": 7386,
+   "local": "15:04",
+   "connected": true,
+   "valid": 0,
+   "frames": 321200,
+   "fps": 29.7
+  },
+  {
+   "t": 7446,
+   "local": "15:05",
+   "connected": true,
+   "valid": 0,
+   "frames": 323000,
+   "fps": 29.7
+  },
+  {
+   "t": 7506,
+   "local": "15:06",
+   "connected": true,
+   "valid": 0,
+   "frames": 324800,
+   "fps": 29.7
+  },
+  {
+   "t": 7566,
+   "local": "15:07",
+   "connected": true,
+   "valid": 0,
+   "frames": 326600,
+   "fps": 29.7
+  },
+  {
+   "t": 7626,
+   "local": "15:08",
+   "connected": true,
+   "valid": 0,
+   "frames": 328400,
+   "fps": 29.7
+  },
+  {
+   "t": 7686,
+   "local": "15:09",
+   "connected": true,
+   "valid": 0,
+   "frames": 330100,
+   "fps": 29.7
+  },
+  {
+   "t": 7746,
+   "local": "15:10",
+   "connected": true,
+   "valid": 0,
+   "frames": 331900,
+   "fps": 29.7
+  },
+  {
+   "t": 7806,
+   "local": "15:11",
+   "connected": true,
+   "valid": 0,
+   "frames": 333700,
+   "fps": 29.7
+  },
+  {
+   "t": 7866,
+   "local": "15:12",
+   "connected": true,
+   "valid": 0,
+   "frames": 335500,
+   "fps": 29.7
+  },
+  {
+   "t": 7926,
+   "local": "15:13",
+   "connected": true,
+   "valid": 0,
+   "frames": 337300,
+   "fps": 29.7
+  },
+  {
+   "t": 7986,
+   "local": "15:14",
+   "connected": true,
+   "valid": 0,
+   "frames": 339100,
+   "fps": 29.7
+  },
+  {
+   "t": 8046,
+   "local": "15:15",
+   "connected": true,
+   "valid": 0,
+   "frames": 340800,
+   "fps": 29.7
+  },
+  {
+   "t": 8106,
+   "local": "15:16",
+   "connected": true,
+   "valid": 0,
+   "frames": 342600,
+   "fps": 29.7
+  },
+  {
+   "t": 8167,
+   "local": "15:17",
+   "connected": true,
+   "valid": 0,
+   "frames": 344400,
+   "fps": 29.7
+  },
+  {
+   "t": 8227,
+   "local": "15:18",
+   "connected": true,
+   "valid": 0,
+   "frames": 346200,
+   "fps": 29.7
+  },
+  {
+   "t": 8287,
+   "local": "15:19",
+   "connected": true,
+   "valid": 0,
+   "frames": 348000,
+   "fps": 29.7
+  },
+  {
+   "t": 8347,
+   "local": "15:20",
+   "connected": true,
+   "valid": 0,
+   "frames": 349800,
+   "fps": 29.7
+  },
+  {
+   "t": 8407,
+   "local": "15:21",
+   "connected": true,
+   "valid": 0,
+   "frames": 351500,
+   "fps": 29.7
+  },
+  {
+   "t": 8467,
+   "local": "15:22",
+   "connected": true,
+   "valid": 0,
+   "frames": 353300,
+   "fps": 29.7
+  },
+  {
+   "t": 8527,
+   "local": "15:23",
+   "connected": true,
+   "valid": 0,
+   "frames": 355100,
+   "fps": 29.7
+  },
+  {
+   "t": 8587,
+   "local": "15:24",
+   "connected": true,
+   "valid": 0,
+   "frames": 356900,
+   "fps": 29.7
+  },
+  {
+   "t": 8647,
+   "local": "15:25",
+   "connected": true,
+   "valid": 0,
+   "frames": 358700,
+   "fps": 29.7
+  },
+  {
+   "t": 8707,
+   "local": "15:26",
+   "connected": true,
+   "valid": 0,
+   "frames": 360500,
+   "fps": 29.7
+  },
+  {
+   "t": 8767,
+   "local": "15:27",
+   "connected": true,
+   "valid": 0,
+   "frames": 362200,
+   "fps": 29.7
+  },
+  {
+   "t": 8827,
+   "local": "15:28",
+   "connected": true,
+   "valid": 0,
+   "frames": 364000,
+   "fps": 29.7
+  },
+  {
+   "t": 8887,
+   "local": "15:29",
+   "connected": true,
+   "valid": 0,
+   "frames": 365800,
+   "fps": 29.7
+  },
+  {
+   "t": 8947,
+   "local": "15:30",
+   "connected": true,
+   "valid": 0,
+   "frames": 367600,
+   "fps": 29.7
+  },
+  {
+   "t": 9007,
+   "local": "15:31",
+   "connected": true,
+   "valid": 0,
+   "frames": 369400,
+   "fps": 29.7
+  },
+  {
+   "t": 9067,
+   "local": "15:32",
+   "connected": true,
+   "valid": 0,
+   "frames": 371200,
+   "fps": 29.7
+  },
+  {
+   "t": 9127,
+   "local": "15:33",
+   "connected": true,
+   "valid": 0,
+   "frames": 372900,
+   "fps": 29.7
+  },
+  {
+   "t": 9187,
+   "local": "15:34",
+   "connected": true,
+   "valid": 0,
+   "frames": 374700,
+   "fps": 29.7
+  },
+  {
+   "t": 9248,
+   "local": "15:35",
+   "connected": true,
+   "valid": 0,
+   "frames": 376500,
+   "fps": 29.7
+  },
+  {
+   "t": 9308,
+   "local": "15:36",
+   "connected": true,
+   "valid": 0,
+   "frames": 378300,
+   "fps": 29.7
+  },
+  {
+   "t": 9368,
+   "local": "15:37",
+   "connected": true,
+   "valid": 0,
+   "frames": 380100,
+   "fps": 29.7
+  },
+  {
+   "t": 9428,
+   "local": "15:38",
+   "connected": true,
+   "valid": 0,
+   "frames": 381900,
+   "fps": 29.7
+  },
+  {
+   "t": 9488,
+   "local": "15:39",
+   "connected": true,
+   "valid": 0,
+   "frames": 383600,
+   "fps": 29.7
+  },
+  {
+   "t": 9548,
+   "local": "15:40",
+   "connected": true,
+   "valid": 0,
+   "frames": 385400,
+   "fps": 29.7
+  },
+  {
+   "t": 9608,
+   "local": "15:41",
+   "connected": true,
+   "valid": 0,
+   "frames": 387200,
+   "fps": 29.7
+  },
+  {
+   "t": 9668,
+   "local": "15:42",
+   "connected": true,
+   "valid": 0,
+   "frames": 389000,
+   "fps": 29.7
+  },
+  {
+   "t": 9728,
+   "local": "15:43",
+   "connected": true,
+   "valid": 0,
+   "frames": 390800,
+   "fps": 29.7
+  },
+  {
+   "t": 9788,
+   "local": "15:44",
+   "connected": true,
+   "valid": 0,
+   "frames": 392600,
+   "fps": 29.7
+  },
+  {
+   "t": 9848,
+   "local": "15:45",
+   "connected": true,
+   "valid": 0,
+   "frames": 394400,
+   "fps": 29.7
+  },
+  {
+   "t": 9908,
+   "local": "15:46",
+   "connected": true,
+   "valid": 0,
+   "frames": 396100,
+   "fps": 29.7
+  },
+  {
+   "t": 9968,
+   "local": "15:47",
+   "connected": true,
+   "valid": 0,
+   "frames": 397900,
+   "fps": 29.7
+  },
+  {
+   "t": 10028,
+   "local": "15:48",
+   "connected": true,
+   "valid": 0,
+   "frames": 399700,
+   "fps": 29.7
+  },
+  {
+   "t": 10088,
+   "local": "15:49",
+   "connected": true,
+   "valid": 0,
+   "frames": 401500,
+   "fps": 29.7
+  },
+  {
+   "t": 10148,
+   "local": "15:50",
+   "connected": true,
+   "valid": 0,
+   "frames": 403300,
+   "fps": 29.7
+  },
+  {
+   "t": 10208,
+   "local": "15:51",
+   "connected": true,
+   "valid": 0,
+   "frames": 405000,
+   "fps": 29.7
+  },
+  {
+   "t": 10268,
+   "local": "15:52",
+   "connected": true,
+   "valid": 0,
+   "frames": 406800,
+   "fps": 29.7
+  },
+  {
+   "t": 10328,
+   "local": "15:53",
+   "connected": true,
+   "valid": 0,
+   "frames": 408600,
+   "fps": 29.7
+  },
+  {
+   "t": 10388,
+   "local": "15:54",
+   "connected": true,
+   "valid": 0,
+   "frames": 410400,
+   "fps": 29.7
+  },
+  {
+   "t": 10448,
+   "local": "15:55",
+   "connected": true,
+   "valid": 0,
+   "frames": 412200,
+   "fps": 29.7
+  },
+  {
+   "t": 10509,
+   "local": "15:56",
+   "connected": true,
+   "valid": 0,
+   "frames": 414000,
+   "fps": 29.7
+  },
+  {
+   "t": 10569,
+   "local": "15:57",
+   "connected": true,
+   "valid": 0,
+   "frames": 415800,
+   "fps": 29.7
+  },
+  {
+   "t": 10629,
+   "local": "15:58",
+   "connected": true,
+   "valid": 0,
+   "frames": 417500,
+   "fps": 29.7
+  },
+  {
+   "t": 10689,
+   "local": "15:59",
+   "connected": true,
+   "valid": 0,
+   "frames": 419300,
+   "fps": 29.7
+  },
+  {
+   "t": 10749,
+   "local": "16:00",
+   "connected": true,
+   "valid": 0,
+   "frames": 421100,
+   "fps": 29.7
+  },
+  {
+   "t": 10809,
+   "local": "16:01",
+   "connected": true,
+   "valid": 0,
+   "frames": 422900,
+   "fps": 29.7
+  },
+  {
+   "t": 10869,
+   "local": "16:02",
+   "connected": true,
+   "valid": 0,
+   "frames": 424700,
+   "fps": 29.7
+  },
+  {
+   "t": 10929,
+   "local": "16:03",
+   "connected": true,
+   "valid": 0,
+   "frames": 426500,
+   "fps": 29.7
+  },
+  {
+   "t": 10989,
+   "local": "16:04",
+   "connected": true,
+   "valid": 0,
+   "frames": 428200,
+   "fps": 29.7
+  },
+  {
+   "t": 11049,
+   "local": "16:05",
+   "connected": true,
+   "valid": 0,
+   "frames": 430000,
+   "fps": 29.7
+  },
+  {
+   "t": 11109,
+   "local": "16:06",
+   "connected": true,
+   "valid": 0,
+   "frames": 431800,
+   "fps": 29.7
+  },
+  {
+   "t": 11169,
+   "local": "16:07",
+   "connected": true,
+   "valid": 0,
+   "frames": 433600,
+   "fps": 29.7
+  },
+  {
+   "t": 11229,
+   "local": "16:08",
+   "connected": true,
+   "valid": 0,
+   "frames": 435400,
+   "fps": 29.7
+  },
+  {
+   "t": 11289,
+   "local": "16:09",
+   "connected": true,
+   "valid": 0,
+   "frames": 437200,
+   "fps": 29.7
+  },
+  {
+   "t": 11349,
+   "local": "16:10",
+   "connected": true,
+   "valid": 0,
+   "frames": 438900,
+   "fps": 29.7
+  },
+  {
+   "t": 11409,
+   "local": "16:11",
+   "connected": true,
+   "valid": 0,
+   "frames": 440700,
+   "fps": 29.7
+  },
+  {
+   "t": 11469,
+   "local": "16:12",
+   "connected": true,
+   "valid": 0,
+   "frames": 442500,
+   "fps": 29.7
+  },
+  {
+   "t": 11529,
+   "local": "16:13",
+   "connected": true,
+   "valid": 0,
+   "frames": 444300,
+   "fps": 29.7
+  },
+  {
+   "t": 11590,
+   "local": "16:14",
+   "connected": true,
+   "valid": 0,
+   "frames": 446100,
+   "fps": 29.7
+  },
+  {
+   "t": 11650,
+   "local": "16:15",
+   "connected": true,
+   "valid": 0,
+   "frames": 447900,
+   "fps": 29.7
+  },
+  {
+   "t": 11710,
+   "local": "16:16",
+   "connected": true,
+   "valid": 0,
+   "frames": 449600,
+   "fps": 29.7
+  },
+  {
+   "t": 11770,
+   "local": "16:17",
+   "connected": true,
+   "valid": 0,
+   "frames": 451400,
+   "fps": 29.7
+  },
+  {
+   "t": 11830,
+   "local": "16:18",
+   "connected": true,
+   "valid": 0,
+   "frames": 453200,
+   "fps": 29.7
+  },
+  {
+   "t": 11890,
+   "local": "16:19",
+   "connected": true,
+   "valid": 0,
+   "frames": 455000,
+   "fps": 29.7
+  },
+  {
+   "t": 11950,
+   "local": "16:20",
+   "connected": true,
+   "valid": 0,
+   "frames": 456800,
+   "fps": 29.7
+  },
+  {
+   "t": 12010,
+   "local": "16:21",
+   "connected": true,
+   "valid": 0,
+   "frames": 458600,
+   "fps": 29.7
+  },
+  {
+   "t": 12070,
+   "local": "16:22",
+   "connected": true,
+   "valid": 0,
+   "frames": 460400,
+   "fps": 29.7
+  },
+  {
+   "t": 12130,
+   "local": "16:23",
+   "connected": true,
+   "valid": 0,
+   "frames": 462100,
+   "fps": 29.7
+  },
+  {
+   "t": 12190,
+   "local": "16:24",
+   "connected": true,
+   "valid": 0,
+   "frames": 463900,
+   "fps": 29.7
+  },
+  {
+   "t": 12250,
+   "local": "16:25",
+   "connected": true,
+   "valid": 0,
+   "frames": 465700,
+   "fps": 29.7
+  },
+  {
+   "t": 12310,
+   "local": "16:26",
+   "connected": true,
+   "valid": 0,
+   "frames": 467500,
+   "fps": 29.7
+  },
+  {
+   "t": 12370,
+   "local": "16:27",
+   "connected": true,
+   "valid": 0,
+   "frames": 469300,
+   "fps": 29.7
+  },
+  {
+   "t": 12430,
+   "local": "16:28",
+   "connected": true,
+   "valid": 0,
+   "frames": 471100,
+   "fps": 29.7
+  },
+  {
+   "t": 12490,
+   "local": "16:29",
+   "connected": true,
+   "valid": 0,
+   "frames": 472800,
+   "fps": 29.7
+  },
+  {
+   "t": 12550,
+   "local": "16:30",
+   "connected": true,
+   "valid": 0,
+   "frames": 474600,
+   "fps": 29.7
+  },
+  {
+   "t": 12610,
+   "local": "16:31",
+   "connected": true,
+   "valid": 0,
+   "frames": 476400,
+   "fps": 29.7
+  },
+  {
+   "t": 12671,
+   "local": "16:32",
+   "connected": true,
+   "valid": 0,
+   "frames": 478200,
+   "fps": 29.7
+  },
+  {
+   "t": 12731,
+   "local": "16:33",
+   "connected": true,
+   "valid": 0,
+   "frames": 480000,
+   "fps": 29.7
+  },
+  {
+   "t": 12791,
+   "local": "16:34",
+   "connected": true,
+   "valid": 0,
+   "frames": 481800,
+   "fps": 29.7
+  },
+  {
+   "t": 12851,
+   "local": "16:35",
+   "connected": true,
+   "valid": 0,
+   "frames": 483500,
+   "fps": 29.7
+  },
+  {
+   "t": 12911,
+   "local": "16:36",
+   "connected": true,
+   "valid": 0,
+   "frames": 485300,
+   "fps": 29.7
+  },
+  {
+   "t": 12971,
+   "local": "16:37",
+   "connected": true,
+   "valid": 0,
+   "frames": 487100,
+   "fps": 29.7
+  },
+  {
+   "t": 13031,
+   "local": "16:38",
+   "connected": true,
+   "valid": 0,
+   "frames": 488900,
+   "fps": 29.7
+  },
+  {
+   "t": 13091,
+   "local": "16:39",
+   "connected": true,
+   "valid": 0,
+   "frames": 490700,
+   "fps": 29.7
+  },
+  {
+   "t": 13151,
+   "local": "16:40",
+   "connected": true,
+   "valid": 0,
+   "frames": 492500,
+   "fps": 29.7
+  },
+  {
+   "t": 13211,
+   "local": "16:41",
+   "connected": true,
+   "valid": 0,
+   "frames": 494200,
+   "fps": 29.7
+  },
+  {
+   "t": 13271,
+   "local": "16:42",
+   "connected": true,
+   "valid": 0,
+   "frames": 496000,
+   "fps": 29.7
+  },
+  {
+   "t": 13331,
+   "local": "16:43",
+   "connected": true,
+   "valid": 0,
+   "frames": 497800,
+   "fps": 29.7
+  },
+  {
+   "t": 13391,
+   "local": "16:44",
+   "connected": true,
+   "valid": 0,
+   "frames": 499600,
+   "fps": 29.7
+  },
+  {
+   "t": 13451,
+   "local": "16:45",
+   "connected": true,
+   "valid": 0,
+   "frames": 501400,
+   "fps": 29.7
+  },
+  {
+   "t": 13511,
+   "local": "16:46",
+   "connected": true,
+   "valid": 0,
+   "frames": 503200,
+   "fps": 29.7
+  },
+  {
+   "t": 13571,
+   "local": "16:47",
+   "connected": true,
+   "valid": 0,
+   "frames": 504900,
+   "fps": 29.7
+  },
+  {
+   "t": 13631,
+   "local": "16:48",
+   "connected": true,
+   "valid": 0,
+   "frames": 506700,
+   "fps": 29.7
+  },
+  {
+   "t": 13691,
+   "local": "16:49",
+   "connected": true,
+   "valid": 0,
+   "frames": 508500,
+   "fps": 29.7
+  },
+  {
+   "t": 13751,
+   "local": "16:50",
+   "connected": true,
+   "valid": 0,
+   "frames": 510300,
+   "fps": 29.7
+  },
+  {
+   "t": 13811,
+   "local": "16:51",
+   "connected": true,
+   "valid": 0,
+   "frames": 512100,
+   "fps": 29.7
+  },
+  {
+   "t": 13872,
+   "local": "16:52",
+   "connected": true,
+   "valid": 0,
+   "frames": 513900,
+   "fps": 29.7
+  },
+  {
+   "t": 13932,
+   "local": "16:53",
+   "connected": true,
+   "valid": 0,
+   "frames": 515600,
+   "fps": 29.7
+  },
+  {
+   "t": 13992,
+   "local": "16:54",
+   "connected": true,
+   "valid": 0,
+   "frames": 517400,
+   "fps": 29.7
+  },
+  {
+   "t": 14052,
+   "local": "16:55",
+   "connected": true,
+   "valid": 0,
+   "frames": 519200,
+   "fps": 29.7
+  },
+  {
+   "t": 14112,
+   "local": "16:56",
+   "connected": true,
+   "valid": 0,
+   "frames": 521000,
+   "fps": 29.7
+  },
+  {
+   "t": 14172,
+   "local": "16:57",
+   "connected": true,
+   "valid": 0,
+   "frames": 522800,
+   "fps": 29.7
+  },
+  {
+   "t": 14232,
+   "local": "16:58",
+   "connected": true,
+   "valid": 0,
+   "frames": 524600,
+   "fps": 29.7
+  },
+  {
+   "t": 14292,
+   "local": "16:59",
+   "connected": true,
+   "valid": 0,
+   "frames": 526400,
+   "fps": 29.7
+  },
+  {
+   "t": 14352,
+   "local": "17:00",
+   "connected": true,
+   "valid": 0,
+   "frames": 528100,
+   "fps": 29.7
+  },
+  {
+   "t": 14412,
+   "local": "17:01",
+   "connected": true,
+   "valid": 0,
+   "frames": 529900,
+   "fps": 29.7
+  },
+  {
+   "t": 14472,
+   "local": "17:02",
+   "connected": true,
+   "valid": 0,
+   "frames": 531700,
+   "fps": 29.7
+  },
+  {
+   "t": 14532,
+   "local": "17:03",
+   "connected": true,
+   "valid": 0,
+   "frames": 533500,
+   "fps": 29.7
+  },
+  {
+   "t": 14592,
+   "local": "17:04",
+   "connected": true,
+   "valid": 0,
+   "frames": 535300,
+   "fps": 29.7
+  },
+  {
+   "t": 14652,
+   "local": "17:05",
+   "connected": true,
+   "valid": 0,
+   "frames": 537100,
+   "fps": 29.7
+  },
+  {
+   "t": 14712,
+   "local": "17:06",
+   "connected": true,
+   "valid": 0,
+   "frames": 538800,
+   "fps": 29.7
+  },
+  {
+   "t": 14772,
+   "local": "17:07",
+   "connected": true,
+   "valid": 0,
+   "frames": 540600,
+   "fps": 29.7
+  },
+  {
+   "t": 14832,
+   "local": "17:08",
+   "connected": true,
+   "valid": 0,
+   "frames": 542400,
+   "fps": 29.7
+  },
+  {
+   "t": 14893,
+   "local": "17:09",
+   "connected": true,
+   "valid": 0,
+   "frames": 544200,
+   "fps": 29.7
+  },
+  {
+   "t": 14953,
+   "local": "17:10",
+   "connected": true,
+   "valid": 0,
+   "frames": 546000,
+   "fps": 29.7
+  },
+  {
+   "t": 15013,
+   "local": "17:11",
+   "connected": true,
+   "valid": 0,
+   "frames": 547800,
+   "fps": 29.7
+  },
+  {
+   "t": 15073,
+   "local": "17:12",
+   "connected": true,
+   "valid": 0,
+   "frames": 549500,
+   "fps": 29.7
+  },
+  {
+   "t": 15133,
+   "local": "17:13",
+   "connected": true,
+   "valid": 0,
+   "frames": 551300,
+   "fps": 29.7
+  },
+  {
+   "t": 15193,
+   "local": "17:14",
+   "connected": true,
+   "valid": 0,
+   "frames": 553100,
+   "fps": 29.7
+  },
+  {
+   "t": 15253,
+   "local": "17:15",
+   "connected": true,
+   "valid": 0,
+   "frames": 554900,
+   "fps": 29.7
+  },
+  {
+   "t": 15313,
+   "local": "17:16",
+   "connected": true,
+   "valid": 0,
+   "frames": 556700,
+   "fps": 29.7
+  },
+  {
+   "t": 15373,
+   "local": "17:17",
+   "connected": true,
+   "valid": 0,
+   "frames": 558500,
+   "fps": 29.7
+  },
+  {
+   "t": 15433,
+   "local": "17:18",
+   "connected": true,
+   "valid": 0,
+   "frames": 560200,
+   "fps": 29.7
+  },
+  {
+   "t": 15493,
+   "local": "17:19",
+   "connected": true,
+   "valid": 0,
+   "frames": 562000,
+   "fps": 29.7
+  },
+  {
+   "t": 15553,
+   "local": "17:20",
+   "connected": true,
+   "valid": 0,
+   "frames": 563800,
+   "fps": 29.7
+  },
+  {
+   "t": 15613,
+   "local": "17:21",
+   "connected": true,
+   "valid": 0,
+   "frames": 565600,
+   "fps": 29.7
+  },
+  {
+   "t": 15673,
+   "local": "17:22",
+   "connected": true,
+   "valid": 0,
+   "frames": 567400,
+   "fps": 29.7
+  },
+  {
+   "t": 15733,
+   "local": "17:23",
+   "connected": true,
+   "valid": 0,
+   "frames": 569200,
+   "fps": 29.7
+  },
+  {
+   "t": 15793,
+   "local": "17:24",
+   "connected": true,
+   "valid": 0,
+   "frames": 570900,
+   "fps": 29.7
+  },
+  {
+   "t": 15853,
+   "local": "17:25",
+   "connected": true,
+   "valid": 0,
+   "frames": 572700,
+   "fps": 29.7
+  },
+  {
+   "t": 15913,
+   "local": "17:26",
+   "connected": true,
+   "valid": 0,
+   "frames": 574500,
+   "fps": 29.7
+  },
+  {
+   "t": 15973,
+   "local": "17:27",
+   "connected": true,
+   "valid": 0,
+   "frames": 576300,
+   "fps": 29.7
+  },
+  {
+   "t": 16033,
+   "local": "17:28",
+   "connected": true,
+   "valid": 0,
+   "frames": 578100,
+   "fps": 29.7
+  },
+  {
+   "t": 16093,
+   "local": "17:29",
+   "connected": true,
+   "valid": 0,
+   "frames": 579900,
+   "fps": 29.7
+  },
+  {
+   "t": 16154,
+   "local": "17:30",
+   "connected": true,
+   "valid": 0,
+   "frames": 581600,
+   "fps": 29.7
+  },
+  {
+   "t": 16214,
+   "local": "17:31",
+   "connected": true,
+   "valid": 0,
+   "frames": 583400,
+   "fps": 29.7
+  },
+  {
+   "t": 16274,
+   "local": "17:32",
+   "connected": true,
+   "valid": 0,
+   "frames": 585200,
+   "fps": 29.7
+  },
+  {
+   "t": 16334,
+   "local": "17:33",
+   "connected": true,
+   "valid": 0,
+   "frames": 587000,
+   "fps": 29.7
+  },
+  {
+   "t": 16394,
+   "local": "17:34",
+   "connected": true,
+   "valid": 0,
+   "frames": 588800,
+   "fps": 29.7
+  },
+  {
+   "t": 16454,
+   "local": "17:35",
+   "connected": true,
+   "valid": 0,
+   "frames": 590600,
+   "fps": 29.7
+  },
+  {
+   "t": 16514,
+   "local": "17:36",
+   "connected": true,
+   "valid": 0,
+   "frames": 592300,
+   "fps": 29.7
+  },
+  {
+   "t": 16574,
+   "local": "17:37",
+   "connected": true,
+   "valid": 0,
+   "frames": 594100,
+   "fps": 29.7
+  },
+  {
+   "t": 16634,
+   "local": "17:38",
+   "connected": true,
+   "valid": 0,
+   "frames": 595900,
+   "fps": 29.7
+  },
+  {
+   "t": 16694,
+   "local": "17:39",
+   "connected": true,
+   "valid": 0,
+   "frames": 597700,
+   "fps": 29.7
+  },
+  {
+   "t": 16754,
+   "local": "17:40",
+   "connected": true,
+   "valid": 0,
+   "frames": 599500,
+   "fps": 29.7
+  },
+  {
+   "t": 16814,
+   "local": "17:41",
+   "connected": true,
+   "valid": 0,
+   "frames": 601300,
+   "fps": 29.7
+  },
+  {
+   "t": 16874,
+   "local": "17:42",
+   "connected": true,
+   "valid": 0,
+   "frames": 603100,
+   "fps": 29.7
+  },
+  {
+   "t": 16934,
+   "local": "17:43",
+   "connected": true,
+   "valid": 0,
+   "frames": 604800,
+   "fps": 29.7
+  },
+  {
+   "t": 16994,
+   "local": "17:44",
+   "connected": true,
+   "valid": 0,
+   "frames": 606600,
+   "fps": 29.7
+  },
+  {
+   "t": 17054,
+   "local": "17:45",
+   "connected": true,
+   "valid": 0,
+   "frames": 608400,
+   "fps": 29.7
+  },
+  {
+   "t": 17115,
+   "local": "17:46",
+   "connected": true,
+   "valid": 0,
+   "frames": 610200,
+   "fps": 29.7
+  },
+  {
+   "t": 17175,
+   "local": "17:47",
+   "connected": true,
+   "valid": 0,
+   "frames": 612000,
+   "fps": 29.7
+  },
+  {
+   "t": 17235,
+   "local": "17:48",
+   "connected": true,
+   "valid": 0,
+   "frames": 613800,
+   "fps": 29.7
+  },
+  {
+   "t": 17295,
+   "local": "17:49",
+   "connected": true,
+   "valid": 0,
+   "frames": 615500,
+   "fps": 29.7
+  },
+  {
+   "t": 17355,
+   "local": "17:50",
+   "connected": true,
+   "valid": 0,
+   "frames": 617300,
+   "fps": 29.7
+  },
+  {
+   "t": 17415,
+   "local": "17:51",
+   "connected": true,
+   "valid": 0,
+   "frames": 619100,
+   "fps": 29.7
+  },
+  {
+   "t": 17475,
+   "local": "17:52",
+   "connected": true,
+   "valid": 0,
+   "frames": 620900,
+   "fps": 29.7
+  },
+  {
+   "t": 17535,
+   "local": "17:54",
+   "connected": true,
+   "valid": 0,
+   "frames": 622700,
+   "fps": 29.7
+  },
+  {
+   "t": 17595,
+   "local": "17:55",
+   "connected": true,
+   "valid": 0,
+   "frames": 624500,
+   "fps": 29.7
+  },
+  {
+   "t": 17655,
+   "local": "17:56",
+   "connected": true,
+   "valid": 0,
+   "frames": 626200,
+   "fps": 29.7
+  },
+  {
+   "t": 17715,
+   "local": "17:57",
+   "connected": true,
+   "valid": 0,
+   "frames": 628000,
+   "fps": 29.7
+  },
+  {
+   "t": 17775,
+   "local": "17:58",
+   "connected": true,
+   "valid": 0,
+   "frames": 629800,
+   "fps": 29.7
+  },
+  {
+   "t": 17835,
+   "local": "17:59",
+   "connected": true,
+   "valid": 0,
+   "frames": 631600,
+   "fps": 29.7
+  },
+  {
+   "t": 17895,
+   "local": "18:00",
+   "connected": true,
+   "valid": 0,
+   "frames": 633400,
+   "fps": 29.7
+  },
+  {
+   "t": 17955,
+   "local": "18:01",
+   "connected": true,
+   "valid": 0,
+   "frames": 635200,
+   "fps": 29.7
+  },
+  {
+   "t": 18015,
+   "local": "18:02",
+   "connected": true,
+   "valid": 0,
+   "frames": 636900,
+   "fps": 29.7
+  },
+  {
+   "t": 18075,
+   "local": "18:03",
+   "connected": true,
+   "valid": 0,
+   "frames": 638700,
+   "fps": 29.7
+  },
+  {
+   "t": 18135,
+   "local": "18:04",
+   "connected": true,
+   "valid": 0,
+   "frames": 640500,
+   "fps": 29.7
+  },
+  {
+   "t": 18195,
+   "local": "18:05",
+   "connected": true,
+   "valid": 0,
+   "frames": 642300,
+   "fps": 29.7
+  },
+  {
+   "t": 18256,
+   "local": "18:06",
+   "connected": true,
+   "valid": 0,
+   "frames": 644100,
+   "fps": 29.7
+  },
+  {
+   "t": 18316,
+   "local": "18:07",
+   "connected": true,
+   "valid": 0,
+   "frames": 645900,
+   "fps": 29.7
+  },
+  {
+   "t": 18376,
+   "local": "18:08",
+   "connected": true,
+   "valid": 0,
+   "frames": 647600,
+   "fps": 29.7
+  },
+  {
+   "t": 18436,
+   "local": "18:09",
+   "connected": true,
+   "valid": 0,
+   "frames": 649400,
+   "fps": 29.7
+  },
+  {
+   "t": 18496,
+   "local": "18:10",
+   "connected": true,
+   "valid": 0,
+   "frames": 651200,
+   "fps": 29.7
+  },
+  {
+   "t": 18556,
+   "local": "18:11",
+   "connected": true,
+   "valid": 0,
+   "frames": 653000,
+   "fps": 29.7
+  },
+  {
+   "t": 18616,
+   "local": "18:12",
+   "connected": true,
+   "valid": 0,
+   "frames": 654800,
+   "fps": 29.7
+  },
+  {
+   "t": 18676,
+   "local": "18:13",
+   "connected": true,
+   "valid": 0,
+   "frames": 656600,
+   "fps": 29.7
+  },
+  {
+   "t": 18736,
+   "local": "18:14",
+   "connected": true,
+   "valid": 0,
+   "frames": 658400,
+   "fps": 29.7
+  },
+  {
+   "t": 18796,
+   "local": "18:15",
+   "connected": true,
+   "valid": 0,
+   "frames": 660100,
+   "fps": 29.7
+  },
+  {
+   "t": 18856,
+   "local": "18:16",
+   "connected": true,
+   "valid": 0,
+   "frames": 661900,
+   "fps": 29.7
+  },
+  {
+   "t": 18916,
+   "local": "18:17",
+   "connected": true,
+   "valid": 0,
+   "frames": 663700,
+   "fps": 29.7
+  },
+  {
+   "t": 18976,
+   "local": "18:18",
+   "connected": true,
+   "valid": 0,
+   "frames": 665500,
+   "fps": 29.7
+  },
+  {
+   "t": 19036,
+   "local": "18:19",
+   "connected": true,
+   "valid": 0,
+   "frames": 667300,
+   "fps": 29.7
+  },
+  {
+   "t": 19096,
+   "local": "18:20",
+   "connected": true,
+   "valid": 0,
+   "frames": 669100,
+   "fps": 29.7
+  },
+  {
+   "t": 19156,
+   "local": "18:21",
+   "connected": true,
+   "valid": 0,
+   "frames": 670800,
+   "fps": 29.7
+  },
+  {
+   "t": 19216,
+   "local": "18:22",
+   "connected": true,
+   "valid": 0,
+   "frames": 672600,
+   "fps": 29.7
+  },
+  {
+   "t": 19276,
+   "local": "18:23",
+   "connected": true,
+   "valid": 0,
+   "frames": 674400,
+   "fps": 29.7
+  },
+  {
+   "t": 19336,
+   "local": "18:24",
+   "connected": true,
+   "valid": 0,
+   "frames": 676200,
+   "fps": 29.7
+  },
+  {
+   "t": 19397,
+   "local": "18:25",
+   "connected": true,
+   "valid": 0,
+   "frames": 678000,
+   "fps": 29.7
+  },
+  {
+   "t": 19457,
+   "local": "18:26",
+   "connected": true,
+   "valid": 0,
+   "frames": 679800,
+   "fps": 29.7
+  },
+  {
+   "t": 19517,
+   "local": "18:27",
+   "connected": true,
+   "valid": 0,
+   "frames": 681500,
+   "fps": 29.7
+  },
+  {
+   "t": 19577,
+   "local": "18:28",
+   "connected": true,
+   "valid": 0,
+   "frames": 683300,
+   "fps": 29.7
+  },
+  {
+   "t": 19637,
+   "local": "18:29",
+   "connected": true,
+   "valid": 0,
+   "frames": 685100,
+   "fps": 29.7
+  },
+  {
+   "t": 19697,
+   "local": "18:30",
+   "connected": true,
+   "valid": 0,
+   "frames": 686900,
+   "fps": 29.7
+  },
+  {
+   "t": 19757,
+   "local": "18:31",
+   "connected": true,
+   "valid": 0,
+   "frames": 688700,
+   "fps": 29.7
+  },
+  {
+   "t": 19817,
+   "local": "18:32",
+   "connected": true,
+   "valid": 0,
+   "frames": 690500,
+   "fps": 29.7
+  },
+  {
+   "t": 19877,
+   "local": "18:33",
+   "connected": true,
+   "valid": 0,
+   "frames": 692200,
+   "fps": 29.7
+  },
+  {
+   "t": 19937,
+   "local": "18:34",
+   "connected": true,
+   "valid": 0,
+   "frames": 694000,
+   "fps": 29.7
+  },
+  {
+   "t": 19997,
+   "local": "18:35",
+   "connected": true,
+   "valid": 0,
+   "frames": 695800,
+   "fps": 29.7
+  },
+  {
+   "t": 20057,
+   "local": "18:36",
+   "connected": true,
+   "valid": 0,
+   "frames": 697600,
+   "fps": 29.7
+  },
+  {
+   "t": 20117,
+   "local": "18:37",
+   "connected": true,
+   "valid": 0,
+   "frames": 699400,
+   "fps": 29.7
+  },
+  {
+   "t": 20177,
+   "local": "18:38",
+   "connected": true,
+   "valid": 0,
+   "frames": 701200,
+   "fps": 29.7
+  },
+  {
+   "t": 20237,
+   "local": "18:39",
+   "connected": true,
+   "valid": 0,
+   "frames": 702900,
+   "fps": 29.7
+  },
+  {
+   "t": 20297,
+   "local": "18:40",
+   "connected": true,
+   "valid": 0,
+   "frames": 704700,
+   "fps": 29.7
+  },
+  {
+   "t": 20357,
+   "local": "18:41",
+   "connected": true,
+   "valid": 0,
+   "frames": 706500,
+   "fps": 29.7
+  },
+  {
+   "t": 20417,
+   "local": "18:42",
+   "connected": true,
+   "valid": 0,
+   "frames": 708300,
+   "fps": 29.7
+  },
+  {
+   "t": 20477,
+   "local": "18:43",
+   "connected": true,
+   "valid": 0,
+   "frames": 710100,
+   "fps": 29.7
+  },
+  {
+   "t": 20538,
+   "local": "18:44",
+   "connected": true,
+   "valid": 0,
+   "frames": 711900,
+   "fps": 29.7
+  },
+  {
+   "t": 20598,
+   "local": "18:45",
+   "connected": true,
+   "valid": 0,
+   "frames": 713600,
+   "fps": 29.7
+  },
+  {
+   "t": 20658,
+   "local": "18:46",
+   "connected": true,
+   "valid": 0,
+   "frames": 715400,
+   "fps": 29.7
+  },
+  {
+   "t": 20718,
+   "local": "18:47",
+   "connected": true,
+   "valid": 0,
+   "frames": 717200,
+   "fps": 29.7
+  },
+  {
+   "t": 20778,
+   "local": "18:48",
+   "connected": true,
+   "valid": 0,
+   "frames": 719000,
+   "fps": 29.7
+  },
+  {
+   "t": 20838,
+   "local": "18:49",
+   "connected": true,
+   "valid": 0,
+   "frames": 720800,
+   "fps": 29.7
+  },
+  {
+   "t": 20898,
+   "local": "18:50",
+   "connected": true,
+   "valid": 0,
+   "frames": 722600,
+   "fps": 29.7
+  },
+  {
+   "t": 20958,
+   "local": "18:51",
+   "connected": true,
+   "valid": 0,
+   "frames": 724300,
+   "fps": 29.7
+  },
+  {
+   "t": 21018,
+   "local": "18:52",
+   "connected": true,
+   "valid": 0,
+   "frames": 726100,
+   "fps": 29.7
+  },
+  {
+   "t": 21078,
+   "local": "18:53",
+   "connected": true,
+   "valid": 0,
+   "frames": 727900,
+   "fps": 29.7
+  },
+  {
+   "t": 21138,
+   "local": "18:54",
+   "connected": true,
+   "valid": 0,
+   "frames": 729700,
+   "fps": 29.7
+  },
+  {
+   "t": 21198,
+   "local": "18:55",
+   "connected": true,
+   "valid": 0,
+   "frames": 731500,
+   "fps": 29.7
+  },
+  {
+   "t": 21258,
+   "local": "18:56",
+   "connected": true,
+   "valid": 0,
+   "frames": 733300,
+   "fps": 29.7
+  },
+  {
+   "t": 21318,
+   "local": "18:57",
+   "connected": true,
+   "valid": 0,
+   "frames": 735000,
+   "fps": 29.7
+  },
+  {
+   "t": 21378,
+   "local": "18:58",
+   "connected": true,
+   "valid": 0,
+   "frames": 736800,
+   "fps": 29.7
+  },
+  {
+   "t": 21438,
+   "local": "18:59",
+   "connected": true,
+   "valid": 0,
+   "frames": 738600,
+   "fps": 29.7
+  },
+  {
+   "t": 21498,
+   "local": "19:00",
+   "connected": true,
+   "valid": 0,
+   "frames": 740400,
+   "fps": 29.7
+  },
+  {
+   "t": 21558,
+   "local": "19:01",
+   "connected": true,
+   "valid": 0,
+   "frames": 742200,
+   "fps": 29.7
+  },
+  {
+   "t": 21618,
+   "local": "19:02",
+   "connected": true,
+   "valid": 0,
+   "frames": 744000,
+   "fps": 29.7
+  },
+  {
+   "t": 21678,
+   "local": "19:03",
+   "connected": true,
+   "valid": 0,
+   "frames": 745800,
+   "fps": 29.7
+  },
+  {
+   "t": 21738,
+   "local": "19:04",
+   "connected": true,
+   "valid": 0,
+   "frames": 747500,
+   "fps": 29.7
+  },
+  {
+   "t": 21799,
+   "local": "19:05",
+   "connected": true,
+   "valid": 0,
+   "frames": 749300,
+   "fps": 29.7
+  },
+  {
+   "t": 21859,
+   "local": "19:06",
+   "connected": true,
+   "valid": 0,
+   "frames": 751100,
+   "fps": 29.7
+  },
+  {
+   "t": 21919,
+   "local": "19:07",
+   "connected": true,
+   "valid": 0,
+   "frames": 752900,
+   "fps": 29.7
+  },
+  {
+   "t": 21979,
+   "local": "19:08",
+   "connected": true,
+   "valid": 0,
+   "frames": 754700,
+   "fps": 29.7
+  },
+  {
+   "t": 22039,
+   "local": "19:09",
+   "connected": true,
+   "valid": 0,
+   "frames": 756500,
+   "fps": 29.7
+  },
+  {
+   "t": 22099,
+   "local": "19:10",
+   "connected": true,
+   "valid": 0,
+   "frames": 758200,
+   "fps": 29.7
+  },
+  {
+   "t": 22159,
+   "local": "19:11",
+   "connected": true,
+   "valid": 0,
+   "frames": 760000,
+   "fps": 29.7
+  },
+  {
+   "t": 22219,
+   "local": "19:12",
+   "connected": true,
+   "valid": 0,
+   "frames": 761800,
+   "fps": 29.7
+  },
+  {
+   "t": 22279,
+   "local": "19:13",
+   "connected": true,
+   "valid": 0,
+   "frames": 763600,
+   "fps": 29.7
+  },
+  {
+   "t": 22339,
+   "local": "19:14",
+   "connected": true,
+   "valid": 0,
+   "frames": 765400,
+   "fps": 29.7
+  },
+  {
+   "t": 22399,
+   "local": "19:15",
+   "connected": true,
+   "valid": 0,
+   "frames": 767200,
+   "fps": 29.7
+  },
+  {
+   "t": 22459,
+   "local": "19:16",
+   "connected": true,
+   "valid": 0,
+   "frames": 768900,
+   "fps": 29.7
+  },
+  {
+   "t": 22519,
+   "local": "19:17",
+   "connected": true,
+   "valid": 0,
+   "frames": 770700,
+   "fps": 29.7
+  },
+  {
+   "t": 22579,
+   "local": "19:18",
+   "connected": true,
+   "valid": 0,
+   "frames": 772500,
+   "fps": 29.7
+  },
+  {
+   "t": 22639,
+   "local": "19:19",
+   "connected": true,
+   "valid": 0,
+   "frames": 774300,
+   "fps": 29.7
+  },
+  {
+   "t": 22699,
+   "local": "19:20",
+   "connected": true,
+   "valid": 0,
+   "frames": 776100,
+   "fps": 29.7
+  },
+  {
+   "t": 22759,
+   "local": "19:21",
+   "connected": true,
+   "valid": 0,
+   "frames": 777900,
+   "fps": 29.7
+  },
+  {
+   "t": 22819,
+   "local": "19:22",
+   "connected": true,
+   "valid": 0,
+   "frames": 779600,
+   "fps": 29.7
+  },
+  {
+   "t": 22879,
+   "local": "19:23",
+   "connected": true,
+   "valid": 0,
+   "frames": 781400,
+   "fps": 29.7
+  },
+  {
+   "t": 22940,
+   "local": "19:24",
+   "connected": true,
+   "valid": 0,
+   "frames": 783200,
+   "fps": 29.7
+  },
+  {
+   "t": 23000,
+   "local": "19:25",
+   "connected": true,
+   "valid": 0,
+   "frames": 785000,
+   "fps": 29.7
+  },
+  {
+   "t": 23060,
+   "local": "19:26",
+   "connected": true,
+   "valid": 0,
+   "frames": 786800,
+   "fps": 29.7
+  },
+  {
+   "t": 23120,
+   "local": "19:27",
+   "connected": true,
+   "valid": 0,
+   "frames": 788600,
+   "fps": 29.7
+  },
+  {
+   "t": 23180,
+   "local": "19:28",
+   "connected": true,
+   "valid": 0,
+   "frames": 790300,
+   "fps": 29.7
+  },
+  {
+   "t": 23240,
+   "local": "19:29",
+   "connected": true,
+   "valid": 0,
+   "frames": 792100,
+   "fps": 29.7
+  },
+  {
+   "t": 23300,
+   "local": "19:30",
+   "connected": true,
+   "valid": 0,
+   "frames": 793900,
+   "fps": 29.7
+  },
+  {
+   "t": 23360,
+   "local": "19:31",
+   "connected": true,
+   "valid": 0,
+   "frames": 795700,
+   "fps": 29.7
+  },
+  {
+   "t": 23420,
+   "local": "19:32",
+   "connected": true,
+   "valid": 0,
+   "frames": 797500,
+   "fps": 29.7
+  },
+  {
+   "t": 23480,
+   "local": "19:33",
+   "connected": true,
+   "valid": 0,
+   "frames": 799300,
+   "fps": 29.7
+  },
+  {
+   "t": 23540,
+   "local": "19:34",
+   "connected": true,
+   "valid": 0,
+   "frames": 801100,
+   "fps": 29.7
+  },
+  {
+   "t": 23600,
+   "local": "19:35",
+   "connected": true,
+   "valid": 0,
+   "frames": 802800,
+   "fps": 29.7
+  },
+  {
+   "t": 23660,
+   "local": "19:36",
+   "connected": true,
+   "valid": 0,
+   "frames": 804600,
+   "fps": 29.7
+  },
+  {
+   "t": 23720,
+   "local": "19:37",
+   "connected": true,
+   "valid": 0,
+   "frames": 806400,
+   "fps": 29.7
+  },
+  {
+   "t": 23780,
+   "local": "19:38",
+   "connected": true,
+   "valid": 0,
+   "frames": 808200,
+   "fps": 29.7
+  },
+  {
+   "t": 23840,
+   "local": "19:39",
+   "connected": true,
+   "valid": 0,
+   "frames": 810000,
+   "fps": 29.7
+  },
+  {
+   "t": 23900,
+   "local": "19:40",
+   "connected": true,
+   "valid": 0,
+   "frames": 811800,
+   "fps": 29.7
+  },
+  {
+   "t": 23960,
+   "local": "19:41",
+   "connected": true,
+   "valid": 0,
+   "frames": 813500,
+   "fps": 29.7
+  },
+  {
+   "t": 24020,
+   "local": "19:42",
+   "connected": true,
+   "valid": 0,
+   "frames": 815300,
+   "fps": 29.7
+  },
+  {
+   "t": 24081,
+   "local": "19:43",
+   "connected": true,
+   "valid": 0,
+   "frames": 817100,
+   "fps": 29.7
+  },
+  {
+   "t": 24141,
+   "local": "19:44",
+   "connected": true,
+   "valid": 0,
+   "frames": 818900,
+   "fps": 29.7
+  },
+  {
+   "t": 24201,
+   "local": "19:45",
+   "connected": true,
+   "valid": 0,
+   "frames": 820700,
+   "fps": 29.7
+  },
+  {
+   "t": 24261,
+   "local": "19:46",
+   "connected": true,
+   "valid": 0,
+   "frames": 822500,
+   "fps": 29.7
+  },
+  {
+   "t": 24321,
+   "local": "19:47",
+   "connected": true,
+   "valid": 0,
+   "frames": 824200,
+   "fps": 29.7
+  },
+  {
+   "t": 24381,
+   "local": "19:48",
+   "connected": true,
+   "valid": 0,
+   "frames": 826000,
+   "fps": 29.7
+  },
+  {
+   "t": 24441,
+   "local": "19:49",
+   "connected": true,
+   "valid": 0,
+   "frames": 827800,
+   "fps": 29.7
+  },
+  {
+   "t": 24501,
+   "local": "19:50",
+   "connected": true,
+   "valid": 0,
+   "frames": 829600,
+   "fps": 29.7
+  },
+  {
+   "t": 24561,
+   "local": "19:51",
+   "connected": true,
+   "valid": 0,
+   "frames": 831400,
+   "fps": 29.7
+  },
+  {
+   "t": 24621,
+   "local": "19:52",
+   "connected": true,
+   "valid": 0,
+   "frames": 833200,
+   "fps": 29.7
+  },
+  {
+   "t": 24681,
+   "local": "19:53",
+   "connected": true,
+   "valid": 0,
+   "frames": 834900,
+   "fps": 29.7
+  },
+  {
+   "t": 24741,
+   "local": "19:54",
+   "connected": true,
+   "valid": 0,
+   "frames": 836700,
+   "fps": 29.7
+  },
+  {
+   "t": 24801,
+   "local": "19:55",
+   "connected": true,
+   "valid": 0,
+   "frames": 838500,
+   "fps": 29.7
+  },
+  {
+   "t": 24861,
+   "local": "19:56",
+   "connected": true,
+   "valid": 0,
+   "frames": 840300,
+   "fps": 29.7
+  },
+  {
+   "t": 24921,
+   "local": "19:57",
+   "connected": true,
+   "valid": 0,
+   "frames": 842100,
+   "fps": 29.7
+  },
+  {
+   "t": 24981,
+   "local": "19:58",
+   "connected": true,
+   "valid": 0,
+   "frames": 843900,
+   "fps": 29.7
+  },
+  {
+   "t": 25041,
+   "local": "19:59",
+   "connected": true,
+   "valid": 0,
+   "frames": 845600,
+   "fps": 29.7
+  },
+  {
+   "t": 25101,
+   "local": "20:00",
+   "connected": true,
+   "valid": 0,
+   "frames": 847400,
+   "fps": 29.7
+  },
+  {
+   "t": 25161,
+   "local": "20:01",
+   "connected": true,
+   "valid": 0,
+   "frames": 849200,
+   "fps": 29.7
+  },
+  {
+   "t": 25221,
+   "local": "20:02",
+   "connected": true,
+   "valid": 0,
+   "frames": 851000,
+   "fps": 29.7
+  },
+  {
+   "t": 25282,
+   "local": "20:03",
+   "connected": true,
+   "valid": 0,
+   "frames": 852800,
+   "fps": 29.7
+  },
+  {
+   "t": 25342,
+   "local": "20:04",
+   "connected": true,
+   "valid": 0,
+   "frames": 854600,
+   "fps": 29.7
+  },
+  {
+   "t": 25402,
+   "local": "20:05",
+   "connected": true,
+   "valid": 0,
+   "frames": 856300,
+   "fps": 29.7
+  },
+  {
+   "t": 25462,
+   "local": "20:06",
+   "connected": true,
+   "valid": 0,
+   "frames": 858100,
+   "fps": 29.7
+  },
+  {
+   "t": 25522,
+   "local": "20:07",
+   "connected": true,
+   "valid": 0,
+   "frames": 859900,
+   "fps": 29.7
+  },
+  {
+   "t": 25582,
+   "local": "20:08",
+   "connected": true,
+   "valid": 0,
+   "frames": 861700,
+   "fps": 29.7
+  },
+  {
+   "t": 25642,
+   "local": "20:09",
+   "connected": true,
+   "valid": 0,
+   "frames": 863500,
+   "fps": 29.7
+  },
+  {
+   "t": 25702,
+   "local": "20:10",
+   "connected": true,
+   "valid": 0,
+   "frames": 865300,
+   "fps": 29.7
+  },
+  {
+   "t": 25762,
+   "local": "20:11",
+   "connected": true,
+   "valid": 0,
+   "frames": 867000,
+   "fps": 29.7
+  },
+  {
+   "t": 25822,
+   "local": "20:12",
+   "connected": true,
+   "valid": 0,
+   "frames": 868800,
+   "fps": 29.7
+  },
+  {
+   "t": 25882,
+   "local": "20:13",
+   "connected": true,
+   "valid": 0,
+   "frames": 870600,
+   "fps": 29.7
+  },
+  {
+   "t": 25942,
+   "local": "20:14",
+   "connected": true,
+   "valid": 0,
+   "frames": 872400,
+   "fps": 29.7
+  },
+  {
+   "t": 26002,
+   "local": "20:15",
+   "connected": true,
+   "valid": 0,
+   "frames": 874200,
+   "fps": 29.7
+  },
+  {
+   "t": 26062,
+   "local": "20:16",
+   "connected": true,
+   "valid": 0,
+   "frames": 876000,
+   "fps": 29.7
+  },
+  {
+   "t": 26122,
+   "local": "20:17",
+   "connected": true,
+   "valid": 0,
+   "frames": 877800,
+   "fps": 29.7
+  },
+  {
+   "t": 26182,
+   "local": "20:18",
+   "connected": true,
+   "valid": 0,
+   "frames": 879500,
+   "fps": 29.7
+  },
+  {
+   "t": 26242,
+   "local": "20:19",
+   "connected": true,
+   "valid": 0,
+   "frames": 881300,
+   "fps": 29.7
+  },
+  {
+   "t": 26303,
+   "local": "20:20",
+   "connected": true,
+   "valid": 0,
+   "frames": 883100,
+   "fps": 29.7
+  },
+  {
+   "t": 26363,
+   "local": "20:21",
+   "connected": true,
+   "valid": 0,
+   "frames": 884900,
+   "fps": 29.7
+  },
+  {
+   "t": 26423,
+   "local": "20:22",
+   "connected": true,
+   "valid": 0,
+   "frames": 886700,
+   "fps": 29.7
+  },
+  {
+   "t": 26483,
+   "local": "20:23",
+   "connected": true,
+   "valid": 0,
+   "frames": 888500,
+   "fps": 29.7
+  },
+  {
+   "t": 26543,
+   "local": "20:24",
+   "connected": true,
+   "valid": 0,
+   "frames": 890200,
+   "fps": 29.7
+  },
+  {
+   "t": 26603,
+   "local": "20:25",
+   "connected": true,
+   "valid": 0,
+   "frames": 892000,
+   "fps": 29.7
+  },
+  {
+   "t": 26663,
+   "local": "20:26",
+   "connected": true,
+   "valid": 0,
+   "frames": 893800,
+   "fps": 29.7
+  },
+  {
+   "t": 26723,
+   "local": "20:27",
+   "connected": true,
+   "valid": 0,
+   "frames": 895600,
+   "fps": 29.7
+  },
+  {
+   "t": 26783,
+   "local": "20:28",
+   "connected": true,
+   "valid": 0,
+   "frames": 897400,
+   "fps": 29.7
+  },
+  {
+   "t": 26843,
+   "local": "20:29",
+   "connected": true,
+   "valid": 0,
+   "frames": 899200,
+   "fps": 29.7
+  },
+  {
+   "t": 26903,
+   "local": "20:30",
+   "connected": true,
+   "valid": 0,
+   "frames": 900900,
+   "fps": 29.7
+  },
+  {
+   "t": 26963,
+   "local": "20:31",
+   "connected": true,
+   "valid": 0,
+   "frames": 902700,
+   "fps": 29.7
+  },
+  {
+   "t": 27023,
+   "local": "20:32",
+   "connected": true,
+   "valid": 0,
+   "frames": 904500,
+   "fps": 29.7
+  },
+  {
+   "t": 27083,
+   "local": "20:33",
+   "connected": true,
+   "valid": 0,
+   "frames": 906300,
+   "fps": 29.7
+  },
+  {
+   "t": 27143,
+   "local": "20:34",
+   "connected": true,
+   "valid": 0,
+   "frames": 908100,
+   "fps": 29.7
+  },
+  {
+   "t": 27203,
+   "local": "20:35",
+   "connected": true,
+   "valid": 0,
+   "frames": 909900,
+   "fps": 29.7
+  },
+  {
+   "t": 27263,
+   "local": "20:36",
+   "connected": true,
+   "valid": 0,
+   "frames": 911600,
+   "fps": 29.7
+  },
+  {
+   "t": 27323,
+   "local": "20:37",
+   "connected": true,
+   "valid": 0,
+   "frames": 913400,
+   "fps": 29.7
+  },
+  {
+   "t": 27383,
+   "local": "20:38",
+   "connected": true,
+   "valid": 0,
+   "frames": 915200,
+   "fps": 29.7
+  },
+  {
+   "t": 27444,
+   "local": "20:39",
+   "connected": true,
+   "valid": 0,
+   "frames": 917000,
+   "fps": 29.7
+  },
+  {
+   "t": 27504,
+   "local": "20:40",
+   "connected": true,
+   "valid": 0,
+   "frames": 918800,
+   "fps": 29.7
+  },
+  {
+   "t": 27564,
+   "local": "20:41",
+   "connected": true,
+   "valid": 0,
+   "frames": 920600,
+   "fps": 29.7
+  },
+  {
+   "t": 27624,
+   "local": "20:42",
+   "connected": true,
+   "valid": 0,
+   "frames": 922300,
+   "fps": 29.7
+  },
+  {
+   "t": 27684,
+   "local": "20:43",
+   "connected": true,
+   "valid": 0,
+   "frames": 924100,
+   "fps": 29.7
+  },
+  {
+   "t": 27744,
+   "local": "20:44",
+   "connected": true,
+   "valid": 0,
+   "frames": 925900,
+   "fps": 29.7
+  },
+  {
+   "t": 27804,
+   "local": "20:45",
+   "connected": true,
+   "valid": 0,
+   "frames": 927700,
+   "fps": 29.7
+  },
+  {
+   "t": 27864,
+   "local": "20:46",
+   "connected": true,
+   "valid": 0,
+   "frames": 929500,
+   "fps": 29.7
+  },
+  {
+   "t": 27924,
+   "local": "20:47",
+   "connected": true,
+   "valid": 0,
+   "frames": 931300,
+   "fps": 29.7
+  },
+  {
+   "t": 27984,
+   "local": "20:48",
+   "connected": true,
+   "valid": 0,
+   "frames": 933100,
+   "fps": 29.7
+  },
+  {
+   "t": 28044,
+   "local": "20:49",
+   "connected": true,
+   "valid": 0,
+   "frames": 934800,
+   "fps": 29.7
+  },
+  {
+   "t": 28104,
+   "local": "20:50",
+   "connected": true,
+   "valid": 0,
+   "frames": 936600,
+   "fps": 29.7
+  },
+  {
+   "t": 28164,
+   "local": "20:51",
+   "connected": true,
+   "valid": 0,
+   "frames": 938400,
+   "fps": 29.7
+  },
+  {
+   "t": 28224,
+   "local": "20:52",
+   "connected": true,
+   "valid": 0,
+   "frames": 940200,
+   "fps": 29.7
+  },
+  {
+   "t": 28284,
+   "local": "20:53",
+   "connected": true,
+   "valid": 0,
+   "frames": 942000,
+   "fps": 29.7
+  },
+  {
+   "t": 28344,
+   "local": "20:54",
+   "connected": true,
+   "valid": 0,
+   "frames": 943800,
+   "fps": 29.7
+  },
+  {
+   "t": 28404,
+   "local": "20:55",
+   "connected": true,
+   "valid": 0,
+   "frames": 945500,
+   "fps": 29.7
+  },
+  {
+   "t": 28464,
+   "local": "20:56",
+   "connected": true,
+   "valid": 0,
+   "frames": 947300,
+   "fps": 29.7
+  },
+  {
+   "t": 28524,
+   "local": "20:57",
+   "connected": true,
+   "valid": 0,
+   "frames": 949100,
+   "fps": 29.7
+  },
+  {
+   "t": 28584,
+   "local": "20:58",
+   "connected": true,
+   "valid": 0,
+   "frames": 950900,
+   "fps": 29.7
+  },
+  {
+   "t": 28645,
+   "local": "20:59",
+   "connected": true,
+   "valid": 0,
+   "frames": 952700,
+   "fps": 29.7
+  },
+  {
+   "t": 28705,
+   "local": "21:00",
+   "connected": true,
+   "valid": 0,
+   "frames": 954500,
+   "fps": 29.7
+  },
+  {
+   "t": 28765,
+   "local": "21:01",
+   "connected": true,
+   "valid": 0,
+   "frames": 956200,
+   "fps": 29.7
+  },
+  {
+   "t": 28825,
+   "local": "21:02",
+   "connected": true,
+   "valid": 0,
+   "frames": 958000,
+   "fps": 29.7
+  },
+  {
+   "t": 28885,
+   "local": "21:03",
+   "connected": true,
+   "valid": 0,
+   "frames": 959800,
+   "fps": 29.7
+  },
+  {
+   "t": 28945,
+   "local": "21:04",
+   "connected": true,
+   "valid": 0,
+   "frames": 961600,
+   "fps": 29.7
+  },
+  {
+   "t": 29005,
+   "local": "21:05",
+   "connected": true,
+   "valid": 0,
+   "frames": 963400,
+   "fps": 29.7
+  },
+  {
+   "t": 29065,
+   "local": "21:06",
+   "connected": true,
+   "valid": 0,
+   "frames": 965200,
+   "fps": 29.7
+  },
+  {
+   "t": 29125,
+   "local": "21:07",
+   "connected": true,
+   "valid": 0,
+   "frames": 966900,
+   "fps": 29.7
+  },
+  {
+   "t": 29185,
+   "local": "21:08",
+   "connected": true,
+   "valid": 0,
+   "frames": 968700,
+   "fps": 29.7
+  },
+  {
+   "t": 29245,
+   "local": "21:09",
+   "connected": true,
+   "valid": 0,
+   "frames": 970500,
+   "fps": 29.7
+  },
+  {
+   "t": 29305,
+   "local": "21:10",
+   "connected": true,
+   "valid": 0,
+   "frames": 972300,
+   "fps": 29.7
+  },
+  {
+   "t": 29365,
+   "local": "21:11",
+   "connected": true,
+   "valid": 0,
+   "frames": 974100,
+   "fps": 29.7
+  },
+  {
+   "t": 29425,
+   "local": "21:12",
+   "connected": true,
+   "valid": 0,
+   "frames": 975900,
+   "fps": 29.7
+  },
+  {
+   "t": 29485,
+   "local": "21:13",
+   "connected": true,
+   "valid": 0,
+   "frames": 977600,
+   "fps": 29.7
+  },
+  {
+   "t": 29545,
+   "local": "21:14",
+   "connected": true,
+   "valid": 0,
+   "frames": 979400,
+   "fps": 29.7
+  },
+  {
+   "t": 29605,
+   "local": "21:15",
+   "connected": true,
+   "valid": 0,
+   "frames": 981200,
+   "fps": 29.7
+  },
+  {
+   "t": 29666,
+   "local": "21:16",
+   "connected": true,
+   "valid": 0,
+   "frames": 983000,
+   "fps": 29.7
+  },
+  {
+   "t": 29726,
+   "local": "21:17",
+   "connected": true,
+   "valid": 0,
+   "frames": 984800,
+   "fps": 29.7
+  },
+  {
+   "t": 29786,
+   "local": "21:18",
+   "connected": true,
+   "valid": 0,
+   "frames": 986600,
+   "fps": 29.7
+  },
+  {
+   "t": 29846,
+   "local": "21:19",
+   "connected": true,
+   "valid": 0,
+   "frames": 988400,
+   "fps": 29.7
+  },
+  {
+   "t": 29906,
+   "local": "21:20",
+   "connected": true,
+   "valid": 0,
+   "frames": 990100,
+   "fps": 29.7
+  },
+  {
+   "t": 29966,
+   "local": "21:21",
+   "connected": true,
+   "valid": 0,
+   "frames": 991900,
+   "fps": 29.7
+  },
+  {
+   "t": 30026,
+   "local": "21:22",
+   "connected": true,
+   "valid": 0,
+   "frames": 993700,
+   "fps": 29.7
+  },
+  {
+   "t": 30086,
+   "local": "21:23",
+   "connected": true,
+   "valid": 0,
+   "frames": 995500,
+   "fps": 29.7
+  },
+  {
+   "t": 30146,
+   "local": "21:24",
+   "connected": true,
+   "valid": 0,
+   "frames": 997300,
+   "fps": 29.7
+  },
+  {
+   "t": 30206,
+   "local": "21:25",
+   "connected": true,
+   "valid": 0,
+   "frames": 999100,
+   "fps": 29.7
+  },
+  {
+   "t": 30266,
+   "local": "21:26",
+   "connected": true,
+   "valid": 0,
+   "frames": 1000800,
+   "fps": 29.7
+  },
+  {
+   "t": 30326,
+   "local": "21:27",
+   "connected": true,
+   "valid": 0,
+   "frames": 1002600,
+   "fps": 29.7
+  },
+  {
+   "t": 30386,
+   "local": "21:28",
+   "connected": true,
+   "valid": 0,
+   "frames": 1004400,
+   "fps": 29.7
+  },
+  {
+   "t": 30446,
+   "local": "21:29",
+   "connected": true,
+   "valid": 0,
+   "frames": 1006200,
+   "fps": 29.7
+  },
+  {
+   "t": 30506,
+   "local": "21:30",
+   "connected": true,
+   "valid": 0,
+   "frames": 1008000,
+   "fps": 29.7
+  },
+  {
+   "t": 30566,
+   "local": "21:31",
+   "connected": true,
+   "valid": 0,
+   "frames": 1009800,
+   "fps": 29.7
+  },
+  {
+   "t": 30626,
+   "local": "21:32",
+   "connected": true,
+   "valid": 0,
+   "frames": 1011500,
+   "fps": 29.7
+  },
+  {
+   "t": 30687,
+   "local": "21:33",
+   "connected": true,
+   "valid": 0,
+   "frames": 1013300,
+   "fps": 29.7
+  },
+  {
+   "t": 30747,
+   "local": "21:34",
+   "connected": true,
+   "valid": 0,
+   "frames": 1015100,
+   "fps": 29.7
+  },
+  {
+   "t": 30807,
+   "local": "21:35",
+   "connected": true,
+   "valid": 0,
+   "frames": 1016900,
+   "fps": 29.7
+  },
+  {
+   "t": 30867,
+   "local": "21:36",
+   "connected": true,
+   "valid": 0,
+   "frames": 1018700,
+   "fps": 29.7
+  },
+  {
+   "t": 30927,
+   "local": "21:37",
+   "connected": true,
+   "valid": 0,
+   "frames": 1020500,
+   "fps": 29.7
+  },
+  {
+   "t": 30987,
+   "local": "21:38",
+   "connected": true,
+   "valid": 0,
+   "frames": 1022200,
+   "fps": 29.7
+  },
+  {
+   "t": 31047,
+   "local": "21:39",
+   "connected": true,
+   "valid": 0,
+   "frames": 1024000,
+   "fps": 29.7
+  },
+  {
+   "t": 31107,
+   "local": "21:40",
+   "connected": true,
+   "valid": 0,
+   "frames": 1025800,
+   "fps": 29.7
+  },
+  {
+   "t": 31167,
+   "local": "21:41",
+   "connected": true,
+   "valid": 0,
+   "frames": 1027600,
+   "fps": 29.7
+  },
+  {
+   "t": 31227,
+   "local": "21:42",
+   "connected": true,
+   "valid": 0,
+   "frames": 1029400,
+   "fps": 29.7
+  },
+  {
+   "t": 31287,
+   "local": "21:43",
+   "connected": true,
+   "valid": 0,
+   "frames": 1031200,
+   "fps": 29.7
+  },
+  {
+   "t": 31347,
+   "local": "21:44",
+   "connected": true,
+   "valid": 0,
+   "frames": 1032900,
+   "fps": 29.7
+  },
+  {
+   "t": 31407,
+   "local": "21:45",
+   "connected": true,
+   "valid": 0,
+   "frames": 1034700,
+   "fps": 29.7
+  },
+  {
+   "t": 31467,
+   "local": "21:46",
+   "connected": true,
+   "valid": 0,
+   "frames": 1036500,
+   "fps": 29.7
+  },
+  {
+   "t": 31527,
+   "local": "21:47",
+   "connected": true,
+   "valid": 0,
+   "frames": 1038300,
+   "fps": 29.7
+  },
+  {
+   "t": 31587,
+   "local": "21:48",
+   "connected": true,
+   "valid": 0,
+   "frames": 1040100,
+   "fps": 29.7
+  },
+  {
+   "t": 31647,
+   "local": "21:49",
+   "connected": true,
+   "valid": 0,
+   "frames": 1041900,
+   "fps": 29.7
+  },
+  {
+   "t": 31707,
+   "local": "21:50",
+   "connected": true,
+   "valid": 0,
+   "frames": 1043700,
+   "fps": 29.7
+  },
+  {
+   "t": 31768,
+   "local": "21:51",
+   "connected": true,
+   "valid": 0,
+   "frames": 1045400,
+   "fps": 29.7
+  },
+  {
+   "t": 31828,
+   "local": "21:52",
+   "connected": true,
+   "valid": 0,
+   "frames": 1047200,
+   "fps": 29.7
+  },
+  {
+   "t": 31888,
+   "local": "21:53",
+   "connected": true,
+   "valid": 0,
+   "frames": 1049000,
+   "fps": 29.7
+  },
+  {
+   "t": 31948,
+   "local": "21:54",
+   "connected": true,
+   "valid": 0,
+   "frames": 1050800,
+   "fps": 29.7
+  },
+  {
+   "t": 32008,
+   "local": "21:55",
+   "connected": true,
+   "valid": 0,
+   "frames": 1052600,
+   "fps": 29.7
+  },
+  {
+   "t": 32068,
+   "local": "21:56",
+   "connected": true,
+   "valid": 0,
+   "frames": 1054400,
+   "fps": 29.7
+  },
+  {
+   "t": 32128,
+   "local": "21:57",
+   "connected": true,
+   "valid": 0,
+   "frames": 1056100,
+   "fps": 29.7
+  },
+  {
+   "t": 32188,
+   "local": "21:58",
+   "connected": true,
+   "valid": 0,
+   "frames": 1057900,
+   "fps": 29.7
+  },
+  {
+   "t": 32248,
+   "local": "21:59",
+   "connected": true,
+   "valid": 0,
+   "frames": 1059700,
+   "fps": 29.7
+  },
+  {
+   "t": 32308,
+   "local": "22:00",
+   "connected": true,
+   "valid": 0,
+   "frames": 1061500,
+   "fps": 29.7
+  },
+  {
+   "t": 32368,
+   "local": "22:01",
+   "connected": true,
+   "valid": 0,
+   "frames": 1063300,
+   "fps": 29.7
+  },
+  {
+   "t": 32428,
+   "local": "22:02",
+   "connected": true,
+   "valid": 0,
+   "frames": 1065100,
+   "fps": 29.7
+  },
+  {
+   "t": 32488,
+   "local": "22:03",
+   "connected": true,
+   "valid": 0,
+   "frames": 1066800,
+   "fps": 29.7
+  },
+  {
+   "t": 32548,
+   "local": "22:04",
+   "connected": true,
+   "valid": 0,
+   "frames": 1068600,
+   "fps": 29.7
+  },
+  {
+   "t": 32608,
+   "local": "22:05",
+   "connected": true,
+   "valid": 0,
+   "frames": 1070400,
+   "fps": 29.7
+  },
+  {
+   "t": 32668,
+   "local": "22:06",
+   "connected": true,
+   "valid": 0,
+   "frames": 1072200,
+   "fps": 29.7
+  },
+  {
+   "t": 32728,
+   "local": "22:07",
+   "connected": true,
+   "valid": 0,
+   "frames": 1074000,
+   "fps": 29.7
+  },
+  {
+   "t": 32789,
+   "local": "22:08",
+   "connected": true,
+   "valid": 0,
+   "frames": 1075800,
+   "fps": 29.7
+  },
+  {
+   "t": 32849,
+   "local": "22:09",
+   "connected": true,
+   "valid": 0,
+   "frames": 1077500,
+   "fps": 29.7
+  },
+  {
+   "t": 32909,
+   "local": "22:10",
+   "connected": true,
+   "valid": 0,
+   "frames": 1079300,
+   "fps": 29.7
+  },
+  {
+   "t": 32969,
+   "local": "22:11",
+   "connected": true,
+   "valid": 0,
+   "frames": 1081100,
+   "fps": 29.7
+  },
+  {
+   "t": 33029,
+   "local": "22:12",
+   "connected": true,
+   "valid": 0,
+   "frames": 1082900,
+   "fps": 29.7
+  },
+  {
+   "t": 33089,
+   "local": "22:13",
+   "connected": true,
+   "valid": 0,
+   "frames": 1084700,
+   "fps": 29.7
+  },
+  {
+   "t": 33149,
+   "local": "22:14",
+   "connected": true,
+   "valid": 0,
+   "frames": 1086500,
+   "fps": 29.7
+  },
+  {
+   "t": 33209,
+   "local": "22:15",
+   "connected": true,
+   "valid": 0,
+   "frames": 1088200,
+   "fps": 29.7
+  },
+  {
+   "t": 33269,
+   "local": "22:16",
+   "connected": true,
+   "valid": 0,
+   "frames": 1090000,
+   "fps": 29.7
+  },
+  {
+   "t": 33329,
+   "local": "22:17",
+   "connected": true,
+   "valid": 0,
+   "frames": 1091800,
+   "fps": 29.7
+  },
+  {
+   "t": 33389,
+   "local": "22:18",
+   "connected": true,
+   "valid": 0,
+   "frames": 1093600,
+   "fps": 29.7
+  },
+  {
+   "t": 33449,
+   "local": "22:19",
+   "connected": true,
+   "valid": 0,
+   "frames": 1095400,
+   "fps": 29.7
+  },
+  {
+   "t": 33509,
+   "local": "22:20",
+   "connected": true,
+   "valid": 0,
+   "frames": 1097200,
+   "fps": 29.7
+  },
+  {
+   "t": 33569,
+   "local": "22:21",
+   "connected": true,
+   "valid": 0,
+   "frames": 1099000,
+   "fps": 29.7
+  },
+  {
+   "t": 33629,
+   "local": "22:22",
+   "connected": true,
+   "valid": 0,
+   "frames": 1100700,
+   "fps": 29.7
+  },
+  {
+   "t": 33689,
+   "local": "22:23",
+   "connected": true,
+   "valid": 0,
+   "frames": 1102500,
+   "fps": 29.7
+  },
+  {
+   "t": 33749,
+   "local": "22:24",
+   "connected": true,
+   "valid": 0,
+   "frames": 1104300,
+   "fps": 29.7
+  },
+  {
+   "t": 33809,
+   "local": "22:25",
+   "connected": true,
+   "valid": 0,
+   "frames": 1106100,
+   "fps": 29.7
+  },
+  {
+   "t": 33870,
+   "local": "22:26",
+   "connected": true,
+   "valid": 0,
+   "frames": 1107900,
+   "fps": 29.7
+  },
+  {
+   "t": 33930,
+   "local": "22:27",
+   "connected": true,
+   "valid": 0,
+   "frames": 1109700,
+   "fps": 29.7
+  },
+  {
+   "t": 33990,
+   "local": "22:28",
+   "connected": true,
+   "valid": 0,
+   "frames": 1111400,
+   "fps": 29.7
+  },
+  {
+   "t": 34050,
+   "local": "22:29",
+   "connected": true,
+   "valid": 0,
+   "frames": 1113200,
+   "fps": 29.7
+  },
+  {
+   "t": 34110,
+   "local": "22:30",
+   "connected": true,
+   "valid": 0,
+   "frames": 1115000,
+   "fps": 29.7
+  },
+  {
+   "t": 34170,
+   "local": "22:31",
+   "connected": true,
+   "valid": 0,
+   "frames": 1116800,
+   "fps": 29.7
+  },
+  {
+   "t": 34230,
+   "local": "22:32",
+   "connected": true,
+   "valid": 0,
+   "frames": 1118600,
+   "fps": 29.7
+  },
+  {
+   "t": 34290,
+   "local": "22:33",
+   "connected": true,
+   "valid": 0,
+   "frames": 1120400,
+   "fps": 29.7
+  },
+  {
+   "t": 34350,
+   "local": "22:34",
+   "connected": true,
+   "valid": 0,
+   "frames": 1122100,
+   "fps": 29.7
+  },
+  {
+   "t": 34410,
+   "local": "22:35",
+   "connected": true,
+   "valid": 0,
+   "frames": 1123900,
+   "fps": 29.7
+  },
+  {
+   "t": 34470,
+   "local": "22:36",
+   "connected": true,
+   "valid": 0,
+   "frames": 1125700,
+   "fps": 29.7
+  },
+  {
+   "t": 34530,
+   "local": "22:37",
+   "connected": true,
+   "valid": 0,
+   "frames": 1127500,
+   "fps": 29.7
+  },
+  {
+   "t": 34590,
+   "local": "22:38",
+   "connected": true,
+   "valid": 0,
+   "frames": 1129300,
+   "fps": 29.7
+  },
+  {
+   "t": 34650,
+   "local": "22:39",
+   "connected": true,
+   "valid": 0,
+   "frames": 1131100,
+   "fps": 29.7
+  },
+  {
+   "t": 34710,
+   "local": "22:40",
+   "connected": true,
+   "valid": 0,
+   "frames": 1132800,
+   "fps": 29.7
+  },
+  {
+   "t": 34770,
+   "local": "22:41",
+   "connected": true,
+   "valid": 0,
+   "frames": 1134600,
+   "fps": 29.7
+  },
+  {
+   "t": 34830,
+   "local": "22:42",
+   "connected": true,
+   "valid": 0,
+   "frames": 1136400,
+   "fps": 29.7
+  },
+  {
+   "t": 34890,
+   "local": "22:43",
+   "connected": true,
+   "valid": 0,
+   "frames": 1138200,
+   "fps": 29.7
+  },
+  {
+   "t": 34951,
+   "local": "22:44",
+   "connected": true,
+   "valid": 0,
+   "frames": 1140000,
+   "fps": 29.7
+  },
+  {
+   "t": 35011,
+   "local": "22:45",
+   "connected": true,
+   "valid": 0,
+   "frames": 1141800,
+   "fps": 29.7
+  },
+  {
+   "t": 35071,
+   "local": "22:46",
+   "connected": true,
+   "valid": 0,
+   "frames": 1143500,
+   "fps": 29.7
+  },
+  {
+   "t": 35131,
+   "local": "22:47",
+   "connected": true,
+   "valid": 0,
+   "frames": 1145300,
+   "fps": 29.7
+  },
+  {
+   "t": 35191,
+   "local": "22:48",
+   "connected": true,
+   "valid": 0,
+   "frames": 1147100,
+   "fps": 29.7
+  },
+  {
+   "t": 35251,
+   "local": "22:49",
+   "connected": true,
+   "valid": 0,
+   "frames": 1148900,
+   "fps": 29.7
+  },
+  {
+   "t": 35311,
+   "local": "22:50",
+   "connected": true,
+   "valid": 0,
+   "frames": 1150700,
+   "fps": 29.7
+  },
+  {
+   "t": 35371,
+   "local": "22:51",
+   "connected": true,
+   "valid": 0,
+   "frames": 1152500,
+   "fps": 29.7
+  },
+  {
+   "t": 35431,
+   "local": "22:52",
+   "connected": true,
+   "valid": 0,
+   "frames": 1154200,
+   "fps": 29.7
+  },
+  {
+   "t": 35491,
+   "local": "22:53",
+   "connected": true,
+   "valid": 0,
+   "frames": 1156000,
+   "fps": 29.7
+  },
+  {
+   "t": 35551,
+   "local": "22:54",
+   "connected": true,
+   "valid": 0,
+   "frames": 1157800,
+   "fps": 29.7
+  },
+  {
+   "t": 35611,
+   "local": "22:55",
+   "connected": true,
+   "valid": 0,
+   "frames": 1159600,
+   "fps": 29.7
+  },
+  {
+   "t": 35671,
+   "local": "22:56",
+   "connected": true,
+   "valid": 0,
+   "frames": 1161400,
+   "fps": 29.7
+  },
+  {
+   "t": 35731,
+   "local": "22:57",
+   "connected": true,
+   "valid": 0,
+   "frames": 1163200,
+   "fps": 29.7
+  },
+  {
+   "t": 35791,
+   "local": "22:58",
+   "connected": true,
+   "valid": 0,
+   "frames": 1165000,
+   "fps": 29.7
+  },
+  {
+   "t": 35851,
+   "local": "22:59",
+   "connected": true,
+   "valid": 0,
+   "frames": 1166700,
+   "fps": 29.7
+  },
+  {
+   "t": 35911,
+   "local": "23:00",
+   "connected": true,
+   "valid": 0,
+   "frames": 1168500,
+   "fps": 29.7
+  },
+  {
+   "t": 35971,
+   "local": "23:01",
+   "connected": true,
+   "valid": 0,
+   "frames": 1170300,
+   "fps": 29.7
+  },
+  {
+   "t": 36031,
+   "local": "23:02",
+   "connected": true,
+   "valid": 0,
+   "frames": 1172100,
+   "fps": 29.7
+  },
+  {
+   "t": 36092,
+   "local": "23:03",
+   "connected": true,
+   "valid": 0,
+   "frames": 1173900,
+   "fps": 29.7
+  },
+  {
+   "t": 36152,
+   "local": "23:04",
+   "connected": true,
+   "valid": 0,
+   "frames": 1175700,
+   "fps": 29.7
+  },
+  {
+   "t": 36212,
+   "local": "23:05",
+   "connected": true,
+   "valid": 0,
+   "frames": 1177400,
+   "fps": 29.7
+  },
+  {
+   "t": 36272,
+   "local": "23:06",
+   "connected": true,
+   "valid": 0,
+   "frames": 1179200,
+   "fps": 29.7
+  },
+  {
+   "t": 36332,
+   "local": "23:07",
+   "connected": true,
+   "valid": 0,
+   "frames": 1181000,
+   "fps": 29.7
+  },
+  {
+   "t": 36392,
+   "local": "23:08",
+   "connected": true,
+   "valid": 0,
+   "frames": 1182800,
+   "fps": 29.7
+  },
+  {
+   "t": 36452,
+   "local": "23:09",
+   "connected": true,
+   "valid": 0,
+   "frames": 1184600,
+   "fps": 29.7
+  },
+  {
+   "t": 36512,
+   "local": "23:10",
+   "connected": true,
+   "valid": 0,
+   "frames": 1186400,
+   "fps": 29.7
+  },
+  {
+   "t": 36572,
+   "local": "23:11",
+   "connected": true,
+   "valid": 0,
+   "frames": 1188100,
+   "fps": 29.7
+  },
+  {
+   "t": 36632,
+   "local": "23:12",
+   "connected": true,
+   "valid": 0,
+   "frames": 1189900,
+   "fps": 29.7
+  },
+  {
+   "t": 36692,
+   "local": "23:13",
+   "connected": true,
+   "valid": 0,
+   "frames": 1191700,
+   "fps": 29.7
+  },
+  {
+   "t": 36752,
+   "local": "23:14",
+   "connected": true,
+   "valid": 0,
+   "frames": 1193500,
+   "fps": 29.7
+  },
+  {
+   "t": 36812,
+   "local": "23:15",
+   "connected": true,
+   "valid": 0,
+   "frames": 1195300,
+   "fps": 29.7
+  },
+  {
+   "t": 36872,
+   "local": "23:16",
+   "connected": true,
+   "valid": 0,
+   "frames": 1197100,
+   "fps": 29.7
+  },
+  {
+   "t": 36932,
+   "local": "23:17",
+   "connected": true,
+   "valid": 0,
+   "frames": 1198800,
+   "fps": 29.7
+  },
+  {
+   "t": 36992,
+   "local": "23:18",
+   "connected": true,
+   "valid": 0,
+   "frames": 1200600,
+   "fps": 29.7
+  },
+  {
+   "t": 37052,
+   "local": "23:19",
+   "connected": true,
+   "valid": 0,
+   "frames": 1202400,
+   "fps": 29.7
+  },
+  {
+   "t": 37112,
+   "local": "23:20",
+   "connected": true,
+   "valid": 0,
+   "frames": 1204200,
+   "fps": 29.7
+  },
+  {
+   "t": 37173,
+   "local": "23:21",
+   "connected": true,
+   "valid": 0,
+   "frames": 1206000,
+   "fps": 29.7
+  },
+  {
+   "t": 37233,
+   "local": "23:22",
+   "connected": true,
+   "valid": 0,
+   "frames": 1207800,
+   "fps": 29.7
+  },
+  {
+   "t": 37293,
+   "local": "23:23",
+   "connected": true,
+   "valid": 0,
+   "frames": 1209600,
+   "fps": 29.7
+  },
+  {
+   "t": 37353,
+   "local": "23:24",
+   "connected": true,
+   "valid": 0,
+   "frames": 1211300,
+   "fps": 29.7
+  },
+  {
+   "t": 37413,
+   "local": "23:25",
+   "connected": true,
+   "valid": 0,
+   "frames": 1213100,
+   "fps": 29.7
+  },
+  {
+   "t": 37473,
+   "local": "23:26",
+   "connected": true,
+   "valid": 0,
+   "frames": 1214900,
+   "fps": 29.7
+  },
+  {
+   "t": 37533,
+   "local": "23:27",
+   "connected": true,
+   "valid": 0,
+   "frames": 1216700,
+   "fps": 29.7
+  },
+  {
+   "t": 37593,
+   "local": "23:28",
+   "connected": true,
+   "valid": 0,
+   "frames": 1218500,
+   "fps": 29.7
+  },
+  {
+   "t": 37653,
+   "local": "23:29",
+   "connected": true,
+   "valid": 0,
+   "frames": 1220300,
+   "fps": 29.7
+  },
+  {
+   "t": 37713,
+   "local": "23:30",
+   "connected": true,
+   "valid": 0,
+   "frames": 1222000,
+   "fps": 29.7
+  },
+  {
+   "t": 37773,
+   "local": "23:31",
+   "connected": true,
+   "valid": 0,
+   "frames": 1223800,
+   "fps": 29.7
+  },
+  {
+   "t": 37833,
+   "local": "23:32",
+   "connected": true,
+   "valid": 0,
+   "frames": 1225600,
+   "fps": 29.7
+  },
+  {
+   "t": 37893,
+   "local": "23:33",
+   "connected": true,
+   "valid": 0,
+   "frames": 1227400,
+   "fps": 29.7
+  },
+  {
+   "t": 37953,
+   "local": "23:34",
+   "connected": true,
+   "valid": 0,
+   "frames": 1229200,
+   "fps": 29.7
+  },
+  {
+   "t": 38013,
+   "local": "23:35",
+   "connected": true,
+   "valid": 0,
+   "frames": 1231000,
+   "fps": 29.7
+  },
+  {
+   "t": 38073,
+   "local": "23:36",
+   "connected": true,
+   "valid": 0,
+   "frames": 1232700,
+   "fps": 29.7
+  },
+  {
+   "t": 38134,
+   "local": "23:37",
+   "connected": true,
+   "valid": 0,
+   "frames": 1234500,
+   "fps": 29.7
+  },
+  {
+   "t": 38194,
+   "local": "23:38",
+   "connected": true,
+   "valid": 0,
+   "frames": 1236300,
+   "fps": 29.7
+  },
+  {
+   "t": 38254,
+   "local": "23:39",
+   "connected": true,
+   "valid": 0,
+   "frames": 1238100,
+   "fps": 29.7
+  },
+  {
+   "t": 38314,
+   "local": "23:40",
+   "connected": true,
+   "valid": 0,
+   "frames": 1239900,
+   "fps": 29.7
+  },
+  {
+   "t": 38374,
+   "local": "23:41",
+   "connected": true,
+   "valid": 0,
+   "frames": 1241700,
+   "fps": 29.7
+  },
+  {
+   "t": 38434,
+   "local": "23:42",
+   "connected": true,
+   "valid": 0,
+   "frames": 1243400,
+   "fps": 29.7
+  },
+  {
+   "t": 38494,
+   "local": "23:43",
+   "connected": true,
+   "valid": 0,
+   "frames": 1245200,
+   "fps": 29.7
+  },
+  {
+   "t": 38554,
+   "local": "23:44",
+   "connected": true,
+   "valid": 0,
+   "frames": 1247000,
+   "fps": 29.7
+  },
+  {
+   "t": 38614,
+   "local": "23:45",
+   "connected": true,
+   "valid": 0,
+   "frames": 1248800,
+   "fps": 29.7
+  },
+  {
+   "t": 38674,
+   "local": "23:46",
+   "connected": true,
+   "valid": 0,
+   "frames": 1250600,
+   "fps": 29.7
+  },
+  {
+   "t": 38734,
+   "local": "23:47",
+   "connected": true,
+   "valid": 0,
+   "frames": 1252400,
+   "fps": 29.7
+  },
+  {
+   "t": 38794,
+   "local": "23:48",
+   "connected": true,
+   "valid": 0,
+   "frames": 1254100,
+   "fps": 29.7
+  },
+  {
+   "t": 38854,
+   "local": "23:49",
+   "connected": true,
+   "valid": 0,
+   "frames": 1255900,
+   "fps": 29.7
+  },
+  {
+   "t": 38914,
+   "local": "23:50",
+   "connected": true,
+   "valid": 0,
+   "frames": 1257700,
+   "fps": 29.7
+  },
+  {
+   "t": 38974,
+   "local": "23:51",
+   "connected": true,
+   "valid": 0,
+   "frames": 1259500,
+   "fps": 29.7
+  },
+  {
+   "t": 39034,
+   "local": "23:52",
+   "connected": true,
+   "valid": 0,
+   "frames": 1261300,
+   "fps": 29.7
+  },
+  {
+   "t": 39095,
+   "local": "23:53",
+   "connected": true,
+   "valid": 0,
+   "frames": 1263100,
+   "fps": 29.7
+  },
+  {
+   "t": 39155,
+   "local": "23:54",
+   "connected": true,
+   "valid": 0,
+   "frames": 1264900,
+   "fps": 29.7
+  },
+  {
+   "t": 39215,
+   "local": "23:55",
+   "connected": true,
+   "valid": 0,
+   "frames": 1266600,
+   "fps": 29.7
+  },
+  {
+   "t": 39275,
+   "local": "23:56",
+   "connected": true,
+   "valid": 0,
+   "frames": 1268400,
+   "fps": 29.7
+  },
+  {
+   "t": 39335,
+   "local": "23:57",
+   "connected": true,
+   "valid": 0,
+   "frames": 1270200,
+   "fps": 29.7
+  },
+  {
+   "t": 39395,
+   "local": "23:58",
+   "connected": true,
+   "valid": 0,
+   "frames": 1272000,
+   "fps": 29.7
+  },
+  {
+   "t": 39455,
+   "local": "23:59",
+   "connected": true,
+   "valid": 0,
+   "frames": 1273800,
+   "fps": 29.7
+  },
+  {
+   "t": 39515,
+   "local": "00:00",
+   "connected": true,
+   "valid": 0,
+   "frames": 1275600,
+   "fps": 29.7
+  },
+  {
+   "t": 39575,
+   "local": "00:01",
+   "connected": true,
+   "valid": 0,
+   "frames": 1277300,
+   "fps": 29.7
+  },
+  {
+   "t": 39635,
+   "local": "00:02",
+   "connected": true,
+   "valid": 0,
+   "frames": 1279100,
+   "fps": 29.7
+  },
+  {
+   "t": 39695,
+   "local": "00:03",
+   "connected": true,
+   "valid": 0,
+   "frames": 1280900,
+   "fps": 29.7
+  },
+  {
+   "t": 39755,
+   "local": "00:04",
+   "connected": true,
+   "valid": 0,
+   "frames": 1282700,
+   "fps": 29.7
+  },
+  {
+   "t": 39815,
+   "local": "00:05",
+   "connected": true,
+   "valid": 0,
+   "frames": 1284500,
+   "fps": 29.7
+  },
+  {
+   "t": 39875,
+   "local": "00:06",
+   "connected": true,
+   "valid": 0,
+   "frames": 1286300,
+   "fps": 29.7
+  },
+  {
+   "t": 39935,
+   "local": "00:07",
+   "connected": true,
+   "valid": 0,
+   "frames": 1288000,
+   "fps": 29.7
+  },
+  {
+   "t": 39995,
+   "local": "00:08",
+   "connected": true,
+   "valid": 0,
+   "frames": 1289800,
+   "fps": 29.7
+  },
+  {
+   "t": 40055,
+   "local": "00:09",
+   "connected": true,
+   "valid": 0,
+   "frames": 1291600,
+   "fps": 29.7
+  },
+  {
+   "t": 40116,
+   "local": "00:10",
+   "connected": true,
+   "valid": 0,
+   "frames": 1293400,
+   "fps": 29.7
+  },
+  {
+   "t": 40176,
+   "local": "00:11",
+   "connected": true,
+   "valid": 0,
+   "frames": 1295200,
+   "fps": 29.7
+  },
+  {
+   "t": 40236,
+   "local": "00:12",
+   "connected": true,
+   "valid": 0,
+   "frames": 1297000,
+   "fps": 29.7
+  },
+  {
+   "t": 40296,
+   "local": "00:13",
+   "connected": true,
+   "valid": 0,
+   "frames": 1298800,
+   "fps": 29.7
+  },
+  {
+   "t": 40356,
+   "local": "00:14",
+   "connected": true,
+   "valid": 0,
+   "frames": 1300500,
+   "fps": 29.7
+  },
+  {
+   "t": 40416,
+   "local": "00:15",
+   "connected": true,
+   "valid": 0,
+   "frames": 1302300,
+   "fps": 29.7
+  },
+  {
+   "t": 40476,
+   "local": "00:16",
+   "connected": true,
+   "valid": 0,
+   "frames": 1304100,
+   "fps": 29.7
+  },
+  {
+   "t": 40536,
+   "local": "00:17",
+   "connected": true,
+   "valid": 0,
+   "frames": 1305900,
+   "fps": 29.7
+  },
+  {
+   "t": 40596,
+   "local": "00:18",
+   "connected": true,
+   "valid": 0,
+   "frames": 1307700,
+   "fps": 29.7
+  },
+  {
+   "t": 40656,
+   "local": "00:19",
+   "connected": true,
+   "valid": 0,
+   "frames": 1309500,
+   "fps": 29.7
+  },
+  {
+   "t": 40716,
+   "local": "00:20",
+   "connected": true,
+   "valid": 0,
+   "frames": 1311200,
+   "fps": 29.7
+  },
+  {
+   "t": 40776,
+   "local": "00:21",
+   "connected": true,
+   "valid": 0,
+   "frames": 1313000,
+   "fps": 29.7
+  },
+  {
+   "t": 40836,
+   "local": "00:22",
+   "connected": true,
+   "valid": 0,
+   "frames": 1314800,
+   "fps": 29.7
+  },
+  {
+   "t": 40896,
+   "local": "00:23",
+   "connected": true,
+   "valid": 0,
+   "frames": 1316600,
+   "fps": 29.7
+  },
+  {
+   "t": 40956,
+   "local": "00:24",
+   "connected": true,
+   "valid": 0,
+   "frames": 1318400,
+   "fps": 29.7
+  },
+  {
+   "t": 41017,
+   "local": "00:25",
+   "connected": true,
+   "valid": 0,
+   "frames": 1320200,
+   "fps": 29.7
+  },
+  {
+   "t": 41077,
+   "local": "00:26",
+   "connected": true,
+   "valid": 0,
+   "frames": 1321900,
+   "fps": 29.7
+  },
+  {
+   "t": 41137,
+   "local": "00:27",
+   "connected": true,
+   "valid": 0,
+   "frames": 1323700,
+   "fps": 29.7
+  },
+  {
+   "t": 41197,
+   "local": "00:28",
+   "connected": true,
+   "valid": 0,
+   "frames": 1325500,
+   "fps": 29.7
+  },
+  {
+   "t": 41257,
+   "local": "00:29",
+   "connected": true,
+   "valid": 0,
+   "frames": 1327300,
+   "fps": 29.7
+  },
+  {
+   "t": 41317,
+   "local": "00:30",
+   "connected": true,
+   "valid": 0,
+   "frames": 1329100,
+   "fps": 29.7
+  },
+  {
+   "t": 41377,
+   "local": "00:31",
+   "connected": true,
+   "valid": 0,
+   "frames": 1330900,
+   "fps": 29.7
+  },
+  {
+   "t": 41437,
+   "local": "00:32",
+   "connected": true,
+   "valid": 0,
+   "frames": 1332600,
+   "fps": 29.7
+  },
+  {
+   "t": 41497,
+   "local": "00:33",
+   "connected": true,
+   "valid": 0,
+   "frames": 1334400,
+   "fps": 29.7
+  },
+  {
+   "t": 41557,
+   "local": "00:34",
+   "connected": true,
+   "valid": 0,
+   "frames": 1336200,
+   "fps": 29.7
+  },
+  {
+   "t": 41617,
+   "local": "00:35",
+   "connected": true,
+   "valid": 0,
+   "frames": 1338000,
+   "fps": 29.7
+  },
+  {
+   "t": 41677,
+   "local": "00:36",
+   "connected": true,
+   "valid": 0,
+   "frames": 1339800,
+   "fps": 29.7
+  },
+  {
+   "t": 41737,
+   "local": "00:37",
+   "connected": true,
+   "valid": 0,
+   "frames": 1341600,
+   "fps": 29.7
+  },
+  {
+   "t": 41797,
+   "local": "00:38",
+   "connected": true,
+   "valid": 0,
+   "frames": 1343400,
+   "fps": 29.7
+  },
+  {
+   "t": 41857,
+   "local": "00:39",
+   "connected": true,
+   "valid": 0,
+   "frames": 1345100,
+   "fps": 29.7
+  },
+  {
+   "t": 41917,
+   "local": "00:40",
+   "connected": true,
+   "valid": 0,
+   "frames": 1346900,
+   "fps": 29.7
+  },
+  {
+   "t": 41977,
+   "local": "00:41",
+   "connected": true,
+   "valid": 0,
+   "frames": 1348700,
+   "fps": 29.7
+  },
+  {
+   "t": 42037,
+   "local": "00:42",
+   "connected": true,
+   "valid": 0,
+   "frames": 1350500,
+   "fps": 29.7
+  },
+  {
+   "t": 42098,
+   "local": "00:43",
+   "connected": true,
+   "valid": 0,
+   "frames": 1352300,
+   "fps": 29.7
+  },
+  {
+   "t": 42158,
+   "local": "00:44",
+   "connected": true,
+   "valid": 0,
+   "frames": 1354100,
+   "fps": 29.7
+  },
+  {
+   "t": 42218,
+   "local": "00:45",
+   "connected": true,
+   "valid": 0,
+   "frames": 1355800,
+   "fps": 29.7
+  },
+  {
+   "t": 42278,
+   "local": "00:46",
+   "connected": true,
+   "valid": 0,
+   "frames": 1357600,
+   "fps": 29.7
+  },
+  {
+   "t": 42338,
+   "local": "00:47",
+   "connected": true,
+   "valid": 0,
+   "frames": 1359400,
+   "fps": 29.7
+  },
+  {
+   "t": 42398,
+   "local": "00:48",
+   "connected": true,
+   "valid": 0,
+   "frames": 1361200,
+   "fps": 29.7
+  },
+  {
+   "t": 42458,
+   "local": "00:49",
+   "connected": true,
+   "valid": 0,
+   "frames": 1363000,
+   "fps": 29.7
+  },
+  {
+   "t": 42518,
+   "local": "00:50",
+   "connected": true,
+   "valid": 0,
+   "frames": 1364800,
+   "fps": 29.7
+  },
+  {
+   "t": 42578,
+   "local": "00:51",
+   "connected": true,
+   "valid": 0,
+   "frames": 1366500,
+   "fps": 29.7
+  },
+  {
+   "t": 42638,
+   "local": "00:52",
+   "connected": true,
+   "valid": 0,
+   "frames": 1368300,
+   "fps": 29.7
+  },
+  {
+   "t": 42698,
+   "local": "00:53",
+   "connected": true,
+   "valid": 0,
+   "frames": 1370100,
+   "fps": 29.7
+  },
+  {
+   "t": 42758,
+   "local": "00:54",
+   "connected": true,
+   "valid": 0,
+   "frames": 1371900,
+   "fps": 29.7
+  },
+  {
+   "t": 42818,
+   "local": "00:55",
+   "connected": true,
+   "valid": 0,
+   "frames": 1373700,
+   "fps": 29.7
+  },
+  {
+   "t": 42878,
+   "local": "00:56",
+   "connected": true,
+   "valid": 0,
+   "frames": 1375500,
+   "fps": 29.7
+  },
+  {
+   "t": 42938,
+   "local": "00:57",
+   "connected": true,
+   "valid": 0,
+   "frames": 1377200,
+   "fps": 29.7
+  },
+  {
+   "t": 42998,
+   "local": "00:58",
+   "connected": true,
+   "valid": 0,
+   "frames": 1379000,
+   "fps": 29.7
+  },
+  {
+   "t": 43058,
+   "local": "00:59",
+   "connected": true,
+   "valid": 0,
+   "frames": 1380800,
+   "fps": 29.7
+  },
+  {
+   "t": 43118,
+   "local": "01:00",
+   "connected": true,
+   "valid": 0,
+   "frames": 1382600,
+   "fps": 29.7
+  },
+  {
+   "t": 43178,
+   "local": "01:01",
+   "connected": true,
+   "valid": 0,
+   "frames": 1384400,
+   "fps": 29.7
+  },
+  {
+   "t": 43239,
+   "local": "01:02",
+   "connected": true,
+   "valid": 0,
+   "frames": 1386200,
+   "fps": 29.7
+  },
+  {
+   "t": 43299,
+   "local": "01:03",
+   "connected": true,
+   "valid": 0,
+   "frames": 1388000,
+   "fps": 29.7
+  },
+  {
+   "t": 43359,
+   "local": "01:04",
+   "connected": true,
+   "valid": 0,
+   "frames": 1389700,
+   "fps": 29.7
+  },
+  {
+   "t": 43419,
+   "local": "01:05",
+   "connected": true,
+   "valid": 0,
+   "frames": 1391500,
+   "fps": 29.7
+  },
+  {
+   "t": 43479,
+   "local": "01:06",
+   "connected": true,
+   "valid": 0,
+   "frames": 1393300,
+   "fps": 29.7
+  },
+  {
+   "t": 43539,
+   "local": "01:07",
+   "connected": true,
+   "valid": 0,
+   "frames": 1395100,
+   "fps": 29.7
+  },
+  {
+   "t": 43599,
+   "local": "01:08",
+   "connected": true,
+   "valid": 0,
+   "frames": 1396900,
+   "fps": 29.7
+  },
+  {
+   "t": 43659,
+   "local": "01:09",
+   "connected": true,
+   "valid": 0,
+   "frames": 1398700,
+   "fps": 29.7
+  },
+  {
+   "t": 43719,
+   "local": "01:10",
+   "connected": true,
+   "valid": 0,
+   "frames": 1400400,
+   "fps": 29.7
+  },
+  {
+   "t": 43779,
+   "local": "01:11",
+   "connected": true,
+   "valid": 0,
+   "frames": 1402200,
+   "fps": 29.7
+  },
+  {
+   "t": 43839,
+   "local": "01:12",
+   "connected": true,
+   "valid": 0,
+   "frames": 1404000,
+   "fps": 29.7
+  },
+  {
+   "t": 43899,
+   "local": "01:13",
+   "connected": true,
+   "valid": 0,
+   "frames": 1405800,
+   "fps": 29.7
+  },
+  {
+   "t": 43959,
+   "local": "01:14",
+   "connected": true,
+   "valid": 0,
+   "frames": 1407600,
+   "fps": 29.7
+  },
+  {
+   "t": 44019,
+   "local": "01:15",
+   "connected": true,
+   "valid": 0,
+   "frames": 1409400,
+   "fps": 29.7
+  },
+  {
+   "t": 44079,
+   "local": "01:16",
+   "connected": true,
+   "valid": 0,
+   "frames": 1411100,
+   "fps": 29.7
+  },
+  {
+   "t": 44139,
+   "local": "01:17",
+   "connected": true,
+   "valid": 0,
+   "frames": 1412900,
+   "fps": 29.7
+  },
+  {
+   "t": 44200,
+   "local": "01:18",
+   "connected": true,
+   "valid": 0,
+   "frames": 1414700,
+   "fps": 29.7
+  },
+  {
+   "t": 44260,
+   "local": "01:19",
+   "connected": true,
+   "valid": 0,
+   "frames": 1416500,
+   "fps": 29.7
+  },
+  {
+   "t": 44320,
+   "local": "01:20",
+   "connected": true,
+   "valid": 0,
+   "frames": 1418300,
+   "fps": 29.7
+  },
+  {
+   "t": 44380,
+   "local": "01:21",
+   "connected": true,
+   "valid": 0,
+   "frames": 1420100,
+   "fps": 29.7
+  },
+  {
+   "t": 44440,
+   "local": "01:22",
+   "connected": true,
+   "valid": 0,
+   "frames": 1421800,
+   "fps": 29.7
+  },
+  {
+   "t": 44500,
+   "local": "01:23",
+   "connected": true,
+   "valid": 0,
+   "frames": 1423600,
+   "fps": 29.7
+  },
+  {
+   "t": 44560,
+   "local": "01:24",
+   "connected": true,
+   "valid": 0,
+   "frames": 1425400,
+   "fps": 29.7
+  },
+  {
+   "t": 44620,
+   "local": "01:25",
+   "connected": true,
+   "valid": 0,
+   "frames": 1427200,
+   "fps": 29.7
+  },
+  {
+   "t": 44680,
+   "local": "01:26",
+   "connected": true,
+   "valid": 0,
+   "frames": 1429000,
+   "fps": 29.7
+  },
+  {
+   "t": 44740,
+   "local": "01:27",
+   "connected": true,
+   "valid": 0,
+   "frames": 1430800,
+   "fps": 29.7
+  },
+  {
+   "t": 44800,
+   "local": "01:28",
+   "connected": true,
+   "valid": 0,
+   "frames": 1432500,
+   "fps": 29.7
+  },
+  {
+   "t": 44860,
+   "local": "01:29",
+   "connected": true,
+   "valid": 0,
+   "frames": 1434300,
+   "fps": 29.7
+  },
+  {
+   "t": 44920,
+   "local": "01:30",
+   "connected": true,
+   "valid": 0,
+   "frames": 1436100,
+   "fps": 29.7
+  },
+  {
+   "t": 44980,
+   "local": "01:31",
+   "connected": true,
+   "valid": 0,
+   "frames": 1437900,
+   "fps": 29.7
+  },
+  {
+   "t": 45040,
+   "local": "01:32",
+   "connected": true,
+   "valid": 0,
+   "frames": 1439700,
+   "fps": 29.7
+  },
+  {
+   "t": 45100,
+   "local": "01:33",
+   "connected": true,
+   "valid": 0,
+   "frames": 1441500,
+   "fps": 29.7
+  },
+  {
+   "t": 45161,
+   "local": "01:34",
+   "connected": true,
+   "valid": 0,
+   "frames": 1443300,
+   "fps": 29.7
+  },
+  {
+   "t": 45221,
+   "local": "01:35",
+   "connected": true,
+   "valid": 0,
+   "frames": 1445000,
+   "fps": 29.7
+  },
+  {
+   "t": 45281,
+   "local": "01:36",
+   "connected": true,
+   "valid": 0,
+   "frames": 1446800,
+   "fps": 29.7
+  },
+  {
+   "t": 45341,
+   "local": "01:37",
+   "connected": true,
+   "valid": 0,
+   "frames": 1448600,
+   "fps": 29.7
+  },
+  {
+   "t": 45401,
+   "local": "01:38",
+   "connected": true,
+   "valid": 0,
+   "frames": 1450400,
+   "fps": 29.7
+  },
+  {
+   "t": 45461,
+   "local": "01:39",
+   "connected": true,
+   "valid": 0,
+   "frames": 1452200,
+   "fps": 29.7
+  },
+  {
+   "t": 45521,
+   "local": "01:40",
+   "connected": true,
+   "valid": 0,
+   "frames": 1454000,
+   "fps": 29.7
+  },
+  {
+   "t": 45581,
+   "local": "01:41",
+   "connected": true,
+   "valid": 0,
+   "frames": 1455700,
+   "fps": 29.7
+  },
+  {
+   "t": 45641,
+   "local": "01:42",
+   "connected": true,
+   "valid": 0,
+   "frames": 1457500,
+   "fps": 29.7
+  },
+  {
+   "t": 45701,
+   "local": "01:43",
+   "connected": true,
+   "valid": 0,
+   "frames": 1459300,
+   "fps": 29.7
+  },
+  {
+   "t": 45761,
+   "local": "01:44",
+   "connected": true,
+   "valid": 0,
+   "frames": 1461100,
+   "fps": 29.7
+  },
+  {
+   "t": 45821,
+   "local": "01:45",
+   "connected": true,
+   "valid": 0,
+   "frames": 1462900,
+   "fps": 29.7
+  },
+  {
+   "t": 45881,
+   "local": "01:46",
+   "connected": true,
+   "valid": 0,
+   "frames": 1464700,
+   "fps": 29.7
+  },
+  {
+   "t": 45941,
+   "local": "01:47",
+   "connected": true,
+   "valid": 0,
+   "frames": 1466400,
+   "fps": 29.7
+  },
+  {
+   "t": 46001,
+   "local": "01:48",
+   "connected": true,
+   "valid": 0,
+   "frames": 1468200,
+   "fps": 29.7
+  },
+  {
+   "t": 46061,
+   "local": "01:49",
+   "connected": true,
+   "valid": 0,
+   "frames": 1470000,
+   "fps": 29.7
+  },
+  {
+   "t": 46121,
+   "local": "01:50",
+   "connected": true,
+   "valid": 0,
+   "frames": 1471800,
+   "fps": 29.7
+  },
+  {
+   "t": 46181,
+   "local": "01:51",
+   "connected": true,
+   "valid": 0,
+   "frames": 1473600,
+   "fps": 29.7
+  },
+  {
+   "t": 46241,
+   "local": "01:52",
+   "connected": true,
+   "valid": 0,
+   "frames": 1475400,
+   "fps": 29.7
+  },
+  {
+   "t": 46302,
+   "local": "01:53",
+   "connected": true,
+   "valid": 0,
+   "frames": 1477100,
+   "fps": 29.7
+  },
+  {
+   "t": 46362,
+   "local": "01:54",
+   "connected": true,
+   "valid": 0,
+   "frames": 1478900,
+   "fps": 29.7
+  },
+  {
+   "t": 46422,
+   "local": "01:55",
+   "connected": true,
+   "valid": 0,
+   "frames": 1480700,
+   "fps": 29.7
+  },
+  {
+   "t": 46482,
+   "local": "01:56",
+   "connected": true,
+   "valid": 0,
+   "frames": 1482500,
+   "fps": 29.7
+  },
+  {
+   "t": 46542,
+   "local": "01:57",
+   "connected": true,
+   "valid": 0,
+   "frames": 1484300,
+   "fps": 29.7
+  },
+  {
+   "t": 46602,
+   "local": "01:58",
+   "connected": true,
+   "valid": 0,
+   "frames": 1486100,
+   "fps": 29.7
+  },
+  {
+   "t": 46662,
+   "local": "01:59",
+   "connected": true,
+   "valid": 0,
+   "frames": 1487800,
+   "fps": 29.7
+  },
+  {
+   "t": 46722,
+   "local": "02:00",
+   "connected": true,
+   "valid": 0,
+   "frames": 1489600,
+   "fps": 29.7
+  },
+  {
+   "t": 46782,
+   "local": "02:01",
+   "connected": true,
+   "valid": 0,
+   "frames": 1491400,
+   "fps": 29.7
+  },
+  {
+   "t": 46842,
+   "local": "02:02",
+   "connected": true,
+   "valid": 0,
+   "frames": 1493200,
+   "fps": 29.7
+  },
+  {
+   "t": 46902,
+   "local": "02:03",
+   "connected": true,
+   "valid": 0,
+   "frames": 1495000,
+   "fps": 29.7
+  },
+  {
+   "t": 46962,
+   "local": "02:04",
+   "connected": true,
+   "valid": 0,
+   "frames": 1496800,
+   "fps": 29.7
+  },
+  {
+   "t": 47022,
+   "local": "02:05",
+   "connected": true,
+   "valid": 0,
+   "frames": 1498500,
+   "fps": 29.7
+  },
+  {
+   "t": 47082,
+   "local": "02:06",
+   "connected": true,
+   "valid": 0,
+   "frames": 1500300,
+   "fps": 29.7
+  },
+  {
+   "t": 47142,
+   "local": "02:07",
+   "connected": true,
+   "valid": 0,
+   "frames": 1502100,
+   "fps": 29.7
+  },
+  {
+   "t": 47202,
+   "local": "02:08",
+   "connected": true,
+   "valid": 0,
+   "frames": 1503900,
+   "fps": 29.7
+  },
+  {
+   "t": 47262,
+   "local": "02:09",
+   "connected": true,
+   "valid": 0,
+   "frames": 1505700,
+   "fps": 29.7
+  },
+  {
+   "t": 47322,
+   "local": "02:10",
+   "connected": true,
+   "valid": 0,
+   "frames": 1507500,
+   "fps": 29.7
+  },
+  {
+   "t": 47382,
+   "local": "02:11",
+   "connected": true,
+   "valid": 0,
+   "frames": 1509300,
+   "fps": 29.7
+  },
+  {
+   "t": 47442,
+   "local": "02:12",
+   "connected": true,
+   "valid": 0,
+   "frames": 1511000,
+   "fps": 29.7
+  },
+  {
+   "t": 47503,
+   "local": "02:13",
+   "connected": true,
+   "valid": 0,
+   "frames": 1512800,
+   "fps": 29.7
+  },
+  {
+   "t": 47563,
+   "local": "02:14",
+   "connected": true,
+   "valid": 0,
+   "frames": 1514600,
+   "fps": 29.7
+  },
+  {
+   "t": 47623,
+   "local": "02:15",
+   "connected": true,
+   "valid": 0,
+   "frames": 1516400,
+   "fps": 29.7
+  },
+  {
+   "t": 47683,
+   "local": "02:16",
+   "connected": true,
+   "valid": 0,
+   "frames": 1518200,
+   "fps": 29.7
+  },
+  {
+   "t": 47743,
+   "local": "02:17",
+   "connected": true,
+   "valid": 0,
+   "frames": 1520000,
+   "fps": 29.7
+  },
+  {
+   "t": 47803,
+   "local": "02:18",
+   "connected": true,
+   "valid": 0,
+   "frames": 1521700,
+   "fps": 29.7
+  },
+  {
+   "t": 47863,
+   "local": "02:19",
+   "connected": true,
+   "valid": 0,
+   "frames": 1523500,
+   "fps": 29.7
+  },
+  {
+   "t": 47923,
+   "local": "02:20",
+   "connected": true,
+   "valid": 0,
+   "frames": 1525300,
+   "fps": 29.7
+  },
+  {
+   "t": 47983,
+   "local": "02:21",
+   "connected": true,
+   "valid": 0,
+   "frames": 1527100,
+   "fps": 29.7
+  },
+  {
+   "t": 48043,
+   "local": "02:22",
+   "connected": true,
+   "valid": 0,
+   "frames": 1528900,
+   "fps": 29.7
+  },
+  {
+   "t": 48103,
+   "local": "02:23",
+   "connected": true,
+   "valid": 0,
+   "frames": 1530700,
+   "fps": 29.7
+  },
+  {
+   "t": 48163,
+   "local": "02:24",
+   "connected": true,
+   "valid": 0,
+   "frames": 1532400,
+   "fps": 29.7
+  },
+  {
+   "t": 48223,
+   "local": "02:25",
+   "connected": true,
+   "valid": 0,
+   "frames": 1534200,
+   "fps": 29.7
+  },
+  {
+   "t": 48283,
+   "local": "02:26",
+   "connected": true,
+   "valid": 0,
+   "frames": 1536000,
+   "fps": 29.7
+  },
+  {
+   "t": 48343,
+   "local": "02:27",
+   "connected": true,
+   "valid": 0,
+   "frames": 1537800,
+   "fps": 29.7
+  },
+  {
+   "t": 48404,
+   "local": "02:28",
+   "connected": true,
+   "valid": 0,
+   "frames": 1539600,
+   "fps": 29.7
+  },
+  {
+   "t": 48464,
+   "local": "02:29",
+   "connected": true,
+   "valid": 0,
+   "frames": 1541400,
+   "fps": 29.7
+  },
+  {
+   "t": 48524,
+   "local": "02:30",
+   "connected": true,
+   "valid": 0,
+   "frames": 1543100,
+   "fps": 29.7
+  },
+  {
+   "t": 48584,
+   "local": "02:31",
+   "connected": true,
+   "valid": 0,
+   "frames": 1544900,
+   "fps": 29.7
+  },
+  {
+   "t": 48644,
+   "local": "02:32",
+   "connected": true,
+   "valid": 0,
+   "frames": 1546700,
+   "fps": 29.7
+  },
+  {
+   "t": 48704,
+   "local": "02:33",
+   "connected": true,
+   "valid": 0,
+   "frames": 1548500,
+   "fps": 29.7
+  },
+  {
+   "t": 48764,
+   "local": "02:34",
+   "connected": true,
+   "valid": 0,
+   "frames": 1550300,
+   "fps": 29.7
+  },
+  {
+   "t": 48824,
+   "local": "02:35",
+   "connected": true,
+   "valid": 0,
+   "frames": 1552100,
+   "fps": 29.7
+  },
+  {
+   "t": 48884,
+   "local": "02:36",
+   "connected": true,
+   "valid": 0,
+   "frames": 1553900,
+   "fps": 29.7
+  },
+  {
+   "t": 48944,
+   "local": "02:37",
+   "connected": true,
+   "valid": 0,
+   "frames": 1555600,
+   "fps": 29.7
+  },
+  {
+   "t": 49004,
+   "local": "02:38",
+   "connected": true,
+   "valid": 0,
+   "frames": 1557400,
+   "fps": 29.7
+  },
+  {
+   "t": 49064,
+   "local": "02:39",
+   "connected": true,
+   "valid": 0,
+   "frames": 1559200,
+   "fps": 29.7
+  },
+  {
+   "t": 49124,
+   "local": "02:40",
+   "connected": true,
+   "valid": 0,
+   "frames": 1561000,
+   "fps": 29.7
+  },
+  {
+   "t": 49184,
+   "local": "02:41",
+   "connected": true,
+   "valid": 0,
+   "frames": 1562800,
+   "fps": 29.7
+  },
+  {
+   "t": 49244,
+   "local": "02:42",
+   "connected": true,
+   "valid": 0,
+   "frames": 1564600,
+   "fps": 29.7
+  },
+  {
+   "t": 49305,
+   "local": "02:43",
+   "connected": true,
+   "valid": 0,
+   "frames": 1566300,
+   "fps": 29.7
+  },
+  {
+   "t": 49365,
+   "local": "02:44",
+   "connected": true,
+   "valid": 0,
+   "frames": 1568100,
+   "fps": 29.7
+  },
+  {
+   "t": 49425,
+   "local": "02:45",
+   "connected": true,
+   "valid": 0,
+   "frames": 1569900,
+   "fps": 29.7
+  },
+  {
+   "t": 49485,
+   "local": "02:46",
+   "connected": true,
+   "valid": 0,
+   "frames": 1571700,
+   "fps": 29.7
+  },
+  {
+   "t": 49545,
+   "local": "02:47",
+   "connected": true,
+   "valid": 0,
+   "frames": 1573500,
+   "fps": 29.7
+  },
+  {
+   "t": 49605,
+   "local": "02:48",
+   "connected": true,
+   "valid": 0,
+   "frames": 1575300,
+   "fps": 29.7
+  },
+  {
+   "t": 49665,
+   "local": "02:49",
+   "connected": true,
+   "valid": 0,
+   "frames": 1577000,
+   "fps": 29.7
+  },
+  {
+   "t": 49725,
+   "local": "02:50",
+   "connected": true,
+   "valid": 0,
+   "frames": 1578800,
+   "fps": 29.7
+  },
+  {
+   "t": 49785,
+   "local": "02:51",
+   "connected": true,
+   "valid": 0,
+   "frames": 1580600,
+   "fps": 29.7
+  },
+  {
+   "t": 49845,
+   "local": "02:52",
+   "connected": true,
+   "valid": 0,
+   "frames": 1582400,
+   "fps": 29.7
+  },
+  {
+   "t": 49905,
+   "local": "02:53",
+   "connected": true,
+   "valid": 0,
+   "frames": 1584200,
+   "fps": 29.7
+  },
+  {
+   "t": 49965,
+   "local": "02:54",
+   "connected": true,
+   "valid": 0,
+   "frames": 1586000,
+   "fps": 29.7
+  },
+  {
+   "t": 50025,
+   "local": "02:55",
+   "connected": true,
+   "valid": 0,
+   "frames": 1587800,
+   "fps": 29.7
+  },
+  {
+   "t": 50085,
+   "local": "02:56",
+   "connected": true,
+   "valid": 0,
+   "frames": 1589500,
+   "fps": 29.7
+  },
+  {
+   "t": 50145,
+   "local": "02:57",
+   "connected": true,
+   "valid": 0,
+   "frames": 1591300,
+   "fps": 29.7
+  },
+  {
+   "t": 50205,
+   "local": "02:58",
+   "connected": true,
+   "valid": 0,
+   "frames": 1593100,
+   "fps": 29.7
+  },
+  {
+   "t": 50265,
+   "local": "02:59",
+   "connected": true,
+   "valid": 0,
+   "frames": 1594900,
+   "fps": 29.7
+  },
+  {
+   "t": 50326,
+   "local": "03:00",
+   "connected": true,
+   "valid": 0,
+   "frames": 1596700,
+   "fps": 29.7
+  },
+  {
+   "t": 50386,
+   "local": "03:01",
+   "connected": true,
+   "valid": 0,
+   "frames": 1598500,
+   "fps": 29.7
+  },
+  {
+   "t": 50446,
+   "local": "03:02",
+   "connected": true,
+   "valid": 0,
+   "frames": 1600200,
+   "fps": 29.7
+  }
+ ],
+ "accepted_lines": [],
+ "lighting": "uncontrolled normal room use (daylight, lamps on/off by occupants); TX off/out of view"
+}
